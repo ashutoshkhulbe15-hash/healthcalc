@@ -1,0 +1,64 @@
+# ProHealthIt
+
+> Free, evidence-based health calculators paired with 2,000+ word expert articles. Every tool uses peer-reviewed formulas from WHO, NIH, ACOG, and PubMed research. No signup required.
+
+## About
+
+ProHealthIt is a health knowledge site with 34 interactive calculators across pregnancy, fitness, body metrics, mental health, and medical conditions. Each calculator page includes a working tool with visual results plus a comprehensive evidence-based article with cited sources.
+
+## Calculators
+
+### Pregnancy
+- [Pregnancy Weight Gain Calculator](https://prohealthit.com/pregnancy/weight-gain-calculator): Week-by-week tracking based on IOM 2009 guidelines with visual trajectory chart and BMI-adjusted ranges.
+- [Due Date Calculator](https://prohealthit.com/pregnancy/due-date-calculator): Estimated delivery date from LMP, conception date, or IVF transfer. Includes trimester milestones.
+- [HCG Doubling Time Calculator](https://prohealthit.com/pregnancy/hcg-doubling-time-calculator): Calculate HCG doubling time from two blood test results with normal range interpretation.
+- [Ovulation Calculator](https://prohealthit.com/pregnancy/ovulation-calculator): Predict fertile window and ovulation day based on cycle length with conception probability data.
+- [Fetal Weight Percentile](https://prohealthit.com/pregnancy/fetal-weight-percentile): Compare baby's weight to WHO growth standards with SGA/LGA classification.
+- [Safe Food Checker](https://prohealthit.com/pregnancy/safe-food-checker): Searchable database of 25+ foods with safe/caution/avoid ratings based on ACOG and FDA guidelines.
+- [Contraction Timer](https://prohealthit.com/pregnancy/contraction-timer): Track contraction frequency and duration with 5-1-1 pattern detection.
+- [IVF Due Date Calculator](https://prohealthit.com/pregnancy/ivf-due-date-calculator): Due date from IVF transfer — supports 3-day and 5-day embryos, fresh and FET.
+- [Baby Growth Percentile](https://prohealthit.com/pregnancy/baby-growth-percentile): WHO growth standards for weight from birth to 5 years.
+
+### Fitness
+- [TDEE Calculator](https://prohealthit.com/fitness/tdee-calculator): Total Daily Energy Expenditure using Mifflin-St Jeor equation with activity multipliers.
+- [Macro Calculator](https://prohealthit.com/fitness/macro-calculator): Personalized protein/carbs/fat targets for weight loss, muscle building, keto, and more.
+- [Calorie Deficit Calculator](https://prohealthit.com/fitness/calorie-deficit-calculator): Optimal daily calorie target with adjustable rate of loss and timeline projection.
+- [Body Fat Calculator](https://prohealthit.com/fitness/body-fat-calculator): U.S. Navy circumference method with lean vs fat mass visualization.
+- [Protein Intake Calculator](https://prohealthit.com/fitness/protein-intake-calculator): Daily protein needs based on weight, activity level, and goals (muscle gain, fat loss, elderly).
+- [One Rep Max Calculator](https://prohealthit.com/fitness/one-rep-max-calculator): Estimate 1RM using Brzycki and Epley formulas with percentage-based training chart.
+- [Lean Body Mass Calculator](https://prohealthit.com/fitness/lean-body-mass-calculator): Boer and James formulas with visual lean-to-fat ratio breakdown.
+- [Macro Calculator for PCOS](https://prohealthit.com/fitness/macro-calculator-pcos): PCOS-specific macro splits adjusted by phenotype with metabolic adaptation factor.
+
+### Body Metrics
+- [BMI Calculator](https://prohealthit.com/body-metrics/bmi-calculator): Visual gauge with WHO classification and healthy weight range.
+- [BMI Calculator for Teens](https://prohealthit.com/body-metrics/bmi-calculator-teens): CDC age and sex-specific percentile charts for ages 2-19.
+- [BMR Calculator](https://prohealthit.com/body-metrics/bmr-calculator): Mifflin-St Jeor vs Harris-Benedict side-by-side comparison.
+- [Ideal Weight Calculator](https://prohealthit.com/body-metrics/ideal-weight-calculator): Four formulas compared — Devine, Robinson, Miller, Hamwi — plus BMI range.
+- [Body Frame Size Calculator](https://prohealthit.com/body-metrics/body-frame-size-calculator): Determine small/medium/large frame from wrist circumference and height.
+- [TDEE Calculator for Teens](https://prohealthit.com/body-metrics/tdee-calculator-teens): Growth-adjusted calorie needs for ages 10-19.
+- [Protein Needs for Seniors](https://prohealthit.com/body-metrics/protein-needs-seniors): Daily protein targets for 65+ with sarcopenia prevention guidance.
+- [Calorie Calculator for Women Over 50](https://prohealthit.com/body-metrics/calorie-calculator-women-over-50): Menopause-aware calorie needs with protein targets.
+
+### Mental Health
+- [Stress Level Test](https://prohealthit.com/mental-health/stress-level-test): PSS-10 Perceived Stress Scale — 10-question clinically validated assessment.
+- [Sleep Quality Calculator](https://prohealthit.com/mental-health/sleep-quality-calculator): PSQI-based 7-component sleep quality assessment.
+- [Burnout Quiz](https://prohealthit.com/mental-health/burnout-quiz): 12-question assessment across exhaustion, cynicism, and professional efficacy.
+- [Anxiety Self-Assessment](https://prohealthit.com/mental-health/anxiety-self-assessment): GAD-7 clinically validated 7-question anxiety screening.
+- [ADHD Self-Assessment](https://prohealthit.com/mental-health/adhd-self-assessment): ASRS v1.1 Part A screener (WHO) for adult ADHD.
+
+### Conditions
+- [A1C to Blood Sugar Converter](https://prohealthit.com/conditions/a1c-blood-sugar-converter): Convert A1C percentage to estimated average glucose in mg/dL and mmol/L.
+- [GFR Calculator](https://prohealthit.com/conditions/gfr-calculator): CKD-EPI 2021 race-free equation with CKD stage G1-G5 classification.
+- [Kidney Function Calculator](https://prohealthit.com/conditions/kidney-function-calculator): Detailed CKD staging with action recommendations per stage.
+- [Anemia Risk Checker](https://prohealthit.com/conditions/anemia-risk-checker): Symptom-based weighted screening with 12 indicators.
+
+## Blog Articles
+- [BMI vs Body Fat: Which Matters?](https://prohealthit.com/blog/bmi-vs-body-fat-which-matters)
+- [Understanding TDEE: Complete Guide](https://prohealthit.com/blog/understanding-tdee-complete-guide)
+- [Pregnancy Weight Gain Science](https://prohealthit.com/blog/pregnancy-weight-gain-science)
+- [Pregnancy Nutrition Guide](https://prohealthit.com/blog/pregnancy-nutrition-guide)
+- [How Stress Affects Your Body](https://prohealthit.com/blog/how-stress-affects-body)
+- [Protein: How Much You Need](https://prohealthit.com/blog/protein-how-much-you-need)
+
+## Sources
+All calculators use established, peer-reviewed formulas: Mifflin-St Jeor (TDEE/BMR), IOM 2009 (pregnancy weight gain), WHO growth standards, CKD-EPI 2021 (kidney function), PSS-10 (stress), GAD-7 (anxiety), PSQI (sleep), U.S. Navy method (body fat). Articles cite WHO, NIH, ACOG, ADA, PubMed studies, and major medical references.
