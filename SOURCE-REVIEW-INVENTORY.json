@@ -1,0 +1,662 @@
+[
+  {
+    "file": "01-pregnancy-weight-gain-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/weight-gain-calculator",
+    "sources": [
+      "https://www.nationalacademies.org/read/12584/chapter/2",
+      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+      "https://pubmed.ncbi.nlm.nih.gov/12746982/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "da4c3b61ba8e3dc700a3d860be14a4a279fbbd4af8b2ec9debb117b97e0a4f3b",
+    "recheckedOn": "2026-10-03"
+  },
+  {
+    "file": "02-due-date-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/due-date-calculator",
+    "sources": [
+      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date",
+      "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "c09c3872dffc4a8b698c06513d3f9ac784fdabaa3f11aefc304dd8c706097105"
+  },
+  {
+    "file": "03-hcg-doubling-time-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/hcg-doubling-time-calculator",
+    "sources": [
+      "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
+      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "c45561825b988bc6027f197de0476a280ab6a495e34b3f34c4c01166b8b52443"
+  },
+  {
+    "file": "04-bmi-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "05-tdee-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "06-macro-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "07-body-fat-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "08-calorie-deficit-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "09-ovulation-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/ovulation-calculator",
+    "sources": [
+      "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "397bfb3e932fde7633d23e41cf2e223fbcc2f329f6d8d6ae18bc22b6e5afd505"
+  },
+  {
+    "file": "10-fetal-weight-percentile-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/fetal-weight-percentile",
+    "sources": [
+      "https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/",
+      "https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "cd1f99bf99fde2c00fe7920686d063f2f8225295f4e5b940b52c351faa56e755",
+    "recheckedOn": "2026-10-03"
+  },
+  {
+    "file": "11-stress-level-test.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "12-a1c-blood-sugar-converter.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "13-sleep-quality-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "14-protein-intake-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "15-bmi-calculator-teens.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "16-gfr-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "17-pregnancy-safe-food-checker.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food-checker",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
+    ],
+    "title": "Pregnancy Food Guide: Reviewed Topics and Scope",
+    "reviewedOn": "2026-10-03",
+    "sha256": "488fa68ebdbbc52d164480101541eb8d659764ea8c0549278920c31c3c930055"
+  },
+  {
+    "file": "18-bmr-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "19-one-rep-max-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "20-ideal-weight-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "21-burnout-quiz.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "22-anxiety-self-assessment.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "23-lean-body-mass-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "24-calorie-calculator-women-over-50.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "25-contraction-timer.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/contraction-timer",
+    "sources": [
+      "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins",
+      "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "f9b24f6fc82e88ecd7af9ee35fb76ff9e066672b14e59dfb0375e79fe6766349",
+    "recheckedOn": "2026-10-03"
+  },
+  {
+    "file": "26-adhd-self-assessment.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "27-anemia-risk-checker.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "28-body-frame-size-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "29-tdee-calculator-teens.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "30-protein-needs-seniors.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "31-kidney-function-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "32-macro-calculator-pcos.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "33-ivf-due-date-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/ivf-due-date-calculator",
+    "sources": [
+      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "b8cf4cc44e6de1b69a0eaa3cedb30fb485b88200e2f70cac49e911a7d1ec5640"
+  },
+  {
+    "file": "34-baby-growth-percentile-calculator.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/baby-growth-percentile",
+    "sources": [
+      "https://www.who.int/tools/child-growth-standards/standards/weight-for-age",
+      "https://www.cdc.gov/growth-chart-training/hcp/overview/recommended.html",
+      "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html",
+      "https://iris.who.int/bitstream/handle/10665/43601/9789241595070_C_eng.pdf"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "23debe85c81487f59feef2fd929524382ae727bf051caa9dc3d82fc1fc36a30d",
+    "recheckedOn": "2026-10-03"
+  },
+  {
+    "file": "35-bmi-vs-body-fat-which-matters.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "36-understanding-tdee-complete-guide.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "37-pregnancy-weight-gain-science.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/blog/pregnancy-weight-gain-science",
+    "sources": [
+      "https://www.nationalacademies.org/read/12584/chapter/2",
+      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+      "https://www.nationalacademies.org/publications/12584",
+      "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "02c62201d705cc18e3b412ebb7060daea51f66dcaa4608e649001f49588d55ba"
+  },
+  {
+    "file": "38-pregnancy-nutrition-guide.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/blog/pregnancy-nutrition-guide",
+    "sources": [
+      "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "92b631161a365b658774433c1ddd18f72a6a6605c886ca1e27c933298ab56a06"
+  },
+  {
+    "file": "39-how-stress-affects-body.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "40-protein-how-much-you-need.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "food-alcohol.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/alcohol",
+    "sources": [
+      "https://www.cdc.gov/alcohol-pregnancy/about/index.html"
+    ],
+    "title": "Alcohol During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "1096dd290f957788bbf11f505ab8762a4f9747fd5e46b1c6f7347e2c329a117a"
+  },
+  {
+    "file": "food-blue-cheese.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/safe-food/blue-cheese",
+    "sources": [
+      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
+      "https://www.cdc.gov/listeria/prevention/index.html"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "b992b1102fcba41a7fb5815447dca93bc75f3a10096dd105d1a1963194cacc9d"
+  },
+  {
+    "file": "food-cod.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/cod",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
+    ],
+    "title": "Cod During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "4291d5cfa2c1dc867240343aa6f68c58ab3806abc41e057e80426b8a31278ff7"
+  },
+  {
+    "file": "food-coffee.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/coffee",
+    "sources": [
+      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
+      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant",
+      "https://www.acog.org/womens-health/faqs/headaches-and-pregnancy"
+    ],
+    "title": "Coffee and Caffeine During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "c33898a63c4628a5601a458b7d91a00dfad97594e8d1bbfc07f722900a7ff3b6"
+  },
+  {
+    "file": "food-eggs.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/eggs",
+    "sources": [
+      "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+    ],
+    "title": "Eggs During Pregnancy: Cooking and Handling",
+    "reviewedOn": "2026-10-03",
+    "sha256": "86a7a46d03fec54e17dacdd2f0e2bba483f6696f7b2d54ca172a82666cb5823e"
+  },
+  {
+    "file": "food-matcha.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/matcha",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796401/",
+      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy"
+    ],
+    "title": "Matcha and Caffeine During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "d67256c35d882948114e51d5b1bc22460dbe3723a6393f9a1b4d0644a01ef7ed"
+  },
+  {
+    "file": "food-peanut-butter.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/peanut-butter",
+    "sources": [
+      "https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf"
+    ],
+    "title": "Peanut Butter During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "162a1432a09b8296fc069cebdbae9494a5a7a3e80c27259298f3c0e650a74e37"
+  },
+  {
+    "file": "food-pre-made-salads.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/safe-food/pre-made-salads",
+    "sources": [
+      "https://www.cdc.gov/listeria/prevention/index.html",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/tips-chill-food-food-safety-moms-be"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "3c8d3feac0ec599d9688ad257acb4c8bc1b562ae737f149b72b8fca23aeb3734"
+  },
+  {
+    "file": "food-salmon.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/salmon",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
+    ],
+    "title": "Salmon During Pregnancy: Fish Categories and Cooking",
+    "reviewedOn": "2026-10-03",
+    "sha256": "acd1f11678f66f6eb6a1075c3478c9b5b792ba7b780fbbe6f6d1988d902cdfbd"
+  },
+  {
+    "file": "food-soft-cheese.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/safe-food/soft-cheese",
+    "sources": [
+      "https://www.cdc.gov/listeria/prevention/index.html",
+      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "a7d9565ba5b965a7d165ff43a434b5d717187f192885bd88a7a62e69b4a051e1"
+  },
+  {
+    "file": "food-steak.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/pregnancy/safe-food/steak",
+    "sources": [
+      "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "7ac4a4226a1438c35dcd42958333163bfa788d5f74e622c93197d30a02e5de06"
+  },
+  {
+    "file": "food-sushi.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/sushi",
+    "sources": [
+      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+    ],
+    "title": "Sushi During Pregnancy: Raw and Cooked Fish",
+    "reviewedOn": "2026-10-03",
+    "sha256": "7a4a4c8881b6257a6f9150ed748e324d9a4de2403ad7daae34e3424ab6d49465"
+  },
+  {
+    "file": "food-tuna.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/pregnancy/safe-food/tuna",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+    ],
+    "title": "Tuna During Pregnancy: Follow the FDA Category",
+    "reviewedOn": "2026-10-03",
+    "sha256": "056a7305d4cdf69b59225e22fa5878e390a7e0228d7d52ba1d72dc23061783f0"
+  },
+  {
+    "file": "guide-8-dpo-pregnancy-test.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/8-dpo-pregnancy-test",
+    "sources": [
+      "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "69dbad4d5bbd3d92f3ffec1b2891d44161b89c70961c918da6d162bb3be731fa",
+    "recheckedOn": "2026-10-03"
+  },
+  {
+    "file": "guide-anxiety-vs-stress.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-blood-sugar-levels-by-age.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-bmr-vs-tdee.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-drinks-pregnancy.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/guides/drinks-pregnancy",
+    "sources": [
+      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
+      "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
+      "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+    ],
+    "title": "Drinks During Pregnancy: Caffeine and Food-Safety Sources",
+    "reviewedOn": "2026-10-03",
+    "sha256": "db5a027771edbb9c4cd6d63e8d24996c055759d1d341ff2283e06a31779a51dd"
+  },
+  {
+    "file": "guide-everyday-foods-pregnancy.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/guides/everyday-foods-pregnancy",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/pregnant-women.html",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
+      "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+    ],
+    "title": "Everyday Food Handling During Pregnancy",
+    "reviewedOn": "2026-10-03",
+    "sha256": "2019329b2e72509d42e7f68f6ff7709c863a4c3db0d74adee525c515f7519af4"
+  },
+  {
+    "file": "guide-fish-seafood-pregnancy.md",
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/guides/fish-seafood-pregnancy",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
+    ],
+    "title": "Fish and Seafood During Pregnancy: FDA/EPA Categories",
+    "reviewedOn": "2026-10-03",
+    "sha256": "8d9d78529ea25c7aa901c1bf037485211ab21d818eb78751b07e3b1909855a6a"
+  },
+  {
+    "file": "guide-hcg-levels-by-week.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/hcg-levels-by-week",
+    "sources": [
+      "https://medlineplus.gov/ency/article/003510.htm",
+      "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
+      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "d427acef88de83ea3368dbc457e33bdad7023f4b7fcd92ec1ee4b9b14b94c979"
+  },
+  {
+    "file": "guide-keto-macros.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-measure-body-fat-at-home.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-meat-deli-pregnancy.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/meat-deli-pregnancy",
+    "sources": [
+      "https://www.cdc.gov/listeria/prevention/index.html",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+      "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "489cd3c92b947575fe7d2fd1391256ed15e42b5c8ec46b56ef4d82d24b28ec41"
+  },
+  {
+    "file": "guide-normal-gfr-by-age.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-pregnancy-weight-gain-by-trimester.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/pregnancy-weight-gain-by-trimester",
+    "sources": [
+      "https://www.nationalacademies.org/read/12584/chapter/2",
+      "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "39e706d1bc5aaf241e363b5bd4de95c0bb96445c03ae58fbb3e7d063b81b7083"
+  },
+  {
+    "file": "guide-prodromal-labor.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/prodromal-labor",
+    "sources": [
+      "https://my.clevelandclinic.org/health/symptoms/24163-prodromal-labor",
+      "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "dc4d3439348c725e9ade6c8df4918da8e79a9fc749d624a632c0e7f268de9bf4"
+  },
+  {
+    "file": "guide-resting-heart-rate-by-age.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "guide-spotting-during-ovulation.md",
+    "status": "source-based review and second verification completed 2026-10-03",
+    "route": "/guides/spotting-during-ovulation",
+    "sources": [
+      "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+    ],
+    "recheckedOn": "2026-10-03",
+    "sha256": "8bbf16402214f568fac07fc721f77c984b105665a5039017db85043048377b64"
+  },
+  {
+    "file": "guide-what-a1c-is-diabetic.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-cholesterol-ratio-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-postpartum-depression-screening.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-sleep-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-thyroid-function-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-vitamin-d-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "file": "tool-waist-to-hip-ratio-calculator.md",
+    "status": "awaiting deeper claim-by-claim review",
+    "route": null,
+    "sources": []
+  },
+  {
+    "route": "/pregnancy/safe-food",
+    "title": "Pregnancy Food Guidance",
+    "status": "directory and shared copy scope checked 2026-10-03; page contains links to reviewed articles",
+    "sources": [
+      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+      "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
+      "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+    ],
+    "reviewedOn": "2026-10-03"
+  }
+]

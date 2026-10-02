@@ -36,7 +36,7 @@ test('overnight sleep, daytime sleep, wakefulness and invalid timing',()=>{
 test('WHO daily reference: median is 50th, not nearest sparse age',()=>{
  for(const sex of ['male','female']){
  const data=require(`../src/lib/reference-data/who-weight-${sex==='male'?'boys':'girls'}.json`);
- for(const day of [0,1,90,456,1000,1826]){const row=data[day],r=m.babyWeight(day,row[2],sex);close(r.percentile,50,0.00001);assert.ok(r.p3<r.p50&&r.p97>r.p50);}
+ for(const day of [0,1,90,456,1000,1826]){const row=data[day],r=m.babyWeight(day,row[2],sex);close(r.percentile,50,0.00001);close(m.babyWeight(day,r.p3,sex).percentile,3,0.02);close(m.babyWeight(day,r.p97,sex).percentile,97,0.02);assert.ok(r.p3<r.p50&&r.p97>r.p50);}
  }
  assert.throws(()=>m.babyWeight(NaN,3,'male'));assert.throws(()=>m.babyWeight(1827,20,'male'));assert.throws(()=>m.babyWeight(100,0,'male'));
 });
@@ -46,11 +46,12 @@ test('local date and gestational age remain correct through DST and reject futur
  assert.deepEqual(m.gestation(m.parseLocalDate('2026-01-01'),m.parseLocalDate('2026-01-11')),{weeks:1,days:3});
  assert.throws(()=>m.gestation(m.parseLocalDate('2026-10-03'),m.parseLocalDate('2026-10-02')));
 });
-test('5-1-1 needs continuous one-hour start-to-start coverage',()=>{
- const sequence=Array.from({length:13},(_,i)=>({start:i*300000,end:i*300000+60000}));
- assert.equal(m.contractionPattern(sequence.slice(0,6)),false);assert.equal(m.contractionPattern(sequence),true);
- const broken=sequence.map(x=>({...x}));broken[8].end=broken[8].start+59000;assert.equal(m.contractionPattern(broken),false);
- const gap=sequence.map(x=>({...x}));gap[7].start+=1000;gap[7].end+=1000;assert.equal(m.contractionPattern(gap),false);
+test('contraction timer reports duration and start-to-start intervals without a labor threshold',()=>{
+ const result=m.contractionMetrics([{start:0,end:45000},{start:300000,end:360000},{start:660000,end:null}]);
+ assert.equal(result.completed.length,2);assert.deepEqual(result.durations,[45,60]);assert.deepEqual(result.intervals,[300]);
+ close(result.averageDuration,52.5);close(result.averageInterval,300);
+ const onlyOne=m.contractionMetrics([{start:0,end:1000}]);assert.deepEqual(onlyOne.intervals,[]);assert.equal(onlyOne.averageInterval,0);
+ const invalid=m.contractionMetrics([{start:10,end:5},{start:NaN,end:20}]);assert.deepEqual(invalid.completed,[]);
 });
 test('ACOG IVF transfer offsets match the stated embryo age',()=>{
  assert.equal(m.ivfDaysToDue(5),261);assert.equal(m.ivfDaysToDue(3),263);assert.throws(()=>m.ivfDaysToDue(6));
@@ -63,4 +64,14 @@ test('hCG arithmetic separates flat, declining and increasing results',()=>{
 });
 test('calendar ovulation counts day 1 and displays six inclusive dates',()=>{
  const date=m.parseLocalDate('2026-10-01'),r=m.estimatedOvulation(date,28);assert.equal(r.ovulation.getDate(),14);assert.equal(r.windowStart.getDate(),9);assert.equal(r.nextPeriod.getDate(),29);assert.equal(m.calendarDays(r.windowStart,r.windowEnd)+1,6);assert.throws(()=>m.estimatedOvulation(date,28.5));assert.throws(()=>m.estimatedOvulation(date,0));
+});
+
+test('WHO official rounded minus-two and plus-two SD weights agree with LMS percentiles',()=>{
+ const fixtures=require('./who-reference-fixtures.json');
+ for(const c of fixtures.cases)close(m.babyWeight(c.ageDays,c.weightKg,c.sex).percentile,c.percentile,0.03);
+ assert.throws(()=>m.babyWeight(0,3.2,'unsupported'));
+});
+test('pregnancy BMI category boundaries select the source pound ranges before rounding',()=>{
+ const cases=[[18.49,[28,40],[50,62]],[18.5,[25,35],[37,54]],[24.99,[25,35],[37,54]],[25,[15,25],[31,50]],[29.99,[15,25],[31,50]],[30,[11,20],[25,42]],[40,[11,20],[25,42]]];
+ for(const [bmi,singleton,twins] of cases){assert.deepEqual(m.pregnancyGain(bmi*4,200,bmi*4+5,'singleton').range,singleton);assert.deepEqual(m.pregnancyGain(bmi*4,200,bmi*4+5,'twins').range,twins);}
 });

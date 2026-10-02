@@ -68,15 +68,12 @@ export function gestation(start:Date,today:Date) {
   if(days<0 || days>294) throw new Error("The dates must describe a current pregnancy, up to 42 weeks.");
   return {weeks:Math.floor(days/7),days:days%7};
 }
-export function contractionPattern(entries:{start:number;end:number|null}[]) {
-  const completed=entries.filter((e):e is {start:number;end:number}=>e.end!==null);
-  if(completed.length<2) return false;
-  const last=completed[completed.length-1], cutoff=last.start-3600000;
-  // Include the entry just before the one-hour boundary to prove continuous coverage.
-  const before=completed.findLastIndex(e=>e.start<=cutoff);
-  if(before<0) return false;
-  const window=completed.slice(before);
-  return window.every(e=>e.end-e.start>=60000) && window.slice(1).every((e,i)=>e.start-window[i].start>0 && e.start-window[i].start<=300000);
+export function contractionMetrics(entries:{start:number;end:number|null}[]) {
+  const completed=entries.filter((e):e is {start:number;end:number}=>e.end!==null && Number.isFinite(e.start) && Number.isFinite(e.end) && e.end>=e.start);
+  const durations=completed.map(e=>(e.end-e.start)/1000);
+  const intervals=completed.slice(1).map((e,i)=>(e.start-completed[i].start)/1000).filter(v=>v>0);
+  const average=(values:number[])=>values.length?values.reduce((sum,value)=>sum+value,0)/values.length:0;
+  return {completed,durations,intervals,averageDuration:average(durations),averageInterval:average(intervals)};
 }
 
 // ACOG Committee Opinion 700: 266 days from fertilization, less embryo age.

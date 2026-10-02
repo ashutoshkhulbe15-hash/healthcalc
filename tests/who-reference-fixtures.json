@@ -1,0 +1,130 @@
+{
+  "source": "WHO official expanded daily weight-for-age z-score tables",
+  "retrievedOn": "2026-10-03",
+  "cases": [
+    {
+      "sex": "male",
+      "ageDays": 0,
+      "weightKg": 2.459,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "male",
+      "ageDays": 0,
+      "weightKg": 4.419,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "male",
+      "ageDays": 90,
+      "weightKg": 4.992,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "male",
+      "ageDays": 90,
+      "weightKg": 7.989,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "male",
+      "ageDays": 365,
+      "weightKg": 7.741,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "male",
+      "ageDays": 365,
+      "weightKg": 11.983,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "male",
+      "ageDays": 730,
+      "weightKg": 9.67,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "male",
+      "ageDays": 730,
+      "weightKg": 15.272,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "male",
+      "ageDays": 1826,
+      "weightKg": 14.067,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "male",
+      "ageDays": 1826,
+      "weightKg": 24.163,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "female",
+      "ageDays": 0,
+      "weightKg": 2.395,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "female",
+      "ageDays": 0,
+      "weightKg": 4.23,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "female",
+      "ageDays": 90,
+      "weightKg": 4.513,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "female",
+      "ageDays": 90,
+      "weightKg": 7.48,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "female",
+      "ageDays": 365,
+      "weightKg": 7.041,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "female",
+      "ageDays": 365,
+      "weightKg": 11.506,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "female",
+      "ageDays": 730,
+      "weightKg": 9.033,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "female",
+      "ageDays": 730,
+      "weightKg": 14.841,
+      "percentile": 97.7249868052
+    },
+    {
+      "sex": "female",
+      "ageDays": 1826,
+      "weightKg": 13.742,
+      "percentile": 2.2750131948
+    },
+    {
+      "sex": "female",
+      "ageDays": 1826,
+      "weightKg": 24.914,
+      "percentile": 97.7249868052
+    }
+  ],
+  "sourceUrls": [
+    "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/weight-for-age/expanded-tables/wfa-boys-zscore-expanded-tables.xlsx?sfvrsn=65cce121_10",
+    "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/weight-for-age/expanded-tables/wfa-girls-zscore-expanded-tables.xlsx?sfvrsn=f01bc813_10"
+  ]
+}

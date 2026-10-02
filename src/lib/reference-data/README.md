@@ -40,3 +40,7 @@ who-weight-girls.json eb8d0ddce6b1a27be14c08e3adb1e9a6c163c597f7710385f61b8258e3
 ```
 
 JSON whitespace or integer formatting may differ after conversion; compare parsed values when verifying numerical equivalence.
+
+## October 3, 2026 independent recheck
+
+Both official WHO expanded spreadsheets were downloaded again. All 1,857 `[day,L,M,S]` rows for each sex matched the bundled JSON exactly. The published, rounded −2 and +2 SD weights at days 0, 90, 365, 730 and 1,826 were stored as independent regression fixtures in `tests/who-reference-fixtures.json`; their calculated percentiles agree within 0.03 percentage points. The site's ±3 limit avoids extrapolating the ordinary LMS method into the modified extreme-tail method. The formula and this extreme-tail caveat are explained in WHO's *Training Course on Child Growth Assessment*, module C, annex 1, printed page 48: https://iris.who.int/bitstream/handle/10665/43601/9789241595070_C_eng.pdf .

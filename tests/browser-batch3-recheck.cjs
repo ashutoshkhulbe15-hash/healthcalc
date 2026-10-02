@@ -1,0 +1,47 @@
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+const base=process.env.TEST_BASE_URL||'http://127.0.0.1:3100';
+if(!/^http:\/\/(127\.0\.0\.1|localhost):\d+$/.test(base))throw new Error('Only localhost is allowed.');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true});
+ const context=await browser.newContext();
+ await context.route('**/*',route=>new URL(route.request().url()).origin===base?route.continue():route.abort());
+ const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const routes=['/pregnancy/weight-gain-calculator','/pregnancy/fetal-weight-percentile','/pregnancy/contraction-timer','/pregnancy/baby-growth-percentile','/guides/8-dpo-pregnancy-test'];
+ for(const route of routes){
+  assert.equal((await page.goto(base+route)).status(),200);
+  assert.equal(await page.locator('h1').count(),1);
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://prohealthit.com'+route);
+  assert.ok(await page.getByText('Medical Disclaimer',{exact:false}).count(),route+' disclaimer');
+ }
+ const fill=async(label,value)=>page.getByLabel(label,{exact:true}).fill(value);
+ const results=()=>page.getByRole('region',{name:'Calculation results'});
+ await page.goto(base+'/pregnancy/weight-gain-calculator');
+ await fill('Pre-pregnancy weight (kg)','74');await fill('Height (cm)','200');await fill('Current weight (kg)','80');
+ await page.getByRole('button',{name:'Calculate Weight Gain',exact:true}).click();
+ assert.match(await results().innerText(),/25–35 lb/);assert.match(await results().innerText(),/converted from lb/);
+ await page.getByLabel('Pregnancy',{exact:true}).selectOption('twins');
+ await page.getByRole('button',{name:'Calculate Weight Gain',exact:true}).click();assert.match(await results().innerText(),/37–54 lb/);assert.match(await results().innerText(),/provisional/);
+ await fill('Pre-pregnancy weight (kg)','60');await page.getByRole('button',{name:'Calculate Weight Gain',exact:true}).click();
+ assert.match(await results().innerText(),/50–62 lb/);assert.match(await results().innerText(),/separate observational study/);
+ await page.getByLabel('Pregnancy',{exact:true}).selectOption('higher');await page.getByRole('button',{name:'Calculate Weight Gain',exact:true}).click();assert.match(await results().innerText(),/Individual plan/);
+ await page.goto(base+'/pregnancy/baby-growth-percentile');await fill('Age at measurement (completed days, 0–1826)','0');await fill('Weight (kg)','3.3464');
+ await page.getByRole('button',{name:'Calculate Weight-for-age Percentile',exact:true}).click();assert.match(await results().innerText(),/50\.00th/);
+ await fill('Age at measurement (completed days, 0–1826)','730');await fill('Weight (kg)','12');await page.getByRole('button',{name:'Calculate Weight-for-age Percentile',exact:true}).click();
+ assert.equal(await results().count(),1);assert.match(await page.locator('form').innerText(),/from age 2/);
+ await page.goto(base+'/pregnancy/fetal-weight-percentile');assert.equal(await page.locator('input').count(),0);assert.ok(await page.locator('a[href*="publications.smfm.org/publications/289"]').count());
+ await page.goto(base+'/guides/8-dpo-pregnancy-test');assert.ok(await page.locator('a[href="https://www.fda.gov/medical-devices/home-use-tests/pregnancy"]').count()>=3);
+ await page.goto(base+'/pregnancy/contraction-timer');
+ await page.evaluate(()=>{window.batch3Clock=1000;Object.defineProperty(performance,'now',{value:()=>window.batch3Clock,configurable:true});});
+ await page.getByRole('button',{name:'Start First Contraction',exact:true}).click();
+ await page.evaluate(()=>{window.batch3Clock=46000;});await page.getByRole('button',{name:'Contraction Ended',exact:true}).click();
+ await page.evaluate(()=>{window.batch3Clock=301000;});await page.getByRole('button',{name:'Start Contraction',exact:true}).click();
+ await page.evaluate(()=>{window.batch3Clock=361000;});await page.getByRole('button',{name:'Contraction Ended',exact:true}).click();
+ assert.match(await page.getByText('Average duration',{exact:true}).locator('..').innerText(),/0:52/);
+ assert.match(await page.getByText('Average start-to-start',{exact:true}).locator('..').innerText(),/5:00/);
+ assert.match(await page.getByText('Completed entries',{exact:true}).locator('..').innerText(),/2/);
+ assert.doesNotMatch(await page.locator('body').innerText(),/5-1-1 met|ACOG 5-1-1|Keep timing|Under 1 min|5 min or less/);
+ await page.setViewportSize({width:375,height:812});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ fs.mkdirSync('test-artifacts',{recursive:true});await page.screenshot({path:'test-artifacts/batch3-mobile-contractions.png',fullPage:true});
+ await page.getByRole('button',{name:'Reset',exact:true}).click();assert.equal(await page.getByText('Completed entries',{exact:true}).count(),0);
+ assert.deepEqual(errors,[]);await browser.close();console.log('Batch 3 browser recheck passed: five pages, self-canonicals, disclaimers, sources, calculator results, timer arithmetic/reset and mobile layout.');
+})().catch(e=>{console.error(e);process.exit(1);});

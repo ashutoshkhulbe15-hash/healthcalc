@@ -3,6 +3,7 @@ import girls from "./reference-data/who-weight-girls.json";
 import {positive,lmsZ,lmsValue,normalCDF} from "./health-math";
 export function babyWeight(ageDays:number, weight:number, sex:string) {
   positive(weight);
+  if(sex!=="male"&&sex!=="female") throw new Error("Choose the boys or girls WHO reference table.");
   const rows=sex==="male" ? boys : girls;
   if(!Number.isInteger(ageDays)||ageDays<0||ageDays>1826) throw new Error("Enter an age in completed days within the WHO birth-to-five-year reference.");
   const [,l,m,s]=rows[ageDays], z=lmsZ(weight,l,m,s);

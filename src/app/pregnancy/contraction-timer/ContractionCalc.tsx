@@ -1,5 +1,5 @@
 "use client";
-import { contractionPattern } from "@/lib/health-math";
+import { contractionMetrics } from "@/lib/health-math";
 import { useState } from "react";
 import { CalcShell, ResultCard } from "@/components/CalcUI";
 
@@ -9,49 +9,39 @@ export function ContractionCalc(){
   const[entries,setEntries]=useState<Entry[]>([]);
   const[active,setActive]=useState(false);
 
-  const startC=()=>{setEntries([...entries,{start:Date.now(),end:null}]);setActive(true);};
+  const startC=()=>{const start=performance.now();setEntries(current=>[...current,{start,end:null}]);setActive(true);};
   const stopC=()=>{
-    const updated=[...entries];
-    updated[updated.length-1].end=Date.now();
-    setEntries(updated);setActive(false);
+    const end=performance.now();
+    setEntries(current=>current.map((entry,index)=>index===current.length-1?{...entry,end}:entry));setActive(false);
   };
   const reset=()=>{setEntries([]);setActive(false);};
 
-  const completed=entries.filter(e=>e.end!==null);
-  const durations=completed.map(e=>((e.end as number)-e.start)/1000);
-  const intervals=completed.slice(1).map((e,i)=>(e.start-completed[i].start)/1000);
-  const avgDur=durations.length?durations.reduce((a,b)=>a+b,0)/durations.length:0;
-  const avgInt=intervals.length?intervals.reduce((a,b)=>a+b,0)/intervals.length:0;
+  const {completed,averageDuration:avgDur,averageInterval:avgInt}=contractionMetrics(entries);
   const fmtTime=(s:number)=>`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,"0")}`;
-  const is511=contractionPattern(entries);
-
   return(
     <><CalcShell>
-      <p className="text-sm text-slate-600 mb-4">Follow your maternity team’s instructions. Do not wait for a timer pattern if you have concerns, bleeding, reduced fetal movement, fluid leakage or contractions before term.</p><div className="text-center">
+      <p className="text-sm text-slate-600 mb-4">This timer records times; it cannot tell whether labor has begun. Follow your maternity team’s instructions. Do not wait for a timer result before contacting them with concerns.</p><div className="text-center">
         <div className="text-6xl font-extrabold text-brand-600 mb-2 font-mono">
           {active&&entries.length?"Timing...":"Ready"}
         </div>
         <div className="flex gap-3 justify-center mb-6">
           {!active?
-            <button onClick={startC} className="px-8 py-3 rounded-xl bg-gradient-to-br from-brand-600 to-brand-500 text-white text-lg font-bold">
+            <button type="button" onClick={startC} className="px-8 py-3 rounded-xl bg-gradient-to-br from-brand-600 to-brand-500 text-white text-lg font-bold">
               {entries.length===0?"Start First Contraction":"Start Contraction"}
             </button>:
-            <button onClick={stopC} className="px-8 py-3 rounded-xl bg-red-500 text-white text-lg font-bold">
+            <button type="button" onClick={stopC} className="px-8 py-3 rounded-xl bg-red-500 text-white text-lg font-bold">
               Contraction Ended
             </button>
           }
-          {entries.length>0&&<button onClick={reset} className="px-6 py-3 rounded-xl border border-slate-200 text-slate-500 font-medium">Reset</button>}
+          {entries.length>0&&<button type="button" onClick={reset} className="px-6 py-3 rounded-xl border border-slate-200 text-slate-500 font-medium">Reset</button>}
         </div>
         {completed.length>0&&(
-          <div className="grid grid-cols-3 gap-4 mb-4">
-            <ResultCard label="Avg duration" value={fmtTime(avgDur)} sub={avgDur>=60?"1+ min ✓":"Under 1 min"} />
-            <ResultCard label="Avg start-to-start" value={avgInt>0?fmtTime(avgInt):"—"} sub={avgInt>0&&avgInt<=300?"5 min or less ✓":"Waiting for data"} />
-            <ResultCard label="Contractions" value={`${completed.length}`} sub={is511?"5-1-1 met! 🏥":"Keep timing"} highlight={is511} />
+          <div className="grid sm:grid-cols-3 gap-4 mb-4">
+            <ResultCard label="Average duration" value={fmtTime(avgDur)} sub="Recorded contractions" />
+            <ResultCard label="Average start-to-start" value={avgInt>0?fmtTime(avgInt):"—"} sub="Between recorded starts" />
+            <ResultCard label="Completed entries" value={`${completed.length}`} sub="Time records only" />
           </div>
         )}
-        {is511&&<div className="p-4 bg-pink-50 border border-pink-200 rounded-xl text-sm text-pink-800 font-medium">
-          🏥 Recorded contractions meet the timing heuristic for 5-1-1 (5 min apart, 1 min long, for 1 hour). Contact your maternity team for guidance. This heuristic does not diagnose labor.
-        </div>}
       </div>
       {completed.length>0&&(
         <div className="mt-5">

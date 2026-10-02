@@ -3,15 +3,14 @@ import { ToolPageShell } from "@/components/ToolPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
 import { QuickAnswer } from "@/components/QuickAnswer";
 import { ContractionCalc } from "./ContractionCalc";
-import { ContractionRuleSVG, BraxtonVsRealSVG, FiveOneOneRuleSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Contraction Timer — Track the 5-1-1 Rule for Labor",
-  description: "Time your contractions and compare against the 5-1-1 rule: every 5 minutes, 1 minute long, for 1 hour. Braxton Hicks vs real labor, when to go to the hospital, and labor stages explained.",
+  title: "Contraction Timer — Record Duration and Intervals",
+  description: "Record contraction duration and start-to-start intervals. This timer does not assess labor or determine when to seek care.",
   alternates: { canonical: "/pregnancy/contraction-timer" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Contraction Timer — Track the 5-1-1 Rule for Labor", description: "Time your contractions and compare against the 5-1-1 rule: every 5 minutes, 1 minute long, for 1 hour. Braxton Hicks vs real labor, when to go to the hospital, and labor stages explained.", url: "/pregnancy/contraction-timer", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Contraction Timer — Track the 5-1-1 Rule for Labor", description:"Time your contractions and compare against the 5-1-1 rule: every 5 minutes, 1 minute long, for 1 hour. Braxton Hicks vs real labor, when to go to the hospital, and labor stages explained.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Contraction Timer — Record Duration and Intervals", description: "Record contraction duration and start-to-start intervals. This timer does not assess labor or determine when to seek care.", url: "/pregnancy/contraction-timer", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Contraction Timer — Record Duration and Intervals", description:"Record contraction duration and start-to-start intervals. This timer does not assess labor or determine when to seek care.", images:["/og-image.png"]},
 };
 
 export default function Page() {
@@ -19,20 +18,16 @@ export default function Page() {
   const lastUpdated = getLastUpdated("25-contraction-timer.md");
   return (
     <ToolPageShell lastUpdated={lastUpdated} category="pregnancy" title="Contraction Timer"
-      description="Track contraction frequency, duration, and intensity. The timer compares your pattern against the ACOG 5-1-1 guideline for when to head to the hospital."
-      features={["⏱️ Auto frequency tracking", "📊 5-1-1 rule comparison", "🤰 Braxton Hicks vs. real labor", "🏥 When to go to hospital"]}
+      description="Record contraction duration and start-to-start intervals. The timer does not assess labor or determine when to seek care."
+      features={["Record duration", "Record start-to-start intervals", "View arithmetic averages", "Limits and source links"]}
       relatedTools={[
         {title:"Due Date Calculator",desc:"Find your estimated delivery date.",href:"/pregnancy/due-date-calculator",category:"pregnancy"},
         {title:"HCG Levels by Week",desc:"Understand early pregnancy blood work.",href:"/guides/hcg-levels-by-week",category:"pregnancy"},
         {title:"Weight Gain Calculator",desc:"Track pregnancy weight.",href:"/pregnancy/weight-gain-calculator",category:"pregnancy"},
       ]}>
       <ContractionCalc />
-      <QuickAnswer answer="The 5-1-1 rule: contractions every 5 minutes, lasting 1 minute each, for 1 hour. This pattern typically indicates active labor for first-time mothers. Track your contractions for at least one hour to see if the pattern holds before heading to the hospital." />
-      <SplitArticle content={content} injections={{
-        1: <FiveOneOneRuleSVG />,
-        3: <BraxtonVsRealSVG />,
-        4: <ContractionRuleSVG />,
-      }} />
+      <QuickAnswer answer="This timer records contraction duration and start-to-start intervals. It cannot determine whether labor has begun or when to seek care; follow your maternity team’s instructions." />
+      <SplitArticle content={content} />
     </ToolPageShell>
   );
 }
