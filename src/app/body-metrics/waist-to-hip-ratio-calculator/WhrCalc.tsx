@@ -1,0 +1,9 @@
+"use client";
+import {useState,useEffect} from "react";
+import {CalcInput,CalcButton,CalcShell,CalcError,ResultsShell,ResultCard,UnitToggle} from "@/components/CalcUI";
+export function WhrCalc(){
+ const [unit,setUnit]=useState("metric"),[waist,setWaist]=useState(""),[hip,setHip]=useState(""),[result,setResult]=useState<number|null>(null),[error,setError]=useState("");
+ useEffect(()=>{setResult(null);setError("");},[unit,waist,hip]);
+ const calculate=()=>{const w=Number(waist),h=Number(hip);if(!Number.isFinite(w)||!Number.isFinite(h)||w<=0||h<=0){setError("Enter positive waist and hip measurements in the same unit.");return;}setResult(w/h);};
+ return <><CalcShell><UnitToggle value={unit} onChange={v=>{setUnit(v);setWaist("");setHip("");}}/><p className="text-sm text-slate-600 mb-5">Use a consistent measurement protocol. This arithmetic ratio does not calculate your overall cardiovascular risk.</p><div className="grid sm:grid-cols-2 gap-5 mb-5"><CalcInput label={`Waist circumference (${unit==="metric"?"cm":"inches"})`} value={waist} onChange={setWaist}/><CalcInput label={`Hip circumference (${unit==="metric"?"cm":"inches"})`} value={hip} onChange={setHip}/></div><CalcButton onClick={calculate} label="Calculate WHR"/><CalcError message={error}/></CalcShell>{result!==null&&<ResultsShell><ResultCard label="Waist-to-hip ratio" value={result.toFixed(3)} sub="Waist divided by hips; units cancel"/><p className="mt-4 text-sm text-slate-600">No low/moderate/high overall risk label is assigned. Measurement technique, population and individual circumstances affect interpretation. A clinician can consider this alongside other risk factors.</p><a href="https://www.who.int/publications/i/item/9789241501491" className="underline text-brand-700">WHO expert consultation on waist circumference and waist-to-hip ratio</a></ResultsShell>}</>;
+}

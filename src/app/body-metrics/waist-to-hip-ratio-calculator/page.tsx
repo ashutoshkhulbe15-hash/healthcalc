@@ -1,0 +1,8 @@
+import type {Metadata} from "next";
+import {ToolPageShell} from "@/components/ToolPageShell";
+import {SplitArticle} from "@/components/SplitArticle";
+import {getArticleContent,getLastUpdated} from "@/lib/content";
+import {WhrCalc} from "./WhrCalc";
+import {TOOLS} from "@/lib/data";
+export const metadata:Metadata={title:"Waist-to-Hip Ratio Calculator",description:"Calculate waist divided by hip circumference and understand measurement limits.",alternates:{canonical:"https://prohealthit.com/body-metrics/waist-to-hip-ratio-calculator"},openGraph:{type:"website",title:"Waist-to-Hip Ratio Calculator",description:"Calculate waist divided by hip circumference and understand measurement limits.",url:"/body-metrics/waist-to-hip-ratio-calculator",images:[{url:"/og-image.png",width:1200,height:630}]},twitter:{card:"summary_large_image",title:"Waist-to-Hip Ratio Calculator",description:"Calculate waist divided by hip circumference and understand measurement limits.",images:["/og-image.png"]}};
+export default function Page(){return <ToolPageShell category="body-metrics" title={"Waist-to-Hip Ratio Calculator"} description={"Calculate waist divided by hip circumference and understand measurement limits."} lastUpdated={getLastUpdated("tool-waist-to-hip-ratio-calculator.md")} features={["Method and limits explained","Source links","Educational information"]} relatedTools={TOOLS.filter(t=>t.category==="body-metrics"&&t.slug!=="waist-to-hip-ratio-calculator").slice(0,3).map(t=>({title:t.name,desc:t.desc,href:`/${t.category}/${t.slug}`,category:t.category}))}><WhrCalc/><SplitArticle content={getArticleContent("tool-waist-to-hip-ratio-calculator.md")}/></ToolPageShell>;}

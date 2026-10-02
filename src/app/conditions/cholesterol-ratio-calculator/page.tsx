@@ -1,0 +1,8 @@
+import type {Metadata} from "next";
+import {ToolPageShell} from "@/components/ToolPageShell";
+import {SplitArticle} from "@/components/SplitArticle";
+import {getArticleContent,getLastUpdated} from "@/lib/content";
+import {CholesterolCalc} from "./CholesterolCalc";
+import {TOOLS} from "@/lib/data";
+export const metadata:Metadata={title:"Cholesterol Ratio Calculator",description:"Calculate lipid ratios and non-HDL cholesterol without an unsupported risk diagnosis.",alternates:{canonical:"https://prohealthit.com/conditions/cholesterol-ratio-calculator"},openGraph:{type:"website",title:"Cholesterol Ratio Calculator",description:"Calculate lipid ratios and non-HDL cholesterol without an unsupported risk diagnosis.",url:"/conditions/cholesterol-ratio-calculator",images:[{url:"/og-image.png",width:1200,height:630}]},twitter:{card:"summary_large_image",title:"Cholesterol Ratio Calculator",description:"Calculate lipid ratios and non-HDL cholesterol without an unsupported risk diagnosis.",images:["/og-image.png"]}};
+export default function Page(){return <ToolPageShell category="conditions" title={"Cholesterol Ratio Calculator"} description={"Calculate lipid ratios and non-HDL cholesterol without an unsupported risk diagnosis."} lastUpdated={getLastUpdated("tool-cholesterol-ratio-calculator.md")} features={["Method and limits explained","Source links","Educational information"]} relatedTools={TOOLS.filter(t=>t.category==="conditions"&&t.slug!=="cholesterol-ratio-calculator").slice(0,3).map(t=>({title:t.name,desc:t.desc,href:`/${t.category}/${t.slug}`,category:t.category}))}><CholesterolCalc/><SplitArticle content={getArticleContent("tool-cholesterol-ratio-calculator.md")}/></ToolPageShell>;}

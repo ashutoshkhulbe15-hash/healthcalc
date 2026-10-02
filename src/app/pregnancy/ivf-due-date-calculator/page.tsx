@@ -1,0 +1,8 @@
+import type {Metadata} from "next";
+import {ToolPageShell} from "@/components/ToolPageShell";
+import {SplitArticle} from "@/components/SplitArticle";
+import {getArticleContent,getLastUpdated} from "@/lib/content";
+import {TOOLS} from "@/lib/data";
+import {IvfCalc} from "./IvfCalc";
+export const metadata:Metadata={"title": "IVF Due Date Calculator: Day 3 and Day 5", "description": "Use clinic-confirmed embryo age: add 263 days for day 3 or 261 days for day 5.", "alternates": {"canonical": "/pregnancy/ivf-due-date-calculator"}, "openGraph": {"type": "website", "siteName": "ProHealthIt", "title": "IVF Due Date Calculator: Day 3 and Day 5", "description": "Use clinic-confirmed embryo age: add 263 days for day 3 or 261 days for day 5.", "url": "/pregnancy/ivf-due-date-calculator", "images": [{"url": "/og-image.png", "width": 1200, "height": 630}]}, "twitter": {"card": "summary_large_image", "title": "IVF Due Date Calculator: Day 3 and Day 5", "description": "Use clinic-confirmed embryo age: add 263 days for day 3 or 261 days for day 5.", "images": ["/og-image.png"]}};
+export default function Page(){return <ToolPageShell category="pregnancy" title={"IVF Due Date Calculator: Day 3 and Day 5"} lastUpdated={getLastUpdated("33-ivf-due-date-calculator.md")} description={"Use clinic-confirmed embryo age: add 263 days for day 3 or 261 days for day 5."} features={["Method explained","Source links","Limits stated"]} relatedTools={TOOLS.filter(t=>t.category==="pregnancy"&&t.slug!=="ivf-due-date-calculator").slice(0,3).map(t=>({title:t.name,desc:t.desc,href:`/${t.category}/${t.slug}`,category:t.category}))}><IvfCalc/><SplitArticle content={getArticleContent("33-ivf-due-date-calculator.md")}/></ToolPageShell>;}

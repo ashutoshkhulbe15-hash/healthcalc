@@ -1,0 +1,8 @@
+import type {Metadata} from "next";
+import {ToolPageShell} from "@/components/ToolPageShell";
+import {SplitArticle} from "@/components/SplitArticle";
+import {getArticleContent,getLastUpdated} from "@/lib/content";
+import {SleepCycleCalc} from "./SleepCycleCalc";
+import {TOOLS} from "@/lib/data";
+export const metadata:Metadata={title:"Sleep Calculator: Bedtime Planner",description:"Plan bedtime from wake time, desired sleep duration and time to fall asleep.",alternates:{canonical:"https://prohealthit.com/mental-health/sleep-calculator"},openGraph:{type:"website",title:"Sleep Calculator: Bedtime Planner",description:"Plan bedtime from wake time, desired sleep duration and time to fall asleep.",url:"/mental-health/sleep-calculator",images:[{url:"/og-image.png",width:1200,height:630}]},twitter:{card:"summary_large_image",title:"Sleep Calculator: Bedtime Planner",description:"Plan bedtime from wake time, desired sleep duration and time to fall asleep.",images:["/og-image.png"]}};
+export default function Page(){return <ToolPageShell category="mental-health" title={"Sleep Calculator: Bedtime Planner"} description={"Plan bedtime from wake time, desired sleep duration and time to fall asleep."} lastUpdated={getLastUpdated("tool-sleep-calculator.md")} features={["Method and limits explained","Source links","Educational information"]} relatedTools={TOOLS.filter(t=>t.category==="mental-health"&&t.slug!=="sleep-calculator").slice(0,3).map(t=>({title:t.name,desc:t.desc,href:`/${t.category}/${t.slug}`,category:t.category}))}><SleepCycleCalc/><SplitArticle content={getArticleContent("tool-sleep-calculator.md")}/></ToolPageShell>;}
