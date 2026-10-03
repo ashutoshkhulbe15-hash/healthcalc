@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Source-based content review — pregnancy batch 1
 
 This file preserves the historical batch 1 findings from October 2, 2026. Its counts and deployment notes describe that batch at the time and are superseded by the October 3 status below. The review remains source-based editorial work, not practitioner review.

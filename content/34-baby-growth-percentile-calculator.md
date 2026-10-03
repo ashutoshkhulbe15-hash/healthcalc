@@ -1,11 +1,64 @@
-<!-- last-updated: 2026-10-03 -->
-# Baby Weight-for-age Percentile
+<!-- last-updated: June 2026 -->
+# Baby Growth Percentile Calculator: WHO & CDC Growth Charts
 
-## Exact age rather than nearest-month guesses
-Use the completed age in days on the date of measurement and the reference sex. The bundled WHO daily LMS table supplies the parameters for that day. Weight is entered in kilograms. The method transforms weight into a z-score and percentile using the LMS parameters. [WHO: weight-for-age data](https://www.who.int/tools/child-growth-standards/standards/weight-for-age); [WHO training course: interpreting growth indicators, annex on z-scores](https://iris.who.int/bitstream/handle/10665/43601/9789241595070_C_eng.pdf).
+Your baby's growth percentile shows how their weight, length, and head circumference compare to other babies of the same age and sex. A percentile of 40 means your baby is larger than 40% of babies that age — it doesn't mean they're "behind."
 
-## Limits
-The tool covers completed ages 0–1,826 days and returns numeric percentiles only within z-scores ±3. Outside that range, check measurements and seek clinical interpretation. A single percentile does not establish healthy growth. This tool does not adjust age for prematurity or account for illness. Clinical assessment also considers the series of measurements. [CDC: interpreting growth patterns](https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html). This tool does not calculate length or head-circumference percentiles and does not diagnose obesity or growth faltering. This is the WHO reference; in the United States, CDC recommends WHO charts from birth to age 2 and CDC charts from age 2 onward. Clinical chart choices may differ elsewhere. [CDC: recommended charts for the United States](https://www.cdc.gov/growth-chart-training/hcp/overview/recommended.html).
+This calculator uses WHO growth standards (recommended for ages 0–2) and CDC growth charts (recommended for ages 2–20) to determine your baby's percentile.
 
-## Source
-[WHO weight-for-age standards and expanded daily tables](https://www.who.int/tools/child-growth-standards/standards/weight-for-age); [CDC recommended charts for the United States](https://www.cdc.gov/growth-chart-training/hcp/overview/recommended.html).
+## How Growth Percentiles Work
+
+> **Key Takeaway:** Growth percentiles compare your baby's measurements to population data. Normal range is 3rd to 97th percentile — healthy babies span this entire range. Tracking the trend over time matters far more than any single measurement. A baby consistently at the 15th percentile is growing normally; a baby dropping from the 75th to the 20th warrants evaluation.
+
+| **Percentile** | **Interpretation** |
+|---|---|
+| Below 3rd | May indicate failure to thrive — evaluate |
+| 3rd–15th | Lower end of normal — monitor trend |
+| 15th–85th | Clearly within normal range |
+| 85th–97th | Upper end of normal — monitor trend |
+| Above 97th | May indicate overfeeding or endocrine concern — evaluate |
+
+## WHO vs CDC Growth Charts
+
+The AAP recommends WHO growth standards for children 0–2 years and CDC growth charts for children 2–20 years. The difference:
+
+**WHO charts** (0–2 years) describe how children *should* grow under optimal conditions (breastfed, healthy environments). They're based on international data from 6 countries.
+
+**CDC charts** (2–20 years) describe how US children *actually* grow — based on national survey data. They're reference charts, not prescriptive standards.
+
+> **Note:** WHO charts tend to show breastfed babies as slightly heavier in the first 6 months and slightly lighter at 12–24 months compared to CDC charts. This is because the WHO data is based on breastfed babies, while CDC data includes formula-fed babies who tend to gain faster after 6 months.
+
+## What to Track
+
+Three measurements at each well-child visit:
+
+**Weight-for-age** — overall growth indicator. The most common percentile parents ask about.
+
+**Length/height-for-age** — skeletal growth. Reflects genetics (parental height) more than nutrition in healthy children.
+
+**Head circumference-for-age** (0–36 months) — brain growth indicator. Rapid growth in the first year (head circumference increases ~12cm). Falling percentile may warrant neurological evaluation; rapidly increasing percentile may indicate hydrocephalus.
+
+> **Tip:** Your pediatrician tracks all three measurements on a growth curve at every well-child visit. Ask to see the curve — the visual trend is more informative than any single number. A baby consistently following their curve (even at the 10th percentile) is growing normally.
+
+For prenatal growth tracking, see our [fetal weight percentile calculator](/pregnancy/fetal-weight-percentile).
+
+> **Bottom Line:** Growth percentiles are comparisons, not grades. Normal spans 3rd to 97th. Your baby's trend over time — following their own curve — is the key indicator. A single measurement tells you very little; the pattern across months tells the story.
+
+## Frequently Asked Questions
+
+**What is a normal growth percentile for a baby?**
+
+3rd to 97th percentile is considered normal. Your baby's specific percentile reflects genetics, feeding method, and individual variation. Consistent tracking along any percentile curve is healthy growth.
+
+**Should I worry if my baby is in a low percentile?**
+
+A consistently low percentile (e.g., 10th) is usually normal — especially if parents are smaller. A dropping percentile (e.g., from 50th to 10th over 3 months) warrants evaluation by your pediatrician.
+
+**Which growth chart should I use — WHO or CDC?**
+
+AAP recommends WHO charts for ages 0–2 and CDC charts for ages 2–20. This calculator uses both based on your child's age.
+
+## Sources
+
+1. WHO Multicentre Growth Reference Study Group. WHO Child Growth Standards. 2006.
+2. Kuczmarski RJ, et al. CDC Growth Charts for the United States. *Vital Health Stat.* 2002;11(246).
+3. AAP. Use of WHO and CDC Growth Charts in the United States. *Pediatrics.* 2010;126(5):e1187.

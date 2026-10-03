@@ -1,882 +1,1418 @@
 [
   {
     "file": "01-pregnancy-weight-gain-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/weight-gain-calculator",
-    "sources": [
-      "https://www.nationalacademies.org/read/12584/chapter/2",
-      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
-      "https://pubmed.ncbi.nlm.nih.gov/12746982/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "da4c3b61ba8e3dc700a3d860be14a4a279fbbd4af8b2ec9debb117b97e0a4f3b",
-    "recheckedOn": "2026-10-03"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "fb71122f7d0abf9800f8d01db8ced9ce5b2cd6db23abdff8347372053e24c665",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "01-pregnancy-weight-gain-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/weight-gain-calculator",
+      "sources": [
+        "https://www.nationalacademies.org/read/12584/chapter/2",
+        "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+        "https://pubmed.ncbi.nlm.nih.gov/12746982/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "da4c3b61ba8e3dc700a3d860be14a4a279fbbd4af8b2ec9debb117b97e0a4f3b",
+      "recheckedOn": "2026-10-03"
+    }
   },
   {
     "file": "02-due-date-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/due-date-calculator",
-    "sources": [
-      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date",
-      "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "c09c3872dffc4a8b698c06513d3f9ac784fdabaa3f11aefc304dd8c706097105"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "16b2ae0c1c31bbc43f234725e9d55b3a76806f0d57bf6a9331e65b34225359cb",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "02-due-date-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/due-date-calculator",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date",
+        "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "c09c3872dffc4a8b698c06513d3f9ac784fdabaa3f11aefc304dd8c706097105"
+    }
   },
   {
     "file": "03-hcg-doubling-time-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/hcg-doubling-time-calculator",
-    "sources": [
-      "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
-      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "c45561825b988bc6027f197de0476a280ab6a495e34b3f34c4c01166b8b52443"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "3355eb03a7dbe8e1fa34419cfabb939134536f0c9030c193d3b8d43f166c1078",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "03-hcg-doubling-time-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/hcg-doubling-time-calculator",
+      "sources": [
+        "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
+        "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "c45561825b988bc6027f197de0476a280ab6a495e34b3f34c4c01166b8b52443"
+    }
   },
   {
     "file": "04-bmi-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/body-metrics/bmi-calculator",
-    "sources": [
-      "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
-      "https://www.cdc.gov/bmi/about/index.html",
-      "https://www.cdc.gov/bmi/faq/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "fce757523f95f9ca092fa5a3d1f1a613574c4e955ded407ce33bbf78cb8bf57a"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "32ef2e0025494da9be99a186872756ba38d3f4da81f1c5c16b1b6d90a2f8e049",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "04-bmi-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/body-metrics/bmi-calculator",
+      "sources": [
+        "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
+        "https://www.cdc.gov/bmi/about/index.html",
+        "https://www.cdc.gov/bmi/faq/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "fce757523f95f9ca092fa5a3d1f1a613574c4e955ded407ce33bbf78cb8bf57a"
+    }
   },
   {
     "file": "05-tdee-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/fitness/tdee-calculator",
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
-      "https://cdn.realfood.gov/DGA.pdf"
-    ],
-    "title": "Total Daily Energy Expenditure Estimate",
-    "reviewedOn": "2026-10-03",
-    "sha256": "0847ed4fb358e6929959de6ec1baaa5276d7bfd7e2be931a015d69be6d9515cb"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "f553a491f0327cf3f9beb27d9d818844257754b8ceed948c7d4a73271d07211d",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "05-tdee-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/fitness/tdee-calculator",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+        "https://cdn.realfood.gov/DGA.pdf"
+      ],
+      "title": "Total Daily Energy Expenditure Estimate",
+      "reviewedOn": "2026-10-03",
+      "sha256": "0847ed4fb358e6929959de6ec1baaa5276d7bfd7e2be931a015d69be6d9515cb"
+    }
   },
   {
     "file": "06-macro-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/fitness/macro-calculator",
-    "sources": [
-      "https://www.nal.usda.gov/programs/fnic",
-      "https://www.fda.gov/media/81606/download?attachment=",
-      "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
-    ],
-    "title": "Macronutrient Percentage Allocator",
-    "reviewedOn": "2026-10-03",
-    "sha256": "3a4d3fb09ae0fc1a53fc17646fd6003d63833fb9a3f703623dabe681e611e37a"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "0f7fcb3ad6f2ed9b66fc43108db6c08100204250ddeccff68f73b539ccb386e6",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "06-macro-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/fitness/macro-calculator",
+      "sources": [
+        "https://www.nal.usda.gov/programs/fnic",
+        "https://www.fda.gov/media/81606/download?attachment=",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ],
+      "title": "Macronutrient Percentage Allocator",
+      "reviewedOn": "2026-10-03",
+      "sha256": "3a4d3fb09ae0fc1a53fc17646fd6003d63833fb9a3f703623dabe681e611e37a"
+    }
   },
   {
     "file": "07-body-fat-calculator.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/fitness/body-fat-calculator",
-    "sources": [
-      "https://api.army.mil/e2/c/downloads/566071.pdf",
-      "https://www.nationalacademies.org/read/6104/chapter/4"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "ed6eb1b5e672829d914f4ad182243cca7dceadd4cae1b770eaf171568861e2fd"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "a50465d968d393bb7a3aa1182f853f2935ccbec8ad44c96447fcc461f62017f8",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "07-body-fat-calculator.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/fitness/body-fat-calculator",
+      "sources": [
+        "https://api.army.mil/e2/c/downloads/566071.pdf",
+        "https://www.nationalacademies.org/read/6104/chapter/4"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "ed6eb1b5e672829d914f4ad182243cca7dceadd4cae1b770eaf171568861e2fd"
+    }
   },
   {
     "file": "08-calorie-deficit-calculator.md",
-    "status": "source-based claim review completed 2026-10-03; personalized target and timeline withheld; tool now arithmetic-only",
     "route": "/fitness/calorie-deficit-calculator",
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/17848938/",
-      "https://www.niddk.nih.gov/bwp"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "b65b8ae2f1c6ad0a11d451a6280a092ffc3effb0894030dd29b9371e01683a69"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "18a9232000dcf58bbf20714339fd0deda6d078a9db6703170f788ef1aa282f1d",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "08-calorie-deficit-calculator.md",
+      "status": "source-based claim review completed 2026-10-03; personalized target and timeline withheld; tool now arithmetic-only",
+      "route": "/fitness/calorie-deficit-calculator",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17848938/",
+        "https://www.niddk.nih.gov/bwp"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "b65b8ae2f1c6ad0a11d451a6280a092ffc3effb0894030dd29b9371e01683a69"
+    }
   },
   {
     "file": "09-ovulation-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/ovulation-calculator",
-    "sources": [
-      "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "397bfb3e932fde7633d23e41cf2e223fbcc2f329f6d8d6ae18bc22b6e5afd505"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "32033e7e0b08a75c8afdac0b7083ea9d4e85ec58b881ef81ce7516a980cfeb52",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "09-ovulation-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/ovulation-calculator",
+      "sources": [
+        "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "397bfb3e932fde7633d23e41cf2e223fbcc2f329f6d8d6ae18bc22b6e5afd505"
+    }
   },
   {
     "file": "10-fetal-weight-percentile-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/fetal-weight-percentile",
-    "sources": [
-      "https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/",
-      "https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "cd1f99bf99fde2c00fe7920686d063f2f8225295f4e5b940b52c351faa56e755",
-    "recheckedOn": "2026-10-03"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "3e3d38e516b746da4f90e7064dfde820bb00d322d5f037463221b851b3b76b16",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "10-fetal-weight-percentile-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/fetal-weight-percentile",
+      "sources": [
+        "https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/",
+        "https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "cd1f99bf99fde2c00fe7920686d063f2f8225295f4e5b940b52c351faa56e755",
+      "recheckedOn": "2026-10-03"
+    }
   },
   {
     "file": "11-stress-level-test.md",
-    "status": "source-based review completed; questionnaire withheld pending confirmation of permission to use",
     "route": "/mental-health/stress-level-test",
-    "sources": [
-      "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/index.html",
-      "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pssscoring.html"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "eba82dabc0069a9e6ba09c25be8357a83c1d822088f5b1d8ad591d2026f17508"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "57c4412f0b74560afb980366cd1944ed17cb80f56135d7ebed5b5f5a70dc305b",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "11-stress-level-test.md",
+      "status": "source-based review completed; questionnaire withheld pending confirmation of permission to use",
+      "route": "/mental-health/stress-level-test",
+      "sources": [
+        "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/index.html",
+        "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pssscoring.html"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "eba82dabc0069a9e6ba09c25be8357a83c1d822088f5b1d8ad591d2026f17508"
+    }
   },
   {
     "file": "12-a1c-blood-sugar-converter.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/a1c-blood-sugar-converter",
-    "sources": [
-      "https://professional.diabetes.org/glucose_calc",
-      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
-      "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "5649f4e5a26cf2e86e100ba277f85187a7c4757a8f4e51256eb5bc3fb670ddec"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "1a77cb72a6698e51d8d2bd910242897df9800792124da5b54acf4b33b0d85c2b",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "12-a1c-blood-sugar-converter.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/a1c-blood-sugar-converter",
+      "sources": [
+        "https://professional.diabetes.org/glucose_calc",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "5649f4e5a26cf2e86e100ba277f85187a7c4757a8f4e51256eb5bc3fb670ddec"
+    }
   },
   {
     "file": "13-sleep-quality-calculator.md",
-    "status": "source-based review completed; arithmetic-only diary estimate, prior modified PSQI withheld",
     "route": "/mental-health/sleep-quality-calculator",
-    "sources": [
-      "https://www.sleep.pitt.edu/psqi"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "9d31a3f8de0b9daba57474f3a5c673e3feda81e77d200e86cd13973d31c88f15"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "f54a8f83f55cd4085f07e839454b5a170efbec2e267e3ca1aa06b1d97297b320",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "13-sleep-quality-calculator.md",
+      "status": "source-based review completed; arithmetic-only diary estimate, prior modified PSQI withheld",
+      "route": "/mental-health/sleep-quality-calculator",
+      "sources": [
+        "https://www.sleep.pitt.edu/psqi"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "9d31a3f8de0b9daba57474f3a5c673e3feda81e77d200e86cd13973d31c88f15"
+    }
   },
   {
     "file": "14-protein-intake-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/fitness/protein-intake-calculator",
-    "sources": [
-      "https://cdn.realfood.gov/DGA.pdf",
-      "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
-      "https://medlineplus.gov/ency/article/002093.htm",
-      "https://www.nationalacademies.org/read/10490/chapter/12"
-    ],
-    "title": "Protein Intake Reference Calculator — U.S. Guidelines",
-    "reviewedOn": "2026-10-03",
-    "sha256": "a551941a51bd1d21a5279cf6c92f531974871e99a4dd8f0fafea2e82050e22e9"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "d8a1bb6ebfd9635d49729d3c7ae642f5e119e0631fb78028b5664e26cfaa6a1b",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "14-protein-intake-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/fitness/protein-intake-calculator",
+      "sources": [
+        "https://cdn.realfood.gov/DGA.pdf",
+        "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
+        "https://medlineplus.gov/ency/article/002093.htm",
+        "https://www.nationalacademies.org/read/10490/chapter/12"
+      ],
+      "title": "Protein Intake Reference Calculator \u2014 U.S. Guidelines",
+      "reviewedOn": "2026-10-03",
+      "sha256": "a551941a51bd1d21a5279cf6c92f531974871e99a4dd8f0fafea2e82050e22e9"
+    }
   },
   {
     "file": "15-bmi-calculator-teens.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/body-metrics/bmi-calculator-teens",
-    "sources": [
-      "https://www.cdc.gov/growthcharts/cdc-data-files.htm",
-      "https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm",
-      "https://www.cdc.gov/growth-chart-training/hcp/using-bmi/plotting-interpreting-bmi.html",
-      "https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html",
-      "https://www.cdc.gov/bmi/faq/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "a96bf0a0bb58e5fcc0069e7e8a15be72b33840b2c9d448611680fc2ced5defa1"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "4878f18e6fcacd25d017bbb4e68d9537d28885cc577db73acc0bda5d8ff4c7ab",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "15-bmi-calculator-teens.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/body-metrics/bmi-calculator-teens",
+      "sources": [
+        "https://www.cdc.gov/growthcharts/cdc-data-files.htm",
+        "https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm",
+        "https://www.cdc.gov/growth-chart-training/hcp/using-bmi/plotting-interpreting-bmi.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html",
+        "https://www.cdc.gov/bmi/faq/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "a96bf0a0bb58e5fcc0069e7e8a15be72b33840b2c9d448611680fc2ced5defa1"
+    }
   },
   {
     "file": "16-gfr-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/gfr-calculator",
-    "sources": [
-      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
-      "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "34130d3c163f7a6619e9298bb1b907827f56732ccc1c13a5787ef50ef57c9bdc"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "2c3f1ac169e872d04bc8e48febb28749e2f2b03f35e1f4fa67e7b3b73bf34cb8",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "16-gfr-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/gfr-calculator",
+      "sources": [
+        "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+        "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "34130d3c163f7a6619e9298bb1b907827f56732ccc1c13a5787ef50ef57c9bdc"
+    }
   },
   {
     "file": "17-pregnancy-safe-food-checker.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food-checker",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
-    ],
-    "title": "Pregnancy Food Guide: Reviewed Topics and Scope",
-    "reviewedOn": "2026-10-03",
-    "sha256": "488fa68ebdbbc52d164480101541eb8d659764ea8c0549278920c31c3c930055"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "7ff4d240abeabdd34baa914924245e2a91191157fd63b1f9878ffa4bc8fe3423",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "17-pregnancy-safe-food-checker.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food-checker",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
+      ],
+      "title": "Pregnancy Food Guide: Reviewed Topics and Scope",
+      "reviewedOn": "2026-10-03",
+      "sha256": "488fa68ebdbbc52d164480101541eb8d659764ea8c0549278920c31c3c930055"
+    }
   },
   {
     "file": "18-bmr-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/body-metrics/bmr-calculator",
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
-      "https://cdn.realfood.gov/DGA.pdf"
-    ],
-    "title": "Resting Energy Estimate — Mifflin–St Jeor",
-    "reviewedOn": "2026-10-03",
-    "sha256": "1f7c14ad6d3f73352b45d6618ae8b4f327041fe2653c51bf81ac7b06225a8eec"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "e9cb00ebda21c286acb4774114084ce6e5da4ab6e1dc35bc873435788fc73204",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "18-bmr-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/body-metrics/bmr-calculator",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+        "https://cdn.realfood.gov/DGA.pdf"
+      ],
+      "title": "Resting Energy Estimate \u2014 Mifflin\u2013St Jeor",
+      "reviewedOn": "2026-10-03",
+      "sha256": "1f7c14ad6d3f73352b45d6618ae8b4f327041fe2653c51bf81ac7b06225a8eec"
+    }
   },
   {
     "file": "19-one-rep-max-calculator.md",
-    "status": "claim review completed 2026-10-03; estimator and training chart withheld pending direct formula-source verification",
     "route": "/fitness/one-rep-max-calculator",
-    "sources": [
-      "https://www.tandfonline.com/doi/abs/10.1080/07303084.1993.10606684",
-      "https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "3bee55e901017e22dcf68d152d634a75d09fc3f98237ce8ecaaff4810ba437cc"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "7cd5263df36e7cee114ad7df9eabdf68984d8800d8dc2af5ea312d548c4ddd6f",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "19-one-rep-max-calculator.md",
+      "status": "claim review completed 2026-10-03; estimator and training chart withheld pending direct formula-source verification",
+      "route": "/fitness/one-rep-max-calculator",
+      "sources": [
+        "https://www.tandfonline.com/doi/abs/10.1080/07303084.1993.10606684",
+        "https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "3bee55e901017e22dcf68d152d634a75d09fc3f98237ce8ecaaff4810ba437cc"
+    }
   },
   {
     "file": "20-ideal-weight-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/body-metrics/ideal-weight-calculator",
-    "sources": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/",
-      "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "f6b91ec11a2fa686f2ab6a4d88294ea90ac9f90b1c2048aff7c2fbee1568ac58"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "426e91b017e18fec98257226a98146a6ec2a557444b26b238ef7fdb766c7f366",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "20-ideal-weight-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/body-metrics/ideal-weight-calculator",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/",
+        "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "f6b91ec11a2fa686f2ab6a4d88294ea90ac9f90b1c2048aff7c2fbee1568ac58"
+    }
   },
   {
     "file": "21-burnout-quiz.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/mental-health/burnout-quiz",
-    "sources": [
-      "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "12a2fc324f89fbf1fb21c7c1e0f5790c84bac24c8834ee4d8df6a5603a72391d"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "993a4f220c6b459fd7ae2d03ecb4edbd19273fc6ea4a995e251843e8d9b76870",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "21-burnout-quiz.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/mental-health/burnout-quiz",
+      "sources": [
+        "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "12a2fc324f89fbf1fb21c7c1e0f5790c84bac24c8834ee4d8df6a5603a72391d"
+    }
   },
   {
     "file": "22-anxiety-self-assessment.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/mental-health/anxiety-self-assessment",
-    "sources": [
-      "https://www.nih.gov/node/19876",
-      "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326",
-      "https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_offer_free_public_access_to_mental_health_assessment_tools_to_improve_diagnosis_and_patient_care"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "78d59d9d7f9503be7546d3763d1b420ccceb87117c5bdb6b34795c5b72e918d4"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "6782a4297bf3b4f8c60411eac1e9be575fbb49bc40b0dddb831249722ee4156c",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "22-anxiety-self-assessment.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/mental-health/anxiety-self-assessment",
+      "sources": [
+        "https://www.nih.gov/node/19876",
+        "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326",
+        "https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_offer_free_public_access_to_mental_health_assessment_tools_to_improve_diagnosis_and_patient_care"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "78d59d9d7f9503be7546d3763d1b420ccceb87117c5bdb6b34795c5b72e918d4"
+    }
   },
   {
     "file": "23-lean-body-mass-calculator.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/fitness/lean-body-mass-calculator",
-    "sources": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5079277/",
-      "https://pubmed.ncbi.nlm.nih.gov/6496691/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "908050b95dfc99b5acc953f7d43e999df8337a127689e69de3047eac70a51fb7"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "739c6479e8324e835d99bd28e190190f1ba988ecbbf2add07b4740d1bfeb22a1",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "23-lean-body-mass-calculator.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/fitness/lean-body-mass-calculator",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5079277/",
+        "https://pubmed.ncbi.nlm.nih.gov/6496691/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "908050b95dfc99b5acc953f7d43e999df8337a127689e69de3047eac70a51fb7"
+    }
   },
   {
     "file": "24-calorie-calculator-women-over-50.md",
-    "status": "source-based claim review completed 2026-10-03; prior maintenance/weight-loss targets and age-related recommendations removed",
     "route": "/body-metrics/calorie-calculator-women-over-50",
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "36b6a1815b99d9fe832c9e10f83ef2bd7f76767729d0f6c14db11d72eafcff7f"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "32341fe6e4f73e6c910fc369cae9af9715d1fe27117c187bf317bfec7b808d0e",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "24-calorie-calculator-women-over-50.md",
+      "status": "source-based claim review completed 2026-10-03; prior maintenance/weight-loss targets and age-related recommendations removed",
+      "route": "/body-metrics/calorie-calculator-women-over-50",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "36b6a1815b99d9fe832c9e10f83ef2bd7f76767729d0f6c14db11d72eafcff7f"
+    }
   },
   {
     "file": "25-contraction-timer.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/contraction-timer",
-    "sources": [
-      "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins",
-      "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "f9b24f6fc82e88ecd7af9ee35fb76ff9e066672b14e59dfb0375e79fe6766349",
-    "recheckedOn": "2026-10-03"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "7aab52c73bc851f6ca2e29db83fa0a88a6d095f40709b20f733552e891104081",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "25-contraction-timer.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/contraction-timer",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins",
+        "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "f9b24f6fc82e88ecd7af9ee35fb76ff9e066672b14e59dfb0375e79fe6766349",
+      "recheckedOn": "2026-10-03"
+    }
   },
   {
     "file": "26-adhd-self-assessment.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/mental-health/adhd-self-assessment",
-    "sources": [
-      "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
-      "https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/adhd/Old%20Versions/6Question-ADHD-ASRS-v1-1.pdf"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "8366e872f86fe45b1a908d142d469bc12b6413cf5b0cdb00d1daf34d3f6e2af8"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "51e2f06db99f960dc483e6852e61a1acfb46e10696a2cbbb258d9256fdf8fb75",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "26-adhd-self-assessment.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/mental-health/adhd-self-assessment",
+      "sources": [
+        "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+        "https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/adhd/Old%20Versions/6Question-ADHD-ASRS-v1-1.pdf"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "8366e872f86fe45b1a908d142d469bc12b6413cf5b0cdb00d1daf34d3f6e2af8"
+    }
   },
   {
     "file": "27-anemia-risk-checker.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/anemia-risk-checker",
-    "sources": [
-      "https://www.nhlbi.nih.gov/health/anemia/diagnosis"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "1b8af44681a8bd2dddff513037445b51f83e2515a240915e68364ae5bd522b51"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "5cd0797f5b60d5448bb0360c7ae0e6e32b3d188c1fbd2caacc2ba0f14c65b8e6",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "27-anemia-risk-checker.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/anemia-risk-checker",
+      "sources": [
+        "https://www.nhlbi.nih.gov/health/anemia/diagnosis"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "1b8af44681a8bd2dddff513037445b51f83e2515a240915e68364ae5bd522b51"
+    }
   },
   {
     "file": "28-body-frame-size-calculator.md",
-    "status": "source-based page review completed 2026-10-03; prior calculation and category withdrawn; no numerical output active",
     "route": "/body-metrics/body-frame-size-calculator",
-    "sources": [],
-    "reviewedOn": "2026-10-03",
-    "sha256": "d99c3650cf13709633911f63e19f13ea1d36cc6c8fd1a61259f3f3707d026317"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "0d8c837644ad02c33cbc68148646df7c0b9541513353a4fb55a6742476a4e2c6",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "28-body-frame-size-calculator.md",
+      "status": "source-based page review completed 2026-10-03; prior calculation and category withdrawn; no numerical output active",
+      "route": "/body-metrics/body-frame-size-calculator",
+      "sources": [],
+      "reviewedOn": "2026-10-03",
+      "sha256": "d99c3650cf13709633911f63e19f13ea1d36cc6c8fd1a61259f3f3707d026317"
+    }
   },
   {
     "file": "29-tdee-calculator-teens.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/body-metrics/tdee-calculator-teens",
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
-      "https://www.myplate.gov/life-stages/teens"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "b4bc25057fbaa044a508ded857051e13e1a337a289f8f7de5ba2f7ca74cc7199"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "28463eff0208677d7af6f5546d4510e25af5b5e3ecc2d9d29cc359a79badc22d",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "29-tdee-calculator-teens.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/body-metrics/tdee-calculator-teens",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+        "https://www.myplate.gov/life-stages/teens"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "b4bc25057fbaa044a508ded857051e13e1a337a289f8f7de5ba2f7ca74cc7199"
+    }
   },
   {
     "file": "30-protein-needs-seniors.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/body-metrics/protein-needs-seniors",
-    "sources": [
-      "https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf",
-      "https://cdn.realfood.gov/DGA.pdf"
-    ],
-    "title": "Protein Reference for Healthy Older Adults: ESPEN Guidance",
-    "reviewedOn": "2026-10-03",
-    "sha256": "420d30143b716c6b4cbeb703383b3b44186ad194584e951f3cad4a0a73276ff6"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "44f2c3bffd9c6c26e8ad1513f4fbc0f1c26147acef8c948855f480dcd2d34d80",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "30-protein-needs-seniors.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/body-metrics/protein-needs-seniors",
+      "sources": [
+        "https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf",
+        "https://cdn.realfood.gov/DGA.pdf"
+      ],
+      "title": "Protein Reference for Healthy Older Adults: ESPEN Guidance",
+      "reviewedOn": "2026-10-03",
+      "sha256": "420d30143b716c6b4cbeb703383b3b44186ad194584e951f3cad4a0a73276ff6"
+    }
   },
   {
     "file": "31-kidney-function-calculator.md",
-    "status": "source-based claim review completed 2026-10-03; unsupported CKD staging and action recommendations removed",
     "route": "/conditions/kidney-function-calculator",
-    "sources": [
-      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
-      "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "ef0ebdfa35bbcc98030ae753945370da64dac2bef0301bd83771e05f4ebdaa22"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "853f80867b69d663e893af79a36fdbfc9c97406f28eae89ac87c54213a22984b",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "31-kidney-function-calculator.md",
+      "status": "source-based claim review completed 2026-10-03; unsupported CKD staging and action recommendations removed",
+      "route": "/conditions/kidney-function-calculator",
+      "sources": [
+        "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+        "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "ef0ebdfa35bbcc98030ae753945370da64dac2bef0301bd83771e05f4ebdaa22"
+    }
   },
   {
     "file": "32-macro-calculator-pcos.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/fitness/macro-calculator-pcos",
-    "sources": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "8f07c9d741da0a1c3921dff476e31adf1e1c40e5e6832614482cb0cc61c425fe"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "edad76203c437124dfacea64c6026b4ecfde7fab2a41d4f7a012d3ddad201d43",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "32-macro-calculator-pcos.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/fitness/macro-calculator-pcos",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "8f07c9d741da0a1c3921dff476e31adf1e1c40e5e6832614482cb0cc61c425fe"
+    }
   },
   {
     "file": "33-ivf-due-date-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/ivf-due-date-calculator",
-    "sources": [
-      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "b8cf4cc44e6de1b69a0eaa3cedb30fb485b88200e2f70cac49e911a7d1ec5640"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "1b37e79762ac2888c7253f77429448862a017e1bcd85516c4e05ee0a3e8743a1",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "33-ivf-due-date-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/ivf-due-date-calculator",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "b8cf4cc44e6de1b69a0eaa3cedb30fb485b88200e2f70cac49e911a7d1ec5640"
+    }
   },
   {
     "file": "34-baby-growth-percentile-calculator.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/baby-growth-percentile",
-    "sources": [
-      "https://www.who.int/tools/child-growth-standards/standards/weight-for-age",
-      "https://www.cdc.gov/growth-chart-training/hcp/overview/recommended.html",
-      "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html",
-      "https://iris.who.int/bitstream/handle/10665/43601/9789241595070_C_eng.pdf"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "23debe85c81487f59feef2fd929524382ae727bf051caa9dc3d82fc1fc36a30d",
-    "recheckedOn": "2026-10-03"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "1b43d923d063fd84219e05fe0d9353e5ab95da66f3200ba1247be3129722006a",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "34-baby-growth-percentile-calculator.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/baby-growth-percentile",
+      "sources": [
+        "https://www.who.int/tools/child-growth-standards/standards/weight-for-age",
+        "https://www.cdc.gov/growth-chart-training/hcp/overview/recommended.html",
+        "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html",
+        "https://iris.who.int/bitstream/handle/10665/43601/9789241595070_C_eng.pdf"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "23debe85c81487f59feef2fd929524382ae727bf051caa9dc3d82fc1fc36a30d",
+      "recheckedOn": "2026-10-03"
+    }
   },
   {
     "file": "35-bmi-vs-body-fat-which-matters.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/blog/bmi-vs-body-fat-which-matters",
-    "sources": [
-      "https://www.cdc.gov/bmi/faq/index.html"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "be35355c60f3a38778725faedaf5d587c5b94fe3591cb02fe33a55c9e957636c"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "e9624cb87ce1e87a726f528cc3b8639d0256c2a5b52385a3c2a60594fae973ec",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "35-bmi-vs-body-fat-which-matters.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/blog/bmi-vs-body-fat-which-matters",
+      "sources": [
+        "https://www.cdc.gov/bmi/faq/index.html"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "be35355c60f3a38778725faedaf5d587c5b94fe3591cb02fe33a55c9e957636c"
+    }
   },
   {
     "file": "36-understanding-tdee-complete-guide.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/blog/understanding-tdee-complete-guide",
-    "sources": [
-      "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "c6ecc1f2b7fc78719e2de6475873e601a1c992eb1086c1e4fcd9404a0d18a7c3"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "5a9393e84d1ad3b4de5c9e31ed316090faa94b778058485e35a55eb9870c371e",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "36-understanding-tdee-complete-guide.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/blog/understanding-tdee-complete-guide",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "c6ecc1f2b7fc78719e2de6475873e601a1c992eb1086c1e4fcd9404a0d18a7c3"
+    }
   },
   {
     "file": "37-pregnancy-weight-gain-science.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/blog/pregnancy-weight-gain-science",
-    "sources": [
-      "https://www.nationalacademies.org/read/12584/chapter/2",
-      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
-      "https://www.nationalacademies.org/publications/12584",
-      "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "02c62201d705cc18e3b412ebb7060daea51f66dcaa4608e649001f49588d55ba"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "9f1e0aaa643626befbb2cbf5d8855d8e6df194fac8698b7e4753cbee817c133b",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "37-pregnancy-weight-gain-science.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/blog/pregnancy-weight-gain-science",
+      "sources": [
+        "https://www.nationalacademies.org/read/12584/chapter/2",
+        "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+        "https://www.nationalacademies.org/publications/12584",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "02c62201d705cc18e3b412ebb7060daea51f66dcaa4608e649001f49588d55ba"
+    }
   },
   {
     "file": "38-pregnancy-nutrition-guide.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/blog/pregnancy-nutrition-guide",
-    "sources": [
-      "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
-      "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
-      "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "92b631161a365b658774433c1ddd18f72a6a6605c886ca1e27c933298ab56a06"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "76971e4d8ad590d51194ecca76f728a2d798f35fab941a37a3f1977b26e1a6fa",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "38-pregnancy-nutrition-guide.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/blog/pregnancy-nutrition-guide",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+        "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-pregnant-women-and-their-unborn-babies"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "92b631161a365b658774433c1ddd18f72a6a6605c886ca1e27c933298ab56a06"
+    }
   },
   {
     "file": "39-how-stress-affects-body.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/blog/how-stress-affects-body",
-    "sources": [
-      "https://www.nccih.nih.gov/health/stress"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "457a5f067fb58e618eff95e8ce63dee70f043e2447c1ae38d68e9d995eed0f31"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "65fe8cea0854e1f093ffbefbc1349b9d94eea72eb5f1f673e8fa6881dbed03d4",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "39-how-stress-affects-body.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/blog/how-stress-affects-body",
+      "sources": [
+        "https://www.nccih.nih.gov/health/stress"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "457a5f067fb58e618eff95e8ce63dee70f043e2447c1ae38d68e9d995eed0f31"
+    }
   },
   {
     "file": "40-protein-how-much-you-need.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/blog/protein-how-much-you-need",
-    "sources": [
-      "https://cdn.realfood.gov/DGA.pdf",
-      "https://www.nationalacademies.org/read/10490/chapter/12",
-      "https://pubmed.ncbi.nlm.nih.gov/28698222/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "4c90ac650503dcbbc70d6fd61742d68a0d358f0c81795502f2233fa7c5a339f1"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "6c8275bf61840aee0a7115dd7d0325f2582959e014443f0d1ff116e642286500",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "40-protein-how-much-you-need.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/blog/protein-how-much-you-need",
+      "sources": [
+        "https://cdn.realfood.gov/DGA.pdf",
+        "https://www.nationalacademies.org/read/10490/chapter/12",
+        "https://pubmed.ncbi.nlm.nih.gov/28698222/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "4c90ac650503dcbbc70d6fd61742d68a0d358f0c81795502f2233fa7c5a339f1"
+    }
   },
   {
     "file": "food-alcohol.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/alcohol",
-    "sources": [
-      "https://www.cdc.gov/alcohol-pregnancy/about/index.html"
-    ],
-    "title": "Alcohol During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "1096dd290f957788bbf11f505ab8762a4f9747fd5e46b1c6f7347e2c329a117a"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "4da8afbba79d61672a2c8e64c3e3900750b8989734ba50fd5867dff2f4d5b9a2",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-alcohol.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/alcohol",
+      "sources": [
+        "https://www.cdc.gov/alcohol-pregnancy/about/index.html"
+      ],
+      "title": "Alcohol During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "1096dd290f957788bbf11f505ab8762a4f9747fd5e46b1c6f7347e2c329a117a"
+    }
   },
   {
     "file": "food-blue-cheese.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/safe-food/blue-cheese",
-    "sources": [
-      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
-      "https://www.cdc.gov/listeria/prevention/index.html"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "b992b1102fcba41a7fb5815447dca93bc75f3a10096dd105d1a1963194cacc9d"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "42b7deed5ac1ff18a2cb73498ed357dc393d0a328f32221d7c70a731e400bc6c",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-blue-cheese.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/safe-food/blue-cheese",
+      "sources": [
+        "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
+        "https://www.cdc.gov/listeria/prevention/index.html"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "b992b1102fcba41a7fb5815447dca93bc75f3a10096dd105d1a1963194cacc9d"
+    }
   },
   {
     "file": "food-cod.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/cod",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
-    ],
-    "title": "Cod During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "4291d5cfa2c1dc867240343aa6f68c58ab3806abc41e057e80426b8a31278ff7"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "a480cbef0ab9ca7dede6b58a56dd3fe4e183d932c9e6b22577c2f5ed98af73e9",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-cod.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/cod",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
+      ],
+      "title": "Cod During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "4291d5cfa2c1dc867240343aa6f68c58ab3806abc41e057e80426b8a31278ff7"
+    }
   },
   {
     "file": "food-coffee.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/coffee",
-    "sources": [
-      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
-      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant",
-      "https://www.acog.org/womens-health/faqs/headaches-and-pregnancy"
-    ],
-    "title": "Coffee and Caffeine During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "c33898a63c4628a5601a458b7d91a00dfad97594e8d1bbfc07f722900a7ff3b6"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "d17fb55b5aa8da9a3744e27b12672e121f7554478ad5a3a3ca198b3877be7fcc",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-coffee.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/coffee",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
+        "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant",
+        "https://www.acog.org/womens-health/faqs/headaches-and-pregnancy"
+      ],
+      "title": "Coffee and Caffeine During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "c33898a63c4628a5601a458b7d91a00dfad97594e8d1bbfc07f722900a7ff3b6"
+    }
   },
   {
     "file": "food-eggs.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/eggs",
-    "sources": [
-      "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
-      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
-    ],
-    "title": "Eggs During Pregnancy: Cooking and Handling",
-    "reviewedOn": "2026-10-03",
-    "sha256": "86a7a46d03fec54e17dacdd2f0e2bba483f6696f7b2d54ca172a82666cb5823e"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "d8ff43fc1b750bc102768783fa82f58f5f7e19068f1a3ecc2b2680763b747cf3",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-eggs.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/eggs",
+      "sources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      ],
+      "title": "Eggs During Pregnancy: Cooking and Handling",
+      "reviewedOn": "2026-10-03",
+      "sha256": "86a7a46d03fec54e17dacdd2f0e2bba483f6696f7b2d54ca172a82666cb5823e"
+    }
   },
   {
     "file": "food-matcha.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/matcha",
-    "sources": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796401/",
-      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy"
-    ],
-    "title": "Matcha and Caffeine During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "d67256c35d882948114e51d5b1bc22460dbe3723a6393f9a1b4d0644a01ef7ed"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "30896e56341508fb04f94be04c615a6408bf4aed9fe52722dd3d2b1439bbf3e8",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-matcha.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/matcha",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796401/",
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy"
+      ],
+      "title": "Matcha and Caffeine During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "d67256c35d882948114e51d5b1bc22460dbe3723a6393f9a1b4d0644a01ef7ed"
+    }
   },
   {
     "file": "food-peanut-butter.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/peanut-butter",
-    "sources": [
-      "https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf"
-    ],
-    "title": "Peanut Butter During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "162a1432a09b8296fc069cebdbae9494a5a7a3e80c27259298f3c0e650a74e37"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "697c5d3d804573625192ba5b5f9ed40cc0e106ad0d9497aa20ebc6489161f9a8",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-peanut-butter.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/peanut-butter",
+      "sources": [
+        "https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf"
+      ],
+      "title": "Peanut Butter During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "162a1432a09b8296fc069cebdbae9494a5a7a3e80c27259298f3c0e650a74e37"
+    }
   },
   {
     "file": "food-pre-made-salads.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/safe-food/pre-made-salads",
-    "sources": [
-      "https://www.cdc.gov/listeria/prevention/index.html",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/tips-chill-food-food-safety-moms-be"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "3c8d3feac0ec599d9688ad257acb4c8bc1b562ae737f149b72b8fca23aeb3734"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "6fb6a40a845d8017f0c6776f3588b016c35062c22df5137fad055bbd13bc06a6",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-pre-made-salads.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/safe-food/pre-made-salads",
+      "sources": [
+        "https://www.cdc.gov/listeria/prevention/index.html",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/tips-chill-food-food-safety-moms-be"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "3c8d3feac0ec599d9688ad257acb4c8bc1b562ae737f149b72b8fca23aeb3734"
+    }
   },
   {
     "file": "food-salmon.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/salmon",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
-      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
-    ],
-    "title": "Salmon During Pregnancy: Fish Categories and Cooking",
-    "reviewedOn": "2026-10-03",
-    "sha256": "acd1f11678f66f6eb6a1075c3478c9b5b792ba7b780fbbe6f6d1988d902cdfbd"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "f0803040d34d291a8253992521b2b4a76def74af4d6334874c8f4ded70927efd",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-salmon.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/salmon",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+        "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
+      ],
+      "title": "Salmon During Pregnancy: Fish Categories and Cooking",
+      "reviewedOn": "2026-10-03",
+      "sha256": "acd1f11678f66f6eb6a1075c3478c9b5b792ba7b780fbbe6f6d1988d902cdfbd"
+    }
   },
   {
     "file": "food-soft-cheese.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/safe-food/soft-cheese",
-    "sources": [
-      "https://www.cdc.gov/listeria/prevention/index.html",
-      "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "a7d9565ba5b965a7d165ff43a434b5d717187f192885bd88a7a62e69b4a051e1"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "00438b07083e714c377e694b698f54f010a0ad401a9b7ea52e7cdd8e420073fa",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-soft-cheese.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/safe-food/soft-cheese",
+      "sources": [
+        "https://www.cdc.gov/listeria/prevention/index.html",
+        "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "a7d9565ba5b965a7d165ff43a434b5d717187f192885bd88a7a62e69b4a051e1"
+    }
   },
   {
     "file": "food-steak.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/pregnancy/safe-food/steak",
-    "sources": [
-      "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "7ac4a4226a1438c35dcd42958333163bfa788d5f74e622c93197d30a02e5de06"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "262b66deb59dd0b8297a6eccc9070fe6d1d8909f3e07f3bad6db7dae85a7dd38",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-steak.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/pregnancy/safe-food/steak",
+      "sources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "7ac4a4226a1438c35dcd42958333163bfa788d5f74e622c93197d30a02e5de06"
+    }
   },
   {
     "file": "food-sushi.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/sushi",
-    "sources": [
-      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
-    ],
-    "title": "Sushi During Pregnancy: Raw and Cooked Fish",
-    "reviewedOn": "2026-10-03",
-    "sha256": "7a4a4c8881b6257a6f9150ed748e324d9a4de2403ad7daae34e3424ab6d49465"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "d0788c0e5885bb5810f8bfb1a254b67c3b268218876a21c387ab249e24a66e16",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-sushi.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/sushi",
+      "sources": [
+        "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+      ],
+      "title": "Sushi During Pregnancy: Raw and Cooked Fish",
+      "reviewedOn": "2026-10-03",
+      "sha256": "7a4a4c8881b6257a6f9150ed748e324d9a4de2403ad7daae34e3424ab6d49465"
+    }
   },
   {
     "file": "food-tuna.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/pregnancy/safe-food/tuna",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
-    ],
-    "title": "Tuna During Pregnancy: Follow the FDA Category",
-    "reviewedOn": "2026-10-03",
-    "sha256": "056a7305d4cdf69b59225e22fa5878e390a7e0228d7d52ba1d72dc23061783f0"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "83d233a311872f15fb3ff766b9f50fdc605fa9152ab182189c95f055b70f8d98",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "food-tuna.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/pregnancy/safe-food/tuna",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+      ],
+      "title": "Tuna During Pregnancy: Follow the FDA Category",
+      "reviewedOn": "2026-10-03",
+      "sha256": "056a7305d4cdf69b59225e22fa5878e390a7e0228d7d52ba1d72dc23061783f0"
+    }
   },
   {
     "file": "guide-8-dpo-pregnancy-test.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/8-dpo-pregnancy-test",
-    "sources": [
-      "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "69dbad4d5bbd3d92f3ffec1b2891d44161b89c70961c918da6d162bb3be731fa",
-    "recheckedOn": "2026-10-03"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "151812a65147ac769e287b8f23f1c16ca2cc14eb225e1293767915426788552e",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-8-dpo-pregnancy-test.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/8-dpo-pregnancy-test",
+      "sources": [
+        "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "69dbad4d5bbd3d92f3ffec1b2891d44161b89c70961c918da6d162bb3be731fa",
+      "recheckedOn": "2026-10-03"
+    }
   },
   {
     "file": "guide-anxiety-vs-stress.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/anxiety-vs-stress-difference",
-    "sources": [
-      "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
-      "https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "4a65738a18a489e699b1e61bc4449700d0c533b5cf952678522b02e62b7288a8"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "0eba8d856daee872ad5017f0c3b64cfd308d746fe0bd6fcdae84065b4bf03554",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-anxiety-vs-stress.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/anxiety-vs-stress-difference",
+      "sources": [
+        "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+        "https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "4a65738a18a489e699b1e61bc4449700d0c533b5cf952678522b02e62b7288a8"
+    }
   },
   {
     "file": "guide-blood-sugar-levels-by-age.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/blood-sugar-levels-by-age",
-    "sources": [
-      "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis",
-      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "669e157e5b7311024ec3501c27142466da5f761a2760d9313c5b0e12103e9609"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "a721b787fdf31b3fc49ba01c650533e2dce21e7a1b2bd6fed04fefd7c4d846c8",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-blood-sugar-levels-by-age.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/blood-sugar-levels-by-age",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "669e157e5b7311024ec3501c27142466da5f761a2760d9313c5b0e12103e9609"
+    }
   },
   {
     "file": "guide-bmr-vs-tdee.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/bmr-vs-tdee-difference",
-    "sources": [
-      "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
-      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "479b9a218a4179816d20f4eeb73454aa53aa6f62675708b07bb499101c0fc09b"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "0178b253800041eb0c003b5e73785478b21b361301faf33b90860958ddc37794",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-bmr-vs-tdee.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/bmr-vs-tdee-difference",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
+        "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "479b9a218a4179816d20f4eeb73454aa53aa6f62675708b07bb499101c0fc09b"
+    }
   },
   {
     "file": "guide-drinks-pregnancy.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/guides/drinks-pregnancy",
-    "sources": [
-      "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
-      "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
-      "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
-    ],
-    "title": "Drinks During Pregnancy: Caffeine and Food-Safety Sources",
-    "reviewedOn": "2026-10-03",
-    "sha256": "db5a027771edbb9c4cd6d63e8d24996c055759d1d341ff2283e06a31779a51dd"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "8f8a51f9b29b452532baeffefc18f42de950a782b779d9ee47ced837368a7951",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-drinks-pregnancy.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/guides/drinks-pregnancy",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
+        "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
+        "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      ],
+      "title": "Drinks During Pregnancy: Caffeine and Food-Safety Sources",
+      "reviewedOn": "2026-10-03",
+      "sha256": "db5a027771edbb9c4cd6d63e8d24996c055759d1d341ff2283e06a31779a51dd"
+    }
   },
   {
     "file": "guide-everyday-foods-pregnancy.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/guides/everyday-foods-pregnancy",
-    "sources": [
-      "https://www.cdc.gov/food-safety/foods/pregnant-women.html",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
-      "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
-    ],
-    "title": "Everyday Food Handling During Pregnancy",
-    "reviewedOn": "2026-10-03",
-    "sha256": "2019329b2e72509d42e7f68f6ff7709c863a4c3db0d74adee525c515f7519af4"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "416a20c368dc480bda3e1e6e7fef4b715172418b50563a7bcb368c4c362ea973",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-everyday-foods-pregnancy.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/guides/everyday-foods-pregnancy",
+      "sources": [
+        "https://www.cdc.gov/food-safety/foods/pregnant-women.html",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cleaning-food-safety-moms-be",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "title": "Everyday Food Handling During Pregnancy",
+      "reviewedOn": "2026-10-03",
+      "sha256": "2019329b2e72509d42e7f68f6ff7709c863a4c3db0d74adee525c515f7519af4"
+    }
   },
   {
     "file": "guide-fish-seafood-pregnancy.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/guides/fish-seafood-pregnancy",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
-      "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
-    ],
-    "title": "Fish and Seafood During Pregnancy: FDA/EPA Categories",
-    "reviewedOn": "2026-10-03",
-    "sha256": "8d9d78529ea25c7aa901c1bf037485211ab21d818eb78751b07e3b1909855a6a"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "785344ddd8bd342900b0d3d47cec1e651263d456e660e727116d488038f21dc0",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-fish-seafood-pregnancy.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/guides/fish-seafood-pregnancy",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+        "https://www.acog.org/womens-health/experts-and-stories/ask-acog/can-i-eat-sushi-while-im-pregnant"
+      ],
+      "title": "Fish and Seafood During Pregnancy: FDA/EPA Categories",
+      "reviewedOn": "2026-10-03",
+      "sha256": "8d9d78529ea25c7aa901c1bf037485211ab21d818eb78751b07e3b1909855a6a"
+    }
   },
   {
     "file": "guide-hcg-levels-by-week.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/hcg-levels-by-week",
-    "sources": [
-      "https://medlineplus.gov/ency/article/003510.htm",
-      "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
-      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "d427acef88de83ea3368dbc457e33bdad7023f4b7fcd92ec1ee4b9b14b94c979"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "625b076613247dcf18b8c4db2b52d8cf4c79d3d74cc248fa2aa73845c57c0b18",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-hcg-levels-by-week.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/hcg-levels-by-week",
+      "sources": [
+        "https://medlineplus.gov/ency/article/003510.htm",
+        "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
+        "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "d427acef88de83ea3368dbc457e33bdad7023f4b7fcd92ec1ee4b9b14b94c979"
+    }
   },
   {
     "file": "guide-keto-macros.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/keto-macros-how-to-calculate",
-    "sources": [
-      "https://www.fda.gov/media/81606/download",
-      "https://pubmed.ncbi.nlm.nih.gov/23801097/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "dacccc834a1a59074e6afc6b871f4a39f867f7ea19ab399acca550632829b3a9"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "38450bcb3e223c26065c408c38e743e4e1e9ab74e90be4360a31bd3a49754015",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-keto-macros.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/keto-macros-how-to-calculate",
+      "sources": [
+        "https://www.fda.gov/media/81606/download",
+        "https://pubmed.ncbi.nlm.nih.gov/23801097/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "dacccc834a1a59074e6afc6b871f4a39f867f7ea19ab399acca550632829b3a9"
+    }
   },
   {
     "file": "guide-measure-body-fat-at-home.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/how-to-measure-body-fat-at-home",
-    "sources": [
-      "https://www.cdc.gov/bmi/faq/index.html",
-      "https://api.army.mil/e2/c/downloads/566071.pdf"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "931d1a9a04d1d2372d8a60a0be49b93cf22343b92e99f61d818c28023684a713"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "ee9688eabd43c916c88485c92eb3713bf6d0a124586557af3120a94da82e9d1c",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-measure-body-fat-at-home.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/how-to-measure-body-fat-at-home",
+      "sources": [
+        "https://www.cdc.gov/bmi/faq/index.html",
+        "https://api.army.mil/e2/c/downloads/566071.pdf"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "931d1a9a04d1d2372d8a60a0be49b93cf22343b92e99f61d818c28023684a713"
+    }
   },
   {
     "file": "guide-meat-deli-pregnancy.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/meat-deli-pregnancy",
-    "sources": [
-      "https://www.cdc.gov/listeria/prevention/index.html",
-      "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
-      "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "489cd3c92b947575fe7d2fd1391256ed15e42b5c8ec46b56ef4d82d24b28ec41"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "95964bb538c1af350041cdb83e50c0fd19a3b2319df8ab404bc37532724d3d78",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-meat-deli-pregnancy.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/meat-deli-pregnancy",
+      "sources": [
+        "https://www.cdc.gov/listeria/prevention/index.html",
+        "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "489cd3c92b947575fe7d2fd1391256ed15e42b5c8ec46b56ef4d82d24b28ec41"
+    }
   },
   {
     "file": "guide-normal-gfr-by-age.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/normal-gfr-by-age",
-    "sources": [
-      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics",
-      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
-      "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "b5e2ed8a31598da1db05dc659ef920b9d9d39cd1ff5b4a67b0ebd2d049304197"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "68e97e27788d42c1827d5428b1315b218f6e605671ee8aca97d08a0caf396fe7",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-normal-gfr-by-age.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/normal-gfr-by-age",
+      "sources": [
+        "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics",
+        "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "b5e2ed8a31598da1db05dc659ef920b9d9d39cd1ff5b4a67b0ebd2d049304197"
+    }
   },
   {
     "file": "guide-pregnancy-weight-gain-by-trimester.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/pregnancy-weight-gain-by-trimester",
-    "sources": [
-      "https://www.nationalacademies.org/read/12584/chapter/2",
-      "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "39e706d1bc5aaf241e363b5bd4de95c0bb96445c03ae58fbb3e7d063b81b7083"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "5e97e9166c446ed5cf52264f6431d0105d36f9de14b38354c022d52b24fc3ec3",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-pregnancy-weight-gain-by-trimester.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/pregnancy-weight-gain-by-trimester",
+      "sources": [
+        "https://www.nationalacademies.org/read/12584/chapter/2",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "39e706d1bc5aaf241e363b5bd4de95c0bb96445c03ae58fbb3e7d063b81b7083"
+    }
   },
   {
     "file": "guide-prodromal-labor.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/prodromal-labor",
-    "sources": [
-      "https://my.clevelandclinic.org/health/symptoms/24163-prodromal-labor",
-      "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "dc4d3439348c725e9ade6c8df4918da8e79a9fc749d624a632c0e7f268de9bf4"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "773209f512c6067b9f71ef6078e7c31d01864bc79f5436bde8deaab8ab785e8a",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-prodromal-labor.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/prodromal-labor",
+      "sources": [
+        "https://my.clevelandclinic.org/health/symptoms/24163-prodromal-labor",
+        "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "dc4d3439348c725e9ade6c8df4918da8e79a9fc749d624a632c0e7f268de9bf4"
+    }
   },
   {
     "file": "guide-resting-heart-rate-by-age.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/healthy-resting-heart-rate-by-age",
-    "sources": [
-      "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "614430280804c3beae74789de02fd321e43e851ff0cacc188beb9952c300426f"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "023ee443b934834d0cf4948765cf9ee369582c54b7f2c4825aa36b2ccfcf3a5a",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-resting-heart-rate-by-age.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/healthy-resting-heart-rate-by-age",
+      "sources": [
+        "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "614430280804c3beae74789de02fd321e43e851ff0cacc188beb9952c300426f"
+    }
   },
   {
     "file": "guide-spotting-during-ovulation.md",
-    "status": "source-based review and second verification completed 2026-10-03",
     "route": "/guides/spotting-during-ovulation",
-    "sources": [
-      "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
-      "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
-    ],
-    "recheckedOn": "2026-10-03",
-    "sha256": "8bbf16402214f568fac07fc721f77c984b105665a5039017db85043048377b64"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "9268ff40b0ff904f0deff55e626e6540c2bb2734db8065400e464258b8bcb1e4",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-spotting-during-ovulation.md",
+      "status": "source-based review and second verification completed 2026-10-03",
+      "route": "/guides/spotting-during-ovulation",
+      "sources": [
+        "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+        "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/"
+      ],
+      "recheckedOn": "2026-10-03",
+      "sha256": "8bbf16402214f568fac07fc721f77c984b105665a5039017db85043048377b64"
+    }
   },
   {
     "file": "guide-what-a1c-is-diabetic.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/guides/what-a1c-is-diabetic",
-    "sources": [
-      "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test",
-      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
-      "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "fdd15aae5434c05dd28b23be36f1576305f92ccfceb4089ccbaa7292ea7c9468"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "7b79806f3677bef75e0ee71a56599950adae2757e9127821ee3d4c766caec075",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "guide-what-a1c-is-diabetic.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/guides/what-a1c-is-diabetic",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
+        "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "fdd15aae5434c05dd28b23be36f1576305f92ccfceb4089ccbaa7292ea7c9468"
+    }
   },
   {
     "file": "tool-cholesterol-ratio-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/cholesterol-ratio-calculator",
-    "sources": [
-      "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean",
-      "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "4cc7049039399b1c4029c034a917e929e865326d40c6fb1207e9cd61e0287861"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "4d7c17089cbcadbd5cdb999e55fbf9a468e7a4660268b3603eb1657e371a6512",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-cholesterol-ratio-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/cholesterol-ratio-calculator",
+      "sources": [
+        "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean",
+        "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "4cc7049039399b1c4029c034a917e929e865326d40c6fb1207e9cd61e0287861"
+    }
   },
   {
     "file": "tool-postpartum-depression-screening.md",
-    "status": "source-based claim review completed 2026-10-03; form and scoring withheld pending confirmation of online reproduction permission",
     "route": "/mental-health/postpartum-depression-screening",
-    "sources": [
-      "https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool",
-      "https://loinc.org/71354-5/panel"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "5b6ce6e3007886589802644c3252d4d5bc916dc2aadc5b072fbe83231990ac4c"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "f2a5831c48a53cadde644e42de6294c5f83a98ecc4cf919658c725862e21c3f9",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-postpartum-depression-screening.md",
+      "status": "source-based claim review completed 2026-10-03; form and scoring withheld pending confirmation of online reproduction permission",
+      "route": "/mental-health/postpartum-depression-screening",
+      "sources": [
+        "https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool",
+        "https://loinc.org/71354-5/panel"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "5b6ce6e3007886589802644c3252d4d5bc916dc2aadc5b072fbe83231990ac4c"
+    }
   },
   {
     "file": "tool-sleep-calculator.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/mental-health/sleep-calculator",
-    "sources": [
-      "https://www.cdc.gov/sleep/about/index.html",
-      "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "91bd8afcfe07395572062947871378a56176de1ca798dee31ffd4f55befca870"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "ea27e86533d9fd1b2b371e35883deb3fa50ad3f1b9620a3624701fd3467644b0",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-sleep-calculator.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/mental-health/sleep-calculator",
+      "sources": [
+        "https://www.cdc.gov/sleep/about/index.html",
+        "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "91bd8afcfe07395572062947871378a56176de1ca798dee31ffd4f55befca870"
+    }
   },
   {
     "file": "tool-thyroid-function-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/thyroid-function-calculator",
-    "sources": [
-      "https://www.thyroid.org/thyroid-function-tests/",
-      "https://www.thyroid.org/hyperthyroidism-in-pregnancy/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "af1727390740be0ce1774fc5cc48ef029181371aeb981eee8f1871b75d711bdd"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "b5b1ba513fe459033b9a38162438df6056e795648654a15bea6e115b6de03e67",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-thyroid-function-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/thyroid-function-calculator",
+      "sources": [
+        "https://www.thyroid.org/thyroid-function-tests/",
+        "https://www.thyroid.org/hyperthyroidism-in-pregnancy/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "af1727390740be0ce1774fc5cc48ef029181371aeb981eee8f1871b75d711bdd"
+    }
   },
   {
     "file": "tool-vitamin-d-calculator.md",
-    "status": "source-based claim review completed 2026-10-03",
     "route": "/conditions/vitamin-d-calculator",
-    "sources": [
-      "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/",
-      "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "413c8b2699009a4bf94e7c59684c59aa4fa5f669f212f87560213b3dfd719936"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "da7e3c23d72efe5adc3cda38245db79614e2fb016e0bcd71ad70ec980efa2040",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-vitamin-d-calculator.md",
+      "status": "source-based claim review completed 2026-10-03",
+      "route": "/conditions/vitamin-d-calculator",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/",
+        "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "413c8b2699009a4bf94e7c59684c59aa4fa5f669f212f87560213b3dfd719936"
+    }
   },
   {
     "file": "tool-waist-to-hip-ratio-calculator.md",
-    "status": "source-based review completed 2026-10-03",
     "route": "/body-metrics/waist-to-hip-ratio-calculator",
-    "sources": [
-      "https://www.who.int/publications/i/item/9789241501491"
-    ],
-    "reviewedOn": "2026-10-03",
-    "sha256": "637b92fb9c6642816944487cdb032e62c10c218df3d280795bdddb90aeb35ef7"
+    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
+    "sha256": "ee007357ebd69929b88aa55013c83a8443ce3e1a9e8e768b22ba0d7739c7a060",
+    "restoredFrom": "healthcalc-main (7).zip",
+    "previousShortenedVersionReview": {
+      "file": "tool-waist-to-hip-ratio-calculator.md",
+      "status": "source-based review completed 2026-10-03",
+      "route": "/body-metrics/waist-to-hip-ratio-calculator",
+      "sources": [
+        "https://www.who.int/publications/i/item/9789241501491"
+      ],
+      "reviewedOn": "2026-10-03",
+      "sha256": "637b92fb9c6642816944487cdb032e62c10c218df3d280795bdddb90aeb35ef7"
+    }
   },
   {
     "route": "/pregnancy/safe-food",
-    "title": "Pregnancy Food Guidance",
-    "status": "directory and shared copy scope checked 2026-10-03; page contains links to reviewed articles",
-    "sources": [
-      "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
-      "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
-      "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
-    ],
-    "reviewedOn": "2026-10-03"
+    "status": "directory source record retained as history; linked original articles recovered and unverified",
+    "previousShortenedVersionReview": {
+      "route": "/pregnancy/safe-food",
+      "title": "Pregnancy Food Guidance",
+      "status": "directory and shared copy scope checked 2026-10-03; page contains links to reviewed articles",
+      "sources": [
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or",
+        "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
+        "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      ],
+      "reviewedOn": "2026-10-03"
+    }
   }
 ]

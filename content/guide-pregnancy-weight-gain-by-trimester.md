@@ -1,31 +1,56 @@
-<!-- last-updated: 2026-10-03 -->
-# Pregnancy Weight Gain by Trimester: Ranges, Not a Weekly Pass/Fail Test
+<!-- last-updated: June 2026 -->
+# Pregnancy Weight Gain by Trimester: IOM Guidelines
 
-A straight line on a chart can imply that everyone should gain the same amount each week. The guidelines provide reference ranges and assumptions; they do not require perfectly linear gain.
+Weight gain during pregnancy follows a predictable pattern: minimal in the first trimester, steady in the second, and sustained in the third. Understanding this pattern prevents unnecessary worry when the scale doesn't move in month 2 or jumps suddenly in month 7.
 
-## Second- and third-trimester reference rates
+## Trimester-by-Trimester Breakdown
 
-The [National Academies' 2009 report, Summary Table S-1](https://www.nationalacademies.org/read/12584/chapter/2) gives these US reference ranges for singleton pregnancies:
+> **Key Takeaway:** First trimester: 1–5 lbs total (some women lose weight from morning sickness — this is normal). Second trimester: approximately 1 lb per week for normal-weight women. Third trimester: approximately 1 lb per week, then often slows in the final 2 weeks. Most total gain happens in the second and third trimesters.
 
-| Pre-pregnancy BMI | Reference gain, kg/week |
-|---|---|
-| Below 18.5 | 0.44–0.58 |
-| 18.5 to below 25 | 0.35–0.50 |
-| 25 to below 30 | 0.23–0.33 |
-| 30 and above | 0.17–0.27 |
+| **Trimester** | **Normal Weight (BMI 18.5–24.9)** | **Overweight (BMI 25–29.9)** | **Obese (BMI 30+)** |
+|---|---|---|---|
+| First (weeks 1–13) | 1–5 lbs total | 1–5 lbs total | 1–5 lbs total |
+| Second (weeks 14–26) | ~1 lb/week (~12 lbs) | ~0.6 lb/week (~8 lbs) | ~0.5 lb/week (~6 lbs) |
+| Third (weeks 27–40) | ~1 lb/week (~12 lbs) | ~0.6 lb/week (~8 lbs) | ~0.5 lb/week (~6 lbs) |
+| **Total** | **25–35 lbs** | **15–25 lbs** | **11–20 lbs** |
 
-The rate calculations assume 0.5–2 kg total gain in the first trimester. That assumption is not a promise that loss or a particular gain is harmless. These rates are not a tool for diagnosing pregnancy health from one week.
+Source: IOM 2009 Guidelines.
 
-## Worked arithmetic example
+## First Trimester Weight Gain
 
-For a starting BMI of 22, the table's 0.35–0.50 kg/week range would amount to 1.4–2.0 kg across four weeks if gain were constant. That is a multiplication example, not an individual target or a forecast. Your actual trend can differ and needs context.
+Most women gain 1–5 lbs in the first trimester — some gain nothing, some lose weight. Morning sickness, food aversions, and appetite changes make the first trimester unpredictable. This is normal and doesn't affect fetal development — the baby is tiny and draws minimal energy at this stage.
 
-## What to monitor
+> **Note:** If morning sickness causes weight loss in the first trimester, don't try to compensate by eating more later. Your body will naturally increase appetite in the second trimester. Forced overeating doesn't help — gradual return to normal intake is the appropriate approach.
 
-Use dated measurements and ask your care team how to interpret the trend. Do not compensate for a missed chart target by deliberately restricting or forcing food intake. Do not infer fetal growth from maternal weight alone.
+## Second Trimester Weight Gain
 
-The [total-gain calculator](/pregnancy/weight-gain-calculator) shows singleton or twin total ranges. It intentionally does not produce a universal weekly “on track” curve. Persistent vomiting or inability to keep fluids down needs advice rather than reassurance from an assumed normal first-trimester loss.
+The second trimester is when most weight gain begins in earnest. Appetite typically normalizes, the fetus grows rapidly, blood volume expands, and the placenta reaches full function.
 
-Review the [CDC warning-sign guidance](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) for symptoms that need prompt attention.
+Expect approximately 1 lb per week for normal-weight women, 0.6 lb for overweight, 0.5 lb for obese. Weeks where you gain 0.5 lbs and weeks where you gain 1.5 lbs are both normal — the average over 4 weeks matters more than any single week.
 
-*Educational reference information. A trimester range does not replace an individual care plan.*
+## Third Trimester Weight Gain
+
+Weight gain continues at a similar rate to the second trimester through approximately week 36–37, then often slows or plateaus in the final weeks as the baby's growth rate decelerates and the body prepares for delivery.
+
+> **Tip:** Weigh yourself weekly at the same time (morning, after bathroom, before eating) rather than daily. Daily weight fluctuates 1–3 lbs from water retention alone. Weekly averages tracked on our [pregnancy weight gain calculator](/pregnancy/weight-gain-calculator) give a clear trend line.
+
+> **Bottom Line:** First trimester: minimal gain (1–5 lbs). Second and third: approximately 1 lb/week for normal weight. The pattern is more important than any single weigh-in. Track weekly, not daily. Compare your trajectory to IOM guidelines — but remember they're ranges, not exact targets.
+
+## Frequently Asked Questions
+
+**How much weight should I gain by 20 weeks?**
+
+For normal-weight women: approximately 10–15 lbs by week 20 (1–5 lbs first trimester + ~1 lb/week for 7 weeks of second trimester). Your provider compares your trajectory to the IOM curve at each prenatal visit.
+
+**Is it normal to not gain weight in the first trimester?**
+
+Yes. Many women gain nothing or lose 1–5 lbs in the first trimester due to morning sickness. This is common and doesn't indicate a problem unless weight loss is severe (>5% of body weight) or persistent.
+
+**Why did my weight jump suddenly in the third trimester?**
+
+Water retention increases significantly in the third trimester. A 2–3 lb "jump" in a single week is usually fluid, not fat. Consistent elevated gain over multiple weeks is worth discussing with your provider.
+
+## Sources
+
+1. IOM. Weight Gain During Pregnancy: Reexamining the Guidelines. 2009.
+2. ACOG. Practice Bulletin No. 230: Gestational Weight Gain. 2021.

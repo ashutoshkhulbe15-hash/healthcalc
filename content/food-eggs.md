@@ -1,22 +1,57 @@
-<!-- last-updated: 2026-10-03 -->
-# Eggs During Pregnancy: Cooking and Handling
+<!-- last-updated: June 2026 -->
+# Can I Eat Eggs During Pregnancy? Cooking & Safety Guide
 
-US FDA guidance says to cook eggs until both the yolk and white are firm. For dishes containing eggs, use the temperature specified by the recipe or authoritative food-safety guidance; FDA specifies 160°F for casseroles and other egg dishes. Raw or undercooked eggs can carry Salmonella, which can cause foodborne illness.
+Fully cooked eggs are considered safe and nutritionally excellent during pregnancy. The only rule: cook until both yolk and white are solid — no runny yolks, no soft-boiled, no raw eggs in dressings or desserts. The concern is Salmonella, which is killed by thorough cooking.
 
-## Recipes served raw or undercooked
+Eggs are one of the most nutrient-dense foods available during pregnancy — providing choline, protein, vitamin D, B12, and selenium in a single affordable package.
 
-For a recipe that remains raw or undercooked, such as some Caesar dressings or homemade ice cream, FDA advises using shell eggs treated to destroy Salmonella (including pasteurized eggs) or pasteurized egg products. Follow the product label and recipe directions. Pasteurization is not a reason to ignore safe handling or cooking directions for other ingredients.
+## Are Eggs Safe During Pregnancy?
 
-Keep eggs refrigerated and handle raw eggs separately from ready-to-eat food. Wash hands and utensils after contact with raw eggs. FDA's current [egg-safety page](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety) gives storage, preparation and serving details.
+> **Key Takeaway:** According to FDA guidelines, eggs cooked until both yolk and white are firm are considered safe throughout pregnancy. Avoid runny yolks, soft-boiled, poached with liquid yolk, raw cookie dough, homemade mayo with raw eggs, and mousse. Pasteurized eggs (marked on carton) can be used in preparations that involve raw or lightly cooked eggs.
 
-## Regional guidance can differ
+| **Preparation** | **Safe?** |
+|---|---|
+| Hard-boiled | ✅ Yes |
+| Scrambled (fully set) | ✅ Yes |
+| Fried (firm yolk) | ✅ Yes |
+| Omelet (fully cooked) | ✅ Yes |
+| Soft-boiled (runny yolk) | ❌ Avoid |
+| Poached (liquid yolk) | ❌ Avoid |
+| Raw in dough/batter | ❌ Avoid |
+| Homemade mayo (raw egg) | ❌ Avoid |
+| Pasteurized eggs (any prep) | ✅ Yes |
 
-This page summarizes US FDA advice. For example, the UK NHS permits runny hen eggs from specified British Lion or Laid in Britain schemes when within date; that is a different, explicitly limited national rule. Follow the food-safety guidance for where you live and the actual product label.
+## Why Eggs Are Excellent for Pregnancy
 
-*Educational US food-safety information. This page does not verify a particular restaurant, egg carton or recipe.*
+| **Nutrient** | **Per 2 large eggs** | **Pregnancy benefit** |
+|---|---|---|
+| Choline | 294mg | Fetal brain development — 65% of 450mg daily need |
+| Protein | 12g | Complete protein, all essential amino acids |
+| Vitamin D | 82 IU | Bone development |
+| Vitamin B12 | 1.1mcg | Nervous system development |
+| Selenium | 30mcg | Thyroid, antioxidant |
+| Iron | 1.8mg | Blood production |
+
+> **Note:** Choline is the standout nutrient. Two eggs provide 65% of the 450mg daily pregnancy requirement. Choline is critical for fetal brain development and memory formation — and most prenatal vitamins don't contain enough. Eggs are the most practical dietary choline source available.
+
+> **Bottom Line:** Fully cooked eggs (firm yolk and white) are considered safe and highly beneficial during pregnancy per FDA guidelines. They're one of the best choline sources available. Avoid runny preparations unless using pasteurized eggs.
+
+## Frequently Asked Questions
+
+**Can I eat eggs while pregnant?**
+
+Yes — fully cooked eggs with firm yolk and white are considered safe per FDA guidelines. Avoid runny, soft-boiled, or raw egg preparations due to Salmonella risk.
+
+**Are runny eggs safe during pregnancy?**
+
+Standard runny eggs are not recommended. If you want runny yolks, use pasteurized eggs (marked on the carton) — pasteurization kills Salmonella before cooking.
+
+**How many eggs can I eat per day while pregnant?**
+
+No specific limit from ACOG or FDA. Two eggs daily provides excellent choline and protein. Most providers consider 2–3 eggs daily appropriate during pregnancy.
 
 ## Sources
 
-[FDA: What You Need to Know About Egg Safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-to-know-about-egg-safety).
-
-[NHS: Foods to Avoid in Pregnancy (egg advice)](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
+1. FDA. Food Safety for Pregnant Women. 2023.
+2. Zeisel SH. Choline: needed for normal development of memory. *JAMA.* 2009.
+3. ACOG. Nutrition During Pregnancy. 2023.

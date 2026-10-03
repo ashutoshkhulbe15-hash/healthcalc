@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Source-based content review — pregnancy food and drink batch 2
 
 Reviewed October 3, 2026. This batch covers 12 article pages, the related food directory and checker, and the shared labels/cards/metadata that surface them. The first batch covered 15 pregnancy pages, so 27 of the site’s 76 articles have now received this deeper page-by-page review; 49 articles remain unreviewed under this standard. The site as a whole is not verified.

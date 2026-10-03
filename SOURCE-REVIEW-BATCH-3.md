@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Source-based review — pregnancy calculation and timing batch 3
 
 Reviewed October 3, 2026. This batch covers five content pages and their rendered calculator, metadata, shared cards and formula/data code. The 76-row content inventory now records 33 reviewed entries and 43 entries awaiting claim-by-claim review; this count includes the pregnancy food checker, a tool page, in addition to articles. The wider site has not been represented as verified. This is source-based editorial review, not practitioner review.

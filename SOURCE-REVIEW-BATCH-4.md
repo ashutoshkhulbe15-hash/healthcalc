@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Source-based review batch 4 — final pending pages and consistency checks
 
 Reviewed October 3, 2026. This batch closes the pages previously listed as awaiting deeper claim review. It covers the remaining 14 unique content files, related route metadata, quick answers, calculator outputs, diagrams/cards and shared disclosures. It also corrects the name of the already-reviewed body-composition calculator to match the Army regulation that supplies its equation. See [the complete 76-file page/source inventory](SOURCE-REVIEW-INVENTORY.json) for each content file, route, source URLs, status and current SHA-256.

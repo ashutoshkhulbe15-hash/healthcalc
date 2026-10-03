@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Pregnancy batch 1: second source verification
 
 Rechecked October 3, 2026. Scope: all 15 batch-1 articles, their page metadata, four associated calculator interfaces/results, shared page templates and related-card text. Nothing has been deployed. The 61 other articles remain outside this completed review.

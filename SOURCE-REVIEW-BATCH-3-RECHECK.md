@@ -1,3 +1,5 @@
+> Historical record: this document describes the shortened article versions before original-content recovery. All 76 original articles were reinstated on 2026-10-03; these prior findings do not verify the recovered prose. See CONTENT-RECOVERY-STATUS.md.
+
 # Batch 3 second source and implementation verification
 
 October 3, 2026. Five pages were checked again against their complete article, calculator/result text, quick answer, metadata, source links, shared cards and existing disclaimer. This is source-based review. It does not establish practitioner approval or verify the 43 inventory pages outside the completed scope.

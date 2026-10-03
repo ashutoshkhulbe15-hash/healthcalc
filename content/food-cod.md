@@ -1,16 +1,12 @@
-<!-- last-updated: 2026-10-03 -->
-# Cod During Pregnancy
+<!-- last-updated: June 2026 -->
+# Can I Eat Cod During Pregnancy? Mercury & Safety
 
-The [FDA/EPA fish chart](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or) lists cod as a “Best Choice.” For adults who are or may become pregnant, US advice is 2–3 four-ounce servings a week from the Best Choices category in total, choosing variety. This is not a separate 2–3 serving allowance for cod plus other Best Choices fish.
+Cod is FDA best choice — very low mercury (0.011 ppm). Cook to 145°F. Up to 12 oz per week. Mild flavor makes it well-tolerated during pregnancy.
 
-FDA says to cook finfish to 145°F (63°C), or until opaque and flaky when a thermometer is not available or appropriate. Check local advisories for self-caught fish. The category describes mercury advice; it does not verify the safety or handling of a particular portion.
+> **Key Takeaway:** Cod is in the FDA lowest-mercury category (0.011 ppm). Lean, mild white fish with 20g protein per 3oz serving. Cook to 145°F. Up to 12 oz per week alongside other low-mercury fish. Good option when stronger-flavored fish triggers aversion.
 
-See the [fish and seafood guide](/guides/fish-seafood-pregnancy) for the full FDA/EPA category chart.
-
-*Educational US food-safety information.*
+> **Bottom Line:** Check the detailed guidance above. When in doubt about any food during pregnancy, see our [safe food checker](/pregnancy/safe-food-checker).
 
 ## Sources
-
-[FDA/EPA: Advice About Eating Fish](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or).
-
-[FDA: Cooking seafood](https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be).
+1. FDA. Food Safety for Pregnant Women. 2023.
+2. ACOG. Nutrition During Pregnancy. 2023.
