@@ -5,7 +5,8 @@ import { CATEGORIES, TOOLS, getCategoryBySlug } from "@/lib/data";
 
 export default function ToolsPage() {
   const [activeCat, setActiveCat] = useState("All");
-  const filtered = activeCat === "All" ? TOOLS : TOOLS.filter((t) => t.category === activeCat);
+  const liveTools = TOOLS.filter((t) => t.live);
+  const filtered = activeCat === "All" ? liveTools : liveTools.filter((t) => t.category === activeCat);
 
   return (
     <>
@@ -24,10 +25,10 @@ export default function ToolsPage() {
           <div className="flex gap-2 flex-wrap mb-8">
             <button type="button" aria-pressed={activeCat === "All"} onClick={() => setActiveCat("All")}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${activeCat === "All" ? "bg-brand-600 text-white" : "bg-white border border-slate-200 text-slate-600 hover:border-brand-300"}`}>
-              All ({TOOLS.length})
+              All ({liveTools.length})
             </button>
             {CATEGORIES.map((c) => {
-              const count = TOOLS.filter(t => t.category === c.slug).length;
+              const count = liveTools.filter(t => t.category === c.slug).length;
               return (
                 <button type="button" aria-pressed={activeCat === c.slug} key={c.slug} onClick={() => setActiveCat(c.slug)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${activeCat === c.slug ? "bg-brand-600 text-white" : "bg-white border border-slate-200 text-slate-600 hover:border-brand-300"}`}>

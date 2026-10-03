@@ -1,15 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import { CalcInput, CalcSelect, CalcButton, CalcShell, ResultsShell, ResultCard, StatusBadge, UnitToggle, CalcError } from "@/components/CalcUI";
-
-const RANGES_M = [{max:6,label:"Essential",color:"#EF4444"},{max:14,label:"Athletic",color:"#22C55E"},{max:18,label:"Fit",color:"#22C55E"},{max:25,label:"Average",color:"#F59E0B"},{max:100,label:"Obese",color:"#EF4444"}];
-const RANGES_F = [{max:14,label:"Essential",color:"#EF4444"},{max:21,label:"Athletic",color:"#22C55E"},{max:25,label:"Fit",color:"#22C55E"},{max:32,label:"Average",color:"#F59E0B"},{max:100,label:"Obese",color:"#EF4444"}];
+import { CalcInput, CalcSelect, CalcButton, CalcShell, ResultsShell, ResultCard, UnitToggle, CalcError } from "@/components/CalcUI";
+import { circumferenceBodyCompositionEstimate } from "@/lib/health-math";
 
 export function BodyFatCalc() {
   const [unit, setUnit] = useState("metric"); const [gender, setGender] = useState("male");
   const [waist, setWaist] = useState(""); const [neck, setNeck] = useState("");
   const [hip, setHip] = useState(""); const [height, setHeight] = useState("");
-  const [result, setResult] = useState<{bf:number;leanMass:number;fatMass:number;category:string;status:"good"|"warning"|"danger"}|null>(null);
+  const [result, setResult] = useState<{bf:number}|null>(null);
 
   useEffect(()=>{setResult(null);},[unit,gender,waist,neck,hip,height]);
   const [error,setError]=useState("");
@@ -18,16 +16,10 @@ export function BodyFatCalc() {
     let w=parseFloat(waist), n=parseFloat(neck), h=parseFloat(height), hp=parseFloat(hip)||0;
     if (![w,n,h].every(v=>Number.isFinite(v)&&v>0)) {setResult(null);setError("Enter positive measurements.");return;}
     if (unit==="metric") { w/=2.54; n/=2.54; h/=2.54; hp/=2.54; }
-    if((gender==="male"&&w<=n)||(gender==="female"&&(!Number.isFinite(hp)||hp<=0||w+hp<=n))){setResult(null);setError("Check the circumferences: the logarithm requires a positive waist minus neck (male) or waist plus hip minus neck (female).");return;}
-    let bf: number;
-    if (gender==="male") bf=86.010*Math.log10(w-n)-70.041*Math.log10(h)+36.76;
-    else { if(!hp) return; bf=163.205*Math.log10(w+hp-n)-97.684*Math.log10(h)-78.387; }
-    if(!Number.isFinite(bf)||bf<=0||bf>=100){setResult(null);setError("These measurements fall outside this estimator’s useful range. Check the measurements or seek a measured assessment.");return;}
-    bf=Math.round(bf*10)/10;
-    const ranges=gender==="male"?RANGES_M:RANGES_F;
-    const cat=ranges.find(r=>bf<r.max)||ranges[ranges.length-1];
-    const status=cat.label==="Athletic"||cat.label==="Fit"?"good":cat.label==="Average"?"warning":"danger";
-    setResult({bf,leanMass:100-bf,fatMass:bf,category:cat.label,status});
+    let bf:number;
+    try { bf=circumferenceBodyCompositionEstimate(w,n,h,gender as "male"|"female",hp); }
+    catch(e) { setResult(null);setError((e as Error).message);return; }
+    setResult({bf});
   };
 
   return (
@@ -35,32 +27,23 @@ export function BodyFatCalc() {
       <CalcShell>
         <UnitToggle value={unit} onChange={v=>{setUnit(v);setHeight("");setWaist("");setNeck("");setHip("");}} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
-          <CalcSelect label="Gender" value={gender} onChange={setGender} options={[{value:"male",label:"Male"},{value:"female",label:"Female"}]} />
+          <CalcSelect label="Equation selection" value={gender} onChange={setGender} options={[{value:"male",label:"Male equation"},{value:"female",label:"Female equation"}]} />
           <CalcInput label={`Height (${unit==="metric"?"cm":"inches"})`} value={height} onChange={setHeight} />
-          <CalcInput label={`Waist circumference (${unit==="metric"?"cm":"inches"})`} value={waist} onChange={setWaist} placeholder="At navel" />
-          <CalcInput label={`Neck circumference (${unit==="metric"?"cm":"inches"})`} value={neck} onChange={setNeck} placeholder="Below Adam's apple" />
+          <CalcInput label={`${gender==="male"?"Abdomen":"Waist"} circumference (${unit==="metric"?"cm":"inches"})`} value={waist} onChange={setWaist} placeholder={gender==="male"?"At navel":"Use the method's waist site"} />
+          <CalcInput label={`Neck circumference (${unit==="metric"?"cm":"inches"})`} value={neck} onChange={setNeck} placeholder="As measured for this method" />
           {gender==="female" && <CalcInput label={`Hip circumference (${unit==="metric"?"cm":"inches"})`} value={hip} onChange={setHip} placeholder="At widest point" />}
         </div>
-        <CalcButton onClick={calculate} label="Calculate Body Fat" />
+        <p className="mb-4 text-sm text-slate-600">This is a military circumference-equation estimate. It does not provide a diagnosis, health category, or personal target.</p>
+        <CalcButton onClick={calculate} label="Calculate estimate" />
         <CalcError message={error}/>
       </CalcShell>
       {result && (
         <ResultsShell>
-          <StatusBadge status={result.status} text={`${result.bf}% body fat — ${result.category}`} />
-          <div className="mb-6">
-            <div className="flex rounded-full overflow-hidden h-5">
-              <div className="bg-brand-500 transition-all" style={{width:`${100-result.bf}%`}} />
-              <div className="bg-amber-300 transition-all" style={{width:`${result.bf}%`}} />
-            </div>
-            <div className="flex justify-between text-[11px] text-slate-400 mt-1">
-              <span>Lean mass: {result.leanMass.toFixed(1)}%</span><span>Fat mass: {result.fatMass.toFixed(1)}%</span>
-            </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <ResultCard label="Equation estimate" value={`${result.bf}%`} highlight />
+            <ResultCard label="Method" value="Military circumference equation" sub="Army Regulation 600-9, Appendix B" />
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-            <ResultCard label="Body fat %" value={`${result.bf}%`} sub={result.category} highlight />
-            <ResultCard label="Lean mass" value={`${result.leanMass.toFixed(1)}%`} />
-            <ResultCard label="Method" value="U.S. Navy" sub="Hodgdon & Beckett, 1984" />
-          </div>
+          <p className="mt-4 text-sm text-slate-600">This number is an estimate from the equation and entered measurements. It is not a clinical measurement or health classification.</p>
         </ResultsShell>
       )}
     </>

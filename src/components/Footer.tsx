@@ -40,7 +40,7 @@ export function Footer() {
               <Link href="/body-metrics/bmi-calculator" className="text-sm text-slate-500 hover:text-brand-400 no-underline transition-colors">BMI Calculator</Link>
               <Link href="/fitness/macro-calculator" className="text-sm text-slate-500 hover:text-brand-400 no-underline transition-colors">Macro Calculator</Link>
               <Link href="/pregnancy/due-date-calculator" className="text-sm text-slate-500 hover:text-brand-400 no-underline transition-colors">Due Date Calculator</Link>
-              <Link href="/mental-health/stress-level-test" className="text-sm text-slate-500 hover:text-brand-400 no-underline transition-colors">Stress Level Test</Link>
+              <Link href="/mental-health/stress-level-test" className="text-sm text-slate-500 hover:text-brand-400 no-underline transition-colors">Perceived Stress Scale information</Link>
             </div>
           </div>
 

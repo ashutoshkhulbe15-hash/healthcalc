@@ -1,75 +1,24 @@
-<!-- last-updated: 2026-10-02 -->
-# Protein Intake Calculator: How Much Protein Do I Need?
+<!-- last-updated: 2026-10-03 -->
+# Protein intake reference calculator
 
-How much protein you need depends on your weight, activity level, and goal. The RDA of 0.8 g/kg is the minimum to prevent deficiency — not the optimal amount for muscle building, fat loss, or athletic performance. Research consistently shows that active people benefit from 1.6–2.4 g/kg.
+The calculator multiplies entered body weight by the protein serving goal in the **U.S. Dietary Guidelines for Americans, 2025–2030**: 1.2–1.6 grams of protein per kilogram of body weight per day. The federal guideline says to adjust this goal as needed based on individual calorie requirements. [Read the protein recommendation in the current U.S. Dietary Guidelines (PDF, page 2)](https://cdn.realfood.gov/DGA.pdf). The U.S. Department of Health and Human Services identifies this as the current federal guideline edition. [HHS: Current Dietary Guidelines](https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines).
 
-Enter your weight, body fat percentage (optional), activity level, and goal. The calculator gives you a daily gram target based on current evidence.
+## What the result means
 
-## How Much Protein Do I Need Per Day?
+For example, for an entered weight of 80 kg, the arithmetic is 80 × 1.2 to 80 × 1.6, or 96–128 g/day. The result is a calculated equivalent of U.S. population guidance, not an individualized dietary prescription. It does not account for medical conditions, pregnancy, age-specific needs, energy requirements, or guidance in other countries. The 2025–2030 U.S. Guidelines say people with chronic disease should discuss adapting the guidance with a health professional. [MedlinePlus summary of the 2025–2030 Dietary Guidelines](https://medlineplus.gov/ency/article/002093.htm).
 
-> **Key Takeaway:** Sedentary adults: minimum 0.8 g/kg (RDA). Active adults: 1.6–2.2 g/kg (Morton et al., 2018). During calorie deficit: 2.0–2.4 g/kg (Helms et al., 2014). Protein is the one macro where hitting your target consistently produces measurable differences in body composition. Carbs and fat are flexible; protein is not.
+The current range differs from the older U.S./Canada adult protein RDA of 0.8 g/kg/day established in the National Academies' 2005 Dietary Reference Intakes. That RDA is a separate reference value and should not be substituted for the current U.S. guideline displayed here. [National Academies, Dietary Reference Intakes, chapter 10](https://www.nationalacademies.org/read/10490/chapter/12).
 
-| **Situation** | **Protein (g/kg body weight)** | **Example (80 kg person)** |
-|---|---|---|
-| Sedentary adult (RDA minimum) | 0.8 | 64g |
-| Recreationally active | 1.2–1.4 | 96–112g |
-| Resistance training | 1.6–2.2 | 128–176g |
-| Calorie deficit (cutting) | 2.0–2.4 | 160–192g |
-| Endurance athlete | 1.2–1.6 | 96–128g |
-| Older adult (60+) | 1.0–1.2 | 80–96g |
+This tool does not calculate a sports-performance, weight-loss, treatment, or supplement dose. It does not assess protein adequacy or health.
 
-## Why Protein Needs Increase During a Deficit
+## Method
 
-When you eat fewer calories than you burn, your body breaks down both fat AND muscle for energy. Protein intake is the primary dietary lever that determines how much muscle you preserve.
+1. Convert pounds to kilograms using 1 lb = 0.45359237 kg when needed.
+2. Multiply the kilogram value by 1.2 and 1.6.
+3. Round each result to the nearest whole gram for display.
 
-Research by Helms et al. (2014) in the *Journal of the International Society of Sports Nutrition* found that protein at 2.3–3.1 g/kg of lean body mass during a deficit significantly reduces muscle loss compared to lower intakes.
+The factor conversion and displayed range are arithmetic operations; they do not add individual clinical validation.
 
-> **Note:** Using lean body mass (LBM) rather than total body weight gives a more precise target — especially for people with higher body fat. Our [lean body mass calculator](/fitness/lean-body-mass-calculator) can determine your LBM. If you don't know your body fat, use total body weight × 0.8–1.0 g/lb as an approximation.
+---
 
-## Best Protein Sources
-
-| **Source** | **Protein per serving** | **Notes** |
-|---|---|---|
-| Chicken breast (3 oz) | 26g | Leanest common protein |
-| Greek yogurt (1 cup) | 15–20g | Casein-rich, good before bed |
-| Eggs (2 large) | 12g | Complete protein, versatile |
-| Salmon (3 oz) | 20g | DHA bonus |
-| Cottage cheese (1 cup) | 25g | Slow-digesting casein |
-| Whey protein (1 scoop) | 25g | Fastest-absorbing |
-| Lentils (1 cup cooked) | 18g | Best plant source, fiber bonus |
-| Tofu (½ cup firm) | 10g | Complete plant protein |
-
-> **Tip:** Distribute protein across meals (25–40g per meal) rather than consuming most of it at dinner. Research shows this maximizes muscle protein synthesis throughout the day. A breakfast with 30g protein produces more muscle-building stimulus than a breakfast with 10g followed by a dinner with 60g — even though the daily total is the same.
-
-For splitting your protein target into a full macro plan, use our [macro calculator](/fitness/macro-calculator). For seniors, see our [protein calculator for seniors](/body-metrics/protein-needs-seniors).
-
-> **Bottom Line:** Most active people need 1.6–2.2 g/kg protein daily — double the RDA minimum. During a cut, go higher (2.0–2.4 g/kg) to preserve muscle. Distribute across meals. Hit protein first every day; it's the non-negotiable macro.
-
-## Frequently Asked Questions
-
-**How much protein do I need to build muscle?**
-
-Research supports 1.6–2.2 g/kg body weight for maximizing muscle protein synthesis during resistance training (Morton et al., 2018 meta-analysis). Higher intakes show diminishing returns.
-
-**How much protein do I need per day?**
-
-Depends on activity: 0.8 g/kg for sedentary adults, 1.6–2.2 g/kg for active/training adults, 2.0–2.4 g/kg during calorie restriction. Use this calculator for your personalized target.
-
-**Can you eat too much protein?**
-
-For healthy adults with normal kidney function, intakes up to 2.5 g/kg have not been shown to cause harm in research. Above 2.5 g/kg, evidence is limited. If you have kidney disease, consult your nephrologist before increasing protein.
-
-**Is plant protein as good as animal protein?**
-
-Plant proteins are generally lower in leucine (the key amino acid for muscle synthesis) and may be less bioavailable. Combining sources (rice + beans, tofu + grains) provides complete amino acid profiles. Plant-based athletes may benefit from slightly higher total protein to compensate.
-
-## Sources
-
-1. Morton RW, et al. A systematic review of protein supplementation. *Br J Sports Med.* 2018;52(6):376–384.
-2. Helms ER, et al. Evidence-based recommendations for natural bodybuilding. *J Int Soc Sports Nutr.* 2014;11:20.
-3. Jäger R, et al. ISSN Position Stand: Protein and exercise. *J Int Soc Sports Nutr.* 2017;14:20.
-4. IOM. Dietary Reference Intakes for Protein. National Academies Press, 2005.
-
-## Linked source records
-
-[Morton et al. (2018), protein and resistance training review](https://pubmed.ncbi.nlm.nih.gov/28698222/).
+*Educational information only. Use local nutrition guidance and seek individualized advice where your health or life stage calls for it.*

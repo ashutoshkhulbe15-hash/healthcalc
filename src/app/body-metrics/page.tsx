@@ -4,10 +4,10 @@ import { TOOLS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Body Metrics — Health Guides & Tools",
-  description: "Understand your body measurements — BMI, BMR, ideal weight, and more. Each guide explains what the numbers actually mean.",
+  description: "Understand BMI, BMR, and other body measurements, with explanations of what each number can and cannot tell you.",
   alternates: { canonical: "/body-metrics" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Metrics — Health Guides & Tools", description: "Understand your body measurements — BMI, BMR, ideal weight, and more. Each guide explains what the numbers actually mean.", url: "/body-metrics", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Body Metrics — Health Guides & Tools", description:"Understand your body measurements — BMI, BMR, ideal weight, and more. Each guide explains what the numbers actually mean.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Metrics — Health Guides & Tools", description: "Understand BMI, BMR, and other body measurements, with explanations of what each number can and cannot tell you.", url: "/body-metrics", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Body Metrics — Health Guides & Tools", description:"Understand BMI, BMR, and other body measurements, with explanations of what each number can and cannot tell you.", images:["/og-image.png"]},
 };
 
 export default function CategoryPage() {
@@ -27,7 +27,7 @@ export default function CategoryPage() {
             <span className="text-4xl">📐</span>
             <h1 className="text-3xl md:text-[42px] font-extrabold text-slate-900 tracking-tight">Body Metrics</h1>
           </div>
-          <p className="text-[16px] text-slate-600 max-w-[560px]">Understand your body measurements — BMI, BMR, ideal weight, and more. Each guide explains what the numbers actually mean.</p>
+          <p className="text-[16px] text-slate-600 max-w-[560px]">Understand BMI, BMR, and other body measurements, with explanations of what each number can and cannot tell you.</p>
         </div>
         <div className="h-12" style={{ background: "linear-gradient(to bottom, transparent 0%, #F8FAFC 100%)" }} />
       </section>

@@ -2,9 +2,10 @@ const test=require('node:test'),assert=require('node:assert/strict'),ts=require(
 require.extensions['.ts']=(module,file)=>module._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,file);
 const m={...require('../src/lib/health-math.ts'),...require('../src/lib/bmi-math.ts'),...require('../src/lib/baby-growth-math.ts')};
 const close=(a,b,tol=1e-6)=>assert.ok(Math.abs(a-b)<tol,`${a} != ${b}`);
-test('lean mass regression: physically plausible, explicit Boer main estimate',()=>{
- const r=m.leanBodyMass(80,180,'male');close(r.boer,61.42);close(r.james,62.7160493827);close(r.avg,61.42);close(r.fatMass,18.58);
- const imperial=m.leanBodyMass(80/m.KG_PER_LB,180/2.54,'male',true);close(imperial.avg,r.avg);
+test('Boer equation reproduces its published coefficients and converts input units',()=>{
+ const r=m.leanBodyMass(80,180,'male');close(r.boer,61.42);
+ const female=m.leanBodyMass(65,165,'female');close(female.boer,46.125);
+ const imperial=m.leanBodyMass(80/m.KG_PER_LB,180/2.54,'male',true);close(imperial.boer,r.boer);
  assert.throws(()=>m.leanBodyMass(-80,180,'male'));assert.throws(()=>m.leanBodyMass(1,180,'male'));
 });
 test('pregnancy pound conversion and distinct twin guidance',()=>{
@@ -13,15 +14,62 @@ test('pregnancy pound conversion and distinct twin guidance',()=>{
  assert.deepEqual(m.pregnancyGain(132,65,148,'twins',true).range,[37,54]);assert.equal(m.pregnancyGain(60,165,65,'higher').range,null);
 });
 test('CDC 14-year regression falls below the fifth percentile',()=>{
- const r=m.teenBMI(168,45,173,'male');close(r.percentile,0.878088,0.0001);assert.equal(r.category,'Underweight');
+ const r=m.teenBMI(168,45,173,'male');close(r.percentile,0.878088,0.0001);assert.equal(r.category,'Underweight');assert.equal(r.extreme,true);
  const s=m.teenBMI(168,45/m.KG_PER_LB,173/2.54,'male',true);close(s.percentile,r.percentile);
  assert.throws(()=>m.teenBMI(240,60,170,'male'));assert.throws(()=>m.teenBMI(NaN,60,170,'male'));
 });
 test('CDC reference published percentiles agree across sexes and ages',()=>{
  const cdc=fs.readFileSync(require.resolve('../src/lib/reference-data/cdc-bmi.csv'),'utf8').trim().split(/\r?\n/).filter(x=>!x.startsWith('Sex'));
  for(const line of cdc){const [sex,age,l,median,s,p3,p5,p10,p25,p50,p75,p85,p90,p95,p97]=line.split(',').map(Number);if(!Number.isFinite(age)||age%1!==0.5||age>=240)continue;
- for(const [bmi,pct] of [[p5,5],[p50,50],[p85,85],[p95,95]]){const result=m.teenBMI(Math.floor(age),bmi*1.7**2,170,sex===1?'male':'female');close(result.percentile,pct,0.0001);}
+ for(const [bmi,pct] of [[p3,3],[p5,5],[p50,50],[p85,85],[p95,95],[p97,97]]){const result=m.teenBMI(Math.floor(age),bmi*1.7**2,170,sex===1?'male':'female');close(result.percentile,pct,0.0001);assert.equal(result.extreme,pct<3||pct>95);}
  }
+});
+test('adult BMI agrees across units and reports the CDC healthy BMI range',()=>{
+ const bmi=m.adultBMI(75,175),imperial=m.adultBMI(75/m.KG_PER_LB,175/2.54,true);close(bmi,24.4897959184);close(imperial,bmi);
+ const metric=m.adultBMIWeightRange(175),english=m.adultBMIWeightRange(175/2.54,true);close(metric[0],56.7);close(metric[1],76.6);close(english[0],metric[0]/m.KG_PER_LB,0.11);close(english[1],metric[1]/m.KG_PER_LB,0.11);
+ assert.throws(()=>m.adultBMI(-1,175));assert.throws(()=>m.adultBMIWeightRange(0));
+});
+test('historical weight equations reproduce published coefficients and Hamwi pound conversion',()=>{
+ const male=m.historicalWeightEquations(68,'male'),female=m.historicalWeightEquations(68,'female');
+ close(male.devine,68.4);close(male.robinson,67.2);close(male.miller,67.48);close(male.hamwi,154*m.KG_PER_LB);
+ close(female.devine,63.9);close(female.robinson,62.6);close(female.miller,63.98);close(female.hamwi,140*m.KG_PER_LB);
+ const metric=m.historicalWeightEquations(172.72/2.54,'male');close(metric.devine,male.devine);close(metric.hamwi,male.hamwi);
+ assert.throws(()=>m.historicalWeightEquations(59.9,'female'));assert.throws(()=>m.historicalWeightEquations(Infinity,'male'));
+});
+test('military circumference equations follow Army AR 600-9 coefficients and units',()=>{
+ close(m.circumferenceBodyCompositionEstimate(49,16,69,'male'),38.6,0.001);
+ close(m.circumferenceBodyCompositionEstimate(42,15,64,'female',44),47.3,0.001);
+ assert.throws(()=>m.circumferenceBodyCompositionEstimate(15,16,69,'male'));
+});
+test('CKD-EPI 2021 creatinine equation matches NKF implementation checks',()=>{
+ const f=m.ckdEpi2021Creatinine;
+ close(f(0.90,18,'male'),127,0.5);close(f(0.91,18,'male'),125,0.5);
+ close(f(0.70,18,'female'),128,0.5);close(f(0.71,18,'female'),126,0.5);
+ close(f(0.50,90,'male'),97,0.5);close(f(1.50,90,'male'),44,0.5);
+ close(f(0.50,90,'female'),89,0.5);close(f(1.50,90,'female'),33,0.5);
+ assert.throws(()=>f(1.2,17,'male'));assert.throws(()=>f(0,60,'female'));
+});
+test('current U.S. protein guideline range is arithmetic and unit independent',()=>{
+ assert.deepEqual(m.proteinGuidelineRange(80),{min:96,max:128});
+ assert.deepEqual(m.proteinGuidelineRange(80/m.KG_PER_LB,true),{min:96,max:128});
+ assert.throws(()=>m.proteinGuidelineRange(0));assert.throws(()=>m.proteinGuidelineRange(Infinity));
+});
+test('ESPEN healthy older-person range preserves cited endpoints and pound conversion',()=>{
+ assert.deepEqual(m.espenHealthyOlderProteinRange(70),{min:70,max:84});
+ assert.deepEqual(m.espenHealthyOlderProteinRange(70/m.KG_PER_LB,true),{min:70,max:84});
+ assert.throws(()=>m.espenHealthyOlderProteinRange(0));assert.throws(()=>m.espenHealthyOlderProteinRange(NaN));
+});
+test('Mifflin–St Jeor reproduces the cited study example and unit conversion',()=>{
+ close(m.mifflinStJeor(68,165,32,'female'),1390.25);
+ close(m.mifflinStJeor(68/m.KG_PER_LB,165/2.54,32,'female',true),1390.25);
+ close(m.mifflinStJeor(75,178,30,'male'),1717.5);
+ assert.throws(()=>m.mifflinStJeor(68,165,18,'female'));assert.throws(()=>m.mifflinStJeor(68,165,79,'female'));
+ assert.throws(()=>m.mifflinStJeor(0,165,32,'female'));
+});
+test('macro allocator converts user-selected shares without prescribing a split',()=>{
+ const r=m.macroAllocation(2000,25,50,25);close(r.protein,125);close(r.carbs,250);close(r.fat,55.6);close(r.proteinCalories+r.carbCalories+r.fatCalories,2000);
+ assert.deepEqual(m.macroAllocation(2000,33.3,33.3,33.4).split,[33.3,33.3,33.4]);
+ assert.throws(()=>m.macroAllocation(2000,25,50,20));assert.throws(()=>m.macroAllocation(0,25,50,25));assert.throws(()=>m.macroAllocation(2000,-1,51,50));
 });
 test('EPDS zero, maximum, per-item score and Q10 safety independent of total',()=>{
  assert.deepEqual(m.epdsScore(Array(10).fill(0)),{score:0,selfHarm:false});assert.equal(m.epdsScore(Array(10).fill(3)).score,30);

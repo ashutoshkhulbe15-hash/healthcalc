@@ -1,14 +1,15 @@
 "use client";
 import { useState, useEffect } from "react";
 import { CalcInput, CalcButton, CalcShell, CalcError, ResultsShell, ResultCard, UnitToggle, StatusBadge } from "@/components/CalcUI";
+import { adultBMI, adultBMIWeightRange } from "@/lib/bmi-math";
 
 const CATEGORIES = [
   { max: 18.5, label: "Underweight", color: "#3B82F6", bg: "bg-blue-100" },
-  { max: 25, label: "Normal", color: "#22C55E", bg: "bg-green-100" },
+  { max: 25, label: "Healthy weight", color: "#22C55E", bg: "bg-green-100" },
   { max: 30, label: "Overweight", color: "#F59E0B", bg: "bg-amber-100" },
-  { max: 35, label: "Obese I", color: "#EF4444", bg: "bg-red-100" },
-  { max: 40, label: "Obese II", color: "#DC2626", bg: "bg-red-200" },
-  { max: 100, label: "Obese III", color: "#991B1B", bg: "bg-red-300" },
+  { max: 35, label: "Class 1 obesity", color: "#EF4444", bg: "bg-red-100" },
+  { max: 40, label: "Class 2 obesity", color: "#DC2626", bg: "bg-red-200" },
+  { max: 100, label: "Class 3 obesity", color: "#991B1B", bg: "bg-red-300" },
 ];
 
 function getCat(bmi: number) { return CATEGORIES.find(c => bmi < c.max) || CATEGORIES[CATEGORIES.length - 1]; }
@@ -23,13 +24,11 @@ export function BmiCalc() {
   const calculate = () => {
     setError("");
     const w = parseFloat(weight), h = parseFloat(height);
-    if(!w || !h){setResult(null);setError("Check all required inputs and the allowed ranges before calculating.");return;}
-    const hm = unit === "metric" ? h / 100 : h * 0.0254;
-    const wkg = unit === "metric" ? w : w * 0.45359237;
-    const bmi = wkg / (hm * hm);
-    const healthyMin = Math.round(18.5 * hm * hm * 10) / 10;
-    const healthyMax = Math.round(24.9 * hm * hm * 10) / 10;
-    setResult({ bmi, category: getCat(bmi), healthy: [healthyMin, healthyMax] });
+    if(!Number.isFinite(w)||!Number.isFinite(h)||w<=0||h<=0){setResult(null);setError("Enter a positive, finite weight and height.");return;}
+    const imperial=unit==="imperial";
+    const bmi=adultBMI(w,h,imperial);
+    const healthy=adultBMIWeightRange(h,imperial);
+    setResult({ bmi, category: getCat(bmi), healthy });
   };
 
   return (
@@ -44,7 +43,7 @@ export function BmiCalc() {
       <CalcError message={error}/></CalcShell>
       {result && (
         <ResultsShell>
-          <StatusBadge status={result.category.label === "Normal" ? "good" : result.category.label === "Overweight" ? "warning" : "danger"}
+          <StatusBadge status={result.category.label === "Healthy weight" ? "good" : result.category.label === "Overweight" ? "warning" : "info"}
             text={`BMI ${result.bmi.toFixed(1)} — ${result.category.label}`} />
           {/* Visual gauge */}
           <div className="mb-6">
@@ -64,8 +63,8 @@ export function BmiCalc() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <ResultCard label="Your BMI" value={result.bmi.toFixed(1)} sub={result.category.label} highlight />
             <ResultCard label="Category" value={result.category.label} />
-            <ResultCard label="Healthy weight range" value={`${result.healthy[0]}–${result.healthy[1]} kg`} sub="BMI 18.5–24.9" />
-            <ResultCard label="Classification" value="WHO Standard" sub="Adult (20+ years)" />
+            <ResultCard label="Weight range at healthy BMI" value={`${result.healthy[0]}–${result.healthy[1]} ${unit === "metric" ? "kg" : "lb"}`} sub="BMI 18.5 to <25" />
+            <ResultCard label="Reference" value="CDC adult categories" sub="For adults 20+ years" />
           </div>
         </ResultsShell>
       )}

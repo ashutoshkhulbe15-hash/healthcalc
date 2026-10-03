@@ -4,10 +4,10 @@ import { TOOLS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Mental Health — Health Guides & Tools",
-  description: "Clinically validated screening tools for stress, anxiety, burnout, sleep quality, and ADHD. Not a diagnosis — a starting point.",
+  description: "Mental health information and selected tools, including one source-listed anxiety screening questionnaire. These pages are educational and do not provide a diagnosis.",
   alternates: { canonical: "/mental-health" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Mental Health — Health Guides & Tools", description: "Clinically validated screening tools for stress, anxiety, burnout, sleep quality, and ADHD. Not a diagnosis — a starting point.", url: "/mental-health", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Mental Health — Health Guides & Tools", description:"Clinically validated screening tools for stress, anxiety, burnout, sleep quality, and ADHD. Not a diagnosis — a starting point.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Mental Health — Health Guides & Tools", description: "Mental health information and selected tools, including one source-listed anxiety screening questionnaire. These pages are educational and do not provide a diagnosis.", url: "/mental-health", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Mental Health — Health Guides & Tools", description:"Mental health information and selected tools, including one source-listed anxiety screening questionnaire. These pages are educational and do not provide a diagnosis.", images:["/og-image.png"]},
 };
 
 export default function CategoryPage() {
@@ -27,7 +27,7 @@ export default function CategoryPage() {
             <span className="text-4xl">🧠</span>
             <h1 className="text-3xl md:text-[42px] font-extrabold text-slate-900 tracking-tight">Mental Health</h1>
           </div>
-          <p className="text-[16px] text-slate-600 max-w-[560px]">Clinically validated screening tools for stress, anxiety, burnout, sleep quality, and ADHD. Not a diagnosis — a starting point.</p>
+          <p className="text-[16px] text-slate-600 max-w-[560px]">Mental health information and selected tools, including one source-listed anxiety screening questionnaire. These pages are educational and do not provide a diagnosis.</p>
         </div>
         <div className="h-12" style={{ background: "linear-gradient(to bottom, transparent 0%, #F8FAFC 100%)" }} />
       </section>

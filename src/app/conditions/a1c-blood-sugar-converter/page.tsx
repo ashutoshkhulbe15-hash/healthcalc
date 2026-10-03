@@ -27,7 +27,7 @@ export default function Page() {
         {title:"Cholesterol Ratio Calculator",desc:"Cardiovascular risk ratios.",href:"/conditions/cholesterol-ratio-calculator",category:"conditions"},
       ]}>
       <A1cCalc />
-      <QuickAnswer answer="A1C converts to estimated average blood sugar using the formula: eAG (mg/dL) = 28.7 x A1C - 46.7. An A1C of 7.0% equals approximately 154 mg/dL average blood sugar. Below 5.7% is normal, 5.7-6.4% is prediabetes, 6.5%+ indicates diabetes per ADA criteria." />
+      <QuickAnswer answer="The ADA eAG equation is 28.7 × A1C − 46.7. For example, 7.0% converts to an estimated average glucose of about 154 mg/dL. For nonpregnant people, 5.7–6.4% is the prediabetes range and 6.5% or higher meets the laboratory threshold for diabetes; diagnosis generally needs confirmation. This conversion is not a diagnosis or personal treatment target." />
       <SplitArticle content={content} injections={{
         1: <A1CConversionScaleSVG />,
         3: <A1CRangesSVG />,

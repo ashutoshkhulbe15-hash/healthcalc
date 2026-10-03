@@ -117,8 +117,7 @@ export function SourceList({
 export function ArticleByline() {
   return (
     <p className="text-sm text-slate-400 mb-6 pb-6 border-b border-slate-100">
-      Written by Ash K · Reviewed for accuracy against published guidelines ·
-      Sources cited below
+      Written by Ash K · Page-specific sources and limitations are listed below
     </p>
   );
 }

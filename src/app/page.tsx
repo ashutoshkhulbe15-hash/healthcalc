@@ -5,7 +5,8 @@ import { CATEGORIES, TOOLS, getCategoryBySlug } from "@/lib/data";
 
 export default function HomePage() {
   const [activeCat, setActiveCat] = useState("All");
-  const filtered = activeCat === "All" ? TOOLS : TOOLS.filter((t) => t.category === activeCat);
+  const liveTools = TOOLS.filter((t) => t.live);
+  const filtered = activeCat === "All" ? liveTools : liveTools.filter((t) => t.category === activeCat);
 
   return (
     <>

@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import { ToolPageShell } from "@/components/ToolPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
-import { QuickAnswer } from "@/components/QuickAnswer";
-import { FrameSizeCalc } from "./FrameSizeCalc";
-import { FrameSizeChartSVG } from "@/components/ArticleSVGs";
+import { MethodNotice } from "@/components/MethodNotice";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
-export const metadata: Metadata = { title: "Body Frame Size Calculator — NIH Method", description: "Determine your body frame size (small, medium, large) using wrist circumference or elbow breadth. NIH reference chart. Adjusts ideal weight by ±10%.", alternates: { canonical: "/body-metrics/body-frame-size-calculator" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Frame Size Calculator — NIH Method", description: "Determine your body frame size (small, medium, large) using wrist circumference or elbow breadth. NIH reference chart. Adjusts ideal weight by ±10%.", url: "/body-metrics/body-frame-size-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Body Frame Size Calculator — NIH Method", description:"Determine your body frame size (small, medium, large) using wrist circumference or elbow breadth. NIH reference chart. Adjusts ideal weight by ±10%.", images:["/og-image.png"]},
+
+export const metadata: Metadata = {
+  title: "Body Frame Size Method Withdrawn",
+  description: "The site's previous frame-size calculation has been withdrawn while its method and supporting source are reviewed.",
+  alternates: { canonical: "/body-metrics/body-frame-size-calculator" },
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Frame Size Method Withdrawn", description: "The site's previous frame-size calculation has been withdrawn while its method and supporting source are reviewed.", url: "/body-metrics/body-frame-size-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Body Frame Size Method Withdrawn", description:"The site's previous frame-size calculation has been withdrawn while its method and supporting source are reviewed.", images:["/og-image.png"]},
 };
-export default function Page() { const content = getArticleContent("28-body-frame-size-calculator.md");
-  const lastUpdated = getLastUpdated("28-body-frame-size-calculator.md"); return (
-  <ToolPageShell lastUpdated={lastUpdated} category="body-metrics" title="Body Frame Size Calculator" description="Determine your frame size using the NIH wrist measurement method. Adds context to BMI and ideal weight calculations." features={["📏 NIH wrist method","📊 Frame classification","🔬 Health metric context","📖 Evidence-based guide"]} relatedTools={[{title:"Ideal Weight",desc:"Four formulas compared.",href:"/body-metrics/ideal-weight-calculator",category:"body-metrics"},{title:"BMI Calculator",desc:"Standard BMI check.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},{title:"Body Fat Calculator",desc:"Navy method estimation.",href:"/fitness/body-fat-calculator",category:"fitness"}]}>
-    <FrameSizeCalc />
-    <QuickAnswer answer="Body frame size is determined by bone structure, primarily wrist circumference per NIH standards. Small frame: wrist under 5.5 in (women) / 6.5 in (men). Medium: 5.5-5.75 / 6.5-7.5. Large: over 5.75 / 7.5. Frame size explains why two people of the same height may have different healthy weight ranges." />
-    <SplitArticle content={content} injections={{ 2: <FrameSizeChartSVG /> }} />
-  </ToolPageShell>); }
+
+export default function Page() {
+  const file="28-body-frame-size-calculator.md";
+  return <ToolPageShell lastUpdated={getLastUpdated(file)} category="body-metrics" title="Body Frame Size Method Withdrawn" description="The previous method and result have been removed pending verification." features={["Calculation withheld","Method under review"]} relatedTools={[]}>
+    <MethodNotice><p>The site&apos;s previous body-frame calculation and related weight-adjustment guidance have been withdrawn because the page&apos;s table and calculator used different methods. No frame category or weight target is shown.</p></MethodNotice>
+    <SplitArticle content={getArticleContent(file)} />
+  </ToolPageShell>;
+}

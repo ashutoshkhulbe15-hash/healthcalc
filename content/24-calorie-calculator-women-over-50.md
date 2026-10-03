@@ -1,59 +1,18 @@
-<!-- last-updated: 2026-10-02 -->
-# Calorie Calculator for Women Over 50
+<!-- last-updated: 2026-10-03 -->
+# Resting energy estimate for women ages 50–78
 
-Calorie needs decline with age — but not as dramatically as many women over 50 are told. The typical drop is 100–200 calories per day compared to your 30s, driven primarily by reduced muscle mass and lower activity levels. Both of those factors are modifiable.
+This page applies the female Mifflin–St Jeor equation to estimate resting energy expenditure (REE) from age, height and weight. It is not a measurement and does not estimate total daily energy expenditure or recommend a daily calorie intake.
 
-This calculator uses the Mifflin-St Jeor equation adjusted for your current age, weight, height, and activity level. It gives you a realistic calorie target — not the generic "1,200 calories for older women" advice that ignores individual variation.
+The original study introduced prediction equations for resting energy expenditure in adults. Its equations were evaluated in healthy adults ages 19–78; this page limits its supported input ages to 50–78. See [Mifflin et al., 1990, PubMed](https://pubmed.ncbi.nlm.nih.gov/2305711/).
 
-## How Many Calories Do Women Over 50 Need?
+## What this calculator returns
 
-> **Key Takeaway:** The USDA Dietary Guidelines estimate 1,600–2,200 calories daily for women over 50, depending on activity level. Sedentary: ~1,600. Moderately active: ~1,800. Active: ~2,000–2,200. But these are population averages — your actual TDEE depends on your specific weight, height, muscle mass, and activity. Use the calculator for a personalized number.
+The result is the equation's REE estimate in calories per day. The page does not add an activity multiplier, infer a maintenance intake, provide a weight-loss target, or calculate a protein prescription. The original study's estimate is not a substitute for measured energy expenditure or individualized nutrition guidance.
 
-| **Activity Level** | **Estimated Calories (Women 50–65)** | **Estimated Calories (Women 65+)** |
-|---|---|---|
-| Sedentary | 1,600 | 1,600 |
-| Moderately active | 1,800 | 1,800 |
-| Active | 2,000–2,200 | 2,000 |
+If you need dietary guidance for a health condition or a personal calorie target, ask a qualified health professional. The site's general [Mifflin–St Jeor resting energy estimate](/body-metrics/bmr-calculator) page explains the equation's limitations for adults.
 
-Source: USDA Dietary Guidelines for Americans, 2020–2025.
+## Formula
 
-## Why Calorie Needs Change After 50
+For this calculator, the female equation is `REE = 10 × weight (kg) + 6.25 × height (cm) − 5 × age (years) − 161`. Imperial inputs are converted to kilograms and centimetres before calculation.
 
-**Muscle mass decline (sarcopenia)** is the primary driver. After 30, muscle mass decreases approximately 3–8% per decade. After 50, the decline accelerates. Since muscle is metabolically active (burns calories at rest), less muscle = lower BMR = lower TDEE.
-
-The solution isn't eating less — it's maintaining muscle through resistance training and adequate protein. Research consistently shows that women who maintain resistance training after 50 preserve metabolic rate significantly better than sedentary peers.
-
-> **Warning:** Never drop below 1,200 calories daily without medical supervision. Intakes below 1,200 make it extremely difficult to meet nutritional needs — particularly calcium (1,200mg/day for women over 50), vitamin D (800–1,000 IU), protein (1.0–1.2 g/kg per ESPEN guidelines), and B12. Undereating accelerates muscle loss, bone loss, and metabolic decline.
-
-**Menopause and metabolism.** Menopause itself doesn't dramatically reduce metabolic rate. The fat redistribution that occurs (shift toward abdominal storage) is hormonal, but the calorie-burning decline is primarily from reduced activity and muscle loss — not menopause directly.
-
-> **Tip:** The best strategy for women over 50: maintain or increase protein intake (1.0–1.2 g/kg body weight), do resistance training 2–3x/week, and calculate calories from your current TDEE — not from a generic chart. Use our [TDEE calculator](/fitness/tdee-calculator) for a precise starting point, then adjust based on 2–4 weeks of real results.
-
-For protein-specific guidance, see our [protein calculator for seniors](/body-metrics/protein-needs-seniors).
-
-> **Bottom Line:** Women over 50 need approximately 1,600–2,200 calories daily depending on activity level. The decline from younger years is real but modest (100–200 cal/day). Don't default to extreme restriction — focus on maintaining muscle through protein and resistance training. Calculate your personal TDEE rather than using generic recommendations.
-
-## Frequently Asked Questions
-
-**How many calories should a 50-year-old woman eat to lose weight?**
-
-Calculate your TDEE and subtract 300–500 calories for a sustainable deficit. For most women over 50, this means 1,400–1,800 calories daily for weight loss, depending on size and activity. Never go below 1,200 without medical supervision.
-
-**Why do women over 50 gain weight?**
-
-The primary factors are reduced muscle mass (lower metabolism), decreased activity levels, and hormonal changes during menopause that promote abdominal fat storage. The solution targets all three: resistance training, adequate protein, and appropriate calorie balance.
-
-**Should women over 50 eat differently?**
-
-Calorie needs decrease modestly, but nutrient needs for calcium, vitamin D, protein, and B12 increase. The focus should shift toward nutrient density — getting maximum nutrition per calorie rather than simply eating less.
-
-## Sources
-
-1. USDA. Dietary Guidelines for Americans, 2020–2025. Chapter 5: Women.
-2. Mifflin MD, et al. A new predictive equation for resting energy expenditure. *Am J Clin Nutr.* 1990.
-3. ESPEN. Protein recommendations for older adults. *Clin Nutr.* 2014.
-4. NIH. Calcium and Vitamin D requirements for women over 50. Office of Dietary Supplements.
-
-## Linked source records
-
-[Mifflin et al. (1990), original resting-energy equation](https://pubmed.ncbi.nlm.nih.gov/2305711/).
+Source: Mifflin MD, et al. *A new predictive equation for resting energy expenditure in healthy individuals.* American Journal of Clinical Nutrition. 1990;51(2):241–247. [PubMed](https://pubmed.ncbi.nlm.nih.gov/2305711/).

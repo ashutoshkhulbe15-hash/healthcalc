@@ -3,37 +3,31 @@ import { ToolPageShell } from "@/components/ToolPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
 import { QuickAnswer } from "@/components/QuickAnswer";
 import { BodyFatCalc } from "./BodyFatCalc";
-import { BodyFatRangesSVG, NavyMethodSVG, BodyFatMethodsSVG, BMILimitationsSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Body Fat Calculator — U.S. Navy Method",
-  description: "Estimate body fat percentage from tape measurements using the Hodgdon-Beckett equation. ±3-5% accuracy vs DEXA. Includes body fat categories for men and women.",
+  title: "Body Composition Estimate — Circumference Equation",
+  description: "Apply the military circumference equation to user-entered measurements. The result is an estimate, not a diagnosis or personal health category.",
   alternates: { canonical: "/fitness/body-fat-calculator" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Fat Calculator — U.S. Navy Method", description: "Estimate body fat percentage from tape measurements using the Hodgdon-Beckett equation. ±3-5% accuracy vs DEXA. Includes body fat categories for men and women.", url: "/fitness/body-fat-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Body Fat Calculator — U.S. Navy Method", description:"Estimate body fat percentage from tape measurements using the Hodgdon-Beckett equation. ±3-5% accuracy vs DEXA. Includes body fat categories for men and women.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Body Composition Estimate — Circumference Equation", description: "Apply the military circumference equation to user-entered measurements. The result is an estimate, not a diagnosis or personal health category.", url: "/fitness/body-fat-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Body Composition Estimate — Circumference Equation", description:"Apply the military circumference equation to user-entered measurements. The result is an estimate, not a diagnosis or personal health category.", images:["/og-image.png"]},
 };
 
 export default function Page() {
   const content = getArticleContent("07-body-fat-calculator.md");
   const lastUpdated = getLastUpdated("07-body-fat-calculator.md");
   return (
-    <ToolPageShell lastUpdated={lastUpdated} category="fitness" title="Body Fat Calculator"
-      description="Navy method body fat estimation using neck, waist, and hip measurements. Visual lean-to-fat breakdown with ACE classification."
-      features={["📏 Navy tape method", "📊 ACE classifications", "👤 Visual breakdown", "📖 3,400-word guide"]}
+    <ToolPageShell lastUpdated={lastUpdated} category="fitness" title="Body Composition Estimate"
+      description="A military circumference-equation estimate from measurements you enter. It does not assign health categories."
+      features={["Circumference equation", "User-entered measurements", "Estimate only"]}
       relatedTools={[
         {title:"BMI Calculator",desc:"Quick BMI check.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
         {title:"Lean Body Mass",desc:"Boer & James formulas.",href:"/fitness/lean-body-mass-calculator",category:"fitness"},
-        {title:"Ideal Weight",desc:"Four formulas compared.",href:"/body-metrics/ideal-weight-calculator",category:"body-metrics"},
+        {title:"Historical Weight Equations",desc:"Compare four historical equation outputs; these are not personal weight targets.",href:"/body-metrics/ideal-weight-calculator",category:"body-metrics"},
       ]}>
       <BodyFatCalc />
-      <QuickAnswer answer="Healthy body fat is 14-24% for men and 21-31% for women (ACE fitness classification). The Navy method estimates yours from neck, waist, and hip measurements — accurate within ±3-4% and free. Enter your measurements above." />
-      <SplitArticle content={content} injections={{
-        1: <BodyFatRangesSVG />,
-        3: <NavyMethodSVG />,
-        4: <BMILimitationsSVG />,
-        5: <BodyFatMethodsSVG />,
-      }} />
+      <QuickAnswer answer="This page applies an official military circumference equation to the measurements entered. The result is an estimate, not a clinical measurement, diagnosis, health category, or personal target." />
+      <SplitArticle content={content} />
     </ToolPageShell>
   );
 }

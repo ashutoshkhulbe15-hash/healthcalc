@@ -7,27 +7,27 @@ import { IdealWeightFormulasSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Ideal Weight Calculator — 4 Formulas Compared",
-  description: "Calculate ideal body weight using Devine, Robinson, Miller, and Hamwi formulas. See all four results side by side. Includes adjusted body weight calculation and formula origins.",
+  title: "Historical Weight Equations — Four Formula Outputs",
+  description: "Compare four historical height-based weight equations. Outputs are arithmetic examples, not personal ideal or target weights.",
   alternates: { canonical: "/body-metrics/ideal-weight-calculator" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Ideal Weight Calculator — 4 Formulas Compared", description: "Calculate ideal body weight using Devine, Robinson, Miller, and Hamwi formulas. See all four results side by side. Includes adjusted body weight calculation and formula origins.", url: "/body-metrics/ideal-weight-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Ideal Weight Calculator — 4 Formulas Compared", description:"Calculate ideal body weight using Devine, Robinson, Miller, and Hamwi formulas. See all four results side by side. Includes adjusted body weight calculation and formula origins.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Historical Weight Equations — Four Formula Outputs", description: "Compare four historical height-based weight equations. Outputs are arithmetic examples, not personal ideal or target weights.", url: "/body-metrics/ideal-weight-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Historical Weight Equations — Four Formula Outputs", description:"Compare four historical height-based weight equations. Outputs are arithmetic examples, not personal ideal or target weights.", images:["/og-image.png"]},
 };
 
 export default function Page() {
   const content = getArticleContent("20-ideal-weight-calculator.md");
   const lastUpdated = getLastUpdated("20-ideal-weight-calculator.md");
   return (
-    <ToolPageShell lastUpdated={lastUpdated} category="body-metrics" title="Ideal Weight Calculator"
-      description="Four validated formulas give you a range — not a single number. Because there is no single 'ideal weight.'"
-      features={["📊 4 formulas compared", "🔢 Adjusted body weight", "📋 Formula origins", "⚖️ Range, not a target"]}
+    <ToolPageShell lastUpdated={lastUpdated} category="body-metrics" title="Historical Weight Equation Comparison"
+      description="Four historical equations produce reference outputs from height and sex. They are not personal weight targets."
+      features={["📊 4 equations compared", "🧮 Arithmetic outputs", "📋 Sources and limits", "⚠️ Not a weight target"]}
       relatedTools={[
         {title:"BMI Calculator",desc:"Body mass index assessment.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
-        {title:"Body Fat Calculator",desc:"Navy method estimation.",href:"/fitness/body-fat-calculator",category:"fitness"},
+        {title:"Body Composition Estimate",desc:"Military circumference equation estimate.",href:"/fitness/body-fat-calculator",category:"fitness"},
         {title:"Lean Body Mass Calculator",desc:"What you weigh minus fat.",href:"/fitness/lean-body-mass-calculator",category:"fitness"},
       ]}>
       <IdealWeightCalc />
-      <QuickAnswer answer="Four clinical formulas (Devine, Robinson, Miller, Hamwi) estimate ideal body weight from height and sex. They all give different numbers — the range across all four is more useful than any single result. These formulas don't account for muscle mass, frame size, or fitness level." />
+      <QuickAnswer answer="Devine, Robinson, Miller, and Hamwi are historical height-based equations. The calculator shows their arithmetic outputs; they do not establish a personal ideal, healthy, or target weight." />
       <SplitArticle content={content} injections={{
         1: <IdealWeightFormulasSVG />,
       }} />

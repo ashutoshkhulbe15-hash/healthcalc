@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import { BlogPageShell } from "@/components/BlogPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
 import { QuickAnswer } from "@/components/QuickAnswer";
-import { StressVsAnxietyComparisonSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated, getLastUpdatedISO } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Anxiety vs Stress — How to Tell the Difference",
-  description: "Stress is a response to an external trigger that resolves when the stressor ends. Anxiety persists without a clear trigger. The distinction determines what helps. Self-assessment links included.",
+  title: "Anxiety and Stress: What the Terms Mean",
+  description: "NIMH explains how stress and anxiety differ, where their symptoms overlap, and when persistent symptoms may warrant professional help.",
   alternates: { canonical: "/guides/anxiety-vs-stress-difference" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "Anxiety vs Stress — How to Tell the Difference", description: "Stress is a response to an external trigger that resolves when the stressor ends. Anxiety persists without a clear trigger. The distinction determines what helps. Self-assessment links included.", url: "/guides/anxiety-vs-stress-difference", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"Anxiety vs Stress — How to Tell the Difference", description:"Stress is a response to an external trigger that resolves when the stressor ends. Anxiety persists without a clear trigger. The distinction determines what helps. Self-assessment links included.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Anxiety and Stress: What the Terms Mean", description: "NIMH explains how stress and anxiety differ, where their symptoms overlap, and when persistent symptoms may warrant professional help.", url: "/guides/anxiety-vs-stress-difference", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Anxiety and Stress: What the Terms Mean", description:"NIMH explains how stress and anxiety differ, where their symptoms overlap, and when persistent symptoms may warrant professional help.", images:["/og-image.png"]},
 };
 
 export default function Page() {
@@ -18,16 +17,14 @@ export default function Page() {
   const lastUpdated = getLastUpdated("guide-anxiety-vs-stress.md");
   const lastUpdatedISO = getLastUpdatedISO("guide-anxiety-vs-stress.md");
   return (
-    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="Anxiety vs Stress" subtitle="They feel similar — but the cause, duration, and treatment are fundamentally different." readTime="7 min read" category="mental-health" categoryLabel="Mental Health" url="/guides/anxiety-vs-stress-difference"
+    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="Anxiety vs Stress" subtitle="How NIMH distinguishes stress and anxiety, and where symptoms overlap." readTime="2 min read" category="mental-health" categoryLabel="Mental Health" url="/guides/anxiety-vs-stress-difference"
       relatedTools={[
-        {title:"Anxiety Assessment (GAD-7)",desc:"Validated anxiety screening.",href:"/mental-health/anxiety-self-assessment",category:"mental-health"},
-        {title:"Stress Level Test (PSS-10)",desc:"Perceived Stress Scale.",href:"/mental-health/stress-level-test",category:"mental-health"},
-        {title:"Burnout Quiz",desc:"When stress becomes burnout.",href:"/mental-health/burnout-quiz",category:"mental-health"},
+        {title:"Anxiety Assessment (GAD-7)",desc:"GAD-7 screening information and limitations.",href:"/mental-health/anxiety-self-assessment",category:"mental-health"},
+        {title:"Perceived Stress Scale information",desc:"PSS limitations and permission information.",href:"/mental-health/stress-level-test",category:"mental-health"},
+        {title:"Burnout Quiz",desc:"WHO definition and limits of this information page.",href:"/mental-health/burnout-quiz",category:"mental-health"},
       ]}>
-      <QuickAnswer answer="Stress is caused by an identifiable external trigger and resolves when the stressor ends. Anxiety persists even after the trigger is gone — or exists without a clear trigger at all. If you feel better when the situation resolves, that was stress. If the dread continues regardless, that is anxiety." />
-      <SplitArticle content={content} injections={{
-        1: <StressVsAnxietyComparisonSVG />,
-      }} />
+      <QuickAnswer answer="NIMH describes stress as a response to an external cause. Anxiety can occur without a current threat; persistent symptoms that interfere with life may warrant professional help. The terms and symptoms can overlap, and this page cannot diagnose." />
+      <SplitArticle content={content} />
     </BlogPageShell>
   );
 }

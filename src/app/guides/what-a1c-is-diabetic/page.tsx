@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import { BlogPageShell } from "@/components/BlogPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
 import { QuickAnswer } from "@/components/QuickAnswer";
-import { A1CRangesSVG, DPPStudySVG, BloodSugarRangesSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated, getLastUpdatedISO } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "What A1C Level Is Considered Diabetic?",
-  description: "Understand A1C ranges — normal, prediabetes, and diabetes thresholds. What your A1C means and what to do if it is high.",
+  title: "What A1C Level Is in the Diabetes Range?",
+  description: "NIDDK A1C ranges for nonpregnant people, confirmation requirements, and situations that may affect interpretation.",
   alternates: { canonical: "/guides/what-a1c-is-diabetic" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "What A1C Level Is Considered Diabetic?", description: "Understand A1C ranges — normal, prediabetes, and diabetes thresholds. What your A1C means and what to do if it is high.", url: "/guides/what-a1c-is-diabetic", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"What A1C Level Is Considered Diabetic?", description:"Understand A1C ranges — normal, prediabetes, and diabetes thresholds. What your A1C means and what to do if it is high.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "What A1C Level Is in the Diabetes Range?", description: "NIDDK A1C ranges for nonpregnant people, confirmation requirements, and situations that may affect interpretation.", url: "/guides/what-a1c-is-diabetic", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"What A1C Level Is in the Diabetes Range?", description:"NIDDK A1C ranges for nonpregnant people, confirmation requirements, and situations that may affect interpretation.", images:["/og-image.png"]},
 };
 
 export default function Page() {
@@ -18,19 +17,15 @@ export default function Page() {
   const lastUpdated = getLastUpdated("guide-what-a1c-is-diabetic.md");
   const lastUpdatedISO = getLastUpdatedISO("guide-what-a1c-is-diabetic.md");
   return (
-    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="What A1C Level Is Considered Diabetic?" subtitle="A1C ranges explained — normal, prediabetes, diabetes, and what to do."
-      readTime="9 min" category="conditions" categoryLabel="Health Guide"
+    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="What A1C Level Is in the Diabetes Range?" subtitle="Diagnostic ranges, confirmatory testing and test limitations for nonpregnant people."
+      readTime="3 min" category="conditions" categoryLabel="Health Guide"
       relatedTools={[
         {title:"A1C Converter",desc:"Convert A1C to glucose.",href:"/conditions/a1c-blood-sugar-converter",category:"conditions"},
-        {title:"Blood Sugar Guide",desc:"Levels by age.",href:"/guides/blood-sugar-levels-by-age",category:"conditions"},
+        {title:"Blood Sugar Tests",desc:"Diagnostic thresholds and protocol differences.",href:"/guides/blood-sugar-levels-by-age",category:"conditions"},
         {title:"BMI Calculator",desc:"Check your BMI.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
       ]} url="/guides/what-a1c-is-diabetic">
-      <QuickAnswer answer="A1C of 6.5% or higher on two separate tests = diabetes. A1C of 5.7-6.4% = prediabetes (reversible with lifestyle changes). Below 5.7% = normal. A1C reflects your 2-3 month average blood sugar, not a single-day snapshot." />
-      <SplitArticle content={content} injections={{
-        1: <A1CRangesSVG />,
-        3: <DPPStudySVG />,
-        4: <BloodSugarRangesSVG />,
-      }} />
+      <QuickAnswer answer="For nonpregnant people, NIDDK lists A1C below 5.7% as normal, 5.7–6.4% as prediabetes and 6.5% or above as in the diabetes range. In the absence of clear symptoms, confirmatory testing is required. These criteria are not personal treatment targets." />
+      <SplitArticle content={content} />
     </BlogPageShell>
   );
 }

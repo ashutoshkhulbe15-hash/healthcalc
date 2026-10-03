@@ -36,33 +36,62 @@
   },
   {
     "file": "04-bmi-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/body-metrics/bmi-calculator",
+    "sources": [
+      "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
+      "https://www.cdc.gov/bmi/about/index.html",
+      "https://www.cdc.gov/bmi/faq/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "fce757523f95f9ca092fa5a3d1f1a613574c4e955ded407ce33bbf78cb8bf57a"
   },
   {
     "file": "05-tdee-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/fitness/tdee-calculator",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+      "https://cdn.realfood.gov/DGA.pdf"
+    ],
+    "title": "Total Daily Energy Expenditure Estimate",
+    "reviewedOn": "2026-10-03",
+    "sha256": "0847ed4fb358e6929959de6ec1baaa5276d7bfd7e2be931a015d69be6d9515cb"
   },
   {
     "file": "06-macro-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/fitness/macro-calculator",
+    "sources": [
+      "https://www.nal.usda.gov/programs/fnic",
+      "https://www.fda.gov/media/81606/download?attachment=",
+      "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    ],
+    "title": "Macronutrient Percentage Allocator",
+    "reviewedOn": "2026-10-03",
+    "sha256": "3a4d3fb09ae0fc1a53fc17646fd6003d63833fb9a3f703623dabe681e611e37a"
   },
   {
     "file": "07-body-fat-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/fitness/body-fat-calculator",
+    "sources": [
+      "https://api.army.mil/e2/c/downloads/566071.pdf",
+      "https://www.nationalacademies.org/read/6104/chapter/4"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "ed6eb1b5e672829d914f4ad182243cca7dceadd4cae1b770eaf171568861e2fd"
   },
   {
     "file": "08-calorie-deficit-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03; personalized target and timeline withheld; tool now arithmetic-only",
+    "route": "/fitness/calorie-deficit-calculator",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/17848938/",
+      "https://www.niddk.nih.gov/bwp"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "b65b8ae2f1c6ad0a11d451a6280a092ffc3effb0894030dd29b9371e01683a69"
   },
   {
     "file": "09-ovulation-calculator.md",
@@ -88,39 +117,75 @@
   },
   {
     "file": "11-stress-level-test.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed; questionnaire withheld pending confirmation of permission to use",
+    "route": "/mental-health/stress-level-test",
+    "sources": [
+      "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/index.html",
+      "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pssscoring.html"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "eba82dabc0069a9e6ba09c25be8357a83c1d822088f5b1d8ad591d2026f17508"
   },
   {
     "file": "12-a1c-blood-sugar-converter.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/a1c-blood-sugar-converter",
+    "sources": [
+      "https://professional.diabetes.org/glucose_calc",
+      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
+      "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "5649f4e5a26cf2e86e100ba277f85187a7c4757a8f4e51256eb5bc3fb670ddec"
   },
   {
     "file": "13-sleep-quality-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed; arithmetic-only diary estimate, prior modified PSQI withheld",
+    "route": "/mental-health/sleep-quality-calculator",
+    "sources": [
+      "https://www.sleep.pitt.edu/psqi"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "9d31a3f8de0b9daba57474f3a5c673e3feda81e77d200e86cd13973d31c88f15"
   },
   {
     "file": "14-protein-intake-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/fitness/protein-intake-calculator",
+    "sources": [
+      "https://cdn.realfood.gov/DGA.pdf",
+      "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
+      "https://medlineplus.gov/ency/article/002093.htm",
+      "https://www.nationalacademies.org/read/10490/chapter/12"
+    ],
+    "title": "Protein Intake Reference Calculator — U.S. Guidelines",
+    "reviewedOn": "2026-10-03",
+    "sha256": "a551941a51bd1d21a5279cf6c92f531974871e99a4dd8f0fafea2e82050e22e9"
   },
   {
     "file": "15-bmi-calculator-teens.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/body-metrics/bmi-calculator-teens",
+    "sources": [
+      "https://www.cdc.gov/growthcharts/cdc-data-files.htm",
+      "https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm",
+      "https://www.cdc.gov/growth-chart-training/hcp/using-bmi/plotting-interpreting-bmi.html",
+      "https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html",
+      "https://www.cdc.gov/bmi/faq/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "a96bf0a0bb58e5fcc0069e7e8a15be72b33840b2c9d448611680fc2ced5defa1"
   },
   {
     "file": "16-gfr-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/gfr-calculator",
+    "sources": [
+      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+      "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "34130d3c163f7a6619e9298bb1b907827f56732ccc1c13a5787ef50ef57c9bdc"
   },
   {
     "file": "17-pregnancy-safe-food-checker.md",
@@ -136,45 +201,80 @@
   },
   {
     "file": "18-bmr-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/body-metrics/bmr-calculator",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+      "https://cdn.realfood.gov/DGA.pdf"
+    ],
+    "title": "Resting Energy Estimate — Mifflin–St Jeor",
+    "reviewedOn": "2026-10-03",
+    "sha256": "1f7c14ad6d3f73352b45d6618ae8b4f327041fe2653c51bf81ac7b06225a8eec"
   },
   {
     "file": "19-one-rep-max-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "claim review completed 2026-10-03; estimator and training chart withheld pending direct formula-source verification",
+    "route": "/fitness/one-rep-max-calculator",
+    "sources": [
+      "https://www.tandfonline.com/doi/abs/10.1080/07303084.1993.10606684",
+      "https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "3bee55e901017e22dcf68d152d634a75d09fc3f98237ce8ecaaff4810ba437cc"
   },
   {
     "file": "20-ideal-weight-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/body-metrics/ideal-weight-calculator",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/",
+      "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "f6b91ec11a2fa686f2ab6a4d88294ea90ac9f90b1c2048aff7c2fbee1568ac58"
   },
   {
     "file": "21-burnout-quiz.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/mental-health/burnout-quiz",
+    "sources": [
+      "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "12a2fc324f89fbf1fb21c7c1e0f5790c84bac24c8834ee4d8df6a5603a72391d"
   },
   {
     "file": "22-anxiety-self-assessment.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/mental-health/anxiety-self-assessment",
+    "sources": [
+      "https://www.nih.gov/node/19876",
+      "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326",
+      "https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_offer_free_public_access_to_mental_health_assessment_tools_to_improve_diagnosis_and_patient_care"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "78d59d9d7f9503be7546d3763d1b420ccceb87117c5bdb6b34795c5b72e918d4"
   },
   {
     "file": "23-lean-body-mass-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/fitness/lean-body-mass-calculator",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5079277/",
+      "https://pubmed.ncbi.nlm.nih.gov/6496691/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "908050b95dfc99b5acc953f7d43e999df8337a127689e69de3047eac70a51fb7"
   },
   {
     "file": "24-calorie-calculator-women-over-50.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03; prior maintenance/weight-loss targets and age-related recommendations removed",
+    "route": "/body-metrics/calorie-calculator-women-over-50",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "36b6a1815b99d9fe832c9e10f83ef2bd7f76767729d0f6c14db11d72eafcff7f"
   },
   {
     "file": "25-contraction-timer.md",
@@ -190,45 +290,76 @@
   },
   {
     "file": "26-adhd-self-assessment.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/mental-health/adhd-self-assessment",
+    "sources": [
+      "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+      "https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/adhd/Old%20Versions/6Question-ADHD-ASRS-v1-1.pdf"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "8366e872f86fe45b1a908d142d469bc12b6413cf5b0cdb00d1daf34d3f6e2af8"
   },
   {
     "file": "27-anemia-risk-checker.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/anemia-risk-checker",
+    "sources": [
+      "https://www.nhlbi.nih.gov/health/anemia/diagnosis"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "1b8af44681a8bd2dddff513037445b51f83e2515a240915e68364ae5bd522b51"
   },
   {
     "file": "28-body-frame-size-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based page review completed 2026-10-03; prior calculation and category withdrawn; no numerical output active",
+    "route": "/body-metrics/body-frame-size-calculator",
+    "sources": [],
+    "reviewedOn": "2026-10-03",
+    "sha256": "d99c3650cf13709633911f63e19f13ea1d36cc6c8fd1a61259f3f3707d026317"
   },
   {
     "file": "29-tdee-calculator-teens.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/body-metrics/tdee-calculator-teens",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+      "https://www.myplate.gov/life-stages/teens"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "b4bc25057fbaa044a508ded857051e13e1a337a289f8f7de5ba2f7ca74cc7199"
   },
   {
     "file": "30-protein-needs-seniors.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/body-metrics/protein-needs-seniors",
+    "sources": [
+      "https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf",
+      "https://cdn.realfood.gov/DGA.pdf"
+    ],
+    "title": "Protein Reference for Healthy Older Adults: ESPEN Guidance",
+    "reviewedOn": "2026-10-03",
+    "sha256": "420d30143b716c6b4cbeb703383b3b44186ad194584e951f3cad4a0a73276ff6"
   },
   {
     "file": "31-kidney-function-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03; unsupported CKD staging and action recommendations removed",
+    "route": "/conditions/kidney-function-calculator",
+    "sources": [
+      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+      "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "ef0ebdfa35bbcc98030ae753945370da64dac2bef0301bd83771e05f4ebdaa22"
   },
   {
     "file": "32-macro-calculator-pcos.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/fitness/macro-calculator-pcos",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "8f07c9d741da0a1c3921dff476e31adf1e1c40e5e6832614482cb0cc61c425fe"
   },
   {
     "file": "33-ivf-due-date-calculator.md",
@@ -256,15 +387,24 @@
   },
   {
     "file": "35-bmi-vs-body-fat-which-matters.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/blog/bmi-vs-body-fat-which-matters",
+    "sources": [
+      "https://www.cdc.gov/bmi/faq/index.html"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "be35355c60f3a38778725faedaf5d587c5b94fe3591cb02fe33a55c9e957636c"
   },
   {
     "file": "36-understanding-tdee-complete-guide.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/blog/understanding-tdee-complete-guide",
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "c6ecc1f2b7fc78719e2de6475873e601a1c992eb1086c1e4fcd9404a0d18a7c3"
   },
   {
     "file": "37-pregnancy-weight-gain-science.md",
@@ -294,15 +434,25 @@
   },
   {
     "file": "39-how-stress-affects-body.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/blog/how-stress-affects-body",
+    "sources": [
+      "https://www.nccih.nih.gov/health/stress"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "457a5f067fb58e618eff95e8ce63dee70f043e2447c1ae38d68e9d995eed0f31"
   },
   {
     "file": "40-protein-how-much-you-need.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/blog/protein-how-much-you-need",
+    "sources": [
+      "https://cdn.realfood.gov/DGA.pdf",
+      "https://www.nationalacademies.org/read/10490/chapter/12",
+      "https://pubmed.ncbi.nlm.nih.gov/28698222/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "4c90ac650503dcbbc70d6fd61742d68a0d358f0c81795502f2233fa7c5a339f1"
   },
   {
     "file": "food-alcohol.md",
@@ -470,21 +620,36 @@
   },
   {
     "file": "guide-anxiety-vs-stress.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/anxiety-vs-stress-difference",
+    "sources": [
+      "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "4a65738a18a489e699b1e61bc4449700d0c533b5cf952678522b02e62b7288a8"
   },
   {
     "file": "guide-blood-sugar-levels-by-age.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/blood-sugar-levels-by-age",
+    "sources": [
+      "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis",
+      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "669e157e5b7311024ec3501c27142466da5f761a2760d9313c5b0e12103e9609"
   },
   {
     "file": "guide-bmr-vs-tdee.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/bmr-vs-tdee-difference",
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK591031/",
+      "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "479b9a218a4179816d20f4eeb73454aa53aa6f62675708b07bb499101c0fc09b"
   },
   {
     "file": "guide-drinks-pregnancy.md",
@@ -539,15 +704,25 @@
   },
   {
     "file": "guide-keto-macros.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/keto-macros-how-to-calculate",
+    "sources": [
+      "https://www.fda.gov/media/81606/download",
+      "https://pubmed.ncbi.nlm.nih.gov/23801097/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "dacccc834a1a59074e6afc6b871f4a39f867f7ea19ab399acca550632829b3a9"
   },
   {
     "file": "guide-measure-body-fat-at-home.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/how-to-measure-body-fat-at-home",
+    "sources": [
+      "https://www.cdc.gov/bmi/faq/index.html",
+      "https://api.army.mil/e2/c/downloads/566071.pdf"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "931d1a9a04d1d2372d8a60a0be49b93cf22343b92e99f61d818c28023684a713"
   },
   {
     "file": "guide-meat-deli-pregnancy.md",
@@ -563,9 +738,15 @@
   },
   {
     "file": "guide-normal-gfr-by-age.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/normal-gfr-by-age",
+    "sources": [
+      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics",
+      "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+      "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "b5e2ed8a31598da1db05dc659ef920b9d9d39cd1ff5b4a67b0ebd2d049304197"
   },
   {
     "file": "guide-pregnancy-weight-gain-by-trimester.md",
@@ -591,9 +772,13 @@
   },
   {
     "file": "guide-resting-heart-rate-by-age.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/healthy-resting-heart-rate-by-age",
+    "sources": [
+      "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "614430280804c3beae74789de02fd321e43e851ff0cacc188beb9952c300426f"
   },
   {
     "file": "guide-spotting-during-ovulation.md",
@@ -608,45 +793,80 @@
   },
   {
     "file": "guide-what-a1c-is-diabetic.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/guides/what-a1c-is-diabetic",
+    "sources": [
+      "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test",
+      "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes",
+      "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "fdd15aae5434c05dd28b23be36f1576305f92ccfceb4089ccbaa7292ea7c9468"
   },
   {
     "file": "tool-cholesterol-ratio-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/cholesterol-ratio-calculator",
+    "sources": [
+      "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean",
+      "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "4cc7049039399b1c4029c034a917e929e865326d40c6fb1207e9cd61e0287861"
   },
   {
     "file": "tool-postpartum-depression-screening.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03; form and scoring withheld pending confirmation of online reproduction permission",
+    "route": "/mental-health/postpartum-depression-screening",
+    "sources": [
+      "https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool",
+      "https://loinc.org/71354-5/panel"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "5b6ce6e3007886589802644c3252d4d5bc916dc2aadc5b072fbe83231990ac4c"
   },
   {
     "file": "tool-sleep-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/mental-health/sleep-calculator",
+    "sources": [
+      "https://www.cdc.gov/sleep/about/index.html",
+      "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "91bd8afcfe07395572062947871378a56176de1ca798dee31ffd4f55befca870"
   },
   {
     "file": "tool-thyroid-function-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/thyroid-function-calculator",
+    "sources": [
+      "https://www.thyroid.org/thyroid-function-tests/",
+      "https://www.thyroid.org/hyperthyroidism-in-pregnancy/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "af1727390740be0ce1774fc5cc48ef029181371aeb981eee8f1871b75d711bdd"
   },
   {
     "file": "tool-vitamin-d-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based claim review completed 2026-10-03",
+    "route": "/conditions/vitamin-d-calculator",
+    "sources": [
+      "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/",
+      "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "413c8b2699009a4bf94e7c59684c59aa4fa5f669f212f87560213b3dfd719936"
   },
   {
     "file": "tool-waist-to-hip-ratio-calculator.md",
-    "status": "awaiting deeper claim-by-claim review",
-    "route": null,
-    "sources": []
+    "status": "source-based review completed 2026-10-03",
+    "route": "/body-metrics/waist-to-hip-ratio-calculator",
+    "sources": [
+      "https://www.who.int/publications/i/item/9789241501491"
+    ],
+    "reviewedOn": "2026-10-03",
+    "sha256": "637b92fb9c6642816944487cdb032e62c10c218df3d280795bdddb90aeb35ef7"
   },
   {
     "route": "/pregnancy/safe-food",

@@ -1,11 +1,8 @@
-<!-- last-updated: 2026-10-02 -->
-# Postpartum Depression Screening — EPDS
+<!-- last-updated: 2026-10-03 -->
+# Edinburgh Postnatal Depression Scale information
 
-## Scoring the displayed answers
-Each displayed item is ordered from the lowest-symptom response to the highest. The corresponding points are 0, 1, 2 and 3, including the first two items. Add ten responses for a total from zero to thirty. The scoring key must be read against the actual response wording, not a generic reverse-scoring rule.
+The Edinburgh Postnatal Depression Scale (EPDS) is a screening questionnaire. COPE states that it is not a diagnostic tool and describes a ten-item form based on the previous seven days. Its guidance says that interpreting scores requires clinical judgement and that a low total does not necessarily reflect a person's mental health concerns. [COPE: Using the EPDS as a screening tool](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool).
 
-## Follow-up
-COPE uses 13 or more as a follow-up flag. Lower scores cannot rule out difficulties; clinical judgement and circumstances matter. Any positive response on question ten needs prompt safety assessment regardless of the total. If you cannot stay safe, use local emergency services immediately.
+The EPDS form and automated score on this site are temporarily withheld while online reproduction and administration permissions are confirmed. The Royal College of Psychiatrists' terms, reproduced in the LOINC instrument record, distinguish personal-use photocopying from copying and distribution to others or online republication, which require written permission. [LOINC EPDS copyright and terms](https://loinc.org/71354-5/panel).
 
-## Source and limits
-[COPE: EPDS item scoring and follow-up guidance](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool). Screening should connect people with support and professional assessment. This implementation is not represented as independently clinically validated.
+For the questionnaire, scoring guide and assessment appropriate to your circumstances, use the official source or speak with a qualified health professional. This page does not screen or diagnose postpartum depression.

@@ -1,15 +1,7 @@
-<!-- last-updated: 2026-10-02 -->
+<!-- last-updated: 2026-10-03 -->
 # Teen Energy Needs — Guidance
 
-## Growth changes the question
-Energy needs during adolescence depend on development, body size, activity and individual circumstances. An adult Mifflin estimate with a fixed growth bonus does not establish a child's recommended intake.
+## A calculator is not provided
+The previous personalized calorie output has been withdrawn. The cited Mifflin–St Jeor study describes an equation developed from healthy adults aged 19–78; it does not establish a calorie target for adolescents. [Original study record](https://pubmed.ncbi.nlm.nih.gov/2305711/).
 
-## Practical next step
-The previous calorie-target output has been withdrawn. Discuss specific needs with a pediatric clinician or registered dietitian. The purpose is to support development and adequate nutrition, not to prescribe restriction from a single website number.
-
-## Further reading
-[USDA MyPlate: nutrition for teens](https://www.myplate.gov/life-stages/teens).
-
-## Linked source records
-
-[Mifflin et al. (1990), original resting-energy equation](https://pubmed.ncbi.nlm.nih.gov/2305711/).
+USDA MyPlate provides age-stage nutrition information for teens. This page does not estimate an individual energy requirement or give a weight-loss target. [USDA MyPlate: teens](https://www.myplate.gov/life-stages/teens).

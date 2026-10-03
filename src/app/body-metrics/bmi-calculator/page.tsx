@@ -7,11 +7,11 @@ import { BMIScaleSVG, BMILimitationsSVG } from "@/components/ArticleSVGs";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "BMI Calculator — WHO Classification & Chart",
-  description: "Calculate BMI and see WHO weight classification. BMI formula, categories from underweight to obese, and why BMI alone doesn't measure health. Limitations explained.",
+  title: "Adult BMI Calculator — Categories and Limits",
+  description: "Calculate adult BMI and view U.S. CDC screening categories for adults 20 and older, with the formula and limits explained.",
   alternates: { canonical: "/body-metrics/bmi-calculator" },
-  openGraph: { type: "website", siteName: "ProHealthIt", title: "BMI Calculator — WHO Classification & Chart", description: "Calculate BMI and see WHO weight classification. BMI formula, categories from underweight to obese, and why BMI alone doesn't measure health. Limitations explained.", url: "/body-metrics/bmi-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
-  twitter: {card:"summary_large_image", title:"BMI Calculator — WHO Classification & Chart", description:"Calculate BMI and see WHO weight classification. BMI formula, categories from underweight to obese, and why BMI alone doesn't measure health. Limitations explained.", images:["/og-image.png"]},
+  openGraph: { type: "website", siteName: "ProHealthIt", title: "Adult BMI Calculator — Categories and Limits", description: "Calculate adult BMI and view U.S. CDC screening categories for adults 20 and older, with the formula and limits explained.", url: "/body-metrics/bmi-calculator", images: [{url:"/og-image.png",width:1200,height:630}] },
+  twitter: {card:"summary_large_image", title:"Adult BMI Calculator — Categories and Limits", description:"Calculate adult BMI and view U.S. CDC screening categories for adults 20 and older, with the formula and limits explained.", images:["/og-image.png"]},
 };
 
 export default function Page() {
@@ -19,15 +19,15 @@ export default function Page() {
   const lastUpdated = getLastUpdated("04-bmi-calculator.md");
   return (
     <ToolPageShell lastUpdated={lastUpdated} category="body-metrics" title="BMI Calculator"
-      description="Visual gauge with age and gender-adjusted interpretation. Understand what your BMI means — and when it doesn't tell the full story."
-      features={["📊 Visual BMI gauge", "🏛️ WHO classifications", "⚖️ Healthy weight range", "📖 Evidence-based guide"]}
+      description="Calculate BMI for adults age 20 and older. BMI is a screening measure, not a diagnosis."
+      features={["📊 BMI calculation", "📋 CDC adult categories", "⚖️ BMI-based weight range", "📖 Limits explained"]}
       relatedTools={[
-        {title:"Body Fat Calculator",desc:"Navy method estimation.",href:"/fitness/body-fat-calculator",category:"fitness"},
+        {title:"Body Composition Estimate",desc:"Military circumference equation estimate.",href:"/fitness/body-fat-calculator",category:"fitness"},
         {title:"BMI for Teens",desc:"CDC percentile charts.",href:"/body-metrics/bmi-calculator-teens",category:"body-metrics"},
-        {title:"Ideal Weight",desc:"Four formulas compared.",href:"/body-metrics/ideal-weight-calculator",category:"body-metrics"},
+        {title:"Historical Weight Equations",desc:"Compare four historical equation outputs; these are not personal weight targets.",href:"/body-metrics/ideal-weight-calculator",category:"body-metrics"},
       ]}>
       <BmiCalc />
-      <QuickAnswer answer="BMI (Body Mass Index) divides your weight by height squared. A normal BMI is 18.5-24.9 per WHO. Enter your height and weight above for an instant visual result with clinical interpretation." />
+      <QuickAnswer answer="For adults age 20 and older, BMI is weight in kilograms divided by height in meters squared. CDC categories are underweight below 18.5, healthy weight 18.5 to less than 25, overweight 25 to less than 30, and obesity 30 or higher. BMI is a screening measure, not a diagnosis." />
       <SplitArticle content={content} injections={{
         0: <BMIScaleSVG />,
         3: <BMILimitationsSVG />,

@@ -236,13 +236,13 @@ export function BMIScaleSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">WHO BMI Classification Scale</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">CDC BMI categories for adults age 20 and older</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 80" className="w-full" xmlns="http://www.w3.org/2000/svg">
           <defs><linearGradient id="bmi-g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stopColor="#3B82F6"/><stop offset="22%" stopColor="#10B981"/><stop offset="50%" stopColor="#F59E0B"/><stop offset="75%" stopColor="#EF4444"/><stop offset="100%" stopColor="#991B1B"/></linearGradient></defs>
           <rect x="20" y="15" width="600" height="26" rx="13" fill="url(#bmi-g)" opacity="0.6"/>
-          {[{x:20,v:"< 18.5",l:"Underweight"},{x:152,v:"18.5",l:"Normal"},{x:320,v:"25",l:"Overweight"},{x:470,v:"30",l:"Obese I"},{x:560,v:"35+",l:"Obese II+"}].map((m,i)=>(
+          {[{x:20,v:"< 18.5",l:"Underweight"},{x:152,v:"18.5–<25",l:"Healthy weight"},{x:320,v:"25",l:"Overweight"},{x:470,v:"30",l:"Class 1"},{x:560,v:"35 / 40+",l:"Class 2 / 3"}].map((m,i)=>(
             <g key={i}><line x1={m.x} y1={41} x2={m.x} y2={52} stroke="#64748B" strokeWidth="1.5"/><text x={m.x} y={64} fontSize="10" fill="#64748B" textAnchor="middle" fontFamily="system-ui">{m.v}</text><text x={m.x+40} y={10} fontSize="9" fill="#475569" textAnchor="middle" fontWeight="600" fontFamily="system-ui">{m.l}</text></g>
           ))}
         </svg>
@@ -255,22 +255,19 @@ export function BMILimitationsSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">When BMI Gets It Wrong — Same BMI, Different Bodies</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Limits of BMI as a screening measure</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 140" className="w-full" xmlns="http://www.w3.org/2000/svg">
           {[
-            {x:30,label:"Athlete",bmi:"BMI 28",bf:"Body fat 12%",verdict:"Muscular — healthy",color:"#10B981",icon:"🏋️"},
-            {x:230,label:"Sedentary adult",bmi:"BMI 28",bf:"Body fat 32%",verdict:"Overweight — at risk",color:"#F59E0B",icon:"🪑"},
-            {x:430,label:"Elderly person",bmi:"BMI 22",bf:"Body fat 30%",verdict:"Normal BMI — low muscle",color:"#EF4444",icon:"👴"},
+            {x:30,label:"BMI is not a direct",detail:"measurement of body fat",color:"#2563EB"},
+            {x:230,label:"BMI cannot separate",detail:"fat, muscle and bone",color:"#7C3AED"},
+            {x:430,label:"BMI does not show",detail:"where body fat is carried",color:"#0F766E"},
           ].map((p,i)=>(
             <g key={i}>
-              <rect x={p.x} y="10" width="180" height="120" rx="12" fill={p.color} opacity="0.05" stroke={p.color} strokeWidth="1.5"/>
-              <text x={p.x+90} y="35" fontSize="20" textAnchor="middle">{p.icon}</text>
+              <rect x={p.x} y="20" width="180" height="90" rx="12" fill={p.color} opacity="0.05" stroke={p.color} strokeWidth="1.5"/>
               <text x={p.x+90} y="55" fontSize="12" fill="#334155" textAnchor="middle" fontWeight="700" fontFamily="system-ui">{p.label}</text>
-              <text x={p.x+90} y="75" fontSize="12" fill={p.color} textAnchor="middle" fontWeight="700" fontFamily="system-ui">{p.bmi}</text>
-              <text x={p.x+90} y="93" fontSize="10" fill="#64748B" textAnchor="middle" fontFamily="system-ui">{p.bf}</text>
-              <text x={p.x+90} y="115" fontSize="9" fill={p.color} textAnchor="middle" fontWeight="600" fontFamily="system-ui">{p.verdict}</text>
+              <text x={p.x+90} y="78" fontSize="11" fill={p.color} textAnchor="middle" fontWeight="600" fontFamily="system-ui">{p.detail}</text>
             </g>
           ))}
         </svg>
@@ -1424,15 +1421,15 @@ export function A1CRangesSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">A1C Ranges — What Your Number Means</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">A1C categories for nonpregnant people — not a diagnosis</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 90" className="w-full" xmlns="http://www.w3.org/2000/svg">
           <defs><linearGradient id="a1c-g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stopColor="#10B981"/><stop offset="45%" stopColor="#10B981"/><stop offset="55%" stopColor="#F59E0B"/><stop offset="75%" stopColor="#EF4444"/><stop offset="100%" stopColor="#991B1B"/></linearGradient></defs>
           <rect x="20" y="20" width="600" height="28" rx="14" fill="url(#a1c-g)" opacity="0.4"/>
-          <text x="160" y="15" fontSize="10" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Normal (under 5.7%)</text>
-          <text x="390" y="15" fontSize="10" fill="#B45309" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Prediabetes (5.7-6.4%)</text>
-          <text x="550" y="15" fontSize="10" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Diabetes (6.5%+)</text>
+          <text x="160" y="15" fontSize="10" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Below 5.7%</text>
+          <text x="390" y="15" fontSize="10" fill="#B45309" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Prediabetes range (5.7-6.4%)</text>
+          <text x="550" y="15" fontSize="10" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Diabetes threshold (6.5%+)</text>
           {[{x:310,v:"5.7%"},{x:460,v:"6.5%"}].map((m,i)=>(
             <g key={i}><line x1={m.x} y1={48} x2={m.x} y2={62} stroke="#334155" strokeWidth="2"/><text x={m.x} y={76} fontSize="11" fill="#334155" textAnchor="middle" fontWeight="700" fontFamily="system-ui">{m.v}</text></g>
           ))}
@@ -3961,36 +3958,6 @@ export function BMRvsTDEESVG() {
 // BODY FRAME SIZE — SVGs
 // ═══════════════════════════════════════════
 
-export function FrameSizeChartSVG() {
-  return (
-    <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
-      <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Body Frame Size Classification — NIH Wrist Measurement Method</p>
-      </div>
-      <div className="p-5 bg-white">
-        <svg viewBox="0 0 640 110" className="w-full" xmlns="http://www.w3.org/2000/svg">
-          <text x="200" y="12" fontSize="10" fill="#3B82F6" fontWeight="700" fontFamily="system-ui">WOMEN</text>
-          <text x="460" y="12" fontSize="10" fill="#0F766E" fontWeight="700" fontFamily="system-ui">MEN</text>
-          {[
-            {y:20,frame:"Small",wF:"< 5.5 in",wM:"< 6.5 in",color:"#3B82F6"},
-            {y:50,frame:"Medium",wF:"5.5–5.75 in",wM:"6.5–7.5 in",color:"#10B981"},
-            {y:80,frame:"Large",wF:"> 5.75 in",wM:"> 7.5 in",color:"#F59E0B"},
-          ].map((r,i)=>(
-            <g key={i}>
-              <text x="10" y={r.y+17} fontSize="11" fill="#334155" fontWeight="600" fontFamily="system-ui">{r.frame} Frame</text>
-              <rect x="140" y={r.y+2} width="150" height="22" rx="4" fill={r.color} opacity="0.1" stroke={r.color} strokeWidth="1"/>
-              <text x="215" y={r.y+17} fontSize="10" fill={r.color} textAnchor="middle" fontWeight="600" fontFamily="system-ui">Wrist: {r.wF}</text>
-              <rect x="390" y={r.y+2} width="150" height="22" rx="4" fill={r.color} opacity="0.1" stroke={r.color} strokeWidth="1"/>
-              <text x="465" y={r.y+17} fontSize="10" fill={r.color} textAnchor="middle" fontWeight="600" fontFamily="system-ui">Wrist: {r.wM}</text>
-            </g>
-          ))}
-          <text x="320" y="108" fontSize="8" fill="#94A3B8" textAnchor="middle" fontFamily="system-ui">Source: National Institutes of Health anthropometric standards</text>
-        </svg>
-      </div>
-    </div>
-  );
-}
-
 // ═══════════════════════════════════════════
 // CALORIE WOMEN 50+ — SVGs
 // ═══════════════════════════════════════════
@@ -4058,15 +4025,15 @@ export function IdealWeightFormulasSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Four Ideal Weight Formulas Compared — For a 5ft 8in Person</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Historical equation outputs at 5 ft 8 in — examples, not targets</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 120" className="w-full" xmlns="http://www.w3.org/2000/svg">
           {[
-            {y:5,formula:"Devine (1974)",male:"154 lbs",female:"126 lbs",origin:"Originally for drug dosing",color:"#3B82F6"},
-            {y:30,formula:"Robinson (1983)",male:"154 lbs",female:"135 lbs",origin:"Broader population data",color:"#10B981"},
-            {y:55,formula:"Miller (1983)",male:"151 lbs",female:"135 lbs",origin:"Alternative validation",color:"#8B5CF6"},
-            {y:80,formula:"Hamwi (1964)",male:"154 lbs",female:"140 lbs",origin:"Earliest published formula",color:"#F59E0B"},
+            {y:5,formula:"Devine (1974)",male:"151 lbs",female:"141 lbs",origin:"Calculated outputs",color:"#3B82F6"},
+            {y:30,formula:"Robinson (1983)",male:"148 lbs",female:"138 lbs",origin:"Calculated outputs",color:"#10B981"},
+            {y:55,formula:"Miller (1983)",male:"149 lbs",female:"141 lbs",origin:"Calculated outputs",color:"#8B5CF6"},
+            {y:80,formula:"Hamwi (1964)",male:"154 lbs",female:"140 lbs",origin:"Calculated outputs",color:"#F59E0B"},
           ].map((f,i)=>(
             <g key={i}>
               <text x="10" y={f.y+17} fontSize="10" fill="#334155" fontWeight="600" fontFamily="system-ui">{f.formula}</text>
@@ -5601,14 +5568,14 @@ export function A1CConversionScaleSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">A1C Scale: Normal → Prediabetes → Diabetes</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">A1C diagnostic ranges for nonpregnant people — confirmation may be required</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 90" className="w-full" xmlns="http://www.w3.org/2000/svg">
           {[
-            { range: "Below 5.7%", label: "Normal", eag: "< 117 mg/dL", color: "#10B981", x: 10, width: 190 },
+            { range: "Below 5.7%", label: "Below prediabetes range", eag: "< 117 mg/dL", color: "#10B981", x: 10, width: 190 },
             { range: "5.7–6.4%", label: "Prediabetes", eag: "117–137 mg/dL", color: "#F59E0B", x: 210, width: 195 },
-            { range: "6.5%+", label: "Diabetes", eag: "140+ mg/dL", color: "#EF4444", x: 415, width: 215 },
+            { range: "6.5%+", label: "Diabetes threshold", eag: "140+ mg/dL", color: "#EF4444", x: 415, width: 215 },
           ].map((item, i) => (
             <g key={i}>
               <rect x={item.x} y="10" width={item.width} height="65" rx="8" fill={item.color} opacity="0.1" stroke={item.color} strokeWidth="1.5"/>

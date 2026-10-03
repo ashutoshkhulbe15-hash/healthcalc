@@ -1,16 +1,19 @@
-<!-- last-updated: 2026-10-02 -->
-# Cholesterol Ratio Calculator: Arithmetic and Limits
+<!-- last-updated: 2026-10-03 -->
+# Cholesterol ratios: arithmetic and limits
 
-This tool divides total cholesterol, LDL cholesterol and triglycerides by HDL, and subtracts HDL from total cholesterol to show non-HDL cholesterol. Enter all values in mg/dL. A missing optional LDL or triglyceride value stays missing; it is not treated as zero.
+Enter lipid values in mg/dL. The calculator reports total cholesterol ÷ HDL, optional LDL ÷ HDL and triglycerides ÷ HDL ratios, and non-HDL cholesterol as total cholesterol minus HDL. These are arithmetic summaries; for example, total cholesterol 200 and HDL 50 produce a ratio of 4.0 and non-HDL cholesterol of 150 mg/dL. This example illustrates arithmetic only.
 
-For total cholesterol 200 and HDL 50, total/HDL is 4.0 and non-HDL is 150 mg/dL. These are mathematical summaries of a lipid panel.
+## What the results do not show
 
-## What a ratio cannot tell you
+The calculator does not apply an evidence-based cutoff to label a ratio “optimal,” “high risk,” or a diagnosis, and it does not estimate a person's chance of cardiovascular disease. The American Heart Association says HDL should not be interpreted on its own or used as a treatment target, and individual LDL goals depend on a person's health circumstances. Cardiovascular assessment considers other factors such as age, family history, smoking, diabetes and blood pressure. [AHA: What Your Cholesterol Levels Mean](https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean)
 
-A favorable ratio does not cancel an elevated LDL result or establish low cardiovascular risk. Your clinician considers the individual lipid values alongside age, blood pressure, smoking, diabetes, family history and other circumstances. This tool does not estimate the chance of a heart attack or diagnose insulin resistance.
+Do not start, stop or change treatment based on a ratio. Review the full lipid panel and personal risk with a healthcare professional. The AHA describes its PREVENT equations as a separate tool for estimating absolute cardiovascular risk; ratios calculated here are not those equations. [AHA PREVENT calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)
 
-Do not start, stop or alter medication from a ratio result. Discuss the complete lipid panel with your healthcare professional.
+## Sources
 
-## Source
+- [American Heart Association: What Your Cholesterol Levels Mean](https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean)
+- [American Heart Association: PREVENT risk equations](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)
 
-- [American Heart Association: What your cholesterol levels mean](https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean).
+---
+
+*Educational information only. The ratios are arithmetic summaries, not clinical risk estimates.*

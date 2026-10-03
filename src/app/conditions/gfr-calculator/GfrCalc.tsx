@@ -28,8 +28,8 @@ export function GfrCalc(){
   useEffect(()=>{setResult(null);},[creatinine,age,gender]);
   const calculate=()=>{
     setError("");
-    const cr=parseFloat(creatinine),a=parseInt(age);
-    if(!cr||!a){setResult(null);setError("Check all required inputs and the allowed ranges before calculating.");return;}
+    const cr=Number(creatinine),a=Number(age);
+    if(!Number.isFinite(cr)||cr<=0||!Number.isInteger(a)||a<18||a>120){setResult(null);setError("Enter serum creatinine in mg/dL above 0 and an adult age from 18 to 120.");return;}
     const gfr=calcGFR(cr,a,gender==="female");
     const stage=STAGES.find(s=>gfr>=s.min)||STAGES[STAGES.length-1];
     setResult({gfr:Math.round(gfr),stage});

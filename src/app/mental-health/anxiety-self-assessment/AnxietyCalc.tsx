@@ -1,13 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import { CalcShell, CalcError, CalcButton, ResultsShell, ResultCard, StatusBadge } from "@/components/CalcUI";
+import { CalcShell, CalcError, CalcButton, ResultsShell, ResultCard } from "@/components/CalcUI";
 
 const QS=["Feeling nervous, anxious, or on edge","Not being able to stop or control worrying","Worrying too much about different things","Trouble relaxing","Being so restless that it's hard to sit still","Becoming easily annoyed or irritable","Feeling afraid, as if something awful might happen"];
 const OPTS=["Not at all","Several days","More than half the days","Nearly every day"];
 
 export function AnxietyCalc(){
   const[answers,setAnswers]=useState<(number|null)[]>(Array(7).fill(null));
-  const[result,setResult]=useState<{score:number;level:string;status:"good"|"warning"|"danger"|"info"}|null>(null);
+  const[result,setResult]=useState<{score:number;level:string}|null>(null);
 
   const [error,setError]=useState("");
   useEffect(()=>{setResult(null);},[answers]);
@@ -15,12 +15,12 @@ export function AnxietyCalc(){
     setError("");
     if(answers.some(a=>a===null)){setResult(null);setError("Check all required inputs and the allowed ranges before calculating.");return;}
     const score=answers.reduce((s,a)=>(s as number)+(a as number),0) as number;
-    let level:string,status:"good"|"warning"|"danger"|"info";
-    if(score<=4){level="Minimal anxiety";status="good";}
-    else if(score<=9){level="Mild anxiety";status="info";}
-    else if(score<=14){level="Moderate anxiety";status="warning";}
-    else{level="Severe anxiety";status="danger";}
-    setResult({score,level,status});
+    let level:string;
+    if(score<=4) level="Minimal score band";
+    else if(score<=9) level="Mild score band";
+    else if(score<=14) level="Moderate score band";
+    else level="Severe score band";
+    setResult({score,level});
   };
 
   return(
@@ -44,19 +44,19 @@ export function AnxietyCalc(){
       <CalcButton onClick={calculate} label="Get My Score"/>
     <CalcError message={error}/></CalcShell>
     {result&&<><ResultsShell>
-      <StatusBadge status={result.status} text={result.level} />
+      <p className="text-center text-sm font-semibold text-slate-700 mb-3">GAD-7: {result.level}</p>
       <div className="text-center mb-6">
         <div className="text-5xl font-extrabold text-brand-600">{result.score}</div>
         <div className="text-sm text-slate-400 mt-1">out of 21 (GAD-7)</div>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <ResultCard label="Minimal" value="0–4" sub={result.score<=4?"← You":""} />
-        <ResultCard label="Mild" value="5–9" sub={result.score>4&&result.score<=9?"← You":""} />
-        <ResultCard label="Moderate" value="10–14" sub={result.score>9&&result.score<=14?"← You":""} />
-        <ResultCard label="Severe" value="15–21" sub={result.score>14?"← You":""} />
+        <ResultCard label="Minimal band" value="0–4" />
+        <ResultCard label="Mild band" value="5–9" />
+        <ResultCard label="Moderate band" value="10–14" />
+        <ResultCard label="Severe band" value="15–21" />
       </div>
     </ResultsShell>
-    <p className="text-xs text-slate-400 mt-3 italic">The GAD-7 is a validated screening tool, not a diagnostic instrument. Scores reflect symptom severity per published clinical criteria. Only a qualified mental health professional can diagnose an anxiety disorder.</p>
+    <p className="text-xs text-slate-500 mt-3">The score and band are not a diagnosis. <a href="https://www.nih.gov/node/19876" className="underline">NIH instrument record</a> · <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326" className="underline">Original validation study and its sample</a></p>
     </>}</>
   );
 }

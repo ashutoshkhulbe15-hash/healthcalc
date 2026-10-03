@@ -2,10 +2,10 @@
 # Adult ADHD Screening Guidance
 
 ## Use the named instrument correctly
-ASRS v1.1 Part A contains six specified questions. Its shaded-box response thresholds differ by item. The original guidance uses four or more qualifying responses as a reason for further evaluation, not a diagnosis. The previous custom questions and summed risk bands have been withdrawn.
+The ASRS is a family of adult self-report instruments with version-specific questions and scoring instructions. Harvard's National Comorbidity Survey site provides current versions and use terms; it also says the six-question ASRS v1.1 screener must not be altered if recreated. The previous custom questions and summed risk bands on this site have been withdrawn. Use the instructions for the exact official version; do not transfer score rules between versions.
 
 ## Getting an assessment
-Persistent attention or activity concerns can have different causes. A professional assessment considers history, impairment and alternative explanations. A negative screen cannot settle every concern.
+This page does not administer or score an ADHD screening tool. The ASRS is a self-report screen, not a diagnosis; the official instrument itself says that an accurate diagnosis requires clinical evaluation.
 
 ## Official source
-[Harvard National Comorbidity Survey: ASRS versions, questionnaires and use conditions](https://www.hcp.med.harvard.edu/ncs/asrs.php). Follow the instructions for the exact version used.
+[Harvard National Comorbidity Survey: ASRS versions and use conditions](https://www.hcp.med.harvard.edu/ncs/asrs_2025.php). Follow the official instructions for the selected version.

@@ -1,15 +1,10 @@
-<!-- last-updated: 2026-10-02 -->
-# PCOS Nutrition — Example Macro Planner
+<!-- last-updated: 2026-10-03 -->
+# PCOS Nutrition Guidance
 
-## What the planner does
-This adult female-reference planner uses Mifflin–St Jeor plus an activity factor to estimate maintenance energy. It converts one explicitly labelled example split into grams, using 4 kcal per gram for protein and carbohydrate and 9 for fat. It does not infer a PCOS subtype or reduce all estimates by ten percent.
+## Diet composition
+The 2023 international evidence-based guideline states there is no evidence supporting one diet composition over another for PCOS outcomes. It recommends sustainable healthy eating tailored to individual preferences and goals, consistent with population healthy-eating guidance. These are guideline statements, not a personalized prescription. [Guideline recommendations 3.3.1–3.3.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/).
 
-## What it does not prescribe
-The 2023 international PCOS guideline does not establish one best diet composition for everyone with PCOS. Preferences, nutritional adequacy and personal medical circumstances matter. This arithmetic example is not a treatment, weight-loss instruction or pregnancy/adolescent plan. Work with your clinician or dietitian on individual goals.
+The previous tool used an adult energy equation and arbitrary macro splits to produce calorie and gram amounts. Those outputs have been withdrawn because they were not PCOS-specific recommendations. This page does not prescribe calories, weight loss, or macronutrient amounts.
 
 ## Source
-[Monash: 2023 international evidence-based PCOS guideline](https://www.monash.edu/__data/assets/pdf_file/0003/3379521/Evidence-Based-Guidelines-2023.pdf).
-
-## Linked source records
-
-[Mifflin et al. (1990), original resting-energy equation](https://pubmed.ncbi.nlm.nih.gov/2305711/).
+[Monash et al., 2023 International Evidence-based Guideline for PCOS: full recommendation text (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/).

@@ -15,9 +15,9 @@ export default function DisclaimerPage() {
         <p>The content on this website, including text, graphics, calculators, and other material, is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
         <p>Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor, go to the emergency department, or call emergency services immediately.</p>
         <h2 className="text-xl font-bold text-slate-900 pt-4">Calculator Accuracy</h2>
-        <p>Our calculators use established, peer-reviewed formulas and are designed to provide reasonable estimates. However, all results are approximations based on population-level data and may not reflect your individual health status. Individual variation is normal and expected.</p>
+        <p>Calculator methods and evidence differ by tool. Each tool should be read with its own method, source and limitations; outputs are estimates or arithmetic results and may not reflect an individual&apos;s health status.</p>
         <h2 className="text-xl font-bold text-slate-900 pt-4">Mental Health Screening Tools</h2>
-        <p>Mental health assessments on this site (stress, anxiety, burnout, ADHD, sleep quality) are screening tools only. They do not diagnose mental health conditions. A diagnosis requires comprehensive evaluation by a qualified mental health professional. If you are in crisis, contact your local emergency services or a crisis helpline.</p>
+        <p>The GAD-7 page provides a screening questionnaire, not a diagnosis. The stress and sleep pages provide information or arithmetic estimates; the burnout and ADHD pages provide source information and do not administer assessments. None of these pages diagnoses a mental health condition.</p>
         <h2 className="text-xl font-bold text-slate-900 pt-4">No Doctor-Patient Relationship</h2>
         <p>Use of this website does not create a doctor-patient or therapist-patient relationship. ProHealthIt does not provide medical consultations or personalized health recommendations.</p>
       </div>

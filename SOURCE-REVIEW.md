@@ -1,6 +1,6 @@
 # Source-based content review — pregnancy batch 1
 
-October 2, 2026. This is an evidence and implementation review of 15 pages, with associated shared interfaces and calculator code. It is not a claim that all 76 articles have completed this review. The previously deployed repair release remains separate; these new changes have not been deployed.
+This file preserves the historical batch 1 findings from October 2, 2026. Its counts and deployment notes describe that batch at the time and are superseded by the October 3 status below. The review remains source-based editorial work, not practitioner review.
 
 ## Findings corrected
 
@@ -58,3 +58,8 @@ See SOURCE-REVIEW-RECHECK.md for the October 3 second verification, subsequent c
 ## Pregnancy food and drink batch 2
 
 See [SOURCE-REVIEW-BATCH-2.md](SOURCE-REVIEW-BATCH-2.md) for the October 3 review of 12 additional pregnancy food and drink articles, the food directory/checker, exact page-by-page evidence decisions, and sources. Together with batch 1, 27 of 76 articles have completed the deeper review; 49 remain explicitly unreviewed.
+
+
+## Current review status — October 3, 2026
+
+The source-based review now has page-by-page records for all 76 unique content files. See [batch 4](SOURCE-REVIEW-BATCH-4.md) for the final page review, source links and validation; [the complete inventory](SOURCE-REVIEW-INVENTORY.json) lists every reviewed content file, route, source URL and SHA-256. This does not mean every tool is approved: the one-rep-max estimator and body-frame calculation remain withdrawn with no numeric output. Historical per-batch counts above refer to their dates and scopes.
