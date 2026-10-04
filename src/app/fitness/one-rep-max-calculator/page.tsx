@@ -7,6 +7,7 @@ import { MethodNotice } from "@/components/MethodNotice";
 export const metadata: Metadata = {
   title: "One-repetition maximum estimate information",
   description: "The estimated one-repetition maximum calculator is temporarily unavailable while its equation sources and applicability are reviewed.",
+  openGraph: { url: "/fitness/one-rep-max-calculator" },
   alternates: { canonical: "/fitness/one-rep-max-calculator" },
 };
 

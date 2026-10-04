@@ -1,181 +1,169 @@
-<!-- last-updated: July 2026 -->
-# Pregnancy Weight Gain Calculator: Track Your Weight Week by Week
+<!-- last-updated: October 3, 2026 -->
+# Pregnancy Weight Gain Calculator: Total Ranges and Weekly References
 
-Pregnancy is a time of profound physical change, and weight gain is one of the most visible markers of those changes. If you are wondering how much weight you should gain, or whether you are gaining the right amount, you are far from alone.
+Pregnancy is a time of profound physical change, and weight gain is one of the most visible markers of those changes. If you are wondering how much weight you should gain, or whether your recorded gain fits a published range, you are far from alone.
 
-These questions occupy expectant parents everywhere, often fueled by conflicting advice from friends, family, and online forums. The good news is that there is a science-backed answer, and it is more personal than a single number.
+These questions often come with conflicting advice from family, friends and online forums. This page separates three things that can otherwise get mixed together: a published total-pregnancy range, a reference rate for part of pregnancy, and the arithmetic difference between two weights.
 
-This tool uses evidence-based IOM guidelines to help you see where you stand and what to expect in the weeks ahead. Whether you are underweight, normal weight, overweight, or living with obesity, there are healthy ranges tailored to you.
+The calculator displays U.S. reference ranges by pre-pregnancy BMI and pregnancy type. It does not predict your baby's growth, assess your health, or place your current weight on a week-by-week curve. Its reference figures come from the [CDC pregnancy weight-gain tables](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html). Your maternity team's advice takes account of information this tool does not collect.
 
-Not sure how far along you are? Our [Due Date Calculator](/pregnancy/due-date-calculator) can help you pin down your gestational week.
+Not sure how far along you are? Our [Due Date Calculator](/pregnancy/due-date-calculator) provides a separate calendar estimate. Entering a date there does not add a gestational-week assessment to this weight calculator.
 
 ## 📊 Pregnancy Weight Gain Chart by Week
 
-Most people arrive here looking for one thing: a clear pregnancy weight gain chart they can measure themselves against. The reference chart injected below gives the IOM target ranges in both kg and lbs, organized by pre-pregnancy BMI.
+A weekly chart and a total-range table answer different questions. This tool shows a total range; the following table supplies the published weekly reference separately. It does not draw an individual trajectory or label your current gain as above or below a week-specific target.
 
-Read it as a tracker, not a verdict. Your job is to stay roughly within your BMI row's range over time, not to hit an exact number in any given week.
+| Pre-pregnancy BMI | Total gain, published kg range | Total gain, published lb range | Second and third trimester reference rate, kg/week |
+|---|---|---|---|
+| Below 18.5 | 12.5–18 | 28–40 | 0.44–0.58 |
+| 18.5 to below 25 | 11.5–16 | 25–35 | 0.35–0.50 |
+| 25 to below 30 | 7–11.5 | 15–25 | 0.23–0.33 |
+| 30 or higher | 5–9 | 11–20 | 0.17–0.27 |
 
-The trajectory the chart implies is a gentle curve, not a straight line. Very little gain in the first trimester, then a steadier climb through the second and third.
+**Source and scope:** [National Academies, 2009 report, Summary Table S-1](https://www.nationalacademies.org/read/12584/chapter/2). These are U.S. singleton-pregnancy references. The report's weekly calculations assume 0.5–2 kg of first-trimester gain. That is a calculation assumption, not a finding that every pregnancy must follow that pattern.
 
-A common source of worry is comparing your chart to someone else's. Two women with the same height and starting weight can follow visibly different curves and both be perfectly healthy, because baby size, water retention, and metabolism all differ.
+Read the total columns as the range over the pregnancy, not as an amount you must have gained today. Read the final column as a reference rate for the stated trimesters, not a prescription to add the same amount every week. A rate and a total cannot be compared directly: one has units of kg/week, while the other has units of kg.
 
-That is why the chart shows a range, not a line. Landing anywhere inside your BMI row across the pregnancy is the goal, and drifting toward the top or bottom of it is not a problem on its own.
+The kg and lb columns reproduce the report's rounded published values. The calculator instead converts its selected pound endpoints to kilograms and rounds to one decimal place. Consequently, its kg display can differ slightly from the printed kg table. Those differences are unit-conversion and rounding differences, not competing clinical recommendations.
 
-It also helps to know the chart is built from LMP dating, counted from your last period rather than conception. If your ovulation was late, your true progress may look slightly different from the calendar week, which your provider factors in.
-
-> 🔑 **Key Takeaway:** The IOM (now National Academy of Medicine) sets different weight gain ranges by pre-pregnancy BMI. Underweight women should gain more, and women with obesity should gain less. These ranges remain the global standard used by ACOG, and they are what this chart and calculator are built on.
+For example, the published normal-BMI row is 25–35 lb and 11.5–16 kg. Directly converting the pound endpoints gives approximately 11.3–15.9 kg. This is a labelled arithmetic example explaining the display; it does not narrow the published range or establish a more precise personal target.
 
 ## 🧮 What Is Healthy Pregnancy Weight Gain?
 
-Weight gain during pregnancy is not just normal, it is necessary. Your body is doing the remarkable work of creating and nurturing a human life, and that requires significant physiological change.
+The starting point matters: this page uses **pre-pregnancy** BMI, calculated from pre-pregnancy weight and height. It does not recalculate a person's pregnancy reference category from their current weight. The [CDC explains that recommended gain depends on BMI before pregnancy and whether someone is carrying one baby or twins](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html).
 
-Yet pregnancy weight gain sits in an unusual cultural space. It is the one kind of weight gain we expect and encourage, even in a society that often stigmatizes weight in every other context.
+A category is a way to select a reference row. It is not a diagnosis, a judgment of eating habits, or a complete description of nutritional needs. Two users with the same inputs will receive the same row because the software has no additional clinical information about either pregnancy.
 
-The stakes are real, because both too little and too much gain carry risks. Insufficient gain is linked to preterm delivery, low birth weight, and intrauterine growth restriction.
+The purpose of a range is to provide a starting point for discussion. A point inside the range does not certify that everything is well, and a point outside it does not by itself identify a complication. The calculator cannot determine whether a change is related to fluid, fetal growth or another factor.
 
-Excessive gain, on the other hand, raises the risk of gestational diabetes, preeclampsia, and labor complications. For the mother, it can also make returning to pre-pregnancy weight harder afterward.
+A useful question for a prenatal visit is: “Does this reference apply to my pregnancy, and how should we interpret my recorded weights?” Bring the dates and units as well as the numbers. That gives the conversation more context than a screenshot of an isolated result.
 
-In 2009 the Institute of Medicine published revised guidelines that shifted the whole approach. Rather than one target for everyone, the ranges are individualized by pre-pregnancy Body Mass Index (BMI).
-
-The reasoning is sound. Someone who starts pregnancy at a lower weight has different nutritional and metabolic needs than someone who starts higher, and the guidelines account for that biology.
-
-It is worth understanding why the ranges matter beyond hitting a target. The research behind them followed large populations and linked gain to concrete outcomes for both mother and baby.
-
-On the low end, inadequate gain is associated with babies born small for gestational age, who face higher risks as newborns. It also raises the odds of preterm birth, which carries its own complications.
-
-On the high end, excess gain is one of the strongest modifiable risk factors for a large-for-gestational-age baby. That can complicate delivery and is linked to higher rates of cesarean birth.
+The U.S. label matters. This page does not call its tables a universal international standard. If your maternity service follows another country's guidance, use that service's interpretation rather than combining numbers from different countries into a new target.
 
 ## 📝 How to Use This Weight Gain Tracker
 
-> 💡 **Tip:** Enter your pre-pregnancy weight, not your current weight. The calculator needs your starting point to determine which IOM range applies to you.
+> **Tip:** Enter your pre-pregnancy weight in the starting-weight field and your current weight in the current-weight field. These inputs serve different purposes.
 
-Using the tracker is straightforward once you know what each field does. The steps injected below walk through the inputs and what your results mean.
+**Step 1: Choose the unit system.** Metric uses kilograms and centimetres; the other option uses pounds and inches. Read the labels after switching units and enter the corresponding values. Do not enter a centimetre height into an inch field or interpret a kilogram change as a pound change.
 
-Your height sets your BMI category, and your pre-pregnancy weight is the anchor point for every calculation. If you do not remember it, your weight at the first prenatal visit is a reasonable baseline.
+**Step 2: Enter your height and pre-pregnancy weight.** The tool uses these to calculate BMI: weight in kilograms divided by height in metres squared. For example, 60 kg and 1.65 m gives 60 ÷ 1.65², approximately 22.0. This is arithmetic showing how the input selects a reference row, not a clinical assessment.
 
-Current weight and gestational week let the tool place you on the curve. It compares where you are to where the IOM range suggests you might be by that week.
+If you do not know your pre-pregnancy weight, leave uncertainty visible rather than presenting an invented number as a measurement. Ask your maternity team which recorded weight is suitable for their assessment. This page does not declare every first-visit weight an equivalent substitute.
 
-None of the outputs are judgments. Pregnancy is variable, some weeks you gain more and some less, and the overall trend is what matters.
+**Step 3: Enter current weight.** The displayed gain is current weight minus starting weight. For example, 68 kg minus 60 kg is 8 kg. That result describes the entered measurements; it does not tell you whether 8 kg is appropriate for your gestational week.
+
+**Step 4: Select one baby, twins, or higher-order multiples.** The selection determines which reference is available. The higher-order option does not generate a numerical target. Twin references have separate limitations, explained below.
+
+**Step 5: Read the result labels together.** Pre-pregnancy BMI, recorded change and total reference range are separate outputs. Do not treat “total reference range” as “weight I should have gained so far.” There is no gestational-week input, weekly classification or individualized calorie prescription in this calculator.
+
+If you correct an input, calculate again and use the corrected result. Save enough context to understand it later: the input units, which pregnancy type you selected, and which weight was used as the starting point. These are practical recordkeeping suggestions, not a medical monitoring schedule.
 
 ## 👶 Weight Gain by Month and Trimester
 
-> 📌 **Note:** Most women gain very little in the first trimester, roughly 1 to 4 pounds total. The bulk of healthy weight gain happens across the second and third trimesters.
+Many people search for monthly milestones, but a month-by-month quota would imply a precision this tool does not provide. The reference table above uses trimesters, and the calculator uses a total range. Neither creates a personalized schedule for reaching particular weights on calendar dates.
 
-People search for weight gain both by week and by month, but the clearest way to understand the pattern is by trimester. The distribution is quite uneven.
+**First trimester.** The table's first-trimester assumption is identified beside its source. It should not be used to dismiss poor intake, persistent vomiting or weight loss as harmless. A report's modelling assumption cannot answer a question about a particular person's symptoms.
 
-**First trimester (weeks 1 to 13).** Total gain is minimal, typically 0.5 to 2 kg (1 to 4 lbs) for the entire three months. This is also when nausea is often worst, and some people lose a little weight from food aversions.
+**Second trimester.** If you are looking at the weekly-reference column, first check that you have selected the correct starting-BMI row and singleton scope. Keep the unit kg/week attached to the figure. Copying only the number into a note can make it look like a monthly or total amount.
 
-If you lose weight in the first trimester, that is completely normal. Your baby weighs only about 15 grams at the end of it, so there is no need for large gains yet.
+**Third trimester.** The same published reference column applies to the second and third trimesters. The page does not divide total gain into fixed percentages for each trimester, and it does not attribute a weekly scale change to a particular amount of baby growth.
 
-**Second trimester (weeks 14 to 27).** As nausea eases and appetite returns, gain becomes steadier, accounting for roughly 40% of your total. A normal-weight person might gain around 5 kg across these weeks, about 0.35 to 0.4 kg weekly.
+For a discussion about a trend, a simple dated record can be more useful than trying to recreate a smooth graph. Suggested columns are date, measured weight, units, and any question you want to raise at your appointment. A blank entry is preferable to filling a missed measurement with an estimate that appears measured.
 
-Your baby grows fast here, from about 100 grams at week 14 to over 900 grams by week 27. Your placenta matures, amniotic fluid rises, and blood volume expands.
-
-**Third trimester (weeks 28 to 40).** The weekly pace continues, though some people slow slightly in the final weeks. Your baby gains around 230 grams a week, laying down the fat layer that helps regulate temperature after birth.
-
-Do not be alarmed by rapid third-trimester gains. Much of it is baby growth, blood volume, amniotic fluid, and tissue expansion rather than maternal fat.
-
-Track your baby's growth with our [Fetal Weight Percentile Calculator](/pregnancy/fetal-weight-percentile).
+A fetal-growth estimate is a different measurement. Our [Fetal Weight Percentile information page](/pregnancy/fetal-weight-percentile) should not be used to subtract an estimated baby's weight from your scale reading or diagnose the reason for a weight change.
 
 ## ⚖️ Where Does the Weight Actually Go?
 
-One of the most reassuring facts about pregnancy weight gain is the breakdown. When you gain 13 kg (29 lbs), very little of it is body fat, and most is necessary tissue and fluid.
+Pregnancy weight gain is not simply another name for body-fat gain. The [NHS explains that some gain relates to the growing baby and some to stores for feeding after birth](https://www.nhs.uk/pregnancy/keeping-well/weight-gain/). A scale records the combined body weight, rather than displaying those components separately.
 
-Roughly two-thirds of pregnancy weight is the machinery of pregnancy itself: the baby, placenta, amniotic fluid, an enlarged uterus, expanded blood volume, and extra fluid. The remaining third is maternal fat stores your body builds to prepare for breastfeeding.
+That distinction is reassuring without requiring an invented breakdown. This page does not assign a fixed fraction to fat, a fixed kilogram amount to the placenta, or a universal percentage to blood-volume changes. The calculator has no measurements from which to produce that kind of individual breakdown.
 
-Seeing the breakdown often changes how the number on the scale feels. A 13 kg gain sounds like a lot until you realize the baby, placenta, and fluid alone account for a large share of it.
+Consider what an 8 kg recorded change actually establishes: the current entered weight is 8 kg above the entered baseline. It does not establish that 8 kg is fat, that it is all fetal growth, or that any particular component is responsible. The same subtraction cannot answer those three different questions.
 
-Consider a typical distribution near term. The baby is roughly 3.4 kg, the placenta about 0.7 kg, and amniotic fluid another 0.8 kg, none of which is body fat.
+If someone shares a diagram dividing pregnancy gain into precise body components, check whether it is an illustration, a population description or a measurement of your pregnancy. Those descriptions should not be interchangeable. A diagram can explain a concept without justifying an exact claim about your body.
 
-Add the uterus growing to many times its normal size, breast tissue preparing for feeding, and a blood volume that expands by nearly 50%, and you have accounted for most of the gain. These are all temporary, functional changes.
-
-The maternal fat stores, often around 4 kg, are the part people worry about most. Yet even these serve a purpose, acting as an energy reserve for the demanding early weeks of feeding a newborn.
-
-The takeaway is simple. Pregnancy weight gain is not frivolous, it is your body doing exactly what it is designed to do.
+When discussing the scale with family or friends, you can use neutral wording: “This is my recorded weight change; my maternity team interprets it with the rest of my care.” You do not need to turn the reference category into a personal label or defend each measurement as a success or failure.
 
 ## 🍎 Tips for Healthy Pregnancy Weight Gain
 
-> 💡 **Tip:** You do not need to "eat for two." The real increase is about 340 extra calories a day in the second trimester and 450 in the third, roughly an extra snack.
+A pregnancy-specific source is more relevant here than an adult weight-loss calculator. The [NHS advises against trying to lose weight by dieting during pregnancy](https://www.nhs.uk/pregnancy/keeping-well/weight-gain/). A number above a reference range is therefore not an instruction from this tool to start a calorie deficit.
 
-Healthy pregnancy weight gain is about nourishment, not restriction. A few evidence-based habits go a long way.
+The [CDC recommends a balanced diet and gives general U.S. additional-energy guidance: usually no extra calories in the first trimester, about 340 per day in the second and 450 in the third](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html). These are general guidance figures, not a supplement dose, an individualized meal plan, or calories to add automatically to a TDEE result.
 
-Focus on nutrient quality over calorie counting. Your energy needs rise only modestly, so adding nutrient-dense foods like an extra piece of fruit, some Greek yogurt, or a handful of nuts delivers the calories plus the iron, calcium, protein, and folate pregnancy requires.
+Country-specific advice differs. The [NHS healthy-eating guidance for England describes about 200 extra calories daily in the final three months](https://www.nhs.uk/best-start-in-life/pregnancy/healthy-eating-in-pregnancy/). This page labels the two sources separately; it does not average their figures or present them as equivalent schedules.
 
-Move your body within reason. ACOG recommends about 150 minutes of moderate activity weekly, and a 30-minute walk on most days meets that comfortably.
+For meal planning, start with your local maternity guidance and food access. Useful questions include which usual meals you can manage, whether nausea makes particular foods difficult, and whether you need support with shopping or preparing food. These questions help prepare a conversation without creating a new unsourced list of “pregnancy superfoods.”
 
-Swimming, prenatal yoga, and light strength work are all pregnancy-friendly. Always clear your plan with your provider, especially if you have complications.
+For activity, [CDC guidance for healthy pregnant or postpartum people recommends at least 150 minutes of moderate-intensity aerobic activity per week and discussion with a clinician about adjustments](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html). The “healthy” population qualifier matters; this is not clearance for every exercise or every pregnancy complication.
 
-Be aware of gestational diabetes risk. It affects roughly 6 to 9% of pregnancies and is more common with higher pre-pregnancy weight, and if diagnosed, your provider or a dietitian will guide your nutrition.
-
-Protein and iron deserve special attention. Both climb in importance as pregnancy progresses, and nutrient-dense choices cover them without a large calorie jump.
-
-Hydration also plays a quiet role. Adequate fluids support the expanded blood volume and can ease the constipation and swelling that make the scale feel unpredictable.
-
-Weigh yourself consistently if you track at home. The same time of day, similar clothing, and the same scale reduce the noise, so the trend you see reflects real change.
-
-Calculate your daily calorie needs with our [TDEE Calculator](/fitness/tdee-calculator).
+If keeping a weight record makes you anxious, bring that concern to your prenatal appointment too. A tool should help you ask clearer questions, rather than encourage repeated checking or make eating decisions for you. Your care team can explain how they want weight information used in your care.
 
 ## 👯 Twin Pregnancy Weight Gain Chart
 
-Carrying twins changes the math, and a twin pregnancy weight gain chart sits higher across the board than a singleton one. You are supporting two babies, two placentas, and more amniotic fluid.
+Twin references are separate from singleton references. The [CDC twin table](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html) lists the following total ranges in pounds:
 
-The IOM sets specific twin ranges by pre-pregnancy BMI. Normal-weight women are guided toward roughly 17 to 25 kg (37 to 54 lbs), overweight women toward about 14 to 23 kg (31 to 50 lbs), and women with obesity toward about 11 to 19 kg (25 to 42 lbs).
+| Pre-pregnancy BMI | CDC total reference for twins |
+|---|---|
+| Below 18.5 | 50–62 lb, from a separate observational study |
+| 18.5 to below 25 | 37–54 lb |
+| 25 to below 30 | 31–50 lb |
+| 30–39.9 in CDC's published table | 25–42 lb |
 
-Underweight twin pregnancies have less data behind them, so ranges are extrapolated slightly above the singleton figures. Your maternal-fetal medicine team will individualize this.
+The underweight row is explicitly identified by CDC as coming from a separate study, rather than the IOM recommendation. The calculator flags that distinction. It must not be described as an extrapolated, clinically validated IOM target.
 
-If you select the multiple-pregnancy option in the calculator, it applies these higher ranges automatically. The same principle still holds: aim for the trend within your range, not a precise weekly number.
+The report's published twin kg ranges and the calculator's conversions are not identical. For example, converting 37–54 lb produces approximately 16.8–24.5 kg; that is conversion arithmetic, not a more exact clinical range. Read the units and source labels rather than assuming extra decimal places mean better evidence.
+
+CDC's displayed obesity category stops at BMI 39.9. The tool groups starting BMI of 30 or higher together, so it does not establish a separately validated twin target for BMI 40 or higher. Ask your maternity team how they interpret the reference for your circumstances.
+
+For triplets or more, the calculator withholds a numerical range. [CDC directs people carrying higher-order multiples to discuss appropriate gain with their health professional](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html). It does not support multiplying a singleton range by the number of babies.
 
 ## ⚠️ When to Be Concerned
 
-Most pregnancy weight patterns are normal, but a few warrant a call to your provider. The component below summarizes the warning signs worth knowing.
+Do not use a weekly weight threshold to decide whether urgent symptoms deserve care. [CDC's urgent maternal warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) include a headache that does not go away or worsens, vision changes, severe swelling of the face or hands, trouble breathing, chest pain, and severe nausea or vomiting that prevents keeping fluids down. Seek medical care immediately for urgent warning signs.
 
-A sudden gain of more than 1 kg (2.2 lbs) in a single week, especially after week 20, can signal preeclampsia when paired with swelling, headache, or vision changes. Most sudden gains are just water retention, but this combination is worth flagging promptly.
+The [NHS pre-eclampsia guidance](https://www.nhs.uk/conditions/pre-eclampsia/) also calls for immediate help for relevant symptoms, including severe headache, visual disturbance and sudden swelling. Routine checks matter because high blood pressure and protein in urine may be found before a person notices symptoms.
 
-Persistent weight loss after the first trimester is also unusual and worth discussing. So is gaining far outside your IOM range week after week, which your provider can help you understand in context.
+A reassuring calculator result does not override symptoms. Do not wait to exceed the total range, to gain a specified number of kilograms, or to calculate another BMI before seeking help. Use your local maternity service or urgent medical service; this page does not assume everyone has access to the same country's telephone numbers.
 
-Healthy weight gain is not purely about numbers. Your age, activity level, medical history, and conditions like PCOS all shape it, so your provider's individualized view always outranks a calculator.
-
-It is worth being specific about the preeclampsia picture, since it is the most serious pattern here. The concern is not weight alone but the combination: a rapid gain paired with swelling in the face or hands, a persistent headache, or changes in vision.
-
-That cluster reflects fluid shifts driven by rising blood pressure, not extra body fat. It typically appears after week 20 and is exactly the kind of thing worth a same-day call rather than waiting for your next appointment.
+For questions without urgent warning signs, bring a dated record and your concerns to your maternity team. The calculator cannot distinguish a measurement issue from a medical problem. It also cannot guarantee that early weight loss, a sudden change, or a particular pattern is harmless.
 
 ## ❓ Frequently Asked Questions
 
 **How accurate is this pregnancy weight gain calculator?**
 
-It uses the 2009 IOM guidelines, the gold standard used by ACOG and major medical bodies worldwide. Accuracy depends on correct inputs: your true pre-pregnancy weight and height, and an accurate gestational week. The tool gives a personalized range, not a prediction of your exact gain.
+It calculates BMI and weight change from your inputs and selects a published reference row. That is numerical functionality, not clinical validation of an individual pregnancy. It does not use gestational week or predict outcomes. Compare its figures with the [CDC source table](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html), keeping the source and conversion labels in view.
 
 **Is there a pregnancy weight gain chart by week in kg and lbs?**
 
-Yes. The chart on this page lists IOM target ranges in both kg and lbs, organized by pre-pregnancy BMI category, along with typical weekly rates for the second and third trimesters. You can read your BMI row across to find your range in whichever unit you prefer.
+The page includes published total kg and lb ranges and a separate kg/week reference. It does not provide a cumulative target for every week. Do not read the total range as the amount expected at your current appointment.
 
 **I am gaining more than the recommended range. Should I diet?**
 
-No. Calorie restriction during pregnancy can harm fetal development and deprive you of nutrients. If you are consistently above your range, discuss it with your provider rather than restricting food, since they may look at water retention, metabolic factors, or refer you to a dietitian.
+This calculator does not recommend dieting or a calorie deficit. Discuss the result with your maternity team. The [NHS advises against weight-loss dieting during pregnancy](https://www.nhs.uk/pregnancy/keeping-well/weight-gain/).
 
 **Why did I gain weight suddenly in one week?**
 
-Single-week jumps are common and usually not meaningful. Water retention, sodium, hormones, and normal variation can move the scale 1 to 2 kg. The trend over weeks matters far more than any single weigh-in, though a jump with swelling or headache is worth a call.
+The tool cannot identify the cause from two scale readings. It does not label sudden changes as “just water.” If there are [urgent warning symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html), seek immediate medical care rather than relying on a numerical threshold.
 
 **Does this calculator work for twin pregnancies?**
 
-Yes. A multiple-pregnancy option adjusts your ranges upward, based on the IOM's specific twin guidelines. For triplets or more, data is sparser, and a maternal-fetal medicine specialist will give you individualized targets.
+It displays the CDC twin reference, with a separate limitation for the underweight study-based row. It gives no range for triplets or more and no individually validated target for higher BMI. See the twin section for population and unit qualifications.
 
 **When should I start gaining weight during pregnancy?**
 
-Most of the first trimester involves minimal gain, often just 1 to 2 kg. Meaningful gain usually begins in the second trimester as nausea resolves and appetite returns. Not gaining early, or losing a little to nausea, is normal.
+There is no personalized start date in this tool. The report's early-gain assumption belongs to its reference calculation, rather than establishing a deadline for every pregnancy. Ask your maternity team how your own measurements fit your care.
 
 **Is it normal to lose weight in the first trimester?**
 
-Yes, especially with significant morning sickness. Up to 20% of pregnant people lose weight early from nausea and food aversions, which does not harm the still-tiny baby. Weight gain usually resumes around week 14.
-
-For trimester-specific guidance, see [Pregnancy Weight Gain by Trimester](/guides/pregnancy-weight-gain-by-trimester) and [The Science of Pregnancy Weight Gain](/blog/pregnancy-weight-gain-science).
+This page cannot declare an individual's weight loss harmless or promise when it will stop. Discuss weight loss or difficulty eating with your maternity team. Severe vomiting or inability to keep fluids down is an [urgent warning sign](https://www.cdc.gov/hearher/maternal-warning-signs/index.html).
 
 ## Sources & Medical References
 
-1. Institute of Medicine (IOM). Weight Gain During Pregnancy: Reexamining the Guidelines. National Academies Press, 2009.
-2. World Health Organization (WHO). Body Mass Index (BMI) Classification. WHO, 2023.
-3. American College of Obstetricians and Gynecologists (ACOG). Committee Opinion No. 548: Weight Gain During Pregnancy. Obstetrics and Gynecology, 121(2), 2013.
-4. Goldstein RF, et al. Association of Gestational Weight Gain With Maternal and Infant Outcomes. JAMA, 317(21), 2207-2225, 2017.
-5. ACOG. Committee Opinion No. 804: Physical Activity and Exercise During Pregnancy and the Postpartum Period. Obstetrics and Gynecology, 135(4), 2020.
-6. Ramel B, et al. Nutrition and Weight Gain During Pregnancy: A Review of the Literature. Journal of the Academy of Nutrition and Dietetics, 113(11), 1485-1494, 2013.
+- [CDC: Weight Gain During Pregnancy](https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html) — U.S. singleton and twin tables, calorie guidance and higher-order multiples.
+- [National Academies: Weight Gain During Pregnancy, Summary](https://www.nationalacademies.org/read/12584/chapter/2) — Table S-1 and its assumptions; published kg/lb references.
+- [NHS: Weight gain in pregnancy](https://www.nhs.uk/pregnancy/keeping-well/weight-gain/) — weight-gain context and avoiding weight-loss dieting.
+- [NHS: Healthy eating in pregnancy](https://www.nhs.uk/best-start-in-life/pregnancy/healthy-eating-in-pregnancy/) — separately labelled England calorie guidance.
+- [CDC: Activity for healthy pregnant or postpartum people](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html) — activity guidance and clinical discussion.
+- [CDC: Urgent Maternal Warning Signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) and [NHS: Pre-eclampsia](https://www.nhs.uk/conditions/pre-eclampsia/) — urgent symptoms and action.
+
+This page provides information and reference arithmetic, not medical advice, diagnosis or treatment. Keep your existing maternity care and follow your care team's individualized advice. The site's medical disclaimer also applies.

@@ -48,16 +48,18 @@ export function BmiCalc() {
           {/* Visual gauge */}
           <div className="mb-6">
             <div className="relative h-5 rounded-full overflow-hidden flex">
-              {CATEGORIES.slice(0, 5).map((c, i) => (
-                <div key={i} className="h-full" style={{ width: `${[18.5, 6.5, 5, 5, 65][i]}%`, background: c.color + "30" }} />
+              {CATEGORIES.map((c, i) => (
+                <div key={i} className="h-full" style={{ width: `${[15, 21.6667, 16.6667, 16.6667, 16.6667, 13.3332][i]}%`, background: c.color + "30" }} />
               ))}
             </div>
-            <div className="relative" style={{ left: `${Math.min(95, Math.max(2, ((result.bmi - 14) / 30) * 100))}%` }}>
+            <div className="relative h-8 overflow-hidden">
+            <div className="absolute top-0 flex -translate-x-1/2 flex-col items-center" style={{ left: `${Math.min(95, Math.max(2, ((result.bmi - 14) / 30) * 100))}%` }}>
               <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-b-[8px] border-transparent" style={{ borderBottomColor: result.category.color }} />
-              <div className="text-xs font-bold -ml-3" style={{ color: result.category.color }}>{result.bmi.toFixed(1)}</div>
+              <div className="text-xs font-bold" style={{ color: result.category.color }}>{result.bmi.toFixed(1)}</div>
+            </div>
             </div>
             <div className="flex justify-between text-[10px] text-slate-400 mt-1">
-              <span>14</span><span>18.5</span><span>25</span><span>30</span><span>35</span><span>40+</span>
+              <span>14 or lower</span><span>Illustrative scale</span><span>44 or higher</span>
             </div>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">

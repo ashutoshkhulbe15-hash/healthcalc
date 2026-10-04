@@ -8,6 +8,7 @@ import { getArticleContent, getLastUpdated } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Calorie Difference Calculator",
   description: "Subtract one user-entered calorie estimate from another. Arithmetic only; no calorie target, weight-loss rate, or safety advice is provided.",
+  openGraph: { url: "/fitness/calorie-deficit-calculator" },
   alternates: { canonical: "/fitness/calorie-deficit-calculator" },
 };
 

@@ -2,8 +2,8 @@
   {
     "file": "01-pregnancy-weight-gain-calculator.md",
     "route": "/pregnancy/weight-gain-calculator",
-    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
-    "sha256": "fb71122f7d0abf9800f8d01db8ced9ce5b2cd6db23abdff8347372053e24c665",
+    "status": "targeted source-based review of recovered article completed 2026-10-03; see TARGETED-REPAIR-REVIEW.md; no practitioner review or whole-site verification",
+    "sha256": "cd73efe9d4e11fdaa0275d45d09f0bbf84b746d02f21c869fc4a6f50f138de45",
     "restoredFrom": "healthcalc-main (7).zip",
     "previousShortenedVersionReview": {
       "file": "01-pregnancy-weight-gain-calculator.md",
@@ -17,7 +17,9 @@
       "reviewedOn": "2026-10-03",
       "sha256": "da4c3b61ba8e3dc700a3d860be14a4a279fbbd4af8b2ec9debb117b97e0a4f3b",
       "recheckedOn": "2026-10-03"
-    }
+    },
+    "reviewedOn": "2026-10-03",
+    "reviewRecord": "TARGETED-REPAIR-REVIEW.md"
   },
   {
     "file": "02-due-date-calculator.md",
@@ -571,8 +573,8 @@
   {
     "file": "32-macro-calculator-pcos.md",
     "route": "/fitness/macro-calculator-pcos",
-    "status": "original article restored 2026-10-03; original prose requires claim-by-claim verification; previous review applies only to shortened version",
-    "sha256": "edad76203c437124dfacea64c6026b4ecfde7fab2a41d4f7a012d3ddad201d43",
+    "status": "targeted source-based review of recovered article completed 2026-10-03; see TARGETED-REPAIR-REVIEW.md; no practitioner review or whole-site verification",
+    "sha256": "85b8aefa850d6e9af746153d412e2442d2154dcd7151158daf2b0ce17272604f",
     "restoredFrom": "healthcalc-main (7).zip",
     "previousShortenedVersionReview": {
       "file": "32-macro-calculator-pcos.md",
@@ -583,7 +585,9 @@
       ],
       "reviewedOn": "2026-10-03",
       "sha256": "8f07c9d741da0a1c3921dff476e31adf1e1c40e5e6832614482cb0cc61c425fe"
-    }
+    },
+    "reviewedOn": "2026-10-03",
+    "reviewRecord": "TARGETED-REPAIR-REVIEW.md"
   },
   {
     "file": "33-ivf-due-date-calculator.md",
