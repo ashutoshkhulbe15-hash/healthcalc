@@ -1,110 +1,102 @@
-<!-- last-updated: June 2026 -->
+<!-- last-updated: October 2026 -->
 # Anxiety vs Stress: How to Tell the Difference
 
-Stress and anxiety feel similar — racing thoughts, tight chest, disrupted sleep, difficulty concentrating. But they have fundamentally different causes, and the distinction determines what helps.
+Stress and anxiety can overlap. Worry, tension and loss of sleep do not, by themselves, tell you which explanation applies or establish a disorder. [NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) describes stress as a response to an external cause and anxiety as a reaction that can occur without a current threat. The distinction can help you describe your experience, but it is not a diagnosis you can make from a comparison table.
 
-Stress is a response to an identifiable external trigger. Anxiety persists after the trigger is gone — or exists without a clear trigger at all. That single distinction changes everything about how to address it.
+This guide explains the terms, tiredness, persistent symptoms and options for support. It also explains what the site's linked information pages provide, so you can use them without mistaking educational material for an active clinical screening service.
 
 ## The Core Difference Between Stress and Anxiety
 
-> **Key Takeaway:** Stress is caused by external pressure (deadline, conflict, illness) and resolves when the stressor ends. Anxiety is internal — it persists even when nothing specific is wrong, or it's disproportionate to the actual threat. If you feel better once the situation resolves, that was stress. If the dread continues regardless, that's anxiety.
+> **Key Takeaway:** An external demand is often central to stress; anxiety can continue without an immediate threat. Both can affect daily life. [NIMH's comparison](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) is a guide to understanding the terms, not a rule that every symptom disappearing on holiday is stress or every continuing worry is an anxiety disorder.
 
-**Stress** activates your fight-or-flight system in response to a real demand. A work deadline, a medical procedure, a financial problem — these are stressors. Your body responds appropriately: cortisol rises, focus sharpens, you deal with the problem. When the problem resolves, the stress response deactivates. This cycle is healthy and adaptive.
+An illness, exam or conflict can be a stressor. Some demands are brief, while others recur over a long period. Anxiety may involve apprehension or dread beyond the immediate situation. [NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) also notes that stress can be positive or negative; it does not always improve focus or produce a helpful response.
 
-**Anxiety** is the fight-or-flight system firing without a proportionate threat — or continuing to fire after the threat has passed. The APA (American Psychological Association) defines anxiety as persistent, excessive worry that is difficult to control and not limited to specific situations.
-
-| **Feature** | **Stress** | **Anxiety** |
+| Feature to discuss | Stress | Anxiety |
 |---|---|---|
-| Trigger | Identifiable external cause | Often no clear cause, or disproportionate to cause |
-| Duration | Ends when stressor resolves | Persists beyond the situation |
-| Proportionality | Proportionate to the demand | Disproportionate — excessive for the actual risk |
-| Focus | Specific situation or problem | Generalized, diffuse, or shifting |
-| Resolution | Remove the stressor → relief | Removing triggers may not provide relief |
-| Physical symptoms | Temporary tension, fatigue | Chronic tension, panic attacks, GI issues |
+| Relationship to a situation | Often a response to an external demand | Can occur without a present threat |
+| Pattern over time | May ease when the situation resolves; demands can recur | May persist and interfere with daily activities |
+| Overlapping experiences | Worry, tension, uneasiness, pain or lost sleep | These experiences can occur here too |
+| Question for support | What demands are present, and what support is available? | How persistent is the worry, and what is it preventing you from doing? |
+
+[Source for the comparison and overlapping symptoms: NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet)
+
+A table cannot exclude another explanation for a symptom. Record what happens and its impact rather than forcing your experience into a single label. Feeling better after a deadline is useful context to share; it is not proof that no further support is needed.
 
 ## Can Stress Make You Tired?
 
-Yes — and it's one of the most underrecognized effects of chronic stress. The stress response (cortisol, adrenaline) is designed for short bursts. When activated continuously — weeks or months of sustained work pressure, caregiving demands, or financial strain — it depletes your physiological resources.
+Stress can accompany tiredness, and disrupted sleep can make the experience harder to manage. However, fatigue has multiple possible explanations. [MedlinePlus](https://medlineplus.gov/ency/article/003088.htm) describes fatigue as lack of energy and identifies emotional stress, insufficient sleep, medicines and medical conditions among its possible causes. Persistent fatigue that is not relieved by adequate rest, nutrition or a less stressful environment warrants assessment.
 
-Chronic stress fatigue is different from being tired after a long day. It's a deep, persistent exhaustion that sleep doesn't fully resolve. You wake up tired. You crash in the afternoon. Motivation evaporates.
+> **Note:** Do not assume that fatigue is “just stress,” or that one routine blood panel rules out every physical cause. [MedlinePlus](https://medlineplus.gov/ency/article/003088.htm) describes evaluation using medical history and examination, with tests selected as appropriate. Mention medicines and sleep difficulties as well as the demands you are under.
 
-> **Note:** If fatigue is your dominant symptom, get evaluated medically before assuming it's "just stress." Thyroid disorders, anemia, sleep apnea, vitamin D deficiency, and depression all cause fatigue that mimics stress exhaustion. A basic blood panel can rule out physical causes.
-
-Research from the APA's annual Stress in America survey consistently finds that fatigue, low energy, and feeling overwhelmed are the top three reported effects of stress across all demographics.
+For an appointment, a simple record might include when tiredness began, whether sleep feels restorative, changes in daily functioning and any new medicine. This is a practical way to organize information, not a fatigue score. You do not need to identify the cause yourself before asking for help. Avoid treating an article's symptom list as instructions to order a fixed set of tests or start supplements.
 
 ## When Stress Becomes Chronic
 
-Acute stress is normal. Chronic stress — sustained over weeks or months without adequate recovery — changes your body and brain.
+Stressors can happen repeatedly over a long time. [NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) recommends seeking support when symptoms feel unmanageable, interfere with everyday life, lead to avoidance or seem constantly present. Persistent anxiety can affect health, but this is not a prediction that every stressed person will develop a particular disease.
 
-**Cortisol dysregulation:** Chronic stress keeps cortisol elevated. Over time, this suppresses immune function, increases inflammation, disrupts sleep architecture, impairs memory consolidation, and promotes abdominal fat storage.
+The practical questions are about your experience: Are demands continuing? Are you avoiding important activities? Is worry taking over time you want to spend on relationships or work? What support have you already tried? These questions help structure a conversation; there is no pass/fail threshold in this article.
 
-**Cognitive effects:** Sustained stress shrinks the prefrontal cortex (decision-making, impulse control) and enlarges the amygdala (threat detection). This makes you more reactive and less rational — a feedback loop that worsens the stress experience.
+[NIMH's coping suggestions](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) include keeping a journal, relaxation exercises, regular meals, physical activity, a sleep routine, avoiding excess caffeine, addressing unhelpful thoughts and connecting with supportive people. Finding useful approaches can take trial and error. Choose something feasible rather than treating the list as a required daily program.
 
-**Physical consequences:** Cardiovascular risk increases. Digestive problems emerge (IBS is strongly correlated with chronic stress). Headaches, muscle tension, and skin conditions flare.
+For example, you could note a difficult situation and what helped, or ask someone you trust for practical support. If a suggestion is unhelpful, that does not mean your symptoms are imaginary or that you have failed. [NIMH](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) explains that healthy habits can complement anxiety treatment but do not replace needed care.
 
-> **Warning:** Chronic unmanaged stress is a pathway into clinical anxiety, depression, and burnout. These aren't separate conditions that appear from nowhere — they're often the downstream consequences of sustained stress without recovery. If stress has persisted for months and you're unable to recover during time off, professional support is appropriate.
-
-For a structured assessment of whether your stress has crossed into burnout territory, see our [burnout quiz](/mental-health/burnout-quiz).
+Our [burnout information page](/mental-health/burnout-quiz) explains the term and the limits of the former quiz. It does not measure how much your brain has changed or establish that stress has progressed into a psychiatric disorder.
 
 ## When Anxiety Becomes a Disorder
 
-Not all anxiety is a disorder. Pre-interview nervousness, worry before a medical test, tension during conflict — these are normal anxiety responses that serve a purpose.
+Occasional anxiety is not the same as generalized anxiety disorder, or GAD. [NIMH](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) describes GAD as excessive worry that is difficult to control and interferes with life. Its published diagnostic explanation includes worry on most days for at least **six months**, together with at least **three** listed symptoms, such as restlessness, fatigue, concentration difficulty, irritability, muscle tension or sleep problems.
 
-Anxiety becomes a clinical concern when it meets specific criteria established in the DSM-5:
+These criteria concern **GAD**; they are not one checklist for every anxiety disorder. Nor is six months a waiting period before you can seek help. A professional considers your history, symptom pattern, impact and possible physical explanations. This page cannot perform that assessment. [Source: NIMH, diagnosis and treatment sections](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad).
 
-**Persistent and excessive.** Worry occurs more days than not for at least 6 months.
-**Difficult to control.** You can't stop worrying despite trying.
-**Functionally impairing.** It interferes with work, relationships, sleep, or daily activities.
-**Physical symptoms present.** Restlessness, fatigue, muscle tension, difficulty concentrating, irritability, sleep disturbance.
+> **Tip:** The site's [anxiety information page](/mental-health/anxiety-self-assessment) currently explains screening limitations. It does not administer an active GAD-7 questionnaire or provide a clinical score. An educational discussion of an instrument is different from completing an authorized screening assessment with appropriate interpretation.
 
-> **Tip:** The GAD-7 screening tool measures anxiety severity across these dimensions. Our [anxiety self-assessment](/mental-health/anxiety-self-assessment) uses this clinically validated instrument and takes 2–3 minutes.
-
-Generalized anxiety disorder (GAD) affects approximately 3.1% of the US population in any given year, according to NIMH data. It's the most common anxiety disorder and is highly treatable with therapy, medication, or both.
+Treatment for GAD can involve psychotherapy, medication or both, chosen with a professional according to individual needs. [NIMH](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) describes cognitive behavioral therapy as a commonly used, research-supported approach. This does not guarantee one treatment will work for everyone or justify starting or changing medication from website advice.
 
 ## Stress vs Anxiety Test: How to Self-Assess
 
-If you're unsure whether you're experiencing stress or anxiety, these questions can help clarify:
+Use reflection to prepare for a conversation, rather than using it to assign yourself a diagnosis. Consider these prompts alongside [NIMH's advice on recognizing when more help is needed](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet):
 
-**It's likely stress if:** You can name the specific thing causing it. You feel better on weekends or vacations. Removing or resolving the stressor would bring relief. Your symptoms started when the stressor appeared. Your worry is proportionate to the situation.
+- What was happening when symptoms began? Is that situation continuing or recurring?
+- Does worry remain when there is no immediate demand?
+- What activities, relationships or responsibilities are being affected?
+- What have you stopped doing because of the symptoms?
+- What support or coping approaches have you tried, and what happened?
 
-**It's likely anxiety if:** You worry about many things, not one specific problem. Time off doesn't provide relief — the dread follows you. Your worry is disproportionate to the actual risk. You've felt this way for months, not just during a crisis. Physical symptoms (racing heart, GI issues, muscle tension) occur without an identifiable trigger.
+Write examples in your own words. A record of missed activities or lost sleep can be more useful than a label such as “high stress.” These prompts are an organizational aid, not a validated questionnaire. A checklist answer cannot establish or exclude GAD, another disorder or a physical illness.
 
-**It might be both:** Stress and anxiety frequently co-occur. A stressful job can trigger anxiety that persists even after you leave the office. In these cases, addressing both the external stressor and the internal anxiety pattern is important.
-
-> **Bottom Line:** Stress responds to situation changes — remove the stressor, feel better. Anxiety persists regardless of circumstances. Both are real, both deserve attention, and both are treatable. If stress has become chronic or anxiety is interfering with your life, professional support (therapy, medical evaluation) is the appropriate next step.
+You can seek professional support if you are struggling to cope or symptoms persist or interfere with life; this guide does not require a fixed two- or four-week delay. In the **United States**, [NIMH](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) directs people with suicidal thoughts to call or text **988**, and to call **911** in life-threatening situations. Elsewhere, use your local crisis or emergency services.
 
 ## Frequently Asked Questions
 
 **What is the difference between stress and anxiety?**
 
-Stress is a response to an identifiable external trigger and resolves when the trigger ends. Anxiety is persistent worry that continues even without a proportionate trigger, or is disproportionate to the actual threat. Stress is situational; anxiety is a pattern.
+[NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) describes stress as a response to an external cause; anxiety can occur without a current threat. Symptoms overlap, and the distinction alone cannot diagnose what is happening for you.
 
 **Can stress cause anxiety?**
 
-Yes. Chronic, unmanaged stress is one of the most common pathways into clinical anxiety. Prolonged activation of the stress response can sensitize the brain's threat-detection system, making anxiety more likely to develop.
+A stressful environment can increase the risk of GAD, but it is not the sole explanation or an inevitable progression. [NIMH](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) describes a mix of genetic, biological and environmental influences and notes that the exact cause is unknown.
 
 **Can stress make you tired?**
 
-Yes. Chronic stress depletes physiological resources, elevates cortisol continuously, and disrupts sleep quality. The resulting fatigue is deep and persistent — different from normal tiredness. If fatigue is your primary symptom, rule out medical causes (thyroid, anemia, sleep disorders) before attributing it to stress alone.
+It can accompany fatigue, but tiredness should not automatically be attributed to stress. [MedlinePlus](https://medlineplus.gov/ency/article/003088.htm) advises assessment when fatigue is persistent and not relieved by rest and other basic measures. Evaluation depends on your circumstances.
 
 **When should I see a professional?**
 
-If stress or anxiety is interfering with your work, relationships, sleep, or daily functioning for more than 2–4 weeks, professional evaluation is appropriate. You don't need to reach a crisis point to justify seeking help.
+If you are struggling to cope, symptoms persist or everyday life is affected, [NIMH](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet) recommends talking to a professional. You do not need to wait until GAD's six-month diagnostic duration or a crisis to ask for help.
 
 **Is there a stress vs anxiety test I can take?**
 
-Our [stress level test](/mental-health/stress-level-test) uses the PSS-10 (Perceived Stress Scale) and our [anxiety self-assessment](/mental-health/anxiety-self-assessment) uses the GAD-7. Taking both gives you a clearer picture of which pattern dominates.
+The site's [stress information](/mental-health/stress-level-test) and [anxiety information](/mental-health/anxiety-self-assessment) pages discuss screening limitations; they currently do not provide active clinical questionnaire scoring. Reflection prompts here can help you explain symptoms, but assessment of a possible disorder requires more than a website result. [NIMH explains diagnosis](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad).
 
 ## Sources
 
-1. American Psychological Association. Stress in America 2023: A Nation Recovering from Collective Trauma. APA, 2023.
-2. American Psychiatric Association. *DSM-5.* 2013. Generalized Anxiety Disorder diagnostic criteria.
-3. McEwen BS. Neurobiological and Systemic Effects of Chronic Stress. *Chronic Stress.* 2017;1:1–11.
-4. NIMH. Generalized Anxiety Disorder. National Institute of Mental Health, 2023.
+- [NIMH — I'm So Stressed Out! Fact Sheet](https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet)
+- [NIMH — Generalized Anxiety Disorder: What You Need to Know](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad)
+- [NIH National Library of Medicine, MedlinePlus — Fatigue](https://medlineplus.gov/ency/article/003088.htm)
 
 ---
 
 **Related tools:**
-- [Anxiety Self-Assessment (GAD-7)](/mental-health/anxiety-self-assessment)
-- [Stress Level Test (PSS-10)](/mental-health/stress-level-test)
-- [Burnout Quiz](/mental-health/burnout-quiz)
+- [Anxiety screening information](/mental-health/anxiety-self-assessment)
+- [Perceived Stress Scale information](/mental-health/stress-level-test)
+- [Burnout information](/mental-health/burnout-quiz)

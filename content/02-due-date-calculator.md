@@ -1,291 +1,281 @@
-<!-- last-updated: February 2026 -->
+<!-- last-updated: October 5, 2026 -->
 # Due Date Calculator: When Is My Baby Due?
 
----
+Pregnancy planning often starts with a date. This **due date calculator** can help you understand the calendar arithmetic behind that estimate, whether you enter your last menstrual period, an assumed fertilization date or an IVF transfer. The result is an estimated due date (EDD), rather than a prediction of the day labor will begin.
 
-Pregnancy planning starts with one question: when will your baby arrive? While most expectant parents focus on that single magic date circled on the calendar, the reality is more nuanced. Your **due date calculator** is a powerful tool, but understanding how it works—and what it can and cannot tell you—matters just as much as the number itself.
-
-This guide walks you through how due dates are calculated, why they sometimes shift during pregnancy, and how to use this information to prepare confidently for your baby's arrival. Whether you're calculating from your last menstrual period (LMP), a confirmed conception date, or an IVF transfer, we'll help you understand what those numbers really mean.
-
----
+This guide explains the three input methods, the result cards, development milestones and how maternity-care dating differs from an online calculation. Keep the date established by your maternity team as your clinical reference. The calendar on this page has no ultrasound measurements, examination findings or fertility-clinic records to reconcile with your input.
 
 ## How Is Your Due Date
 
-> **Key Takeaway:** According to ACOG, the estimated due date (EDD) is calculated as 280 days (40 weeks) from the first day of your last menstrual period (LMP), assuming a 28-day cycle. This is known as Naegele's Rule. Only about 5% of babies are born on their exact due date — it is an estimate, not a deadline. Calculated?
+**The dating rules**
 
-The standard method for calculating your due date is called **Naegele's rule**, developed in the 1800s and still the foundation of modern pregnancy dating. It's elegantly simple: take your last menstrual period (LMP), count forward 280 days, and you have your estimated due date. That's exactly 40 weeks, or what we call a "term" pregnancy.
+ACOG describes menstrual dating as LMP plus 280 days, assuming a 28-day cycle with ovulation on day 14. For IVF, embryo age and transfer date determine dating: a day-5 transfer adds 261 days and a day-3 transfer adds 263. [ACOG dating guidance](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date)
 
-But why 40 weeks instead of nine months? Human gestation isn't measured in calendar months because they vary in length. Forty weeks provides a consistent timeline that accounts for the full development cycle from fertilization to birth.
+The calculator's assumed-fertilization option uses **266 days**. That is the same calendar model with its assumed two-week offset removed: 280 − 14 = 266. Entering a date into this option does not establish that fertilization actually occurred on that date. The form calls it an assumption for this reason.
 
-Pregnancy begins around day 14 of your cycle (when ovulation typically occurs), which is about two weeks after the first day of your last period.
+| Input method | Days added by this calculator | Additional assumption used in the display |
+|---|---|---|
+| First day of last period | 280 | Fertilization is placed 14 days later |
+| Assumed fertilization | 266 | Equivalent menstrual starting point is placed 14 days earlier |
+| Day-5 IVF transfer | 261 | Fertilization reference is transfer minus 5 days |
+| Day-3 IVF transfer | 263 | Fertilization reference is transfer minus 3 days |
 
-So while you count from your LMP, your baby is technically only 38 weeks old at your due date—but we still say "40 weeks pregnant" to keep everyone on the same calendar page.
+These are additions of **calendar days**, not additions of nine calendar months. Months have different lengths. Using a fixed number of days lets the calculation follow the same rule across short months, long months and changes of year.
 
-Here's what's important to understand: **only 4-5% of babies are actually born on their exact due date**. This statistic surprises many parents, but it perfectly illustrates why thinking in terms of a "due window" rather than a fixed date is more accurate.
+**A worked example**
 
-According to research published in medical journals, most babies arrive between 37 and 42 weeks of pregnancy. A term pregnancy officially runs from week 37 to week 42. Before 37 weeks is considered preterm; after 42 weeks is considered overdue.
+Suppose the first day of the last period was **August 1, 2026**. Adding 280 days gives **May 8, 2027**. Under this model, the assumed fertilization date is August 15, 2026. Counting 266 days from that assumed date also gives May 8. The two calculations agree because their starting points differ by exactly 14 days.
 
-Your "due date" is really your *estimated due date* (EDD)—a target week rather than a target day. Think of it as the center of a window, with healthy delivery possible several weeks on either side.
+If August 1 instead represents an assumed fertilization date, the result is **April 24, 2027**. This is a different input, rather than a disagreement between equations. Before comparing two outputs, check which event the date represents. An IVF transfer is a third kind of event, and the embryo-age selection changes its offset again.
 
-This reframing helps many parents feel less anxious if they haven't delivered by their exact due date. According to ACOG Practice Bulletin No. 175, most variation in delivery timing is completely normal and doesn't indicate any problem with your pregnancy.
+**Pregnancy weeks and the date of birth are different questions**
 
----
+A gestational-age display measures elapsed calendar time from the starting point used by the model. It does not measure development or identify the start of labor. For the August 1 menstrual example, on October 5, 2026 there have been 65 elapsed days: nine complete weeks plus two days. That is an arithmetic example of **9 weeks, 2 days**, not an observation about a particular pregnancy.
+
+The EDD remains a specific date on the calendar. It is useful to record that date accurately, together with its method, while leaving birth timing to maternity assessment. Calling it an estimate does not turn it into a clinical statement that every date around it is equally suitable for delivery.
+
+For your own notes, write the event and date together: “first day of last period: August 1,” rather than simply “pregnancy date: August 1.” This avoids an avoidable two-week difference when the same number is entered under a different method.
 
 ## How to Use
 
-> **Tip:** Enter the first day of your last period, not the day you think you conceived. If your cycles are irregular (shorter or longer than 28 days), the calculator adjusts — but an early ultrasound (6-9 weeks) provides a more accurate due date according to ACOG guidelines. This Calculator
+**Choose the event before entering the date**
 
-A quality **due date calculator** gives you flexibility because pregnancy dating depends on the information you have available. Most pregnancies are dated using one of three methods, each with specific advantages and accuracy levels.
+The three buttons at the top of the form are **Last Period**, **Conception** and **IVF Transfer**. Select the button that matches the information you actually have. The date-field label changes with that choice, so read the label before submitting. The conception button asks for an **assumed fertilization date**, rather than treating a remembered event as clinical confirmation.
 
-**Method 1: Last Menstrual Period (LMP)**
-This is the most common starting point. If you know the first day of your last period, that becomes your reference point. The calculator adds 280 days (40 weeks) to arrive at your estimated due date.
+For **Last Period**, enter the first day of the period used for dating. The form adds the menstrual offset in the preceding section. It has no cycle-length field and does not automatically adjust for a longer, shorter or irregular cycle. Do not look for an adjustment hidden in the result: the model uses the stated assumption.
 
-This method works well if your cycles are regular (typically 28 days), but becomes less reliable if your cycles are irregular or if you can't remember your exact LMP date.
+For **Conception**, enter only the date you intend to use as the fertilization assumption. The calculator cannot verify that assumption from intercourse dates, symptoms, an ovulation prediction or a pregnancy test. Record where the date came from when discussing the result with your maternity team. This makes the uncertainty explicit instead of allowing the label to imply precision the form cannot provide.
 
-**Method 2: Conception Date**
-If you tracked ovulation or know the exact day you conceived, the calculator counts forward 266 days (38 weeks) to your due date. This method is more precise than LMP-based dating because it skips the variability of cycle length.
-
-However, many people don't know their exact conception date unless they were actively tracking fertility or using fertility treatments.
-
-**Method 3: IVF Transfer Date**
-For parents who conceived through in vitro fertilization, due date calculation accounts for whether a 3-day or 5-day embryo was transferred. A 5-day blastocyst transfer adds 263 days to your transfer date; a 3-day embryo transfer adds 265 days.
-
-Your fertility clinic typically provides your estimated due date at the time of transfer, but this calculator lets you double-check or recalculate if you want to adjust for an updated ultrasound finding.
+For **IVF Transfer**, enter the actual transfer date, then select the embryo age recorded by the clinic. A day-5 blastocyst and a day-3 embryo have different offsets. If your records describe a different embryo age, or you are unsure which option applies, ask the clinic rather than choosing the nearest option. The page supports these two selections only.
 
 **Which method is best to use?**
-Start with whichever date you're most confident about. If you have an early ultrasound (ideally before 13 weeks), your provider may adjust your due date based on what they see.
 
-Here's an important point: early ultrasound dating is actually more accurate than LMP dating, especially if your cycles are irregular or if your ultrasound suggests your baby is measuring differently than expected.
+Use the date and event supported by your records; have uncertain dating assessed by your maternity team. An online form cannot decide between conflicting clinical records. For an IVF pregnancy, bring the transfer date and embryo-age record, rather than substituting a menstrual estimate for the treatment information.
 
-According to ACOG Committee Opinion No. 700, a first-trimester ultrasound can establish gestational age within ±5 days—much more precise than LMP alone.
+**Submit, read, then check the input again**
 
----
+Click **Calculate Due Date** after entering the date and, where applicable, embryo type. A future input date is rejected because this form describes an estimated current pregnancy. If an error appears, correct the field before treating any earlier output as current. Changing the method, date or embryo type clears the previous result.
+
+The result should be checked against the exact date you entered. Dates such as 08/01 can be written differently in different countries; use the date control's displayed format and check the named month in the result. A correct equation applied to the wrong month will still produce a plausible-looking date.
+
+**Compare the supported methods with a fixed example**
+
+The following examples all use August 1, 2026 as the entered date, but give it a different meaning. They demonstrate the arithmetic and the importance of the field label:
+
+| Meaning of August 1, 2026 | Resulting EDD |
+|---|---|
+| First day of last period | May 8, 2027 |
+| Assumed fertilization date | April 24, 2027 |
+| Day-5 embryo transfer | April 19, 2027 |
+| Day-3 embryo transfer | April 21, 2027 |
+
+These are invented scenarios, not a set of alternative dates for one patient. To compare an actual clinic date with a calculator, keep the same transfer record and embryo age in both. If they differ, note both dates and ask the clinic to explain the basis before replacing the established date.
+
+**Ultrasound belongs to clinical dating, not this input form**
+
+In England, NHS maternity services offer a dating scan at 11–14 weeks and a second scan at 18–21 weeks; additional scans depend on circumstances. This is regional care information, not an appointment schedule generated by this website. [NHS ultrasound information](https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/)
+
+The calculator has no field for crown–rump length, head measurements or an ultrasound report's gestational age. You cannot reproduce an ultrasound assessment by moving the input date until the result looks similar. Keep a clinically assigned date labeled as such in your records.
 
 ## Understanding Your Results
 
-> **Note:** According to published obstetric research, a "full term" pregnancy is 39-40 weeks. Early term is 37-38 weeks, and late term is 41 weeks. ACOG considers 42+ weeks "post-term." Most providers discuss induction options between 41-42 weeks based on individual risk factors.
+**Your estimated due date**
 
-When you use a **due date calculator**, you get more than just a single number. A comprehensive result shows you several pieces of useful information:
+The large date at the top and the **Due date** card show the same EDD in different formats. Check the year as well as the month and day, especially if the estimate falls in the next calendar year. The result does not say that labor is expected to begin on that exact day or that a birth before or after it is automatically healthy.
 
-**Your Estimated Due Date (EDD)**
-This is your primary reference point—the week your baby is most likely to arrive. Mark this on your calendar, but remember: it's a week, not a day. Your baby may come earlier or later and still be completely on schedule.
+**Estimated gestational age**
 
-**Current Gestational Age**
-The calculator tells you exactly how many weeks and days along you are right now. This matters because different milestones happen at specific gestational ages.
+The tool divides elapsed days from its menstrual starting point into whole weeks and remaining days. In the LMP method, that is the date entered. In the assumed-fertilization and IVF methods, the calculator first creates an equivalent menstrual starting point using its two-week offset.
 
-Your anatomy scan happens around 20 weeks; viability (the point where a baby could survive outside the womb with medical support) is generally around 24 weeks. Knowing your exact gestational age helps you anticipate these important moments.
+For example, 65 elapsed days are **9 weeks, 2 days**, while 70 elapsed days are **10 weeks, 0 days**. The extra days matter when you compare written records. Nine weeks and six days is still nine completed weeks; it is not ten completed weeks even though it is close to the next week.
 
-**Trimester Breakdown with Key Milestones**
-Understanding where you are in your pregnancy helps you prepare mentally and practically. The first trimester brings organ formation and, for many, intense nausea. The second trimester is often called the "golden period"—many women feel their best, and you'll see your baby's anatomy on ultrasound.
+This age updates with the current date used when you calculate. The due date is based on the input and offset, so it does not move forward merely because you revisit the page tomorrow. If a screenshot was taken last week, its gestational-age display belongs to that calculation date.
 
-The third trimester involves rapid growth and nesting instincts as you prepare for labor.
+**The assumed-fertilization card**
 
-**How Far Along as a Percentage**
-Some calculators show your progress as a percentage of full term. This can be psychologically helpful as you move through pregnancy. At 20 weeks, you're halfway there; at 30 weeks, you're firmly in the final stretch.
+This card reports a date created from the chosen method. For the LMP example it is LMP plus 14 days; for IVF it is transfer minus the selected embryo age. Read it as the model's reference date. It is not a laboratory confirmation of the moment fertilization occurred.
 
-Now that you understand your due date and current gestational age, you can track other important health metrics throughout your pregnancy. For example, if you're concerned about healthy weight gain, our [Pregnancy Weight Gain Calculator](/pregnancy/weight-gain-calculator) helps you track whether you're gaining at a healthy pace for your stage of pregnancy.
+**Trimester and progress bar**
 
-Healthy weight gain varies by trimester, and having a personalized range makes the process less stressful.
+This website labels an estimated age below 14 completed weeks as first trimester, 14 through 27 as second, and 28 onward as third. These are the display's boundaries. The progress bar divides completed weeks by 40, rounds the percentage and caps it at 100%. It does not measure fetal readiness, remaining risk or the probability of delivery.
 
----
+At 20 completed weeks, that calculation gives 50%. At 30 completed weeks, it gives 75%. The bar uses completed weeks, so it does not incorporate the remaining days into the percentage. A bar at 100% is not a clinical reason to wait, induce labor or assume that a pregnancy has ended.
+
+**Term categories have precise boundaries**
+
+ACOG distinguishes the following gestational-age categories. They are separate from this website's trimester labels. [ACOG term definitions](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy)
+
+| Category | Gestational age |
+|---|---|
+| Early term | 37 weeks, 0 days through 38 weeks, 6 days |
+| Full term | 39 weeks, 0 days through 40 weeks, 6 days |
+| Late term | 41 weeks, 0 days through 41 weeks, 6 days |
+| Postterm | 42 weeks, 0 days onward |
+
+The table explains terminology; it does not create a delivery plan. In particular, 37 weeks is not synonymous with full term. Use your team's dating and recommendations when discussing timing.
+
+Our [pregnancy weight-gain calculator](/pregnancy/weight-gain-calculator) explains another reference calculation. Keep its measurements and source limits separate from the calendar output here: neither a date estimate nor a weight reference independently assesses pregnancy health.
 
 ## The Three Trimesters
 
-> **Note:** According to ACOG, the three trimesters are divided as: First trimester (weeks 1-12), Second trimester (weeks 13-27), Third trimester (weeks 28-40). Each trimester has distinct developmental milestones and prenatal care schedules recommended by medical guidelines.
+**A timeline for understanding development**
 
-> **Note:** According to ACOG, the first trimester (weeks 1-13) is when organs form and miscarriage risk is highest. The second trimester (weeks 14-27) is often called the "golden period" — energy returns and nausea typically subsides. The third trimester (weeks 28-40) is focused on fetal growth and delivery preparation. — What Happens When
+A due-date guide is more useful when it connects calendar weeks with development, without turning milestones into tests. The descriptions below come from the U.S. Office on Women's Health (OWH). They describe stages of development, rather than observations made by this calculator. [OWH stages of pregnancy](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-Understanding your due date becomes much more meaningful when you know what's happening in your body and your baby's body at each stage. Pregnancy is divided into three trimesters, each with distinct developments and experiences.
+Different educational resources group trimester weeks differently. OWH's headings use weeks 1–12, 13–28 and 29–40; the site's result uses the display boundaries explained above. To avoid confusing a heading convention with a medical finding, the developmental examples below are attached to specific weeks.
 
-| Trimester | Weeks | Key Baby Milestones | Key Appointments |
-|-----------|-------|-------------------|-----------------|
-| First | 1–12 | Heartbeat (week 6), all major organs forming, ~15g by week 12 | First prenatal visit, dating ultrasound (8–13 weeks) |
-| Second | 13–27 | Anatomy visible on scan (week 20), movement felt, ~900g by week 27 | Anatomy scan (18–22 weeks), glucose screening (24–28 weeks) |
-| Third | 28–40 | Rapid weight gain (~230g/week), lungs maturing, ~3.4 kg at birth | Group B strep test (35–37 weeks), weekly visits from week 36 |
+**First Trimester**
 
-**First Trimester (Weeks 1-12)**
+At **four to five weeks**, the brain and spinal cord have begun to form, the heart begins to form, and arm and leg buds appear. These statements describe early formation. They do not mean the organs are fully developed or that a date calculation can confirm their condition. [OWH early development](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-Your first trimester starts with the first day of your last menstrual period, even though you likely don't know you're pregnant for another two weeks. This period is marked by rapid cell division and organ formation.
+At **eight weeks**, major organs and external structures have begun to form. Arms and legs are becoming longer, fingers and toes have started forming, and eyelids have formed. The important word is “begun”: development continues beyond this stage. A description of organ formation is different from an ultrasound assessment of a particular pregnancy. [OWH eight-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-By the end of week 8, your baby has a heartbeat (visible on ultrasound around week 6). All major organ systems begin developing in these early weeks, making this the most critical period for fetal development.
+At **12 weeks**, nerves and muscles begin working together and the fetus can make a fist. The eyelids close to protect the developing eyes. These are examples of a developmental sequence, not a checklist parents need to verify through symptoms at home. [OWH 12-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-Many people experience significant nausea, fatigue, and food aversions during this time—a phenomenon so common it's sometimes called "morning sickness," though it can happen any time of day. This is driven by rapidly rising hormone levels, particularly human chorionic gonadotropin (hCG).
+The first trimester can also bring tiredness, tender breasts, nausea with or without vomiting, changes in food preferences and constipation. OWH explains that experiences differ between people and between pregnancies. Having fewer symptoms does not give this calculator a way to judge development, and nausea is not a test of appropriate hormone progression. [OWH maternal changes](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-While uncomfortable, nausea often signals that your pregnancy hormones are rising appropriately. If you're tracking your hCG levels in early pregnancy, our [HCG Doubling Time Calculator](/pregnancy/hcg-doubling-time-calculator) can help you understand whether your levels are progressing as expected.
+If you are recording symptoms, keep that diary separate from the dating record. Write what happened and when, rather than using the EDD to label a symptom as reassuring. For severe symptoms, use the warning-sign guidance below. Calendar age alone should not decide whether you seek help.
 
-You'll typically have your first prenatal ultrasound during the first trimester, usually between 8-13 weeks. This scan does several things: it confirms your pregnancy, checks for a heartbeat, estimates your due date, and screens for any obvious concerns.
+Our [hCG calculation page](/pregnancy/hcg-doubling-time-calculator) describes arithmetic between laboratory results. It does not assess viability or exclude an ectopic pregnancy. Using a date estimate and an hCG calculation together does not create that diagnostic capability.
 
-If this first-trimester ultrasound differs from your LMP-based due date by more than a few days, your provider will likely adjust your official due date to match the ultrasound finding.
+**Second Trimester**
 
-**Second Trimester (Weeks 13-27)**
+At **16 weeks**, muscle tissue and bone continue to develop, skin begins to form, and sucking movements occur. Meconium develops in the intestinal tract. These descriptions explain what is developing at this point; the date input has not measured any of it. [OWH 16-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-The second trimester is often called the "golden period" of pregnancy. Morning sickness usually fades, your energy returns, and you're visibly pregnant in a way that feels exciting rather than uncomfortable. This is when many people share their pregnancy news with the world and begin the fun of planning and shopping.
+At **20 weeks**, OWH describes increasing activity, with slight fluttering that may be felt. Fine hair called lanugo and a waxy coating called vernix cover the developing skin. Eyebrows, eyelashes and nails have formed, and the fetus can hear and swallow. This general account is not a prescribed movement count. [OWH 20-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-Around week 20, you'll have your anatomy scan—the detailed ultrasound where your baby's organs are carefully examined. This is often the first time parents see their baby's face in detail and can learn the baby's sex if they choose. It's an emotional milestone for many families.
+At **24 weeks**, bone marrow begins making blood cells, taste buds form, and fingerprints and footprints have formed. OWH describes lungs that have formed but do not yet function, together with developing hand and startle reflexes and regular sleep and waking. This is not a numerical prediction of survival after a premature birth. [OWH 24-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-During the second trimester, you'll likely feel your baby moving for the first time, typically between weeks 16-25 depending on where your placenta is positioned and whether you've been pregnant before. These movements—first like flutters, then like butterflies, finally like definite kicks—mark a shift in how pregnancy feels. Your baby becomes tangibly real, not just a concept.
+For the pregnant person, nausea and fatigue may ease during the second trimester, while new changes can include body aches, stretch marks and skin changes. OWH presents these as possible experiences, not a promise of a symptom-free “golden period.” A person who feels unwell should not dismiss it because an educational timeline says symptoms often improve. [OWH second-trimester changes](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-Developmentally, your baby is growing rapidly, developing fingerprints, hearing sounds, and opening their eyes. The brain is developing its neural connections. By the end of the second trimester, your baby weighs around 1-2 pounds and, though not yet viable outside the womb, is beginning to develop the ability to survive with medical support.
+A developmental description also differs from a screening result. Your care team can explain the purpose and findings of any scan or test offered. This calculator does not produce an anatomy report, a test result, an appointment reminder or a statement that screening has been completed.
 
-**Third Trimester (Weeks 28-40+)**
+**Third Trimester**
 
-The third trimester brings your baby from relative viability to full-term readiness. At 28 weeks (the start of the third trimester), your baby would have a reasonable chance of survival with intensive medical support if born. By 32 weeks, most babies would do well with minimal support.
+At **32 weeks**, bones are formed but remain soft; the eyes can open and close and detect changes in light. OWH describes practice breathing movements while the lungs are not fully formed, and storage of minerals such as iron and calcium. These details illustrate continuing development rather than a guarantee of readiness for birth. [OWH 32-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-At 37 weeks, they're considered "term" and fully ready to navigate the outside world independently.
+At **36 weeks**, the vernix coating becomes thicker and body fat increases. These are descriptive milestones. The calculator does not measure body fat, lung maturity or estimated fetal weight, and it does not decide whether growth is appropriate. [OWH 36-week stage](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy)
 
-The third trimester is when most dramatic growth happens. Your baby nearly triples in weight, their lungs mature, their brain continues developing.
+Later pregnancy may involve heartburn and trouble sleeping. However, a list of possible discomforts must not be used to dismiss breathing problems or other warning signs. CDC advises immediate medical care for the urgent signs described in the next section. [OWH later changes](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy); [CDC warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
 
-You may experience more intense symptoms: shortness of breath as your baby moves upward and crowds your lungs, back pain from the added weight, sleep disruption from difficulty finding a comfortable position, and intense nesting instincts as your body prepares for labor.
+If movements stop or slow compared with the usual pattern, seek medical attention immediately. Do not interpret a later gestational age or less space as reassurance. CDC emphasizes that a change in movement is what matters and that no single movement count applies to everyone. [CDC fetal-movement warning](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
 
-You'll have more frequent prenatal visits during the third trimester, and around week 36, your provider checks your baby's position. Most babies flip head-down by this point, though some don't, which may affect your delivery options. You'll also be screened for signs of preeclampsia and gestational diabetes if not previously screened.
+**Milestones at a glance**
 
-**Trimester Overview**
+| Week example | Development described by OWH | What this calculator contributes |
+|---|---|---|
+| 4–5 | Early formation of brain, spinal cord, heart and limb buds | Estimated calendar age only |
+| 8 | Major organs and external structures begin forming | No structural assessment |
+| 12 | Nerves and muscles begin working together | No examination of function |
+| 16 | Continued bone and muscle development | No growth measurement |
+| 20 | Activity, hearing and swallowing | No movement assessment |
+| 24 | Blood-cell formation and developing reflexes | No survival estimate |
+| 32 | Soft bones, eye movements, practice breathing | No maturity test |
+| 36 | Thicker vernix and increasing body fat | No delivery recommendation |
 
-| Trimester | Weeks | Key Milestones | Common Symptoms |
-|-----------|-------|----------------|-----------------|
-| First | 1–12 | Heartbeat (week 6), all organs formed (week 12) | Nausea, fatigue, food aversions |
-| Second | 13–27 | Anatomy scan (week 20), first movements felt | Energy returns, visible bump, less nausea |
-| Third | 28–40 | Viability (week 28), full-term (week 37) | Back pain, shortness of breath, nesting |
-
-**Key Development Milestones**
-
-- **Week 6:** Fetal heartbeat visible on ultrasound
-- **Week 12:** All major organs have formed; risk of miscarriage drops significantly
-- **Week 20:** Anatomy scan typically occurs; detailed examination of baby's development
-- **Week 24:** Viability threshold—with intensive care, a baby born at this point could survive
-- **Week 28:** All major organ systems are functional; third trimester begins
-- **Week 37:** Term pregnancy begins; baby is considered full-term if born now
-- **Week 40:** Estimated due date—the center of your delivery window
-
----
+Use the timeline to understand the language of prenatal information. If a report raises a concern, ask about that specific finding rather than comparing it with a general milestone table. The tables here supply background; the maternity record supplies information about your pregnancy.
 
 ## Why Due Dates Change
 
-> **Note:** According to ACOG guidelines, if a first-trimester ultrasound disagrees with the LMP-based date by more than 7 days, the ultrasound date is used. Early ultrasound dating is accurate to ±5 days, while LMP-based dating assumes a 28-day cycle with ovulation on day 14 — which varies significantly between women.
+**Establishing a date and changing it are different steps**
 
-If you've had multiple ultrasounds during your pregnancy, you may have noticed your due date shifting slightly from what was calculated at your first appointment. This isn't a mistake—it's actually how we refine our dating as we get more information. Understanding why this happens helps you trust the process.
+ACOG recommends determining, discussing and documenting the EDD from the available dating information. Later changes should be reserved for rare circumstances and documented. First-trimester crown–rump-length dating, through 13 weeks 6 days, is the most accurate ultrasound method, with accuracy of approximately ±5–7 days. [ACOG dating assessment](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date)
 
-**Early Ultrasound Is More Accurate Than LMP**
+That accuracy range describes a dating method, not a promised birth window and not an accuracy rating for this website. The form performs day addition. It has no measurements from which to reproduce ultrasound dating, and there is no universal ±two-week accuracy guarantee for its result.
 
-According to ACOG Committee Opinion No. 700 on Methods for Estimating Due Date, ultrasound measurements are more accurate than menstrual dating, especially in early pregnancy.
+**When the menstrual input is uncertain**
 
-Here's why: while you can remember the first day of your last period fairly reliably, you may have irregular cycles, and your cycle length may not be the standard 28 days everyone assumes. An ultrasound actually measures your baby, which is objective and precise.
+Start by identifying what is known: the date used, whether it really represents the first day of a period, and whether the record is certain or an estimate. The form does not have a field for confidence. An uncertain number can therefore produce an exact-looking date with no visible uncertainty interval.
 
-**Accuracy Depends on Timing**
+A helpful record might say, “I entered August 1 because that is the date in my period tracker,” or “I entered August 1 as an approximate date; I am not certain.” Those notes describe the evidence behind the input. They are more informative to your care team than changing the number until the calculator matches an expected month.
 
-The earlier in pregnancy you have an ultrasound, the more accurate it is for dating purposes:
-- **Before 13 weeks:** Accurate to within ±5 days
-- **14-20 weeks:** Accurate to within ±7-10 days
-- **After 20 weeks:** Accurate to within ±2-3 weeks
+**When a scan and calculator differ**
 
-This is why your first-trimester dating ultrasound is so important. The further along you are when you have your ultrasound, the less reliable it is for dating purposes, because normal variation in baby size becomes more pronounced.
+Bring both records to the appointment. Check the date of the scan, the gestational age recorded on the report, the input method used here and the EDD already in your maternity record. The clinician can explain which information establishes dating and which information describes later measurements.
 
-**When Your Ultrasound Date Differs from Your LMP Date**
+ACOG's redating criteria depend on gestational age and clinical circumstances; there is no single discrepancy threshold for every scan. ART-derived dating uses treatment information. [ACOG clinical dating considerations](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date)
 
-If your dating ultrasound differs from your LMP-calculated date by more than 5 days in the first trimester, or more than 10 days in the second trimester, your provider will typically adjust your official due date to match the ultrasound measurement.
+Do not average two due dates or assume that the newest scan automatically replaces the established one. The website cannot evaluate whether a difference represents input error, dating uncertainty, a measurement difference or a finding requiring assessment.
 
-This isn't because the ultrasound is always "right"—rather, it's because at that point in pregnancy, it's more reliable.
+**A practical record for a date discussion**
 
-If you conceived on a date different from what your LMP suggested, or if your cycle is unusually long or short, the ultrasound provides a more accurate picture of how far along you actually are.
+| Note to bring | Example of useful detail |
+|---|---|
+| Event used in the calculator | First day of period, assumed fertilization or transfer |
+| Exact entered date | Written with the month named and the year included |
+| Source of that date | Period record, assumption or clinic transfer record |
+| IVF information, if applicable | Embryo age from the clinic's record |
+| Existing clinical EDD | Date documented by the maternity team |
+| Scan information | Report date and the reported gestational age |
 
-**Later Adjustments**
-
-It's less common for due dates to change in the third trimester, because ultrasound dating becomes less precise. However, if you didn't have an early ultrasound, a late-pregnancy scan might adjust your date.
-
-Your provider wants to be as accurate as possible because delivering too early (before 37 weeks is considered preterm) or too late (after 42 weeks carries increased risks) impacts your baby's health.
-
----
+These are suggested organizational notes, not a clinical scoring system. They help you ask a focused question: “Which date should I use for my care, and what information was it based on?” If the team changes the date, record the explanation and the new established EDD instead of keeping multiple unlabeled dates in different apps.
 
 ## When to Consult
 
-> **Warning:** According to ACOG, a pregnancy that continues beyond 42 weeks (post-term) carries increased risks including placental insufficiency and meconium aspiration. Most providers discuss induction options between 39-41 weeks per current guidelines. Contact your provider if you pass 41 weeks.
+**Arrange a dating discussion when the records are unclear**
 
-> **Bottom Line:** Your due date is an estimate based on Naegele's Rule or ultrasound measurement per ACOG standards. Only about 5% of babies arrive on the exact date. Focus on the "due month" rather than the due date. Discuss any concerns about timing with your healthcare provider. a Doctor
+Ask your maternity team about an uncertain menstrual date, conflicting estimates, an IVF record you do not understand or a result that differs from the established EDD. Bring the relevant dates rather than using a calculator result as evidence that the clinical record is wrong.
 
-While a **due date calculator** is a helpful starting point, it has important limitations. There are situations where medical dating is preferable to calculator-based estimates, and times when reaching out to your healthcare provider is important rather than relying solely on a calculator.
+Separate routine dating questions from symptoms needing prompt care. A due date that looks plausible cannot exclude a complication. The calculator does not examine bleeding, pain, blood pressure, temperature, fetal movement or other clinical information. A displayed trimester and progress bar should therefore never determine whether a symptom deserves attention.
 
-**Limitations of Calculator-Based Estimates**
+**Urgent maternal warning signs**
 
-A calculator gives you an estimate based on the information you provide. If you're unsure of your last menstrual period, if your cycles are irregular, or if you have conditions like polycystic ovary syndrome (PCOS) that affect ovulation timing, calculator results may be less reliable.
+CDC advises immediate medical care for urgent maternal warning signs during pregnancy and in the year after birth. Its examples include:
 
-Additionally, calculators can't account for individual variations in fetal growth, maternal factors, or health conditions that your provider knows about.
+- A headache that will not go away or gets worse, including a sudden severe headache, or changes in vision.
+- Fainting or ongoing dizziness; trouble breathing; chest pain or a fast-beating heart with concerning symptoms.
+- Fever of **100.4°F (38°C) or higher**.
+- Severe belly pain that does not go away, or severe nausea and vomiting that prevent keeping fluids down.
+- Extreme swelling of the hands or face.
+- Vaginal bleeding more than spotting, fluid leakage during pregnancy or unusual bad-smelling discharge.
+- A baby's movement stopping or slowing compared with the usual pattern.
 
-**When Medical Dating Is Preferable**
+These examples are not a complete list of every possible problem. Contact an appropriate medical service immediately for an urgent sign, and tell them that you are pregnant or were pregnant within the past year. Use local emergency services if emergency help is needed. [CDC urgent maternal warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
 
-Contact your healthcare provider for pregnancy dating if:
-- You're unsure of your last menstrual period or have very irregular cycles
-- You have a medical condition affecting fertility or ovulation
-- Your pregnancy resulted from fertility treatments (your clinic typically provides dating at the time of transfer)
-- You want to confirm or adjust a due date before sharing widely
-- You're in early pregnancy and haven't had an ultrasound yet
+If something feels wrong even though it is not on a short list, CDC advises talking to a healthcare provider and asking questions. Do not wait for the calculator to reach a certain week before reporting a concern. Symptoms require their own assessment. [CDC guidance on seeking care](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
 
-**Signs That Warrant Immediate Consultation**
+**Questions for your next appointment**
 
-Certain symptoms require immediate medical attention, regardless of what a calculator tells you:
-- Vaginal bleeding or spotting
-- Severe abdominal pain or cramping
-- Chest pain or shortness of breath
-- Severe headache or vision changes
-- Vaginal fluid leakage (possibly amniotic fluid)
-- Decreased or absent fetal movement (in third trimester)
-- Signs of preeclampsia: swelling, high blood pressure, protein in urine
+You can use the following prompts to organize a routine discussion:
 
-Your healthcare provider has access to your full medical history and can provide personalized dating and monitoring that a calculator cannot. Use the calculator as a tool to understand your pregnancy, but always confirm your due date with your care team, especially in early pregnancy.
+1. What is the EDD recorded for my pregnancy, and which information established it?
+2. Does an uncertainty in my period or treatment dates need clarification?
+3. Which appointments or tests have actually been arranged, and where are their dates recorded?
+4. Who should I contact for urgent concerns, including outside ordinary clinic hours?
+5. What plan should I follow as I approach or pass the established EDD?
 
----
+These prompts are site-authored organizational suggestions. They are not a mandatory care protocol or a substitute for your team's instructions. This page does not assign a universal induction week, weekly-visit schedule or home method for starting labor. Keep the clinical plan and contact details where you can find them without needing to rerun a calculator.
 
 ## Frequently Asked Questions
 
-> **Bottom Line:** The due date is an estimate, not a deadline. According to published obstetric data, only 5% of babies arrive on their EDD. The normal range is 37-42 weeks. First-trimester ultrasound provides the most accurate dating per ACOG guidelines.
-
 **1. How accurate is a due date calculator?**
 
-A due date calculator is accurate to within about ±2 weeks when using your LMP, assuming regular 28-day cycles. If you have irregular cycles, the margin of error is larger. An ultrasound measurement in the first trimester is accurate to within ±5 days, making it more precise than calculator estimates.
-
-Keep in mind that even with the most accurate dating, about 50% of babies are born before their due date and 50% after—variation is completely normal.
+This calculator adds a fixed number of calendar days to the selected input. The result is only as applicable as the date and assumptions entered. It has no verified universal error margin for predicting birth. The ultrasound accuracy range discussed above belongs to clinical dating, not to this online calculation.
 
 **2. Why is my ultrasound due date different from my LMP due date?**
 
-This happens when your actual cycle differs from the standard 28-day assumption, or when you ovulated earlier or later than typical. If ultrasound shows your baby measuring earlier than your LMP suggests, you may have conceived earlier than you thought, or your cycle may be shorter than 28 days.
-
-Your provider will adjust your official date to match the ultrasound, which is more reliable at that point in pregnancy. A difference of a few days is not concerning.
+The form uses a fixed menstrual model and cannot interpret a scan. Check that the input represents the first day of the intended period, then ask your maternity team to explain the comparison with the report. A difference alone does not let this website determine a cause or conclude that everything is reassuring.
 
 **3. How do I calculate my due date with IVF?**
 
-With IVF, your due date is calculated from your transfer date, adjusted for whether you transferred a 3-day or 5-day embryo. For a 5-day blastocyst transfer, add 263 days; for a 3-day embryo transfer, add 265 days. Your fertility clinic calculates this at the time of transfer.
-
-You can verify the calculation with a calculator, but your clinic's date is your primary reference point. Confirm with your OB provider at your first prenatal visit.
+Select IVF Transfer, enter the transfer date and choose the embryo age recorded by your clinic. The offsets are shown in the first table. For the worked August 1, 2026 transfer example, the results are April 19, 2027 for day 5 and April 21, 2027 for day 3. These are arithmetic examples; use the clinic's established dating for care.
 
 **4. Can my due date change during pregnancy?**
 
-Yes, due dates most commonly shift during the first and early second trimester based on ultrasound measurements, especially if your early dating was based on an uncertain LMP. Changes are less likely in the third trimester.
-
-If your due date adjusts by a few days, this is normal and doesn't indicate any problem. Significant changes might prompt a conversation with your provider about why the adjustment is happening.
+Your maternity team can explain whether the clinical record needs a change and why. The dating section above describes ACOG's approach to establishing and documenting the EDD. This calculator does not decide whether a scan warrants redating. Changing a field here only changes the local estimate.
 
 **5. What if I don't know my last menstrual period?**
 
-If you can't remember your LMP, an ultrasound is essential for dating your pregnancy. Ideally, this happens in the first trimester for maximum accuracy. Your healthcare provider can perform an ultrasound to determine your due date based on your baby's measurements.
+Do not present a guessed date as certain. Tell your maternity team what information is available and what is uncertain. The assumed-fertilization option also requires an explicit assumption; it cannot recover an unknown date from symptoms. If you have IVF records, bring those to the discussion rather than trying to reconstruct a period date.
 
-Some people also remember when they conceived, which can serve as an alternative reference point if paired with an ultrasound confirmation.
-
----
+When saving a result, include the method, input and calculation date. That provides a clear record of what the form did. Keep the clinical EDD separately labeled so a screenshot does not accidentally replace the date used by your care team.
 
 ## Sources & Medical References
 
-1. **ACOG Committee Opinion No. 700:** Methods for Estimating the Due Date. American College of Obstetricians and Gynecologists, 2017.
+1. [ACOG: Methods for Estimating the Due Date](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date) — menstrual assumptions, ART offsets, first-trimester dating and establishing or revising the clinical EDD; Committee Opinion 700, reaffirmed 2025.
+2. [ACOG: Definition of Term Pregnancy](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy) — early-term, full-term, late-term and postterm boundaries.
+3. [U.S. Office on Women's Health: Stages of pregnancy](https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy) — maternal changes and the week-specific developmental background; updated September 26, 2025.
+4. [NHS: Ultrasound scans in pregnancy](https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/) — England's offered scan schedule and the role of the dating scan.
+5. [CDC: Urgent Maternal Warning Signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) — urgent symptoms during pregnancy and the year after birth.
 
-2. **ACOG Practice Bulletin No. 175:** Ultrasound in Pregnancy. American College of Obstetricians and Gynecologists, 2016.
-
-3. **Mongelli M, Wilcox M, Gardosi J.** Estimating the date of confinement: Ultrasonographic biometry versus certain menstrual dates. *American Journal of Obstetrics and Gynecology*. 1996;174(2):556-559.
-
-4. **Bottomley C, Bourne T.** Dating and growth in the first trimester. *Best Practice & Research Clinical Obstetrics & Gynaecology*. 2009;23(4):439-452.
-
----
-
-**Final Thought**
-
-Your due date is one of the most anticipated pieces of information in pregnancy, but it's worth remembering what it actually represents: the middle of a window, not a deadline. Most babies arrive within several weeks of their due date, and that variation is completely healthy.
-
-As you prepare for your baby's arrival, stay connected with your healthcare provider, trust your body, and try to embrace the uncertainty. Pregnancy won't last forever, and before you know it, you'll be counting weeks of your baby's life instead of weeks of pregnancy.
-
-If you're expecting, you likely want to monitor more than just your due date. Check out our other [pregnancy calculators](/pregnancy/weight-gain-calculator) to track everything from weight gain to baby growth, ensuring you're prepared at every stage.
+The calendar examples, input instructions, progress-bar explanation and suggested record sheets describe this website's arithmetic or organizational suggestions. They are not clinical findings or recommendations attributed to the listed authorities. Regional care information is identified where it is used.

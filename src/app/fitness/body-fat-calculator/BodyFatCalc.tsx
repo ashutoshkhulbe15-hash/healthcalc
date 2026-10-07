@@ -33,7 +33,7 @@ export function BodyFatCalc() {
           <CalcInput label={`Neck circumference (${unit==="metric"?"cm":"inches"})`} value={neck} onChange={setNeck} placeholder="As measured for this method" />
           {gender==="female" && <CalcInput label={`Hip circumference (${unit==="metric"?"cm":"inches"})`} value={hip} onChange={setHip} placeholder="At widest point" />}
         </div>
-        <p className="mb-4 text-sm text-slate-600">This is a military circumference-equation estimate. It does not provide a diagnosis, health category, or personal target.</p>
+        <p className="mb-4 text-sm text-slate-600">This uses the historical Army 2013 circumference equations. It does not provide a diagnosis, health category, or personal target.</p>
         <CalcButton onClick={calculate} label="Calculate estimate" />
         <CalcError message={error}/>
       </CalcShell>
@@ -41,9 +41,9 @@ export function BodyFatCalc() {
         <ResultsShell>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <ResultCard label="Equation estimate" value={`${result.bf}%`} highlight />
-            <ResultCard label="Method" value="Military circumference equation" sub="Army Regulation 600-9, Appendix B" />
+            <ResultCard label="Method" value="Military circumference equation" sub="Army Regulation 600-9 (2013), Appendix B" />
           </div>
-          <p className="mt-4 text-sm text-slate-600">This number is an estimate from the equation and entered measurements. It is not a clinical measurement or health classification.</p>
+          <p className="mt-4 text-sm text-slate-600">This number is an estimate from the equation and entered measurements. It is not a clinical measurement or health classification. <a className="underline" href="https://api.army.mil/e2/c/downloads/566071.pdf">Army 2013 equation source, Table B–5</a>. This tool is not an official service assessment.</p>
         </ResultsShell>
       )}
     </>

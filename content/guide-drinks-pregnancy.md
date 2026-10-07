@@ -1,205 +1,186 @@
-<!-- last-updated: July 2026 -->
+<!-- last-updated: October 2026 -->
 # Drinks During Pregnancy: Caffeine, Tea, Soda and What to Avoid
 
-Nearly every beverage question in pregnancy comes down to one of three things: caffeine, pasteurization, or unstudied additives.
+A drink's name is rarely enough to answer a pregnancy question. The useful details include caffeine per actual serving, alcohol content, whether juice or milk has been treated appropriately, and the ingredients in a herbal or supplement product. A “natural,” “decaf,” “diet” or “pregnancy blend” label answers only part of that checklist.
 
-The caffeine rule is a number. ACOG advises staying under 200 mg per day, and almost every ordinary drink fits inside that budget if you are counting.
+This guide separates numerical caffeine guidance from product safety and nutritional choices. For UK readers, [NHS advice](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) limits caffeine to no more than 200 mg a day across sources. U.S. [FDA advice](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much) tells pregnant people to discuss caffeine limits with their provider; its general adult 400 mg figure should not be transferred into a pregnancy target.
 
-The pasteurization rule is the same one that governs cheese and deli meat. Raw and unpasteurized carries infection risk that pregnancy makes more consequential.
-
-The third category is the one people underestimate. Energy drinks and herbal blends can contain stimulants and botanicals with no meaningful pregnancy safety data, and that absence of evidence is itself the problem.
-
-This guide covers every common drink, what is considered safe, what to limit, and the few things worth avoiding outright.
+Alcohol is a different issue: [CDC](https://www.cdc.gov/fasd/about/index.html) states there is no known safe amount or safe time during pregnancy. For juice, [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety) explains why untreated products can carry harmful bacteria, including juice made from fresh produce at home.
 
 ## ☕ The 200 mg Caffeine Budget
 
-ACOG's guidance is to keep caffeine under 200 mg daily during pregnancy. The reference chart below shows what that actually looks like across common drinks.
+The UK NHS figure applies to the **day's total**, not each drink. Count all relevant sources rather than giving coffee, tea and cola their own separate allowances. Caffeine is also found in chocolate, guarana and some health or fitness supplements. [NHS caffeine guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
-The useful mental shift is to think of 200 mg as a daily budget rather than a per-drink limit. One drink almost never breaks it; three of them casually might.
+One drink can exceed 200 mg. The following FDA examples all use **12 fluid ounces**, and are typical values or ranges rather than measurements of your product:
 
-This is where people trip up. A cola at lunch, a coffee in the morning, and chocolate after dinner can quietly total more than 200 mg without any single item feeling like a caffeine hit.
+| Drink type in FDA table | Caffeine per 12 fluid ounces |
+|---|---:|
+| Caffeinated soft drink | 23–83 mg |
+| Green tea | 37 mg |
+| Black tea | 71 mg |
+| Regular brewed, non-specialty coffee | 113–247 mg |
+| Energy drink | 41–246 mg |
 
-Caffeine also appears where you would not expect it. Green tea, chai, kombucha, and decaf coffee all contribute small amounts that add up across a day.
+Source: [FDA caffeine table](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much). Do not read the coffee range as proof that any twelve-ounce coffee fits within the UK pregnancy limit. Container size, preparation and product can differ, and a café's serving may be larger than the table's reference volume.
 
-It is worth understanding why the limit exists at all. Caffeine crosses the placenta, and a fetus metabolizes it far more slowly than an adult does, so it clears the fetal system over a much longer window.
+As a **hypothetical arithmetic example**, drinks containing 80, 40 and 50 mg would total 170 mg; adding an assumed 40 mg would give 210 mg. These are invented label amounts for demonstrating addition, not universal values for coffee, cola or tea and not a personal safety calculation.
 
-The research behind the 200 mg figure is about heavier intake rather than moderate use. Studies associating caffeine with miscarriage or low birth weight generally involve consumption well above that threshold, which is why the guidance is a ceiling rather than a prohibition.
-
-Your own metabolism also shifts as pregnancy progresses. Caffeine clearance slows considerably by the third trimester, so the same coffee that felt unremarkable at week 10 may keep you awake at week 32.
-
-That is a practical argument for tracking rather than agonizing. Knowing roughly where your day stands lets you spend the budget on the drink you actually want.
-
-> 🔑 **Key Takeaway:** ACOG recommends under 200 mg of caffeine daily during pregnancy. Treat it as a total budget across coffee, tea, chai, cola, chocolate, and kombucha rather than a limit on any single drink. Most ordinary drinks fit comfortably; the risk is cumulative, not individual.
+If a label states caffeine per serving, check how many servings you actually drink. An assumed 60 mg per serving becomes 120 mg for two servings. If the amount is unknown, do not enter zero. Ask the manufacturer or retailer; FDA notes that caffeine quantities are often voluntary label information and restaurants need not provide them.
 
 ## 🍵 Green Tea and the EGCG Question
 
-Green tea is generally considered safe at 1 to 2 cups daily. Each 8 oz cup carries 25 to 50 mg of caffeine, roughly half of black tea and a third of coffee.
+Green tea contains caffeine. [NIH/NCCIH](https://www.nccih.nih.gov/health/green-tea) specifically advises those who are or might be pregnant to ask their provider about caffeine intake. Its statement that beverage use by adults has not raised reported safety concerns is not a pregnancy-specific recommendation for a universal number of cups.
 
-The distinctive concern with green tea is not caffeine but EGCG, a catechin that some research suggests may interfere with folate metabolism at high doses. Folate matters enormously in early pregnancy for neural tube closure.
+The FDA's typical twelve-fluid-ounce example above is useful context, but it is not a fixed value for every brewing method, matcha portion or bottled green-tea drink. Obtain the product amount where possible and include it in the day's caffeine total. [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
-The concern is dose-dependent. At 1 to 2 cups daily, EGCG intake is roughly 50 to 100 mg, a level not shown to meaningfully affect folate absorption in human studies.
+A brewed beverage and a concentrated extract capsule are different products. NCCIH reports side effects and uncommon liver injury with some green-tea products, primarily tablet or capsule extracts, and notes interactions with medicines. Ask your provider before using green-tea supplements or other herbal products if you take medicines. [NCCIH safety section](https://www.nccih.nih.gov/health/green-tea).
 
-Green tea extract supplements are the real issue, delivering 200 to 800 mg of EGCG per capsule. These should be avoided during pregnancy.
+This guide does not provide an EGCG dose that guarantees pregnancy safety, a percentage reduction in folate absorption, or a tea-to-prenatal timing prescription. Those details require evidence for the dose, preparation and population; an extract study cannot automatically establish a rule for a mug of tea.
 
-> ⚠️ **Warning:** Green tea polyphenols can reduce non-heme iron absorption by up to 70% when consumed with iron-rich meals or supplements. Since iron needs roughly double to 27 mg daily in pregnancy, drink green tea between meals, and take iron or prenatal supplements at least an hour before or two hours after tea.
-
-Decaf green tea is the simplest workaround. It retains most antioxidants and L-theanine at 2 to 5 mg of caffeine, with EGCG reduced by roughly 40 to 60%.
+Similarly, decaffeination does not justify assuming a particular EGCG reduction or retained antioxidant benefit. FDA says decaffeinated coffee and tea still contain some caffeine; its numerical example is **decaf coffee**, not every decaf tea. Check the actual product rather than assigning a coffee value to green tea.
 
 ## 🫖 Chai and Black Tea
 
-Traditional masala chai is considered safe at 1 to 2 cups daily. A standard cup runs 25 to 60 mg of caffeine, comfortably inside the budget.
+Chai can mean a homemade tea, a powdered mix, a café concentrate or a drink with added espresso. Record the actual recipe and serving rather than treating the name as a fixed caffeine dose. Black tea contains caffeine; FDA's reference example is 71 mg per twelve fluid ounces, with product amounts and sizes varying. [FDA caffeine guidance](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
-The spices in classic chai, meaning ginger, cardamom, cinnamon, cloves, and black pepper, are considered safe at tea doses. These have been consumed in food quantities across South Asia for generations.
+For a café drink, ask about the size, tea base and any added coffee. A fixed claim that every large chai latte has 95 mg, or every “dirty chai” has 220 mg, would need the exact product information. The guide does not substitute such numbers for the retailer's data.
 
-Two things turn chai into a problem. A dirty chai with two espresso shots reaches roughly 220 mg and exceeds the daily limit on its own.
+Check botanical ingredients too. Current UK [NHS advice](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) says to avoid teas containing liquorice root. A familiar flavour combination or a long history of use is not evidence that every blend or concentrated dose is suitable during pregnancy.
 
-The other is licorice root, which appears in some chai and herbal blends. Excessive licorice has been linked to preterm delivery, so blends containing it are worth avoiding.
+If you make chai at home, the practical information to bring to a provider is the tea and ingredient list, approximate amount brewed, and any additional herbal product you use. That is more useful than a blanket “two cups are safe” statement whose cup size and recipe are undefined.
 
-Café versions run higher than homemade. A large chai latte lands near 95 mg, which is fine alone but leaves less room for anything else that day.
+A smaller portion can change the amount consumed, but it does not independently verify the other ingredients. Keep the caffeine question and the botanical-product question separate when comparing two recipes.
 
-## 🌿 Herbal Tea: Which Ones Are Actually Safe
+## 🌿 Herbal Tea: Ingredients and Evidence Limits
 
-Herbal does not automatically mean safe. Some herbs contain compounds that can stimulate uterine contractions or affect hormones, which is exactly why the category needs a list rather than a rule.
+“Herbal” does not mean caffeine-free or establish pregnancy suitability. Look for tea leaves, added caffeine and the complete botanical list. Blends marketed for energy, sleep, nausea or labour can have different ingredients and forms; the claim on the front of a packet is not a medical recommendation.
 
-The comparison below sorts the common ones. Ginger, peppermint, rooibos, and lemon balm are generally considered safe at 1 to 3 cups daily and have the most supporting data.
+Current UK [NHS guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) says to avoid drinking more than four cups of herbal tea daily and to avoid liquorice-root tea. It also acknowledges limited research. That upper-limit wording does **not** certify four cups of every herb, approve a concentrated supplement, or establish a universal treatment dose.
 
-Ginger deserves special mention because it is the best-studied herbal remedy for pregnancy nausea. ACOG recognizes it as a first-line non-pharmacological option, with research supporting roughly 1 to 1.5 g daily.
+Ginger has a more specific evidence discussion. [NCCIH](https://www.nccih.nih.gov/health/ginger) says it may help pregnancy-related nausea and vomiting, but most studies tested supplements rather than foods. It advises consultation before herbal supplements in pregnancy and notes that herbs can interact with medicines. A ginger-flavoured soda or weak infusion cannot simply be assigned the dose or effect from a supplement study.
 
-Chamomile and raspberry leaf sit in a probably-safe middle. Chamomile is fine in moderation, and raspberry leaf is traditionally used in the third trimester while being avoided in the first.
+This guide does not prescribe one to three cups of peppermint, rooibos or lemon balm, certify chamomile as “probably safe,” or recommend raspberry leaf after week 32 to prepare for labour. No precise authoritative pregnancy dose or labour benefit for those claims was verified here.
 
-The clear avoid list is short and specific: pennyroyal, dong quai, blue and black cohosh, and mugwort. These are uterine stimulants, and pennyroyal also carries liver toxicity risk.
+For a herbal product, useful questions include which plant and plant part it contains, whether it is an ordinary beverage or a supplement, how much is used, and whether the mixture has other ingredients. Take the package or an ingredient photograph to your provider rather than relying on a nickname for the blend.
 
-What makes herbal tea genuinely tricky is that the risky herbs are uncommon in mainstream supermarket boxes but do appear in wellness blends, apothecary mixes, and teas bought abroad. The everyday peppermint or ginger box from a grocery store is rarely the problem.
-
-Dose matters here too. A cup of tea is a weak infusion compared with a concentrated tincture or capsule of the same herb, which is why herbal supplements deserve far more caution than the equivalent tea.
-
-The reasonable posture is neither fear nor blanket trust. Read the ingredient list, stick to the well-studied herbs, and treat anything unfamiliar as something to ask about rather than something to assume.
-
-> 📌 **Note:** Herbal teas are not FDA-regulated the way food and medications are, so potency varies by brand. Be especially careful with "pregnancy blends" and wellness blends, which combine multiple herbs. Read every ingredient rather than trusting the label's intent, and ask your provider about anything you do not recognize.
+Regulation also depends on the product's ingredients, intended use and form. [NCCIH](https://www.nccih.nih.gov/health/ginger) explains that many oral herbal products are marketed as dietary supplements, which are not FDA-approved before sale. It is inaccurate to say all herbal teas are unregulated foods, or to treat supplement availability as approval for pregnancy.
 
 ## 🍶 Kombucha: The Grey Zone
 
-Kombucha has no definitive medical guideline, and three separate concerns stack on top of each other.
+Kombucha needs several independent checks. The U.S. [Alcohol and Tobacco Tax and Trade Bureau](https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha) describes it as a fermented tea-and-sugar beverage and explains that fermentation can produce alcohol. Its 0.5% alcohol-by-volume threshold determines when federal alcohol rules apply; it is **not** a medical pregnancy-safe threshold.
 
-The first is pasteurization. Unpasteurized kombucha contains live cultures, mostly benign, but with potential for harmful organisms if production is not tightly controlled.
+TTB also explains that those rules can apply when alcohol increases to that level after bottling. It is therefore wrong to state that every commercial kombucha must remain below 0.5%, or that a percentage below that threshold establishes pregnancy safety.
 
-The second is alcohol. Fermentation produces ethanol, and while commercial kombucha is regulated below 0.5% ABV, fermentation continues in the bottle and can push past that if stored poorly or kept past its date.
+The relevant medical guidance remains the [CDC alcohol advice](https://www.cdc.gov/fasd/about/index.html): there is no known safe amount or time for drinking alcohol during pregnancy. This guide does not certify a particular kombucha as alcohol-free from its name, packaging style or description as a wellness drink.
 
-The third is caffeine, at a modest 15 to 30 mg per serving from the tea base.
+Also check caffeine and any juice ingredient. FDA's caffeine guidance recommends considering all sources; FDA juice guidance addresses whether juice has been treated to destroy harmful bacteria. Those are ingredient-level checks, not a complete pregnancy clearance for a kombucha recipe. [FDA caffeine](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much), [FDA juice](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety).
 
-Homebrew is the clear no. Alcohol content is unpredictable, often 0.5 to 3% and sometimes higher, with no pasteurization and no way to verify pH or the absence of pathogens.
-
-There is also an honest irony worth naming. Pasteurized kombucha is the lower-risk choice, but pasteurization kills the live cultures, so it delivers essentially none of the probiotic benefit people drink it for.
-
-If probiotics are the goal, yogurt made from pasteurized milk with cultures added afterward is the lower-risk way to get them.
+This guide has no verified universal homebrew alcohol range or caffeine amount per kombucha serving. It also does not promise probiotic benefit or rank a pasteurized product as “safe” simply because one concern has been addressed. Where the necessary information is unavailable, choosing another drink avoids turning missing data into a safety claim.
 
 ## 🥤 Soda and Diet Soda
 
-Soda is not unsafe in the way raw fish or unpasteurized cheese is. There is no Listeria or Toxoplasma concern, and no guideline bans it.
+Separate caffeine, sweeteners and nutritional information. A caffeine-free soda can still contain sugar; a sugar-free soda can still contain caffeine. Use the exact product label instead of assuming those terms answer both questions. FDA explains how to identify sweeteners in the ingredient list and how caffeine labelling works. [FDA sweeteners](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food), [FDA caffeine](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
-The issue is nutritional rather than microbial. A 12 oz can delivers 35 to 45 mg of caffeine if it is cola, plus roughly 39 g of sugar, and nothing your body needs.
+FDA's typical caffeinated-soft-drink range is 23–83 mg per twelve fluid ounces. It is wider than a single “cola equals 40 mg” rule and is not a guarantee about a named brand. Check the amount in the bottle or cup you actually consume.
 
-That sugar figure deserves attention. A single can approaches the American Heart Association's entire recommended daily added-sugar limit for women, and excessive sugar intake is relevant to gestational diabetes risk, which affects 2 to 10% of US pregnancies.
+For sugar, use grams per labelled serving and the number of servings consumed. For example, an **assumed** label of 18 g per serving would give 36 g for two servings. That is arithmetic only, not a measured value for all soda or a diagnosis of gestational diabetes from one drink.
 
-Diet soda swaps the sugar for artificial sweeteners. The FDA considers aspartame, sucralose, and acesulfame-K safe at typical consumption levels, and the pregnancy research is mixed but has not established clear harm at moderate intake.
+FDA states that authorized sweeteners are safe for the general population under specified conditions of use. That regulatory statement does not mean every diet drink is a recommended pregnancy food or that unlimited quantities are appropriate. An important exception is phenylketonuria, or PKU: people with difficulty metabolizing phenylalanine should avoid or restrict aspartame. [FDA aspartame section](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food).
 
-Ginger ale is worth a note, since it is a common nausea remedy and is fine occasionally. Most versions contain little actual ginger, so it soothes more by being cold and fizzy than by any medicinal effect.
+The guide does not claim soda can never be contaminated or that fizzy ginger drinks reliably treat nausea. If nausea is affecting what you can drink, ask your provider about the symptom and treatment options; do not infer the effect of ginger supplements from the name “ginger ale.” [NCCIH ginger evidence](https://www.nccih.nih.gov/health/ginger).
 
-The honest summary is that occasional soda is fine and daily soda is a missed opportunity. It displaces water, milk, and the nutrient-dense drinks that actually serve you.
+## 🚫 Energy Drinks: Caffeine and Ingredient Checks
 
-There is a caffeine wrinkle worth knowing. Mountain Dew runs higher than cola at around 54 mg per 12 oz, and some citrus sodas contain caffeine that people assume they do not.
+Energy drinks can contain substantial caffeine in a single container. FDA describes a general range of 54–328 mg per sixteen fluid ounces, alongside its twelve-fluid-ounce examples. A serving at the upper end would exceed the UK NHS 200 mg daily limit before any other source is counted. [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much), [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
-Caffeine-free colas and lemon-lime sodas solve the caffeine half of the equation while leaving the sugar. If soda is a craving rather than a caffeine need, those are a reasonable middle ground.
+Guarana is a caffeine source, but it is inaccurate to assume it always adds an unlisted extra amount on top of the label. FDA says most U.S. energy drinks list total caffeine from all sources, including ingredients such as guarana. Confirm what the reported number represents instead of automatically adding a guessed quantity twice.
 
-It is also worth being gentle about this one. Cravings are real, nausea makes cold fizzy drinks tolerable when little else is, and a soda that helps you keep something down in the first trimester is not a failure of discipline.
+Sugar-free does not mean stimulant-free. Inspect the complete ingredient list and caffeine information, and discuss caffeine limits with your provider during pregnancy, as FDA advises. A number below a daily caffeine ceiling is not verification of all the other ingredients or a recommendation to use the product.
 
-## 🚫 Energy Drinks: The One Clear Avoid
+The guide does not attribute a universal energy-drink prohibition to ACOG without a directly verified passage. FDA's energy-drink advice for **children and teens** must not be presented as if it were the same population-specific pregnancy recommendation. Nor are invented taurine, ginseng or vitamin-dose claims used to justify a blanket statement.
 
-Energy drinks are the exception to the moderation theme. ACOG recommends avoiding them entirely rather than limiting them.
-
-The reason is not caffeine alone. Coffee gives you a single well-studied compound with clear dose guidance, while energy drinks add a cocktail of stimulants that have not been adequately studied in pregnancy.
-
-Guarana is the most deceptive of these. It is a plant caffeine source at roughly 40 mg per gram, and it adds to the listed caffeine, so a can claiming 150 mg may actually deliver 200 to 250 mg.
-
-Taurine appears at 1,000 to 2,000 mg per can versus roughly 40 to 400 mg from a normal diet, and it crosses the placenta. Ginseng has potential hormonal effects with limited human data. B-vitamin megadoses run to thousands of percent of daily needs.
-
-Sugar-free versions carry every one of these same concerns. Removing the sugar does not remove the stimulants.
-
-> 🎯 **Bottom Line:** Stay under 200 mg of caffeine daily across all sources. Green tea, chai, and black tea at 1 to 2 cups are considered safe. Stick to ginger, peppermint, rooibos, and lemon balm among herbal teas, and avoid pennyroyal, cohosh, dong quai, and mugwort. Skip unpasteurized juice, homebrew kombucha, and energy drinks entirely. Occasional soda is fine but is not doing you any favors.
+If the product contains multiple unfamiliar ingredients or the caffeine amount is unavailable, the information is insufficient for this guide to clear it. An ordinary alternative with clearer information is a practical choice, without requiring a claim that every energy drink has the same formulation or risk.
 
 ## 🧃 Unpasteurized Juice
 
-Raw juice should be avoided during pregnancy per FDA guidance. It can carry E. coli, Salmonella, and Cryptosporidium, which survive in fresh-squeezed juice.
+Fresh-squeezed or raw produce can transfer bacteria into juice. Unless the produce or juice has been pasteurized or otherwise treated to destroy harmful bacteria, contamination is possible. FDA specifically identifies pregnancy as a group at risk of serious illness from untreated juice. [FDA juice safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety).
 
-This covers fresh-squeezed juice from juice bars, farmers markets, and roadside stands unless they specifically pasteurize. Bottled cold-pressed raw juice falls in the same category.
+The key question is **treatment**, not whether the product is sold in a supermarket, a juice bar or a home kitchen. FDA notes that non-heat treatment can serve the same bacterial-control purpose, so “pasteurized or otherwise treated” is more precise than assuming every acceptable product must have one particular processing method.
 
-Store-bought juice labeled pasteurized is considered safe. If a label says raw or unpasteurized, or says nothing at all, treat it as unpasteurized.
+Ask when the label is unclear. Juice sold by the glass does not require the same warning label as packaged untreated juice under FDA's explanation. An absent warning on a café glass is therefore not proof of treatment. “Fresh,” “cold-pressed” and “organic” do not answer that processing question.
 
-Home juicing is the workaround. Squeeze it yourself from washed fruit and drink it immediately, since the FDA's concern centers on commercially produced raw juice that sits in bottles or dispensers where bacteria can multiply.
+**Home juicing is not an exception.** FDA gives hygiene measures for preparing juice, including handwashing, removing damaged or rotten produce, washing under running water and drying. Those measures reduce contamination opportunities; washing and drinking immediately do not establish that the juice has been treated to kill bacteria. [FDA home-preparation section](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety).
+
+CDC lists pasteurized juice as a safer pregnancy choice and also lists unpasteurized juice brought to a rolling boil for at least one minute. That is a specific heat-treatment alternative, not permission to substitute rinsed fruit or immediate consumption for treatment. [CDC pregnancy table](https://www.cdc.gov/food-safety/foods/pregnant-women.html).
 
 ## 💧 What to Drink Instead
 
-The unglamorous answer is water, and it matters more in pregnancy than usual because blood volume expands by nearly 50%.
+A practical comparison starts with water or another familiar drink whose ingredients and preparation you can identify. This guide does not give a universal fluid prescription, assign a drink a treatment role, or use an unsupported blood-volume percentage to prescribe how much to drink.
 
-Beyond water, the genuinely good options are milk and fortified plant milks for calcium and protein, sparkling water with fruit for something that feels like a treat, decaf coffee and tea, and the safe herbal teas.
+For milk, [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) distinguishes pasteurized milk and products made from it from raw milk. For dairy alternatives, UK [NHS dietary guidance](https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/) recommends unsweetened, calcium-fortified versions such as soya drinks. Product composition still differs; a plant drink is not automatically nutritionally identical to dairy milk.
 
-If you are reaching for caffeine because you are exhausted, it is worth naming that pregnancy fatigue is real and caffeine is a poor substitute for rest. It is not a moral failing to be tired in the first trimester.
+Decaf can reduce caffeine, but FDA says it is not caffeine-free. Its example is 2–15 mg in eight fluid ounces of decaf coffee. Keep the volume and product type attached to that number rather than applying it to every decaf beverage. [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
+
+When choosing an alternative, consider what you are trying to change: caffeine, alcohol, untreated juice, added sugar, or an unfamiliar supplement ingredient. Changing one feature may leave another unchanged. A clearer ingredient list and relevant processing information make the comparison more useful than a broad “healthy drink” label.
 
 ## ❓ Frequently Asked Questions
 
 **How much caffeine can I have during pregnancy?**
 
-ACOG recommends staying under 200 mg per day. That is roughly one 12 oz coffee, or two to four cups of tea, or four to five colas. Count every source together, since caffeine appears in chocolate, chai, green tea, and kombucha too.
+UK NHS advice is no more than 200 mg daily across sources. A single large coffee can exceed that amount; product sizes and caffeine differ. U.S. FDA advises discussing pregnancy limits with your provider. [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/), [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
 **Can you drink green tea while pregnant?**
 
-Yes, 1 to 2 cups of brewed green tea daily is generally considered safe. Avoid green tea extract supplements, which contain far higher EGCG. Take prenatal vitamins separately from tea to minimize any folate or iron absorption interaction.
+Count its caffeine and discuss intake with your provider. A brewed beverage is different from an extract supplement; this guide does not verify a universal safe cup count or EGCG dose. [NCCIH](https://www.nccih.nih.gov/health/green-tea).
 
 **Does green tea have caffeine?**
 
-Yes, 25 to 50 mg per 8 oz cup, about half of black tea and a third of coffee. Matcha runs higher at 60 to 70 mg per serving because the whole leaf is consumed.
+Yes. FDA gives a typical example of 37 mg per twelve fluid ounces, while actual products and sizes vary. Do not transfer that value to every matcha portion or preparation. [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
 **Is chai tea safe during pregnancy?**
 
-Yes, at 1 to 2 cups daily. Standard chai runs 25 to 60 mg of caffeine, and the traditional spices are considered safe at tea doses. Avoid dirty chai with multiple espresso shots, and check blends for licorice root.
+Check the tea base, added coffee, serving and botanical ingredients rather than assigning all chai a safe dose. UK NHS advises avoiding liquorice-root tea. [FDA caffeine guidance](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much), [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
 **Which herbal teas are safe during pregnancy?**
 
-Ginger, peppermint, rooibos, and lemon balm are generally considered safe at 1 to 3 cups daily. Chamomile and raspberry leaf are probably safe in moderation. Avoid pennyroyal, dong quai, blue and black cohosh, and mugwort.
+No blanket approved-herb list is verified here. UK NHS advises avoiding more than four cups daily and liquorice-root tea, while acknowledging limited research. That limit does not certify every ingredient. [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
 **Is chamomile tea safe during pregnancy?**
 
-Probably safe in moderate amounts of 1 to 2 cups daily. Some providers advise caution in the first trimester because research is limited. It is not in the same risk category as pennyroyal or cohosh.
+This guide does not verify a pregnancy-safe dose for chamomile. Check the blend and ask your provider; the NHS general herbal-tea limit is not a guarantee for a particular herb. [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
 **Can I drink raspberry leaf tea during pregnancy?**
 
-It is traditionally used in the third trimester to prepare for labor, and most providers consider it safe after about 32 weeks. Avoid it in the first trimester due to theoretical uterine stimulation concerns.
+A verified dose, labour-preparation benefit or “safe after 32 weeks” rule is not provided here. Discuss the specific product with your provider rather than relying on tradition or a general herbal-tea limit. [NHS evidence limits](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
 
 **Can you drink kombucha while pregnant?**
 
-There is no definitive guideline. Commercial pasteurized kombucha under 0.5% ABV is the lowest-risk option if you choose to drink it. Homebrew should be avoided because alcohol content and pathogen risk cannot be verified. Many providers suggest skipping it for simplicity.
+This guide does not certify kombucha as pregnancy-safe. Fermentation can produce alcohol, and the U.S. 0.5% regulatory threshold is not a safe-pregnancy threshold. CDC says no known safe amount of alcohol exists during pregnancy. [TTB](https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha), [CDC](https://www.cdc.gov/fasd/about/index.html).
 
 **Is diet soda safe during pregnancy?**
 
-The FDA considers aspartame, sucralose, and acesulfame-K safe at typical consumption levels. Occasional diet soda is considered safe. Daily consumption is worth reconsidering simply because water and milk serve you better.
+FDA's sweetener authorization concerns specified conditions of use, not unlimited drinks or a pregnancy nutrition recommendation. Check caffeine separately. People with PKU should avoid or restrict aspartame. [FDA sweeteners](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food).
 
 **Why are energy drinks off the list when coffee is fine?**
 
-Because they are not just caffeine. They add guarana (which hides extra caffeine), taurine megadoses, ginseng, and B-vitamin megadoses, none of which have adequate pregnancy safety data. ACOG advises avoiding them outright, and sugar-free versions carry the same concerns.
+The question assumes a blanket distinction this guide does not verify. Both need actual caffeine amounts; energy drinks may also have other ingredients to discuss. Sugar-free does not remove caffeine, and one container may exceed a pregnancy caffeine limit. [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
 
 **Is unpasteurized juice really a problem?**
 
-Yes, per FDA guidance. Raw juice can carry E. coli, Salmonella, and Cryptosporidium. Pasteurized store-bought juice is considered safe, and juice you squeeze at home and drink immediately is lower risk.
+Untreated juice can carry harmful bacteria, with pregnancy at higher risk of serious illness. Choose pasteurized or otherwise appropriately treated juice. Washing fruit and drinking homemade juice immediately is not a verified exception. [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety).
 
 ## Sources
 
-1. ACOG Committee Opinion No. 462. Moderate Caffeine Consumption During Pregnancy. American College of Obstetricians and Gynecologists, 2010, reaffirmed 2023.
-2. ACOG. Practice Bulletin No. 189: Nausea and Vomiting of Pregnancy. 2018.
-3. Jarosz M, et al. Maternal caffeine and catechins intake during pregnancy. *Nutrients.* 2020;12(6):1633.
-4. FDA. Food Safety for Pregnant Women. U.S. Food and Drug Administration, 2023.
-5. CDC. Gestational Diabetes. Centers for Disease Control and Prevention, 2023.
-6. WHO. Recommendations on Antenatal Care: Caffeine Intake. World Health Organization, 2016.
-7. NHS. Herbal Teas in Pregnancy. National Health Service, 2023.
+1. [NHS: Foods and drinks to avoid during pregnancy, UK guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
+2. [FDA: Caffeine amounts, labels and energy drinks](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much)
+3. [NCCIH: Green tea](https://www.nccih.nih.gov/health/green-tea)
+4. [NCCIH: Ginger](https://www.nccih.nih.gov/health/ginger)
+5. [TTB: Kombucha fermentation and U.S. alcohol regulation](https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha)
+6. [CDC: Alcohol and pregnancy](https://www.cdc.gov/fasd/about/index.html)
+7. [FDA: Juice safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety)
+8. [FDA: Sweeteners in food](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food)
+9. [CDC: Safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+10. [NHS: Healthy diet during pregnancy](https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/)
 
 ---
 

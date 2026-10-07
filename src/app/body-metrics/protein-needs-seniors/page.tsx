@@ -16,6 +16,6 @@ export default function Page(){const file="30-protein-needs-seniors.md";return <
   description="European ESPEN population guidance for healthy older persons, with source and limits stated." features={["ESPEN source linked","Weight-based arithmetic","Clinical limits stated"]}
   relatedTools={[{title:"Protein Intake Reference",desc:"Current U.S. population guideline arithmetic.",href:"/fitness/protein-intake-calculator",category:"fitness"},{title:"GFR Calculator",desc:"Estimate eGFR using the CKD-EPI 2021 equation.",href:"/conditions/gfr-calculator",category:"conditions"}] }>
   <SeniorProteinCalc />
-  <QuickAnswer answer="ESPEN's 2022 geriatric nutrition guideline says older persons should receive at least 1 g/kg/day, individually adjusted. It notes 1.0–1.2 g/kg/day has been suggested for healthy older persons. This calculator shows only that arithmetic range." />
+  <QuickAnswer source={{href:"https://www.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf",label:"ESPEN 2022: recommendation 2 and commentary"}} answer="ESPEN's 2022 geriatric nutrition guideline says older persons should receive at least 1 g/kg/day, individually adjusted. It notes 1.0–1.2 g/kg/day has been suggested for healthy older persons. This calculator shows only that arithmetic range." />
   <SplitArticle content={getArticleContent(file)} />
 </ToolPageShell>;}

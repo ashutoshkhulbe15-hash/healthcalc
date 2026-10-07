@@ -1,59 +1,59 @@
-<!-- last-updated: June 2026 -->
-# One Rep Max Calculator: Estimate Your 1RM
+<!-- last-updated: October 5, 2026 -->
+# One Rep Max Calculator: Equations and Their Limits
 
-Your one rep max (1RM) is the heaviest weight you can lift for a single repetition with proper form. This calculator estimates it from a lighter weight and rep count — so you don't need to actually attempt a dangerous maximal lift.
+One-repetition maximum, or 1RM, refers to the maximum load completed for one repetition under a particular lift's testing conditions. A predicted maximum and an observed successful lift are different records. Research compares predictions with measured performance; matching an equation does not establish what you can lift. [NSCA journal study](https://pubmed.ncbi.nlm.nih.gov/12741856/)
 
-Enter the weight you lifted and how many reps you completed. The calculator applies multiple validated formulas (Epley, Brzycki, Lombardi) and shows the average estimate.
+**Current page status:** The calculator and training chart remain unavailable. This guide explains published equations and their limitations; it does not assign a load, assess your technique or prescribe a maximal test. The original automatic average was not itself a verified assessment method.
 
 ## How to Calculate One Rep Max
 
-> **Key Takeaway:** 1RM is estimated from submaximal lifts using validated formulas. The most common: Epley formula = weight × (1 + reps/30). Most accurate with 3–10 reps. Above 10 reps, accuracy decreases. Never attempt an actual 1RM without a spotter and proper warm-up.
+A weight-and-repetitions equation produces an estimate, not a directly measured maximum. The following coefficients are transcribed from **Table 2 of Whisenant and colleagues' 2003 NSCA journal paper**. Let **w** represent the lifted load and **r** the repetition count. Keep the load unit consistent throughout the calculation.
 
-**The Epley Formula:** 1RM = weight × (1 + reps ÷ 30)
-
-Example: Bench press 185 lbs × 6 reps → 185 × (1 + 6/30) = 185 × 1.20 = **222 lbs estimated 1RM**
-
-| **Formula** | **Equation** | **Best for** |
+| Formula label in the paper | Published expression | Interpretation |
 |---|---|---|
-| Epley | w × (1 + r/30) | General use, most popular |
-| Brzycki | w × 36/(37 − r) | Lower rep ranges (1–6) |
-| Lombardi | w × r^0.1 | Moderate rep ranges |
-| O'Conner | w × (1 + 0.025 × r) | Conservative estimate |
+| Epley | w × (1 + 0.033 × r) | Uses the paper's decimal coefficient |
+| Brzycki | w ÷ (1.0278 − 0.0278 × r) | Uses the paper's decimal denominator |
+| Lombardi | w × r^0.1 | Raises repetitions to a power |
+| O'Conner | w × (1 + 0.025 × r) | Uses another linear coefficient |
+
+[Exact formula table, page 224](https://paulogentil.com/pdf/TREINO%20DE%20FORC%CC%A7A/Avaliac%CC%A7a%CC%83o/Validation%20of%20Submaximal%20Prediction%20Equations%20for%20the%201RM%20Bench%20Press%20Test.pdf)
+
+**Worked arithmetic, not a training recommendation:** With w = 185 lb and r = 6, the displayed Epley expression gives 185 × (1 + 0.198) = **221.63 lb**. The earlier expression using r/30 gives **222 lb** for the same entries. Those coefficients are close, but not identical; rounding one example cannot establish that two implementations match their sources.
+
+For the displayed Brzycki expression, the same entries give a denominator of 1.0278 − 0.1668 = 0.861, then 185 ÷ 0.861 ≈ **214.87 lb**. These examples show the arithmetic of different models. They do not prove which result matches the individual lifter.
 
 ## Using Your 1RM for Training
 
-| **% of 1RM** | **Reps** | **Training Goal** |
+A training percentage is multiplication by a chosen fraction. It does not establish a safe load, a guaranteed repetition count or a specific adaptation. For example, if someone chooses an assumed maximum of 220 lb, the following calculations follow from that assumption alone:
+
+| Assumed fraction | Calculation | Derived load |
 |---|---|---|
-| 90–100% | 1–3 | Maximal strength |
-| 80–89% | 4–6 | Strength + size |
-| 70–79% | 7–10 | Hypertrophy (muscle growth) |
-| 60–69% | 11–15 | Muscular endurance |
-| Below 60% | 15+ | Endurance / warm-up |
+| 90% | 220 × 0.90 | 198 lb |
+| 80% | 220 × 0.80 | 176 lb |
+| 70% | 220 × 0.70 | 154 lb |
+| 60% | 220 × 0.60 | 132 lb |
 
-> **Tip:** Recalculate your 1RM every 4–6 weeks to track strength progress and adjust training loads. A 5 lb increase in estimated 1RM over 4 weeks represents meaningful strength gain.
+These are **arithmetic illustrations**, not a workout table. Available equipment increments may not match a calculated number. Writing a percentage beside a load also does not specify exercise selection, technique, supervision, repetitions, rest periods or personal suitability.
 
-> **Warning:** Actually attempting a true 1RM carries injury risk — especially for bench press, squat, and overhead press. Always use a spotter for maximal attempts. Calculator estimates from 3–5 rep sets are safer and nearly as accurate as actual max testing.
+To keep a useful record, distinguish what happened from what a model inferred. A log might contain the date, exercise, equipment, load unit, completed repetitions and any assistance. Keep the actual set entry alongside the equation name and coefficients if you make an estimate separately. A change of equation can change the estimate even when the recorded performance is identical.
 
-For nutrition to support strength gains, see our [macro calculator](/fitness/macro-calculator) and [protein intake calculator](/fitness/protein-intake-calculator).
-
-> **Bottom Line:** Estimate your 1RM from submaximal lifts using the Epley or Brzycki formula. Use it to set training percentages. Recalculate monthly. Don't actually attempt a true 1RM without a spotter — the calculator is safer and nearly as accurate.
+Our [macro calculator](/fitness/macro-calculator) and [protein intake calculator](/fitness/protein-intake-calculator) discuss separate nutrition references and model assumptions. A strength estimate cannot convert those references into a personal nutrition prescription.
 
 ## Frequently Asked Questions
 
 **How do I calculate my one rep max?**
 
-Use the Epley formula: 1RM = weight × (1 + reps/30). Example: 200 lbs × 5 reps → 200 × 1.167 = 233 lbs. Or use this calculator which averages multiple formulas.
+A measured maximum requires an actual performance assessment; a repetition equation predicts a value. For an arithmetic example using the published Epley coefficient above, 200 lb and five repetitions give 200 × (1 + 0.033 × 5) = **233 lb**. This page does not administer that assessment or recommend attempting the predicted load. [Formula source](https://paulogentil.com/pdf/TREINO%20DE%20FORC%CC%A7A/Avaliac%CC%A7a%CC%83o/Validation%20of%20Submaximal%20Prediction%20Equations%20for%20the%201RM%20Bench%20Press%20Test.pdf)
 
 **Is the 1RM calculator accurate?**
 
-Within ±5% for 3–10 rep sets. Accuracy decreases above 10 reps. The estimate is best used for setting training percentages, not for determining exact maximal capacity.
+No universal individual error bound is established here. The cited study involved **69 male collegiate football players aged 18–24**, using a **225-lb bench-press repetition test**. Its abstract reports that prediction validity depended on repetition count. Those conditions do not validate every lift, population or input. The earlier blanket ±5% accuracy claim has therefore been removed. [Study population and findings](https://pubmed.ncbi.nlm.nih.gov/12741856/)
 
 **How often should I test my 1RM?**
 
-Recalculate every 4–6 weeks. You don't need to actually max out — just log a heavy set of 3–6 reps and let the calculator estimate.
+This guide does not establish a universal retest interval. A qualified strength professional can help decide whether a test is appropriate and how it should be conducted. For a personal log, record the actual set conditions consistently; a modeled increase by itself is not evidence of a particular amount of physiological improvement.
 
 ## Sources
 
-1. Epley B. Poundage Chart. *Boyd Epley Workout.* 1985.
-2. Brzycki M. Strength testing: predicting a one-rep max from reps-to-fatigue. *JOHPERD.* 1993;64(1):88–90.
-3. Reynolds JM, et al. Prediction of one repetition maximum strength. *J Strength Cond Res.* 2006;20(3):584–592.
+1. [Whisenant MJ, Panton LB, East WB, Broeder CE. NSCA journal study: abstract and bibliographic record](https://pubmed.ncbi.nlm.nih.gov/12741856/). Published 2003; bench-press study, not a universal safety guideline.
+2. [Same primary paper, readable full text: Table 2, page 224](https://paulogentil.com/pdf/TREINO%20DE%20FORC%CC%A7A/Avaliac%CC%A7a%CC%83o/Validation%20of%20Submaximal%20Prediction%20Equations%20for%20the%201RM%20Bench%20Press%20Test.pdf). This copy is hosted outside the journal; the paper's authors, journal and title match the PubMed record. Formula coefficients were checked in the table, not inferred from another calculator.

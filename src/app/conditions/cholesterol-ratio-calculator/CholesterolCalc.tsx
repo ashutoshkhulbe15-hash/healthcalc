@@ -39,6 +39,7 @@ export function CholesterolCalc(){
         <ResultCard label="TG/HDL Ratio" value={result.trigHdl!==null?`${result.trigHdl}`:"—"} sub={result.trigHdl===null?"Not provided":"TG ÷ HDL; not an insulin-resistance diagnosis"} />
         <ResultCard label="Non-HDL" value={`${result.nonHdl} mg/dL`} sub="Total minus HDL" />
       </div>
+      <p className="mt-4 text-xs text-slate-500">Division uses the supplied mg/dL values. <a href="https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/expert-answers/cholesterol-ratio/faq-20058006" className="underline">Mayo Clinic explains total/HDL and non-HDL</a>; no personal risk category is assigned.</p>
     </ResultsShell>}</>
   );
 }

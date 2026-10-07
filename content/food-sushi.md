@@ -1,110 +1,108 @@
-<!-- last-updated: May 2026 -->
+<!-- last-updated: October 2026 -->
 # Can I Eat Sushi During Pregnancy? Raw vs. Cooked Guide
 
-Raw fish sushi is not considered safe during pregnancy, according to FDA and ACOG guidelines. But "sushi" and "raw fish" are not the same thing — and once you know the difference, you have plenty of options.
+Sushi is a preparation, not a guarantee about its ingredients. During pregnancy, [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) recommends avoiding raw or undercooked fish and shellfish, including raw-fish sushi, sashimi and ceviche. Cooked seafood is a safer alternative, but the fish species, other ingredients and handling still need checking.
 
-Cooked sushi rolls (shrimp tempura, California roll, eel, vegetable) are considered safe by current guidelines. The risk is specifically in raw and undercooked seafood, not in sushi rice, nori, or the restaurant itself.
+A roll's name does not establish whether its seafood is fully cooked or whether a raw topping was added. Ask about the actual recipe and preparation rather than treating all California, tempura or vegetable rolls as identical. Mercury guidance and foodborne-infection precautions are separate checks; meeting one does not resolve the other.
 
-## The Rule: Raw Fish Is Off-Limits, Cooked Sushi Is Fine
+## Raw vs. Cooked Sushi: Check the Complete Meal
 
-This distinction matters because many people hear "no sushi" and give up entirely, when the actual restriction is narrower than that.
+**Key takeaway:** Choose properly cooked seafood instead of raw or undercooked seafood during pregnancy. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) gives fish cooked to **145°F or until opaque and easily separated with a fork** as a safer choice. For shellfish, it specifies the relevant cooked appearance or shells opening during cooking. That does not certify the storage, other ingredients or later handling of every cooked roll.
 
-> **Key Takeaway:** Raw fish sushi (sashimi, raw tuna rolls, poke) — avoid throughout pregnancy per FDA guidelines. Cooked sushi rolls (shrimp tempura, California roll with imitation crab, eel/unagi, vegetable rolls, cooked salmon rolls) — considered safe when seafood reaches 145°F internal temperature. "Sushi-grade" is a marketing label, not a safety guarantee.
+The [FDA seafood guidance](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) similarly advises pregnant people to avoid raw or undercooked seafood, and gives precautions for refrigerated smoked seafood. A cooked roll containing an added cold smoked-fish topping may therefore need a different decision from one made only with appropriately cooked fish.
 
-The safe-vs-unsafe line is simple: was the fish cooked to 145°F (63°C)? If yes, the pathogen risk is eliminated. If no — even if the fish is "sushi-grade" or from a high-end restaurant — the risk remains.
+For U.K. readers, the [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) permits sushi with cooked fish or shellfish, while advising against raw-fish sushi even if the fish was previously frozen. Do not interpret freezing, “sushi-grade,” a high price or a restaurant's reputation as an exception to that preparation guidance.
 
 ## Why Raw Fish Is Risky During Pregnancy Specifically
 
-The problem isn't that raw fish is inherently dangerous. Millions of people eat sashimi without incident. The problem is that pregnancy changes the equation in two specific ways.
+Pregnancy is a circumstance in which foodborne infections can have serious consequences. [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) identifies raw and undercooked seafood as riskier than cooked alternatives and notes increased susceptibility to Listeria infection. A population-level warning does not establish that a particular piece of fish is contaminated.
 
-**Your immune system is suppressed.** Pregnancy triggers a deliberate downregulation of cell-mediated immunity to prevent your body from rejecting the fetus. This same suppression makes you roughly 10 times more susceptible to Listeria infection than the general population (FDA, 2022).
+[Listeria infection during pregnancy](https://www.cdc.gov/listeria/signs-symptoms/index.html) can lead to miscarriage, stillbirth, premature delivery or serious newborn infection. The pregnant person's symptoms can be mild or absent. Those are consequences of infection, not an individual miscarriage probability calculated from a sushi order.
 
-**Listeria crosses the placenta.** Unlike most foodborne bacteria that cause a bad few days of gastro, Listeria monocytogenes can cross the placental barrier and directly infect the fetus. Consequences include miscarriage, stillbirth, preterm delivery, and neonatal sepsis — outcomes that are rare in absolute terms, but devastating when they occur.
+Freezing and cooking answer different questions. The [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) explains that freezing can kill parasites in fish but does not kill all harmful germs, so cooking is the safest route. A freezing history should not be converted into a certificate that raw fish is suitable during pregnancy.
 
-> **Warning:** "Sushi-grade" is not an FDA-regulated term. It does not guarantee the fish was frozen to parasite-killing temperatures, nor that it's free of bacterial contamination. The FDA advises pregnant individuals to avoid all raw fish regardless of grade, source, or restaurant reputation.
-
-Beyond Listeria, raw fish carries two additional risks:
-
-**Anisakis parasites** — roundworms found in raw marine fish. Proper commercial freezing kills them, but not all restaurants follow FDA freezing protocols consistently. Anisakis infection causes severe abdominal pain and vomiting.
-
-**Salmonella and Vibrio bacteria** — present in raw seafood and capable of causing severe dehydration from gastroenteritis, which is particularly dangerous during pregnancy.
+Raw seafood is not made appropriate by adding chilli, a sauce or an acidic marinade. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) includes ceviche among raw or undercooked seafood choices to avoid. Check whether actual cooking occurred rather than assuming a changed texture is equivalent to the stated endpoint.
 
 ## Is Shrimp Tempura Sushi Safe During Pregnancy?
 
-Yes. Shrimp tempura is fully cooked — the shrimp is battered and deep-fried at temperatures well above 145°F. The tempura cooking process meets FDA safe cooking temperature requirements.
+A shrimp-tempura roll can be an option if the shrimp is actually fully cooked, the other ingredients are suitable and handling is appropriate. A deep-fried recipe name does not measure the shrimp's internal state. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) describes cooked shellfish as a safer choice and gives the appropriate opaque, pearly or white appearance for shellfish flesh.
 
-This applies to any sushi roll where the protein is fully cooked: shrimp tempura rolls, baked salmon rolls, cooked crab rolls, eel (unagi, which is always grilled before serving), and egg tamago rolls.
+Ask whether the roll contains only cooked shrimp or also includes raw fish, refrigerated smoked fish, raw sprouts or another topping. Also ask whether cooked and ready-to-eat ingredients are kept separate from raw seafood. [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) advises separation and cleaning of equipment to prevent cross-contamination.
 
-> **Tip:** When ordering cooked sushi at a restaurant during pregnancy, confirm two things with your server: (1) the fish is fully cooked, not seared or rare inside, and (2) it was prepared on a surface separate from raw fish to avoid cross-contamination. Most restaurants accommodate this easily.
+The fish chart places shrimp in **Best Choices**. Count seafood eaten in rolls alongside other weekly seafood rather than assuming sushi has its own additional allowance. [FDA/EPA pregnancy fish advice](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
 ## Safe vs. Unsafe Sushi During Pregnancy
 
-| **Sushi Type** | **Safe?** | **Why** |
-|---|---|---|
-| Shrimp tempura roll | ✅ Yes | Deep-fried, fully cooked |
-| California roll (imitation crab) | ✅ Yes | Imitation crab is fully cooked surimi |
-| Eel (unagi) roll | ✅ Yes | Always grilled/broiled before serving |
-| Vegetable roll (cucumber, avocado) | ✅ Yes | No seafood, no pathogen risk |
-| Cooked salmon roll | ✅ Yes | If salmon reaches 145°F throughout |
-| Egg (tamago) roll | ✅ Yes | Egg is fully cooked |
-| Raw tuna roll | ❌ No | Raw fish — parasite and bacteria risk |
-| Sashimi (any fish) | ❌ No | Raw fish, uncooked |
-| Poke bowl (raw fish) | ❌ No | Raw fish in different format, same risk |
-| Rainbow roll | ❌ No | Contains raw fish on top |
-| Spicy tuna roll | ❌ No | Raw tuna, even when chopped |
+Use this as a preparation checklist rather than a permanent approval list. Recipes can differ, and a name alone cannot establish all ingredients or handling. The seafood entries follow [CDC pregnancy guidance](https://www.cdc.gov/food-safety/foods/pregnant-women.html); species and portions follow the [FDA/EPA fish chart](https://www.fda.gov/food/consumers/advice-about-eating-fish).
+
+| Roll or meal | What to establish |
+|---|---|
+| Shrimp tempura | Shrimp fully cooked; check additional toppings and preparation |
+| California roll | Identify the actual crab or imitation-crab product, cooking and any raw topping |
+| Eel roll | Establish species and actual cooking; a traditional name is not a measured endpoint |
+| Vegetable roll | Produce properly washed; avoid raw sprouts; check handling |
+| Cooked salmon roll | Fish meets CDC's cooking endpoint; count salmon with other seafood |
+| Egg/tamago roll | Egg preparation meets relevant guidance; do not assume every recipe is fully cooked |
+| Raw tuna roll or sashimi | Avoid raw or undercooked seafood during pregnancy |
+| Poke with raw fish | Same raw-fish precaution despite a different meal format |
+| Rainbow roll | Check topping: raw fish remains subject to avoidance guidance |
+| Spicy tuna roll | Spices and chopping do not establish cooking or the tuna species |
+
+For vegetables, [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) identifies washed produce as safer than unwashed produce and recommends cooked sprouts instead of raw or lightly cooked ones. For eggs it recommends firm-cooked whites and yolks in the U.S., and pasteurized eggs for preparations not receiving safe cooking. A seafood-free roll therefore still needs ingredient-specific checks.
+
+For tuna, [FDA/EPA](https://www.fda.gov/food/consumers/advice-about-eating-fish) distinguishes canned light tuna, albacore/white tuna, yellowfin and bigeye. Cooking addresses preparation, while choosing the species addresses a separate mercury recommendation. “Cooked tuna” alone is insufficient to decide the weekly fish category.
 
 ## Cross-Contamination: The Hidden Risk at Sushi Restaurants
 
-Even when you order cooked rolls, sushi restaurants prepare raw and cooked items on shared surfaces with shared tools. This creates a cross-contamination risk.
+[FDA seafood guidance](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) recommends keeping raw seafood separate from cooked and ready-to-eat foods. It advises washing hands with soap and warm water for at least **20 seconds** after handling raw food, and cleaning boards, dishes, utensils and countertops with soap and hot water between raw and ready-to-eat preparation.
 
-The practical risk is low — most bacteria don't survive well on dry cutting boards — but Listeria is unusually hardy. If you want to minimize risk further, you can ask whether your cooked roll can be prepared on a clean surface with clean utensils. Many restaurants will accommodate this if you explain it's a pregnancy precaution.
+Useful restaurant questions concern actual practice: Is the seafood fully cooked? Was a raw topping added later? Are cooked ingredients prepared with clean tools and separated from raw seafood? Those questions provide more information than a general assurance that a restaurant is “reputable.” They do not allow this page to audit or certify a kitchen.
 
-At home, making cooked sushi rolls yourself with pre-cooked shrimp or canned crab eliminates the cross-contamination question entirely.
+Home preparation requires the same precautions. It does not eliminate cross-contamination simply because you use canned seafood or pre-cooked shrimp. Clean equipment, product instructions and appropriate refrigeration remain relevant. FDA advises refrigerating seafood promptly and using a refrigerator at **40°F or below**; its [seafood storage guidance](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) describes the handling requirements.
 
-> **Note:** If you ate raw fish sushi before knowing you were pregnant, the risk from a single exposure is low. Don't panic. Mention it to your provider at your next visit, and monitor for Listeria symptoms: fever, muscle aches, nausea, or diarrhea appearing 1–4 weeks after exposure. Most single exposures do not result in infection.
+**After a concerning exposure:** Eating raw fish does not diagnose infection. If you think you have foodborne illness, [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) advises contacting a healthcare provider immediately. Tell them you are pregnant and what you ate. For recalled or outbreak-linked food with fever and other Listeria symptoms, [CDC](https://www.cdc.gov/listeria/signs-symptoms/index.html) specifically advises provider contact. Do not wait for a routine appointment if you feel unwell.
 
 ## Trimester-Specific Guidance
 
-The raw fish restriction applies equally across all three trimesters. Cooked sushi options remain appropriate throughout.
+The [CDC pregnancy seafood precautions](https://www.cdc.gov/food-safety/foods/pregnant-women.html) apply throughout pregnancy. They do not provide a raw-fish exemption after a particular week, or rank one trimester as the only time to check food handling.
 
-**First trimester (weeks 1–13):** Immune suppression is most pronounced, and fetal organ development is most vulnerable to infection. This is also when morning sickness may make fish unappealing. Vegetable rolls — cucumber, avocado, pickled radish — are gentle on the stomach and carry virtually no pathogen risk.
+**First trimester:** Choose foods you can manage within your own care advice. A vegetable roll is not a proven treatment for nausea or free of every pathogen; produce and equipment still need appropriate handling.
 
-**Second trimester (weeks 14–26):** Appetite typically normalizes. Cooked sushi rolls with shrimp, eel, or baked salmon provide solid protein (8–20g per roll) and omega-3 support for fetal brain development. This is a good trimester to make cooked sushi a regular part of your diet if you enjoy it.
+**Second trimester:** Count all seafood together using the [FDA/EPA chart](https://www.fda.gov/food/consumers/advice-about-eating-fish). A cooked roll does not come with a separate fish allowance or a verified universal protein amount per roll.
 
-**Third trimester (weeks 27–40):** Continue avoiding raw fish through delivery. Cooked sushi with low-mercury fish (shrimp, salmon, eel) supports the protein and omega-3 needs of late pregnancy.
-
-> **Bottom Line:** Raw fish sushi is off-limits throughout pregnancy — no exceptions for "sushi-grade" or high-end restaurants. Cooked sushi (shrimp tempura, California roll, eel, vegetable, cooked salmon) is considered safe by current FDA and ACOG guidelines. Enjoy what's cooked, skip what's raw.
+**Third trimester:** Maintain the same preparation and species checks through delivery. The biological role of nutrients in fish is not a reason to ignore the mercury categories or a claim that a particular roll guarantees fetal development.
 
 ## Frequently Asked Questions
 
 **Is cooked sushi safe during pregnancy?**
 
-According to FDA and ACOG guidelines, cooked sushi — where all seafood has reached 145°F internal temperature — is considered safe. This includes shrimp tempura rolls, California rolls with imitation crab, eel rolls, and vegetable rolls. Ask your server to confirm the fish is fully cooked.
+Cooked seafood is a safer alternative to raw seafood under [CDC guidance](https://www.cdc.gov/food-safety/foods/pregnant-women.html). Check the species, actual cooking, other ingredients and handling. No recipe name guarantees that the entire meal meets those conditions.
 
 **Is it safe to eat sushi from a reputable restaurant?**
 
-Restaurant reputation doesn't change the fundamental biology. Raw fish carries parasite and bacteria risk regardless of where it's served. The FDA recommendation to avoid raw fish during pregnancy applies to all restaurants, including high-end sushi bars.
+Reputation does not replace preparation checks. [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) advises pregnant people to avoid raw or undercooked seafood and to prevent cross-contamination. Ask about the actual ingredients and cooking rather than relying on price or reviews.
 
 **What if I accidentally ate raw fish during pregnancy?**
 
-A single exposure is unlikely to cause infection. Contact your provider, describe what you ate, and watch for symptoms: fever above 100.4°F, muscle aches, severe nausea, or diarrhea within 1–4 weeks. Listeria is treatable with antibiotics when caught early.
+If you feel unwell or suspect foodborne illness, contact your healthcare provider, as [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) advises. [CDC's Listeria guidance](https://www.cdc.gov/listeria/signs-symptoms/index.html) also addresses recalled/outbreak-linked food and symptoms. If you are not ill, CDC says most experts do not think tests or treatment are needed for possible Listeria exposure; discuss concerns with your provider. This is not a guarantee from a symptom-free time window.
 
 **Can I eat sushi rolls with cooked fish on top of raw rice?**
 
-Sushi rice is cooked and safe. The question is entirely about the fish. If the fish on top is raw (as in a rainbow roll or nigiri), it's not recommended. If the fish is cooked, it's fine.
+Clarify the recipe: do not assume the rice is cooked or correctly handled from the name alone. Check all components, not just the fish. [CDC's general pregnancy precautions](https://www.cdc.gov/food-safety/foods/pregnant-women.html) include clean, separate, cook and chill practices; a cooked topping does not certify the rest of the meal.
 
 **Are California rolls safe? What about imitation crab?**
 
-Yes. California rolls use imitation crab (surimi), which is fully cooked during manufacturing. Combined with avocado and cucumber, they carry very low risk and are one of the best sushi choices during pregnancy.
+Check the actual recipe and product. Do not assume every California roll uses the same imitation crab or excludes raw toppings. Apply [CDC's seafood and ingredient precautions](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and [FDA handling guidance](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely); the roll's name is not a product-specific safety certificate.
 
-For other seafood during pregnancy, see our guides on [prawns](/guides/fish-seafood-pregnancy), [crab](/guides/fish-seafood-pregnancy), and [catfish](/guides/fish-seafood-pregnancy).
+For more seafood questions, see the [pregnancy fish and seafood guide](/guides/fish-seafood-pregnancy), applying the advice to each species and preparation.
 
 ## Sources
 
-1. FDA. Food Safety for Pregnant Women. U.S. Food and Drug Administration, 2022. https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be
-2. ACOG. Nutrition During Pregnancy — Foods to Avoid. American College of Obstetricians and Gynecologists, 2023.
-3. CDC. Listeria and Pregnancy. Centers for Disease Control and Prevention, 2023.
-4. Tam C et al. Longitudinal study of infectious intestinal disease in the UK. *Epidemiol Infect.* 2012;140(12):2014–2025.
+- [CDC — Safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+- [FDA — Selecting and serving fresh and frozen seafood safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
+- [FDA/EPA — Advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+- [CDC — Symptoms of Listeria infection](https://www.cdc.gov/listeria/signs-symptoms/index.html)
+- [NHS — Foods to avoid in pregnancy](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
 ---
 

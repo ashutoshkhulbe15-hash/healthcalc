@@ -1,166 +1,165 @@
-<!-- last-updated: July 2026 -->
-# Calorie Deficit Calculator: Find Your Target for Weight Loss
+<!-- last-updated: October 5, 2026 -->
+# Calorie Deficit Calculator: Understand the Arithmetic and Its Limits
 
-A calorie deficit is the one mechanism behind all fat loss. It happens when you eat fewer calories than your body burns through daily activity, exercise, and basic metabolism.
+A calorie deficit describes an energy intake below energy expenditure. This page helps explain that idea, while the current calculator performs **subtraction using two numbers you enter**. It does not estimate expenditure, determine whether weight loss is appropriate, choose a daily intake or forecast a goal date.
 
-This is not a diet philosophy, it is simple energy balance. Whether you follow keto, intermittent fasting, or no particular plan, fat loss only occurs when you are in a deficit.
-
-This online weight loss calorie calculator does the math for you. Enter your details, choose how fast you want to lose, and it returns a daily calorie target plus a projected goal date.
+The first field is your own maintenance estimate. The second is an amount to subtract from it. If you enter 2,000 and 300 kcal/day, the arithmetic result is 1,700 kcal/day. Those are hypothetical inputs, not a recommendation to eat 1,700 kcal. A correct subtraction cannot verify the maintenance estimate or establish that the result is nutritionally adequate.
 
 ## 🔢 What Is a Calorie Deficit?
 
-> 🔑 **Key Takeaway:** A calorie deficit means eating fewer calories than your body burns. A 500-calorie daily deficit leads to roughly 1 pound of fat loss per week, though the real rate depends on your metabolism, activity, and body composition.
+A numerical deficit and a weight-loss outcome are different things. Subtracting a chosen amount from an estimated expenditure produces a calculated intake value. It does not demonstrate that the expenditure is accurate, that the intake will be followed, or that body weight will change at a fixed rate.
 
-Think of your body's energy like a bank account. Calories eaten are income, and calories burned are expenditure.
+The familiar “3,500 calories equals one pound” rule should not be used here as a guaranteed prediction. NIH's research brief explains that it does not account for changes in metabolism as weight is lost. NIDDK's Body Weight Planner instead uses a dynamic mathematical model. This subtraction tool does not implement that model. [NIH explanation of the limitation](https://irp.nih.gov/catalyst/23/5/research-briefs); [NIDDK model research](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner)
 
-When income exceeds expenditure, you gain weight. When expenditure exceeds income, your body taps stored energy, mostly fat, to cover the gap.
+Worked arithmetic: 300 kcal/day × 7 days = 2,100 kcal over a week. That multiplication is exact for an assumed constant difference. It does **not** establish a corresponding amount of fat loss, and a seven-day energy sum should not be labeled as a measured change in body composition.
 
-That stored fat comes out at roughly 3,500 calories per pound, though this varies with individual physiology. A steady 500-calorie daily deficit adds up to about 3,500 calories a week, or roughly one pound of fat.
+| Information | What a calculation can show | What it cannot verify |
+|---|---|---|
+| Maintenance estimate | The value entered | Actual daily expenditure |
+| Subtracted amount | The chosen numerical difference | Whether that amount is appropriate |
+| Remaining amount | First input minus second input | A safe or adequate intake |
+| Repeated days | A sum under a fixed assumption | A weight-loss rate or date |
 
-In practice, the scale moves less predictably because of water retention and glycogen shifts. This relationship was established in research by Hall and colleagues, who showed the 3,500-calorie rule is simplified but useful for predicting average loss over time.
-
-The key insight is that the deficit is the only lever that moves body fat. Diet type, meal timing, and exercise style matter for how easily you hold the deficit and how you feel, but they do not override the equation.
+Energy balance is useful context, but a personal plan includes more than a number. NIDDK describes weight-management programs as including eating guidance, appropriate physical activity, support for habits and a maintenance plan. An arithmetic tool supplies none of that personal assessment. [NIDDK program guidance](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 ## 🧮 How to Use This Calculator
 
-> 💡 **Tip:** Start with a moderate 300 to 500 calorie deficit. Research consistently shows moderate deficits preserve more muscle, sustain energy, and are easier to maintain than aggressive cuts.
+Enter the maintenance estimate you obtained elsewhere, then the amount you want to subtract for comparison. The first value must be above zero. The second must be from zero up to the first value. These restrictions keep the calculation within its displayed arithmetic range; they do not certify the allowed numbers as dietary advice.
 
-The tool turns your details into a personalized target. The steps injected below walk through the process from your stats to your goal date.
+The second field is **not your intended food intake**. If your estimate is 2,400 kcal/day and you want to examine subtracting 400 kcal/day, enter 2,400 and 400. The output is 2,000. Entering 2,000 in the second field would instead subtract 2,000 and display 400, which answers a different arithmetic question.
 
-First it estimates your Total Daily Energy Expenditure (TDEE), the calories you burn in a day. This combines your basal metabolic rate with the energy used through movement and exercise.
+Three examples using the same hypothetical first input illustrate this distinction:
 
-Then you choose a rate of loss, and the calculator subtracts the matching deficit to produce your daily target. It also projects a goal date, so you can see roughly when you would reach your target weight at that pace.
+| Entered estimate | Entered amount to subtract | Subtraction result |
+|---|---|---|
+| 2,400 kcal/day | 0 kcal/day | 2,400 kcal/day |
+| 2,400 kcal/day | 250 kcal/day | 2,150 kcal/day |
+| 2,400 kcal/day | 400 kcal/day | 2,000 kcal/day |
 
-The goal date feature answers one of the most common weight-loss questions: how long will this take. Seeing a realistic date attached to a sustainable pace tends to be more motivating than chasing the fastest possible number, because it sets an expectation you can actually meet.
+No row is preferred or endorsed. The form can also calculate zero remaining when both entries are equal; zero is an arithmetic result, never an instruction to consume no food.
 
-Keep in mind the projection assumes a steady rate, while real weight loss is rarely linear. Early weeks often show a faster drop from water and glycogen, then the pace settles, so treat the date as a reasonable estimate rather than a guarantee.
+Keep the units consistent. The fields refer to daily food-energy values in kcal, also commonly called food calories. Do not subtract a weekly total from a daily estimate without first converting the time period. For an illustrative weekly amount of 2,100 kcal, dividing by seven gives 300 kcal/day; it does not establish that either value is suitable for you.
 
-If you want to establish your baseline first, our [TDEE Calculator](/fitness/tdee-calculator) finds your starting point. The value of a calculator over guessing is precision, because two people of similar size can need noticeably different intakes.
+The [TDEE Calculator](/fitness/tdee-calculator) produces an estimate from a published resting-energy equation and a site-selected activity factor. If you use its output here, its uncertainty remains. This tool does not add body-weight inputs, activity assessment, a desired loss rate or a goal-date calculation.
 
 ## ⚖️ How Much of a Deficit Is Safe?
 
-Not all deficits are equal. The size of yours affects how fast you lose, how you feel, how much muscle you keep, and whether you can actually stick with it. The reference chart below compares the common deficit sizes.
+There is no safety classification attached to the subtraction result. The same difference can lead to very different remaining amounts depending on the first input: 2,800 − 500 gives 2,300, while 1,600 − 500 gives 1,100. These are mathematical examples, not recommended intakes or a comparison declaring one plan safe.
 
-A moderate deficit of 300 to 500 calories a day is the sweet spot for most people. It produces steady loss of about half a pound to a pound a week, preserves muscle when paired with protein and resistance training, and feels manageable.
+NIDDK recommends discussing weight and appropriate weight-management options with a healthcare professional. Its program guidance emphasizes a plan tailored to health, preferences and circumstances. That does not justify turning a single subtraction amount into a universal prescription for everyone. [NIDDK](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
-An aggressive calorie deficit of 500 to 750 calories a day produces faster results but raises the trade-offs. Muscle loss becomes more likely, hunger grows, and workout energy can drop, so it works best for short blocks of 8 to 12 weeks.
+An estimated resting metabolic rate is not used by this page as a universal intake floor. The tool cannot assess nutrient adequacy, body composition, medication effects or medical circumstances by comparing a result with “BMR.” It also does not assign “moderate,” “aggressive” or “very aggressive” categories to 300, 500 or 750 kcal differences.
 
-A very aggressive deficit above 750 calories a day is generally not recommended without medical supervision. It triggers strong metabolic adaptation, significant muscle loss, and a high chance of rebound.
+For many adults receiving weight-management care, NIDDK describes an initial goal of 5–10% of starting weight within six months. This is a general program goal discussed in its clinical context, not a promise, a weekly-rate formula or a target appropriate to every visitor. [NIDDK: realistic goals](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
-There is also a sustainability cost that rarely gets discussed. Very aggressive deficits demand constant willpower, produce constant hunger, and often feel like punishment, which is exactly the setup for the restrict-binge cycle.
+If a clinician has provided an intake or weight-management plan, keep that plan separate from hypothetical scenarios. A calculation that accepts a number has not checked whether the number fits the person's care. Ask how the plan addresses nutritional needs, monitoring and circumstances that might require a change.
 
-That cycle usually starts with a single slip that shame spirals into a full binge, followed by renewed restriction. Over time it is demoralizing and frequently leads to net weight gain, which is the opposite of the goal. A moderate deficit sidesteps this by letting you keep foods you enjoy in smaller amounts while still making progress.
-
-> ⚠️ **Warning:** Never eat below your Basal Metabolic Rate (BMR) without medical supervision. Your BMR is the minimum your body needs at rest, and dropping below it without professional guidance risks metabolic and nutritional harm. The safe general guideline is to lose 0.5 to 1% of your body weight per week.
+The label “calorie deficit calculator” describes the topic of this page. The result cards themselves say “entered comparison amount” and “subtraction result” so that an arithmetic output is not presented as a personal target.
 
 ## 📉 Why Aggressive Deficits Backfire
 
-The assumption that faster is better ignores how the body responds. Large deficits trigger adaptations that undermine long-term success.
+Choosing a larger subtraction amount necessarily lowers the arithmetic result. It does not prove that a more restrictive plan is effective, appropriate or easier to sustain. This tool cannot quantify muscle loss, hormone changes, hunger, metabolic adaptation or future weight regain for an individual.
 
-**Metabolic adaptation.** Your body reduces its energy expenditure when restricted, a process called adaptive thermogenesis. The deficit you relied on shrinks as your TDEE falls, and this effect is stronger with larger, longer cuts.
+NIDDK's research model accounts for changes in metabolism and energy expenditure over time. NIH explains why a constant 3,500-kcal-per-pound rule can overpredict weight loss. These sources support caution about straight-line predictions; they do not establish a fixed percentage of muscle lost with each deficit size or a guaranteed response after a particular number of weeks. [NIDDK research](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner); [NIH research brief](https://irp.nih.gov/catalyst/23/5/research-briefs)
 
-This does not mean your metabolism is broken or permanently damaged. It means the gap between what you eat and what you burn narrows, so a 750-calorie deficit in week one might produce only half the loss by week six. A moderate deficit triggers less of this adaptation, which is a major reason the slow-and-steady approach preserves results over time.
+A numerical comparison can illustrate assumptions without becoming a forecast. If one scenario subtracts 250 kcal and another subtracts 500 kcal, the second arithmetic difference is twice as large. It does not follow that someone will lose twice as much weight, or do so in half the time. That inference would require a model and evidence not supplied by this tool.
 
-**Muscle loss.** In any deficit, some muscle is lost alongside fat. Larger deficits and inadequate protein accelerate this, while resistance training and 1.6 to 2.2 grams of protein per kilogram keep muscle loss to roughly 20 to 25% of weight lost.
+Restrictive eating and compensatory behavior also deserve appropriate attention. NIMH identifies extremely restricted eating, excessive exercise and binge/purge behaviors among eating-disorder symptoms. Eating disorders can affect people at different body weights; an appearance of normal weight does not exclude serious illness. People with concerning symptoms should seek healthcare support. [NIMH eating-disorder information](https://www.nimh.nih.gov/health/publications/eating-disorders)
 
-Losing muscle matters because muscle burns calories at rest. The person who loses 20 pounds through a moderate deficit plus training keeps a higher metabolism than someone who crash-diets to the same weight.
-
-The variables that determine muscle loss are worth knowing, because you control most of them. Deficit size, protein intake, resistance training, your training history, and your current body fat all influence how much of the weight you lose comes from muscle versus fat. Leaner people lose proportionally more muscle in a deficit, which is why very lean individuals should cut more gently.
-
-**Hormonal disruption.** Large deficits raise cortisol and ghrelin while lowering leptin, thyroid hormones, and testosterone. These changes scale with deficit size and duration, and they make you progressively hungrier, more tired, and more irritable.
-
-A landmark study in Obesity followed contestants from The Biggest Loser, who lost weight extremely fast. Six years later their resting metabolic rates were still suppressed by around 500 calories a day, illustrating how extreme restriction produces lasting suppression that drives regain.
+This does not mean that a particular calorie number diagnoses an eating disorder. The concern is the person's behavior, symptoms and clinical assessment. Use the information to recognize when support is needed rather than to label yourself or someone else based on a calculator output.
 
 ## 🤱 Calorie Deficit While Breastfeeding
 
-Breastfeeding changes the math, and it deserves its own note because a standard deficit can be too aggressive. Milk production itself burns roughly 300 to 500 extra calories a day.
+Breastfeeding requires a separate nutritional context. CDC recommends an additional **330–400 kcal/day for well-nourished breastfeeding mothers compared with what they consumed before pregnancy**, with needs affected by age, body mass index, activity and whether feeding is exclusive or combined with formula. That reference is not a universal measurement of calories burned in milk production. [CDC maternal diet, updated August 2026](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html)
 
-Most guidance suggests waiting until breastfeeding is well established, often around 6 to 8 weeks postpartum, before intentionally cutting calories. A gentle deficit is safer here than an aggressive one.
+Do not automatically add 330–400 to this tool's first input and then subtract a chosen amount to create a weight-loss plan. The CDC comparison uses **pre-pregnancy intake** as its reference, which may not match the maintenance estimate entered here. Combining unlike starting points can give an apparently precise but poorly defined result.
 
-Cutting too hard can reduce milk supply and leave you short on the nutrients both you and your baby need. Many providers suggest keeping any deficit modest and prioritizing protein, fluids, and nutrient-dense foods.
+NIDDK excludes pregnant and breastfeeding people from its Body Weight Planner. This simpler subtraction tool has no information about milk production, postpartum recovery, feeding circumstances or nutritional adequacy. It should not be used to select an intake during breastfeeding. [NIDDK planner scope](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner)
 
-Because this situation is individual, it is worth discussing with your provider or a lactation-aware dietitian before starting. They can help you lose weight at a pace that protects your supply.
+Discuss any intentional calorie restriction with the maternity or lactation-aware healthcare team that knows your circumstances. The page provides no verified universal waiting period, deficit allowance or guarantee that a calculated intake will preserve milk supply.
+
+For that discussion, identify whether a number is a pre-pregnancy intake, a current observed intake, an expenditure estimate or a professional recommendation. These are different quantities. A result obtained by adding and subtracting them without defining the baseline does not answer the clinical question.
 
 ## 📅 How Long Will It Take to Lose Weight?
 
-One of the first things people want from a weight loss calculator is a realistic timeline. The honest answer depends entirely on the deficit you can sustain, not the one that looks fastest on paper.
+The current calculator gives no weight-loss timeline. It has no fields for starting weight, goal weight, a desired rate or a target date, and does not implement a dynamic body-weight model. There is therefore no basis for presenting its subtraction result as a forecast of when you will reach a goal.
 
-At a moderate pace of about one pound per week, losing 10 pounds takes roughly 10 weeks, 25 pounds around 25 weeks, and 50 pounds close to a year. At half a pound per week those timelines roughly double.
+A purely hypothetical rate can be used for scheduling arithmetic. If a fictional scenario assumes 10 units of change at one unit per week, the arithmetic is ten weeks. But assuming the rate is the crucial step; this tool does not establish a biological rate or verify that it can be sustained. Do not relabel a made-up schedule as a health prediction.
 
-It is tempting to chase the top end, but the person who loses 50 pounds gradually with training arrives with more muscle and a healthier metabolism than someone who crash-diets to the same number. The slower route also has a far better track record for keeping the weight off.
+NIDDK's separate Body Weight Planner models calorie and activity plans across time and explains the research behind that model. Its adult-only scope and pregnancy/breastfeeding exclusions remain important. If exploring that resource, read its own instructions rather than assuming this site's calculator has the same features or evidence. [NIDDK planner](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner); [model research](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner)
 
-The calculator's goal date reflects the pace you choose, so you can compare timelines directly. Picking a rate you can actually live with, rather than the fastest one, is usually what turns a projected date into a real one.
+A care plan can include goals, review points and support without promising a guaranteed finish date. NIDDK highlights ongoing feedback, tracking and a maintenance plan as parts of a weight-management program. A single number or deadline does not replace those elements. [Program guidance](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
+
+If comparing goals, separate a preferred date from an evidence-based clinical expectation. Ask what assumptions underpin the plan, what will be monitored, and how it will be revised if circumstances change. This page helps explain the arithmetic, but cannot supply those individual answers.
 
 ## 🍗 Tips for Maintaining a Healthy Deficit
 
-Creating a deficit on paper is easy, but holding it week after week is the real challenge. A few evidence-based habits make it far more sustainable.
+For general weight-management planning, NIDDK recommends a science-based eating plan tailored to health, cultural needs, preferences and values, with suitable activity and ongoing support. It does not define successful care as repeatedly reducing a calculator output. [NIDDK program guidance](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
-Track your intake for two weeks before adjusting anything. Daily weight swings are mostly water, so a two-week average prevents panic-driven cuts based on noise.
+**Check serving information.** FDA explains that nutrition values are usually per serving and that a package may contain several servings. A label serving is not a recommendation for how much to eat. If recording intake, keep the listed serving and your actual portion distinct. [FDA serving-size guidance](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
 
-Prioritize protein, since it preserves muscle, increases fullness, and has a high thermic effect. Research supports 1.6 to 2.2 grams per kilogram during a deficit, and our [Protein Intake Calculator](/fitness/protein-intake-calculator) gives a personalized target.
+**Keep examples identifiable.** If a hypothetical food has 200 kcal per serving, 1.5 servings gives 300 kcal. This is simple label arithmetic, not a verified value for a named food. Avoid replacing a real product's label with a generic number from an unrelated example.
 
-Strength train two to three times a week. Resistance training signals your body to keep muscle and protects your metabolic rate better than cardio alone.
+**Distinguish estimates from observations.** The first field is an estimate supplied by you; the result cannot confirm it. If a previous calculation used a different activity factor or unit, record that change before comparing the outputs. A difference created by a changed assumption is not evidence of a measured change in metabolism.
 
-Take diet breaks every 8 to 12 weeks, eating at maintenance for one to two weeks while training. Breaks let hormones partially normalize, reduce metabolic adaptation, and provide psychological relief.
+**Use support that fits the plan.** NIDDK describes feedback and support for tracking eating, drinking, sleep and activity, with weight monitoring as part of a program. A care team can help interpret those observations. This page provides no automatic instruction to reduce calories after a two-week plateau or to schedule a diet break every eight weeks. [NIDDK: guidance and support](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
-Treat your target as a range rather than a fixed number, and track metrics beyond the scale like photos, how clothes fit, and strength. If progress stalls for 3 to 4 weeks, trim by 100 to 150 calories, not 500. To dial in your split, use our [Macro Calculator](/fitness/macro-calculator).
+**Read related tools according to their actual scope.** The [Macro Calculator](/fitness/macro-calculator) allocates percentages you choose; the [Protein Intake Calculator](/fitness/protein-intake-calculator) applies a general U.S. guideline range to entered weight. Neither checks whether a calorie deficit is medically appropriate or guarantees retention of muscle.
 
-Sleep and stress deserve more credit than they usually get. Short sleep raises hunger hormones and lowers the willpower a deficit demands, so protecting seven to nine hours often does more for adherence than any tracking app.
-
-Plateaus are also worth normalizing in advance. Your weight can stay flat for two to three weeks while you are genuinely losing fat, because training inflammation and hormonal shifts cause the body to hold water that masks the change on the scale.
-
-Finally, build the deficit mostly from food rather than trying to exercise it all off. Exercise supports fat loss and health, but it is far easier to not eat 400 calories than to burn them, and hunger tends to rise to match heavy training.
+Diet quality is wider than a calorie difference. Current U.S. dietary guidance addresses food groups and nutrient choices; the subtraction form cannot evaluate those features from two numbers. [Dietary Guidelines 2025–2030](https://cdn.realfood.gov/DGA.pdf)
 
 ## 🩺 When to Consult a Professional
 
-Weight loss follows the calories-in, calories-out principle, but individual circumstances vary. Some situations genuinely call for professional guidance rather than a calculator.
+Seek personalized advice when you need to know whether weight change is appropriate, what intake fits your circumstances or how to interpret unexpected changes. NIDDK describes reviewing health problems and medicines or supplements as part of discussing weight-management options. A calculator cannot perform that review. [NIDDK: talking with a healthcare professional](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
-Medical conditions such as thyroid disorders, PCOS, and diabetes affect metabolism or appetite, and a professional can adjust for them. Very aggressive weight loss, above 750 calories of deficit or extended past 4 to 6 weeks, also warrants supervision.
+If you already receive care for a medical condition, tell the team before changing a nutrition plan based on an online result. Ask which measurements matter, what the result can help explain and what should trigger follow-up. This site does not infer medication effects or diagnose a cause for weight change.
 
-A history of disordered eating is another clear reason to seek support. If you have struggled with binge eating, restriction, or food obsession, working with a specialist helps you pursue any goals in a psychologically safe way.
+For eating or body-image concerns, NIMH recommends speaking with a primary care provider who can help arrange appropriate mental-health support. Extremely restricted eating, excessive exercise, loss of control over eating or compensatory behaviors deserve assessment; they should not be dismissed as a failure of willpower. [NIMH: symptoms and finding help](https://www.nimh.nih.gov/health/publications/eating-disorders)
 
-> 📌 **Note:** Warning signs worth taking seriously include constant thoughts about food or your body, guilt around eating, using exercise to compensate for food, and cycles of restriction followed by binge eating. These are not moral failings, they are signals that an approach is not sustainable and that support could help.
+Professional support is also relevant when nutritional requirements differ from a general adult scenario, including breastfeeding. The calculator cannot determine a safe postpartum deficit or substitute for maternal nutritional advice. [CDC breastfeeding context](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html)
+
+Bring the numbers with their labels: what was entered as the maintenance estimate, what was subtracted, and whether either was hypothetical. This is more informative than bringing only the final figure, which otherwise hides the assumptions behind it.
 
 ## ❓ Frequently Asked Questions
 
-> 🎯 **Bottom Line:** Calculate your TDEE, subtract 300 to 500 calories, track for two weeks, then adjust based on real results. That sequence works for almost everyone, and it beats an aggressive cut over any meaningful time horizon.
-
 **How big should my calorie deficit be?**
 
-For most people, 300 to 500 calories a day is ideal, producing about half a pound to a pound of weekly loss. Beginners should start at the conservative end. Avoid exceeding 750 without professional guidance, and never go beyond 1,000 unless medically supervised.
+This tool does not prescribe a difference. NIDDK recommends a weight-management plan tailored to health and circumstances, rather than selecting a universal subtraction amount from an online table. [NIDDK](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 **How many calories should I eat to lose weight?**
 
-It depends on your TDEE. If your TDEE is 2,500, eating 2,000 creates a 500-calorie deficit; if it is 1,900, eating 1,400 does the same. This calculator personalizes the number rather than giving generic advice that fits almost nobody.
+The subtraction result cannot determine that. It uses your inputs without measuring expenditure or assessing nutrient adequacy. Discuss an appropriate intake and whether weight loss is indicated with a healthcare or nutrition professional. [NIDDK planning](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 **How many calories to lose a stone?**
 
-A stone is about 14 pounds, or roughly 6.35 kg. At one pound per week, losing a stone takes around 14 weeks; at half a pound per week, closer to 28 weeks. The calculator will give you a goal date based on the rate you choose.
+No fixed calorie sum or completion date is supplied. A static calorie-per-pound rule does not account for changes during weight loss, and this calculator does not implement a dynamic model. [NIH explanation](https://irp.nih.gov/catalyst/23/5/research-briefs)
 
 **Is a 1,000 calorie deficit safe?**
 
-A 1,000-calorie deficit implies about 2 pounds of weekly loss, which is very fast and not recommended for the general public. At this level muscle loss accelerates, hormones are disrupted, and adherence collapses. It should only happen under medical supervision.
+The size alone does not establish safety, and this page does not endorse it. The form cannot evaluate health, nutrient adequacy or the suitability of an intake plan. [NIDDK individualized program guidance](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 **Can I use a calorie deficit while breastfeeding?**
 
-A gentle deficit is usually considered reasonable once breastfeeding is established, often after 6 to 8 weeks, but aggressive cuts can reduce supply. Discuss it with your provider first, keep any deficit modest, and prioritize protein and fluids.
+Do not use this tool to select a breastfeeding intake. CDC describes additional nutritional energy requirements and individual influences; an appropriate plan needs that context. [CDC maternal diet](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html)
 
 **Why am I not losing weight in a calorie deficit?**
 
-First confirm you are truly in a deficit by tracking carefully for two to three weeks, since portions are easy to underestimate. Second, give it time, because plateaus of two to three weeks are normal. Third, recalculate your TDEE as you lose weight, since it falls as you get lighter.
+An entered estimate minus a chosen amount does not confirm a real deficit or identify a reason for weight change. Review the assumptions and observations with your care team rather than automatically increasing restriction. [NIDDK planning and monitoring](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 **Should I eat back exercise calories?**
 
-Usually no, because machines and apps overestimate burn. The cleaner approach is to include your typical weekly exercise in your activity level when using the calculator, then hold that target rather than adding calories back after each workout.
+This form does not estimate exercise expenditure or give an eat-back rule. Confirm how activity is already accounted for in your plan so that an assumed expenditure is not counted twice. [NIDDK individualized activity planning](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program)
 
 ## Sources & Medical References
 
-1. Hall KD. What is the required energy deficit per unit weight loss? *International Journal of Obesity.* 2008;32(3):573-576.
-2. Fothergill E, et al. Persistent metabolic adaptation 6 years after The Biggest Loser intervention. *Obesity.* 2016;24(8):1612-1619.
-3. Helms ER, et al. A systematic review of dietary protein and resistance training on muscle mass and strength. *Journal of Sports Sciences.* 2014;32(3):257-279.
-4. Trexler ET, Smith-Ryan AE, Norton LE. Metabolic adaptation to weight loss: implications for the athlete. *J Int Soc Sports Nutr.* 2014;11(1):7.
-5. Wing RR, Phelan S. Long-term weight loss maintenance. *American Journal of Clinical Nutrition.* 2005;82(1):222S-225S.
-6. Mettler S, Mitchell N, Tipton KD. Increased protein intake reduces lean body mass loss during weight loss in athletes. *Med Sci Sports Exerc.* 2010;42(2):326-337.
+1. [NIDDK: Choosing a Safe & Successful Weight-loss Program](https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program) — individualized plans, support, monitoring and realistic goals.
+2. [NIDDK: About the Body Weight Planner](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner) — separate tool purpose and population exclusions.
+3. [NIDDK: Research Behind the Body Weight Planner](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner) — dynamic model and its scope.
+4. [NIH: Research Briefs, weight-loss calculation](https://irp.nih.gov/catalyst/23/5/research-briefs) — limitations of the static 3,500-calorie rule.
+5. [CDC: Maternal Diet and Breastfeeding](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html) — calorie reference and its baseline and exceptions.
+6. [NIMH: Eating Disorders](https://www.nimh.nih.gov/health/publications/eating-disorders) — symptoms and support.
+7. [FDA: Serving Size on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label) — portion and serving arithmetic.
+8. [Dietary Guidelines for Americans 2025–2030](https://cdn.realfood.gov/DGA.pdf) — broader dietary context.
 
 ---
 

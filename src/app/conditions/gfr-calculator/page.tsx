@@ -23,7 +23,7 @@ export default function Page() {
       relatedTools={[
         {title:"Normal GFR by Age Guide",desc:"Age-group population means and adult eGFR limits.",href:"/guides/normal-gfr-by-age",category:"conditions"},
         {title:"A1C Converter",desc:"Blood sugar and A1C conversion.",href:"/conditions/a1c-blood-sugar-converter",category:"conditions"},
-        {title:"Cholesterol Ratio Calculator",desc:"Cardiovascular risk assessment.",href:"/conditions/cholesterol-ratio-calculator",category:"conditions"},
+        {title:"Cholesterol Ratio Calculator",desc:"Calculate entered cholesterol ratios.",href:"/conditions/cholesterol-ratio-calculator",category:"conditions"},
       ]}>
       <GfrCalc />
       <QuickAnswer answer="This adult calculator estimates eGFR from standardized serum creatinine, age, and sex using CKD-EPI 2021. GFR categories are one part of kidney assessment; CKD requires kidney abnormalities lasting at least 3 months and assessment also considers albuminuria and cause. A single calculator result is not a diagnosis." />

@@ -22,9 +22,9 @@ export default function Page() {
       description="Four historical equations produce reference outputs from height and sex. They are not personal weight targets."
       features={["📊 4 equations compared", "🧮 Arithmetic outputs", "📋 Sources and limits", "⚠️ Not a weight target"]}
       relatedTools={[
-        {title:"BMI Calculator",desc:"Body mass index assessment.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
+        {title:"BMI Calculator",desc:"Adult BMI arithmetic with stated screening limits.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
         {title:"Body Composition Estimate",desc:"Military circumference equation estimate.",href:"/fitness/body-fat-calculator",category:"fitness"},
-        {title:"Lean Body Mass Calculator",desc:"What you weigh minus fat.",href:"/fitness/lean-body-mass-calculator",category:"fitness"},
+        {title:"Lean Body Mass Calculator",desc:"Boer height-and-weight equation estimate.",href:"/fitness/lean-body-mass-calculator",category:"fitness"},
       ]}>
       <IdealWeightCalc />
       <QuickAnswer answer="Devine, Robinson, Miller, and Hamwi are historical height-based equations. The calculator shows their arithmetic outputs; they do not establish a personal ideal, healthy, or target weight." />

@@ -1,85 +1,92 @@
-<!-- last-updated: June 2026 -->
+<!-- last-updated: October 2026 -->
 # Can You Eat Tuna While Pregnant? Mercury Limits by Type
 
-Tuna is safe during pregnancy — but the type matters significantly. Light canned tuna (skipjack) has 3x less mercury than white albacore tuna. The FDA allows 2–3 servings of light tuna per week but limits albacore to 1 serving per week.
+The type of tuna matters. The U.S. [FDA/EPA fish chart](https://www.fda.gov/food/consumers/advice-about-eating-fish) lists **canned light tuna, including skipjack, as a Best Choice**; **albacore/white tuna and yellowfin as Good Choices**; and **bigeye as a Choice to Avoid** during pregnancy. Do not treat all tuna as one category or give canned light tuna the wrong category name.
 
-This distinction is the most important thing to know. "Tuna" is not one fish — it's a category spanning species with very different mercury profiles.
+These are weekly seafood recommendations, not an extra allowance for each species. Preparation is a separate question: [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) recommends cooked seafood instead of raw or undercooked seafood and identifies canned seafood as a safer alternative. Cooking does not change which mercury category applies.
 
 ## How Much Tuna Can I Eat While Pregnant?
 
-> **Key Takeaway:** Light canned tuna (skipjack): 2–3 servings per week (8–12 oz) per FDA guidelines. White albacore tuna: limit to 1 serving per week (4 oz) due to higher mercury. Bigeye tuna: avoid entirely — mercury levels too high. The type of tuna determines the safety limit, not "tuna" as a category.
+For pregnancy, [FDA/EPA](https://www.fda.gov/food/consumers/advice-about-eating-fish) uses a **4-ounce serving guide, measured before cooking** and advises **2–3 servings per week from Best Choices, or one serving from Good Choices**. The overall recommendation is **8–12 ounces of varied lower-mercury seafood weekly**. Count tuna with the other fish and shellfish you eat. The [FDA/EPA FAQ](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or) explicitly says that the Good Choice alternative is one serving **with no other fish that week**.
 
-| **Tuna Type** | **Mercury (ppm)** | **FDA Category** | **Weekly Limit** |
-|---|---|---|---|
-| Light canned (skipjack) | 0.126 | Good Choice | 2–3 servings (8–12 oz) |
-| White canned (albacore) | 0.350 | Good Choice | 1 serving (4 oz) |
-| Yellowfin (ahi) | 0.354 | Good Choice | 1 serving (4 oz) |
-| Bigeye tuna | 0.689 | Avoid | Do not eat during pregnancy |
-| Bluefin tuna | 0.500+ | Avoid | Do not eat during pregnancy |
+| Tuna named in the FDA/EPA chart | U.S. category | How to apply the chart |
+|---|---|---|
+| Canned light tuna, including skipjack | Best Choice | Count with the week's other Best Choice seafood |
+| Albacore/white tuna, canned or fresh/frozen | Good Choice | Apply the one-serving Good Choice alternative |
+| Yellowfin tuna | Good Choice | Same Good Choice alternative |
+| Bigeye tuna | Choice to Avoid | Avoid during pregnancy |
 
-Source: FDA Mercury Levels in Commercial Fish and Shellfish, 2023.
+[Exact FDA/EPA category list and serving guide](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+
+Bluefin is not named in that chart's displayed list. This article therefore does not invent a chart category or a universal mercury measurement for it. If the species or product cannot be identified, ask the supplier rather than assuming a menu word such as “ahi” establishes the fish you have.
+
+**U.K. distinction:** [NHS pregnancy guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) limits tuna to **no more than four cans or two tuna steaks weekly**. This is separate regional advice, not an additional allowance on top of the U.S. chart. Follow the guidance applicable to you and any individual advice from your pregnancy-care professional.
 
 ## Why Mercury Matters During Pregnancy
 
-Mercury crosses the placenta and accumulates in fetal tissue, particularly the developing brain and nervous system. Methylmercury — the organic form found in fish — interferes with neuronal migration and synapse formation during fetal development.
+[FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) explains that methylmercury in fish can be harmful to the developing brain and nervous system. The fish chart helps balance seafood's nutritional contribution against mercury exposure by distinguishing species and categories.
 
-The EPA reference dose for methylmercury (0.1 mcg/kg body weight/day) was established to protect fetal neurodevelopment. At the light tuna mercury level of 0.126 ppm, a 150-lb pregnant woman can safely eat approximately 12 ounces per week and stay well below this threshold.
+A population guidance category is not a test result for an individual can or steak. Historical average mercury measurements must not be presented as the exact concentration in every product. Nor does a body-weight calculation based on an assumed average establish that a particular person's weekly meal plan is safe.
 
-> **Note:** The risk from mercury is real but proportional. Light canned tuna at 2–3 servings per week is well within safety margins. Avoiding all fish because of mercury fear is counterproductive — fish provides DHA, protein, and iodine that benefit fetal development. The FDA's guidance is specifically designed to balance benefit against risk.
+Fish can supply nutrients, including protein, omega-3 fats, iodine, choline and vitamin B12, as described by [FDA/EPA](https://www.fda.gov/food/consumers/advice-about-eating-fish). That does not mean every fish has identical amounts, or that eating a certain tuna portion guarantees a developmental outcome. Use the category chart and actual food information rather than treating one nutrient as permission to ignore another precaution.
+
+For locally caught fish, [FDA/EPA](https://www.fda.gov/food/consumers/advice-about-eating-fish) recommends checking local advisories. If no advisory is available, its advice is one serving and no other fish that week. A familiar species name does not replace an advisory about the water where it was caught.
 
 ## How Much Canned Tuna Can I Eat While Pregnant?
 
-For **light canned tuna** (the most common type, usually labeled "chunk light" and made from skipjack): up to 12 ounces (about 3 standard cans) per week.
+Identify whether the product is **canned light** or **albacore/white** and apply the corresponding [FDA/EPA category](https://www.fda.gov/food/consumers/advice-about-eating-fish). Do not assume that every can is four ounces or that a stated package weight necessarily describes the portion you ate. Read the product's quantity and serving information.
 
-For **white/albacore canned tuna** (labeled "solid white" or "albacore"): limit to 4 ounces (about 1 can) per week.
+**Illustrative arithmetic:** If your recorded portions are 4 ounces of canned light tuna and 4 ounces of another Best Choice fish, they total 8 ounces. Three recorded 4-ounce Best Choice portions total 12 ounces. These examples add assumed portion amounts; they do not certify three cans of an unknown size or authorize an additional weekly allowance for albacore.
 
-> **Tip:** Check the label — it specifies the species. "Chunk light" = skipjack (lower mercury). "Solid white" or "albacore" = higher mercury. If the label doesn't specify the species, treat it as albacore and limit accordingly.
+The [FDA nutrition-label guide](https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label) explains that a package may contain more than one labelled serving and that serving size is not a recommended amount to eat. Check the whole amount consumed rather than counting each can as one standardized portion.
+
+Canned tuna and **premade deli tuna salad** are also different foods. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists canned seafood as a safer seafood choice, but advises avoiding premade deli salads, including tuna salad, and lists homemade versions as safer alternatives. A suitable tuna category does not override the prepared-salad precaution.
 
 ## Tuna Nutritional Benefits
 
-| **Nutrient** | **Per 3 oz canned light tuna** | **Pregnancy benefit** |
-|---|---|---|
-| Protein | 22g | Fetal tissue growth |
-| Omega-3 DHA | 200mg | Brain development |
-| Vitamin D | 40 IU | Bone development |
-| Selenium | 55mcg | Antioxidant, thyroid |
-| Vitamin B12 | 2.5mcg | Nervous system |
-| Iron | 1.5mg | Blood production |
-| Niacin | 11mg | Energy metabolism |
+[NIH's omega-3 fact sheet, Table 2](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/) gives the following specific food record: **three ounces of light tuna canned in water and drained contains 0.17 g DHA and 0.02 g EPA**. Those are separate fatty acids, not a single universal DHA value for every tuna preparation.
 
-Canned tuna is one of the most affordable, shelf-stable protein sources available. It requires no cooking, making it practical during pregnancy when energy and cooking motivation may be low.
+| Exact reference food | DHA | EPA |
+|---|---|---|
+| Light tuna, canned in water, drained, 3 ounces | 0.17 g | 0.02 g |
+
+**Derived unit conversion:** 0.17 g is 170 mg, and 0.02 g is 20 mg. Together they are 190 mg DHA plus EPA for that reference record. The sum must not be described as DHA alone or a prescribed daily pregnancy dose.
+
+For other nutrients, use the actual product's [nutrition label](https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label) or an exact matching food record. Oil-packed, water-packed, drained and prepared tuna dishes should not silently inherit the same table. A nutrient amount is not evidence that tuna can replace a supplement prescribed for your circumstances.
 
 ## Trimester-Specific Guidance
 
-**First trimester:** If tuna's smell triggers nausea, skip it. Return in the second trimester when aversions typically ease. Bland preparations (tuna mixed with mayo on crackers) are often better tolerated than warm tuna dishes.
+The [FDA/EPA pregnancy fish advice](https://www.fda.gov/food/consumers/advice-about-eating-fish) does not create separate tuna allowances for each trimester. Continue to count all seafood together and apply [CDC preparation precautions](https://www.cdc.gov/food-safety/foods/pregnant-women.html) throughout pregnancy.
 
-**Second trimester:** DHA needs increase. Light canned tuna provides meaningful DHA (200mg per serving) alongside [salmon](/pregnancy/safe-food/salmon) and [shrimp](/guides/fish-seafood-pregnancy). Aim for 2–3 fish servings total per week across all species.
+**First trimester:** If tuna is unappealing, discuss alternatives within your dietary needs; it is not a required food or a treatment for nausea.
 
-**Third trimester:** Protein demands peak. Tuna salad, tuna melts (well-heated), and tuna pasta are quick, high-protein meal options. Continue following the type-specific mercury limits through delivery.
+**Second trimester:** Keep the species and portion checks. This article does not prescribe extra tuna from an unsupported trimester-specific DHA target.
 
-> **Bottom Line:** Light canned tuna (skipjack) is considered safe at 2–3 servings per week per FDA guidelines. White albacore: limit to 1 serving weekly. Bigeye and bluefin: avoid entirely. Check the label for species. The type of tuna — not "tuna" as a category — determines safety.
+**Third trimester:** Maintain the same seafood guidance. A quick meal still needs an ingredient and preparation check; a premade deli tuna salad is not cleared by choosing canned light tuna.
 
 ## Frequently Asked Questions
 
 **Can you eat tuna while pregnant?**
 
-According to FDA guidelines, light canned tuna (skipjack) is considered safe at 2–3 servings per week. White albacore tuna should be limited to 1 serving per week due to higher mercury. Bigeye tuna should be avoided entirely.
+Some types can be included under the [FDA/EPA chart](https://www.fda.gov/food/consumers/advice-about-eating-fish): canned light is a Best Choice, albacore/white and yellowfin are Good Choices, and bigeye should be avoided. Count portions with other seafood and check preparation separately.
 
 **How much tuna per week while pregnant?**
 
-Light/skipjack tuna: up to 12 ounces (3 cans) per week. Albacore/white tuna: up to 4 ounces (1 can) per week. These are FDA-recommended limits based on mercury content by species.
+U.S. [FDA/EPA advice](https://www.fda.gov/food/consumers/advice-about-eating-fish) is 2–3 four-ounce Best Choice servings or one Good Choice serving with no other fish that week, not a separate allowance for each species. U.K. [NHS advice](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) is no more than four cans or two tuna steaks weekly. Do not equate every can with four ounces or combine regional allowances.
 
 **Is canned tuna safe during pregnancy?**
 
-Canned light tuna (skipjack) is considered safe per FDA guidelines. It's in the "Good Choice" category. Canned albacore/white tuna is also safe but in lower quantities (1 serving/week vs 2–3).
+Identify its type and use the relevant [FDA/EPA category](https://www.fda.gov/food/consumers/advice-about-eating-fish). [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists canned seafood as a safer preparation, but that does not certify every package or clear premade deli tuna salad.
 
 **What's the difference between light and white tuna?**
 
-Light tuna is typically skipjack — lower mercury (0.126 ppm). White tuna is albacore — higher mercury (0.350 ppm). The species determines mercury content, and the label tells you which you're buying.
+The [FDA/EPA chart](https://www.fda.gov/food/consumers/advice-about-eating-fish) lists canned light tuna, including skipjack, as a Best Choice and albacore/white tuna as a Good Choice. Check actual product information; do not assign a universal mercury concentration from a historical average or assume every “light” product is one species only.
 
 ## Sources
 
-1. FDA/EPA. Advice About Eating Fish. 2021.
-2. FDA. Mercury Levels in Commercial Fish and Shellfish. 2023.
-3. Oken E, et al. Maternal fish consumption and fetal brain development. *Am J Epidemiol.* 2005.
-4. EPA. Methylmercury Reference Dose. Integrated Risk Information System.
+- [FDA/EPA — Advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+- [FDA — Selecting and serving fresh and frozen seafood safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
+- [CDC — Safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+- [NHS — Foods to avoid in pregnancy](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
+- [NIH Office of Dietary Supplements — Omega-3 fatty acids, Table 2](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/)
+- [FDA — What's on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label)

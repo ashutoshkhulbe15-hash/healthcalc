@@ -1,51 +1,51 @@
-<!-- last-updated: June 2026 -->
-# Can I Drink Alcohol During Pregnancy? What the Evidence Says
+<!-- last-updated: October 5, 2026 -->
+# Alcohol During Pregnancy: Guidance and What to Do After Exposure
 
-Every major medical authority — ACOG, CDC, WHO, NHS, AAP — states the same position: no amount of alcohol is considered safe during pregnancy. There is no established safe threshold.
+CDC advises avoiding alcohol during pregnancy and when trying to become pregnant. There is **no known safe amount, safe time or safe type of alcoholic drink** during pregnancy. This includes wine, beer and liquor; a drink's social reputation does not provide an exception. [CDC pregnancy guidance](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
-This is not a gray area. Unlike caffeine (where 200mg daily is considered acceptable), alcohol has no evidence-based safe dose during pregnancy. The recommendation is complete avoidance throughout all three trimesters.
+The guidance is about preventing exposure, not diagnosing a particular baby from a parent's drinking history. CDC explains that not every exposed baby is affected, but it is impossible to know which will be. Do not interpret that uncertainty either as a guarantee of harm or permission for another drink. [CDC explanation](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
 ## Why Zero Alcohol During Pregnancy
 
-> **Key Takeaway:** Alcohol crosses the placenta freely. The fetus lacks the liver enzymes to metabolize it. Fetal blood alcohol concentration reaches the same level as maternal — and persists longer because the fetus cannot clear it. This applies to all types: wine, beer, spirits, cocktails. The form of alcohol is irrelevant; ethanol is ethanol.
+> **Key Takeaway:** Alcohol can pass from the pregnant person to the developing baby. CDC describes possible lifelong behavioral, learning and physical effects under the umbrella of fetal alcohol spectrum disorders. Avoiding alcohol is the prevention advice; this page does not estimate an individual probability. [CDC FASD overview](https://www.cdc.gov/fasd/about/index.html)
 
-**Fetal Alcohol Spectrum Disorders (FASD)** are the primary concern. FASD encompasses a range of outcomes from subtle cognitive and behavioral effects to full Fetal Alcohol Syndrome (FAS) with characteristic facial features, growth restriction, and intellectual disability.
+CDC also links alcohol use during pregnancy with increased risks of pregnancy loss, premature birth and other adverse outcomes. These are population findings, not a calculation that predicts the outcome of one exposure. The amount, timing and circumstances you report belong in a healthcare conversation. [CDC alcohol and pregnancy](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
-The CDC estimates that FASD affects approximately 1–5% of children in the United States — making it the leading preventable cause of intellectual disability.
+> **Warning:** There is no trimester that makes alcohol use safe. Exposure can matter before someone knows they are pregnant, and brain development continues throughout pregnancy. Do not use an early-pregnancy date or the absence of symptoms to declare an exposure harmless. [CDC timing and prevention](https://www.cdc.gov/fasd/about/index.html)
 
-> **Warning:** There is no trimester when alcohol is "safer." The first trimester is particularly critical for organ formation. The brain develops throughout all three trimesters and remains vulnerable to alcohol throughout pregnancy. The safest approach — endorsed by every major medical authority — is zero alcohol from conception through delivery.
+FASD describes a range of conditions; the umbrella name itself is not a clinical diagnosis. Assessment belongs to qualified healthcare professionals. A website cannot diagnose it from a number of drinks, a scan description or a symptom checklist. [CDC diagnosis section](https://www.cdc.gov/fasd/about/index.html)
 
 ## What About "Just One Glass of Wine"?
 
-Research has not identified a threshold below which alcohol is proven safe for fetal development. Some observational studies suggest that very light drinking (1–2 drinks per week) doesn't show statistically significant harm — but these studies have significant methodological limitations (self-reporting, confounding variables, inability to detect subtle cognitive effects).
+The prevention recommendation does not establish a permissible wine allowance. “One glass” also fails to specify the amount poured or its alcohol content, so it is not a precise exposure record. The relevant point remains CDC's advice that no known safe amount has been established. [CDC guidance](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
-> **Note:** "No evidence of harm" is not the same as "evidence of safety." The absence of detectable harm at low doses in observational studies does not prove safety — it may reflect insufficient study power to detect subtle effects. This is why medical authorities maintain zero-tolerance rather than establishing a "safe" amount.
+A personal story that a previous pregnancy went well cannot establish safety in another pregnancy. CDC explicitly explains that pregnancies can be affected differently. Likewise, an observational finding cannot be converted into an assurance that a particular amount is safe for you. [CDC common questions](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
+
+For a celebration or restaurant meal, choosing a drink without alcohol avoids the question of finding an unverified safe alcohol dose. Ask what is actually in a cocktail or alternative drink; do not rely on a name alone. These are practical checking suggestions, not an endorsement of a brand or a product-specific safety certificate.
 
 ## If You Drank Before Knowing You Were Pregnant
 
-Many women consume alcohol before realizing they're pregnant — this is common and does not mean harm has occurred. Early embryonic development (weeks 1–2) occurs before placental blood supply is established, reducing direct alcohol exposure.
+Stop alcohol use and discuss your concerns with your healthcare provider. CDC advises regular prenatal checkups and emphasizes that it is never too late to stop. It does not offer a “weeks one and two cannot be exposed” reassurance. [CDC after-exposure advice](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
-The recommended approach: stop drinking immediately upon learning you're pregnant. Don't panic about prior exposure. Mention it to your OB at your first visit. Going forward, maintain zero alcohol through delivery.
+When discussing the history, explain what you drank, approximately how much, and when. If you do not know the exact details, say so rather than inventing precision. A website cannot determine the appropriate assessment or promise that testing will exclude every possible effect.
 
-> **Bottom Line:** No amount of alcohol is considered safe during pregnancy according to ACOG, CDC, WHO, NHS, and AAP. Alcohol crosses the placenta freely. The fetus cannot metabolize it. FASD is the leading preventable cause of intellectual disability. The recommendation is zero alcohol from conception through delivery.
+If stopping is difficult, seek help from your healthcare provider rather than trying to manage the problem alone. CDC's pregnancy guidance links to support for stopping alcohol use. Asking for help is part of obtaining care, not evidence that a particular outcome has already occurred. [CDC guidance and support](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
 ## Frequently Asked Questions
 
 **Can I drink wine during pregnancy?**
 
-Medical authorities recommend no alcohol of any type during pregnancy. Wine contains the same ethanol as beer and spirits — the form doesn't change the risk.
+CDC recommends avoiding alcohol, including wine. No known safe amount or safe time has been established, and changing from spirits to wine does not create a verified exception. [CDC guidance](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
 **Is non-alcoholic beer safe during pregnancy?**
 
-Non-alcoholic beer contains < 0.5% ABV. While this is very low, some providers recommend avoiding it entirely. Others consider it acceptable. Discuss with your OB.
+This page does not certify a beer from its marketing name. Check the actual product information and alcohol declaration; ask the manufacturer or your prenatal provider if it is unclear. Do not use a supposed universal labeling cutoff as a medically verified safe pregnancy dose. CDC's no-known-safe-amount advice still applies to alcohol. [CDC guidance](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
 **What if I drank before knowing I was pregnant?**
 
-Stop upon learning you're pregnant. Early exposure (weeks 1–2) occurs before placental circulation is established. Mention prior consumption to your provider — but don't assume harm has occurred.
+Stop and discuss the exposure with your healthcare provider, while continuing prenatal care. An exposure history does not let this site diagnose harm or guarantee its absence. CDC says stopping is worthwhile at any point in pregnancy. [CDC common questions](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
 
 ## Sources
 
-1. ACOG. Committee Opinion No. 496: At-Risk Drinking and Alcohol Dependence. Reaffirmed 2023.
-2. CDC. Alcohol Use During Pregnancy. 2023.
-3. WHO. Guidelines for Identification and Management of Substance Use Disorders in Pregnancy. 2014.
-4. AAP. Fetal Alcohol Spectrum Disorders. *Pediatrics.* 2015.
+1. [CDC: About Alcohol Use During Pregnancy](https://www.cdc.gov/alcohol-pregnancy/about/index.html). Current prevention, timing, after-exposure and support guidance.
+2. [CDC: Fetal Alcohol Spectrum Disorders](https://www.cdc.gov/fasd/about/index.html). Spectrum, possible effects and diagnosis limits.

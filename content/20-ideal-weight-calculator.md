@@ -1,84 +1,91 @@
-<!-- last-updated: June 2026 -->
-# Ideal Weight Calculator: Four Formulas Compared
+<!-- last-updated: October 5, 2026 -->
+# Ideal Weight Calculator: Four Historical Formulas Compared
 
-There is no single "ideal weight." Four widely-used clinical formulas — Devine, Robinson, Miller, and Hamwi — each produce different numbers for the same person. This calculator shows you all four results side by side so you can see the range, not chase a single number.
+This calculator compares Devine, Robinson, Miller and Hamwi height-based equations. The formulas are documented in Table 3 of a paper coauthored by researchers at Harvard Medical School and other institutions. They produce reference outputs, not a measured ideal weight or personal health verdict. [Published formula table](https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/)
 
-The honest answer to "how much should I weigh?" is a range, not a target. These formulas provide one input into that range — alongside your body composition, fitness level, and how you actually feel.
+The page retains the familiar “ideal weight” search term while showing what is actually calculated. It takes height and the sex-specific equation category; there is no frame-size input, body-fat measurement or assessment of your fitness, diet or health.
 
 ## How to Calculate Ideal Body Weight
 
-> **Key Takeaway:** Four clinical formulas estimate ideal body weight. They all give different numbers — that's by design. The range across all four is more useful than any single result. Enter your height, sex, and frame size. The calculator shows all four estimates plus the range.
+Select the units before entering height, then choose the sex-specific equations. This comparison is restricted to heights of at least **60 inches (152.4 cm)**. The published discussion expresses the height term above five feet, and the website does not extend it below that boundary. [Height convention](https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/)
 
-Each formula uses height and sex as primary inputs. None account for muscle mass, bone density, age, or fitness level — which is why they're estimates, not prescriptions.
+In metric mode, the site divides centimeters by 2.54 to obtain inches. It then subtracts 60 from that height for the formulas below. The output cards show kilograms and a rounded conversion to pounds. They do not rank the formulas by personal accuracy.
+
+Changing units clears the entered height and any earlier result. Check the new unit label before entering another number. For example, 173 cm and 173 inches are different heights; the latter must not be used because a former metric value remained in the field.
+
+No actual body weight is required. Consequently, the form cannot compare your weight with a prescription, determine a body-fat percentage or decide whether weight loss is appropriate. A displayed spread is simply the smallest and largest formula outputs for the same input.
 
 ## The Four Ideal Body Weight Formulas
 
-| **Formula** | **Year** | **Men (per inch over 5 ft)** | **Women (per inch over 5 ft)** | **Origin** |
-|---|---|---|---|---|
-| Devine | 1974 | 50 kg + 2.3 kg/inch | 45.5 kg + 2.3 kg/inch | Drug dosing in pharmacology |
-| Robinson | 1983 | 52 kg + 1.9 kg/inch | 49 kg + 1.7 kg/inch | Medical guidelines revision |
-| Miller | 1983 | 56.2 kg + 1.41 kg/inch | 53.1 kg + 1.36 kg/inch | Alternative to Devine for heavier builds |
-| Hamwi | 1964 | 48 kg + 2.7 kg/inch | 45.4 kg + 2.2 kg/inch | Dietetics and nutrition planning |
+Let **d = height in inches − 60**. The published equations are reproduced below; Hamwi uses pounds, while the other three use kilograms. [Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/)
 
-**Example — 5'8" (173 cm) woman:**
-- Devine: 45.5 + (8 × 2.3) = **63.9 kg (141 lbs)**
-- Robinson: 49 + (8 × 1.7) = **62.6 kg (138 lbs)**
-- Miller: 53.1 + (8 × 1.36) = **64.0 kg (141 lbs)**
-- Hamwi: 45.4 + (8 × 2.2) = **63.0 kg (139 lbs)**
+| Formula | Male equation | Female equation | Formula output unit |
+|---|---|---|---|
+| Devine | 50 + 2.3 × d | 45.5 + 2.3 × d | kg |
+| Robinson | 52 + 1.9 × d | 49 + 1.7 × d | kg |
+| Miller | 56.2 + 1.41 × d | 53.1 + 1.36 × d | kg |
+| Hamwi | 106 + 6 × d | 100 + 5 × d | lb |
 
-Range: 138–141 lbs. The spread is small for this height, but at taller heights the formulas diverge significantly.
+**Worked example: female equation at exactly 5 feet 8 inches**, or 172.72 cm. Here d = 8:
 
-> **Note:** The Devine formula — the most widely used — was originally developed for calculating drug dosages, not defining healthy weight. It was never intended as a weight management tool. Understanding this origin helps put the number in perspective: it's a pharmacological estimate repurposed for nutrition, not a scientifically-derived health target.
+- Devine: 45.5 + 18.4 = **63.9 kg**, about 141 lb.
+- Robinson: 49 + 13.6 = **62.6 kg**, about 138 lb.
+- Miller: 53.1 + 10.88 = **63.98 kg**, displayed as 64.0 kg, about 141 lb.
+- Hamwi: 100 + 40 = **140 lb**, or 63.5029318 kg, displayed as 63.5 kg.
+
+These are calculated examples, not clinical targets. An input of 173 cm is slightly taller than exactly 68 inches, so it should not be described as the identical worked example. The chart uses the exact 68-inch input and rounded pound outputs.
+
+The original article's approximate Hamwi kilogram constants did not reproduce its pound formula. This comparison evaluates Hamwi in its stated pound unit, then converts using **1 lb = 0.45359237 kg**. Rounding a converted coefficient before calculation can introduce a different result.
 
 ## Understanding Your Results
 
-Your ideal body weight range should be interpreted as one data point among several. The formulas don't account for:
+All four formulas depend on the same entered height and selected sex category. Their different constants explain why they give different numbers. A spread does not become a verified healthy interval merely because several equations are included.
 
-**Muscle mass.** A 5'10" man with significant muscle may weigh 200 lbs at 12% body fat — well above any formula's "ideal" but genuinely lean. Our [lean body mass calculator](/fitness/lean-body-mass-calculator) and [body fat calculator](/fitness/body-fat-calculator) give composition-based assessments.
+| Question about a result | What the current form can establish |
+|---|---|
+| Which formula generated it? | The labeled equation and entered height |
+| Is it measured lean mass? | No; the form has no body-composition measurement |
+| Does a frame label change it? | No frame adjustment is applied |
+| Is it a special older-adult target? | No age-specific target is selected |
+| Is someone healthy within ±10%? | No such conclusion is made |
 
-**Frame size.** The Hamwi formula allows ±10% adjustment for frame size (add 10% for large frame, subtract 10% for small). Our [body frame size calculator](/body-metrics/body-frame-size-calculator) can determine your frame.
+The separate BMI reference is derived from **BMI = weight in kg ÷ height in meters squared**. CDC's adult healthy-weight category is **18.5 to less than 25**, for adults aged **20 and older**, and is a screening category considered alongside other factors. [CDC categories and scope](https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html)
 
-**Age.** Healthy weight ranges shift with age. Older adults with slightly higher BMI (25–27) show better mortality outcomes than those at BMI 18.5–22 in some large studies.
+**Derived BMI-boundary example at 1.70 m:** 18.5 × 1.70² = 53.465 kg; 25 × 1.70² = 72.25 kg. The second boundary is **excluded**. The display rounds these values to one decimal place, so the rounded endpoints must not be used to decide the category of a precise boundary measurement.
 
-**Fitness and functionality.** A weight at which you sleep well, move comfortably, maintain energy, and meet your physical demands is a better "ideal" than any formula output.
-
-> **Tip:** Use the formula range as a general reference — not a target to hit exactly. If your current weight falls within ±10% of the range and your body composition, energy, and health markers are good, you're likely at a healthy weight regardless of what the formula says.
+BMI boundaries are not the same as a historical formula spread. They also do not measure muscle mass or establish an individual's nutrition goal. Use the [adult BMI calculator](/body-metrics/bmi-calculator) for the separate ratio calculation; the [lean-mass estimate](/fitness/lean-body-mass-calculator) and [circumference fat estimate](/fitness/body-fat-calculator) use other assumptions.
 
 ## Adjusted Ideal Body Weight Calculator
 
-For clinical settings (particularly drug dosing and nutrition planning), an adjusted body weight calculation is used when actual weight significantly exceeds ideal weight:
+An adjusted body weight is not calculated by this form. The former universal instruction to use a 0.4 correction for medication or protein planning should not be followed from this page. A clinical use needs the specific medication, guideline, population and professional assessment; a historical formula output alone cannot supply them.
 
-**Adjusted BW = IBW + 0.4 × (Actual Weight − IBW)**
+For arithmetic illustration only, if a chosen reference is 65 kg and another weight is 100 kg, the difference is 35 kg. Choosing an assumed factor of 0.4 gives 65 + 0.4 × 35 = **79 kg**. Choosing 0.3 instead gives **75.5 kg**. This example shows dependence on an assumed factor, not evidence that either factor is correct for a patient.
 
-This accounts for the metabolic contribution of excess adipose tissue. Pharmacists and dietitians use adjusted body weight to calculate medication doses and protein requirements for patients above their ideal weight.
+Do not enter a value labeled “ideal” from a calculator into a drug-dose calculation on your own. This page does not provide a treatment dose or a clinical adjusted-weight recommendation. Keep any clinician-supplied weight descriptor and method with the plan that requires it.
 
-Example: IBW = 65 kg, Actual = 100 kg → Adjusted = 65 + 0.4 × (100 − 65) = 65 + 14 = **79 kg**
-
-> **Warning:** Ideal body weight formulas were developed on limited, predominantly White populations. They may not accurately represent healthy weight ranges for all ethnicities, body types, or ages. Research increasingly shows that health outcomes correlate more strongly with body composition, fitness level, and metabolic markers than with weight-to-height ratios.
-
-> **Bottom Line:** There is no single ideal weight — four validated formulas give you a range. Use that range as context, not a verdict. Your body composition, fitness, energy, and health markers matter more than matching a formula developed for drug dosing in 1974.
+When documenting a comparison, retain the original height, unit, sex category, formula and rounding. For example, “Devine output at 68 inches” identifies the calculation; “my prescribed goal” would add a conclusion that this website has not established.
 
 ## Frequently Asked Questions
 
 **How do I calculate my ideal body weight?**
 
-Use the Devine formula (most common): Men = 50 kg + 2.3 kg per inch over 5 feet. Women = 45.5 kg + 2.3 kg per inch over 5 feet. Or use this calculator to see all four formulas compared.
+The tool calculates the four historical equations above from height and the selected sex category. It does not determine an ideal weight for you personally. At 68 inches using the female Devine equation, 45.5 + 2.3 × 8 gives 63.9 kg. [Formula reference](https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/)
 
 **What is the ideal body weight calculation formula?**
 
-Four formulas exist (Devine, Robinson, Miller, Hamwi). Each uses height and sex as inputs. The Devine formula is most widely used: IBW = 50 kg + 2.3 kg × (inches over 60) for men, or 45.5 kg + 2.3 kg × (inches over 60) for women.
+There are multiple named equations. This page compares four, with their units stated in the formula table. The Hamwi output begins in pounds, so its constants should not be treated as kilograms. The same height can therefore give different calculated outputs without selecting one as the correct personal target.
 
 **Is the ideal weight calculator accurate?**
 
-These formulas estimate weight ranges based on height and sex only. They don't account for muscle mass, body composition, frame size, or fitness level. They're useful as general references but should not be the sole measure of healthy weight.
+Its arithmetic can be checked against the formulas and input units. That is different from showing that any output predicts your healthiest weight. The page offers no individual accuracy interval, frame correction or reassurance based on being within ±10% of a formula.
 
 **What's the difference between ideal weight and BMI?**
 
-Ideal weight formulas give a target weight in kg/lbs. BMI gives a weight-to-height ratio. Both are screening tools with similar limitations — neither measures body composition directly. For BMI assessment, see our [BMI calculator](/body-metrics/bmi-calculator).
+These historical equations produce a weight from height and sex category. BMI is a weight-to-height-squared ratio. CDC identifies adult BMI as a screening measure, not a standalone health assessment. The numerical BMI reference on this page applies only to adults 20 and older. [CDC explanation](https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html)
 
 ## Sources
 
-1. Devine BJ. Gentamicin therapy. *Drug Intelligence & Clinical Pharmacy.* 1974;8(11):650–655.
-2. Robinson JD, et al. Determination of ideal body weight for drug dosage calculations. *Am J Hosp Pharm.* 1983;40(6):1016–1019.
-3. Miller DR, et al. Estimation of ideal body weight. *Am J Hosp Pharm.* 1983;40(11):1993–1994.
-4. Hamwi GJ. Therapy: changing dietary concepts. In: *Diabetes Mellitus: Diagnosis and Treatment.* 1964;1:73–78.
+1. [Peterson, Thomas, Blackburn and Heymsfield: Universal equation for estimating ideal body weight and body weight at any BMI, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/), Table 3 historical formulas and Introduction height convention. Direct PMC access displayed a browser check; the authority-hosted indexed table and text were read. This research paper is not an endorsement of a personal weight target.
+2. [CDC: Adult BMI Categories](https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html), formula, ages 20 and older, inclusive 18.5 and exclusive 25 boundaries, screening context.
+
+Sources checked October 5, 2026. The article, worked examples, injected chart and result cards describe the same four calculations.

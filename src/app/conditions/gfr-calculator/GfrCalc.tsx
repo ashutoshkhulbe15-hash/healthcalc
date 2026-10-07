@@ -38,8 +38,9 @@ export function GfrCalc(){
   return(
     <>
       <CalcShell>
+        <p className="mb-4 text-sm text-slate-600">Adult creatinine-based estimate. <a className="underline" href="https://www.kidney.org/ckd-epi-creatinine-equation-2021">NKF equation and units</a>; <a className="underline" href="https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf">KDIGO category definitions and interpretation</a>.</p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-5">
-          <CalcInput label="Serum creatinine (mg/dL)" value={creatinine} onChange={setCreatinine} placeholder="e.g. 1.1" step={0.1} />
+          <CalcInput label="Serum creatinine (mg/dL)" value={creatinine} onChange={setCreatinine} placeholder="e.g. 1.1" min={0} step={0.1} />
           <CalcInput label="Age (adults 18+)" min={18} max={120} step={1} value={age} onChange={setAge} placeholder="e.g. 55" />
           <CalcSelect label="Sex" value={gender} onChange={setGender} options={[{value:"male",label:"Male"},{value:"female",label:"Female"}]} />
         </div>
@@ -55,10 +56,10 @@ export function GfrCalc(){
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             <ResultCard label="eGFR" value={`${result.gfr} mL/min/1.73m²`} sub={result.stage.label} highlight />
             <ResultCard label="Equation" value="CKD-EPI 2021" sub="Race-free formula" />
-            <ResultCard label="G1 category threshold" value="≥ 90 mL/min/1.73m²" sub="Stage G1" />
+            <ResultCard label="G1 category threshold" value="≥ 90 mL/min/1.73m²" sub="GFR category G1" />
           </div>
         <p className="mt-4 text-sm text-slate-600">This is an adult creatinine-based estimate and GFR category, not a CKD diagnosis. Kidney damage, urine albumin and persistence over time matter. Acute illness, pregnancy and unusual muscle mass need clinical interpretation. Do not choose treatment from this category alone.</p></ResultsShell>
-        <p className="text-xs text-slate-400 mt-3 italic">Staging reflects KDIGO clinical guidelines and is not a diagnosis. GFR varies with hydration, diet, and other factors. Consult your healthcare provider for interpretation.</p>
+        <p className="text-xs text-slate-400 mt-3 italic">The GFR category reflects KDIGO reference ranges and is not a CKD diagnosis. GFR varies with hydration, diet, and other factors. Consult your healthcare provider for interpretation.</p>
       </>)}
     </>
   );

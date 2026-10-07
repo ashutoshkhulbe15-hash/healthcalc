@@ -1,61 +1,67 @@
-<!-- last-updated: June 2026 -->
-# Fetal Weight Percentile Calculator: Is Your Baby On Track?
+<!-- last-updated: October 5, 2026 -->
+# Fetal Weight Percentile: Understanding Your Ultrasound Report
 
-Your baby's estimated fetal weight (EFW) is measured by ultrasound and compared against growth charts to determine a percentile. A percentile tells you how your baby's size compares to other babies at the same gestational age — the 50th percentile means average, not "ideal."
+Estimated fetal weight (EFW) is an ultrasound estimate, not a direct weighing of the baby. Its percentile is interpreted against a specified growth reference and gestational age. SMFM recommends population-based references such as Hadlock for this comparison. [SMFM fetal growth guidance](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
-This calculator takes your baby's estimated weight and gestational week and returns the percentile using WHO or Hadlock growth curves.
+**This page is a guide, not an active percentile calculator.** The earlier calculation was withheld because its reference and method were not adequately established. Use the percentile supplied by your maternity team and ask which chart and gestational age were used. A rough table cannot reconstruct the full ultrasound assessment.
 
 ## What Fetal Weight Percentile Means
 
-> **Key Takeaway:** Fetal weight percentile compares your baby to other babies at the same gestational age. Normal range is 10th to 90th percentile — this is intentionally wide because healthy babies come in many sizes. Below 10th percentile = small for gestational age (SGA), which warrants monitoring but is not automatically a problem. Above 90th = large for gestational age (LGA).
+> **Key Takeaway:** SMFM defines fetal growth restriction (FGR) as an ultrasound EFW **or abdominal circumference** below the 10th percentile for gestational age. Severe FGR includes EFW below the 3rd percentile. These are clinical criteria, not an instruction to diagnose yourself from a website. [SMFM recommendations 1 and 10](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
-| **Percentile** | **Classification** | **What it means** |
-|---|---|---|
-| Below 3rd | Severely SGA | Close monitoring required |
-| 3rd–10th | Small for gestational age (SGA) | Additional monitoring recommended |
-| 10th–90th | Appropriate for gestational age (AGA) | Normal range |
-| 90th–97th | Large for gestational age (LGA) | Monitor for macrosomia |
-| Above 97th | Severely LGA | Delivery planning may be affected |
+| **Report information** | **What to clarify with your team** |
+|---|---|
+| Estimated fetal weight | Its units and the ultrasound method |
+| EFW percentile | The reference used and exact gestational age |
+| Abdominal circumference percentile | Whether it raises a separate growth concern |
+| EFW or AC below the 10th percentile | Whether the team has assessed FGR and planned follow-up |
+| EFW below the 3rd percentile | The team's assessment of severe FGR |
 
-> **Note:** A baby at the 20th percentile is not "behind" — they're within the normal range. Similarly, the 80th percentile is not "ahead." The percentile is a size comparison, not a performance score. Genetics (parental height, ethnicity), maternal factors, and fetal sex all influence where a baby naturally falls on the curve.
+A value above those thresholds is not a guarantee that every aspect of pregnancy is healthy. Likewise, do not wait for a second low value before following your team's instructions. The prior labels “severely SGA” and “severely LGA” are not used here as automatic diagnoses from this tool.
+
+For an arithmetic interpretation only, the median is the middle of a reference distribution. Being closer to the median is not a performance score or proof of better health. A percentile is meaningful only when its underlying measurement and reference are specified.
 
 ## Estimated Fetal Weight by Week
 
-| **Week** | **10th percentile (g)** | **50th percentile (g)** | **90th percentile (g)** |
-|---|---|---|---|
-| 20 | 249 | 331 | 414 |
-| 24 | 498 | 665 | 832 |
-| 28 | 858 | 1,133 | 1,408 |
-| 32 | 1,337 | 1,784 | 2,231 |
-| 36 | 2,082 | 2,748 | 3,414 |
-| 40 | 2,773 | 3,546 | 4,319 |
+The previous week-by-week gram table has been withheld: its entries could not be traced to one verified source table and method. Naming WHO and Hadlock together did not establish that the numbers came from either. Preserving unsupported grams would create false precision.
 
-Source: Hadlock FP, et al., *Radiology*, 1991; WHO Fetal Growth Charts, 2017.
+Instead, use this checklist to read an actual report:
+
+| **Record alongside the estimate** | **Reason to retain it** |
+|---|---|
+| Scan date | Identifies the actual examination |
+| Gestational weeks and days | Avoids rounding a partial week into a different comparison |
+| EFW in grams | Prevents a grams/kilograms transcription error |
+| Reported percentile | Keeps the clinician's comparison rather than inventing another |
+| Reference name | Identifies the chart used |
+| Team's interpretation and next appointment | Keeps clinical advice separate from the numerical result |
+
+This checklist is a recordkeeping aid authored for this page, not a clinical scoring system. No new unverified weight table replaces the old one. Your maternity team can explain the chart used; the source supports the reference-selection principle, not an accuracy guarantee for an individual scan. [SMFM reference recommendation](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
 ## When Growth Percentile Is Concerning
 
-**Falling percentile** is more concerning than a low single reading. A baby measuring at the 30th percentile consistently is healthy. A baby dropping from the 60th to the 15th over two scans may indicate growth restriction — reduced nutrient or oxygen delivery through the placenta.
+SMFM's FGR guidance considers maternal, fetal and placental causes, and recommends further clinical evaluation and surveillance when FGR is diagnosed. Umbilical artery Doppler is one element of that monitoring. The calculator cannot choose a monitoring interval or delivery plan. [SMFM assessment and surveillance recommendations](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
-> **Warning:** Ultrasound weight estimates have a margin of error of ±10–15%. A baby estimated at 2,500g may actually weigh 2,125–2,875g. Your provider interprets percentile alongside amniotic fluid levels, umbilical artery Doppler, and other markers — not weight alone.
+**Changing percentiles:** Bring previous reports to the team, but do not infer a specific placental cause from two percentiles alone. This guide does not declare that a consistently low value is harmless or that a falling value proves a diagnosis.
 
-> **Bottom Line:** Normal fetal weight percentile ranges from 10th to 90th — a wide, intentionally inclusive band. Your baby's trend over multiple scans matters more than any single measurement. Percentile is a size comparison, not a health score. Your OB interprets these numbers in full clinical context.
+> **Warning:** The earlier fixed ±10–15% error range and assurance that earlier scans are always more accurate are withheld. This page has not verified a universal error interval for every method and population. Ask the team about the uncertainty of the specific estimate and follow the assessment they recommend.
+
+The useful next step is to understand what was measured, how the percentile was obtained and what follow-up was advised. Changing calculator websites does not settle a clinical disagreement.
 
 ## Frequently Asked Questions
 
 **What is a normal fetal weight percentile?**
 
-10th to 90th percentile is considered normal (AGA). This range is intentionally wide to reflect natural variation in fetal size.
+This guide does not use a 10th–90th band as a guarantee of health. SMFM uses EFW or AC below the 10th percentile as its FGR definition, with the full clinical assessment determining care. [SMFM definition](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
 **Should I worry about a low percentile?**
 
-A single low reading may reflect measurement error (±10–15%), genetic factors, or normal variation. A declining trend across multiple scans is what warrants concern. Discuss with your OB.
+Discuss it promptly with your maternity team and follow their instructions. A low EFW or AC can meet the guideline criterion for FGR; do not assume that it is harmless because only one scan is available. The team evaluates its meaning and follow-up. [SMFM guidance](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
 **How accurate are ultrasound weight estimates?**
 
-Ultrasound EFW has a margin of error of ±10–15% in the third trimester. Earlier gestational ages tend to be more accurate. The estimates are useful for trend monitoring but not precise enough for definitive sizing.
+They remain estimates. This page assigns no universal percentage error or exact true-weight interval and does not calculate a percentile. Ask which method and reference were used and what uncertainty applies to your report. SMFM's recommendation to use a population reference does not validate a generic site's gram table. [SMFM reference guidance](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
 
 ## Sources
 
-1. Hadlock FP, et al. In utero analysis of fetal growth: a sonographic weight standard. *Radiology.* 1991;181(1):129–133.
-2. WHO. Fetal Growth Charts. 2017.
-3. ACOG. Practice Bulletin No. 204: Fetal Growth Restriction. 2019.
+1. [SMFM Consult Series #52: Diagnosis and management of fetal growth restriction](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/), 2020, reaffirmed 2024; definitions, reference selection and clinical monitoring. Accessed October 5, 2026. This source-based guide is not practitioner review or an individualized clinical assessment.

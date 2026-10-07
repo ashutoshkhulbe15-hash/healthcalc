@@ -11,6 +11,9 @@ export function extractFAQs(
   const faqs: { question: string; answer: string }[] = [];
   const lines = content.split("\n");
 
+  // Allow decorative emoji before the FAQ heading without changing visible content.
+  const faqHeading = /^##\s+[^\p{L}\p{N}]*(Frequently Asked Questions|FAQ)/iu;
+
   // Only extract from FAQ section
   let inFaqSection = false;
   let i = 0;
@@ -19,14 +22,17 @@ export function extractFAQs(
     const line = lines[i].trim();
 
     // Detect FAQ section start
-    if (line.match(/^##\s+(Frequently Asked Questions|FAQ)/i)) {
+    if (faqHeading.test(line)) {
       inFaqSection = true;
       i++;
       continue;
     }
 
     // Stop at next H2 section after FAQ
-    if (inFaqSection && line.match(/^##\s+/) && !line.match(/^##\s+(Frequently|FAQ)/i)) {
+    if (inFaqSection && line.match(/^##\s+/) && !faqHeading.test(line)) {
+      break;
+    }
+    if (inFaqSection && /^#{2,3}\s+(?:Sources|References|Related\b)/i.test(line)) {
       break;
     }
 
@@ -39,7 +45,9 @@ export function extractFAQs(
     // **1. Question?** or **Question?** or ### Question?
     const matchBold = line.match(/^\*\*(?:\d+\.\s*|Q:\s*)?(.+?\?)\s*\*\*\s*$/);
     const matchH3 = line.match(/^###\s+(.+?\?)\s*$/);
-    const match = matchBold || matchH3;
+    // Several restored food articles use standalone, unformatted questions.
+    const matchPlain = line.match(/^([^#*>|\[\-].{0,239}\?)$/);
+    const match = matchBold || matchH3 || matchPlain;
 
     if (match) {
       const question = match[1].trim();
@@ -52,6 +60,8 @@ export function extractFAQs(
         if (
           nextLine.match(/^\*\*(?:\d+\.\s*|Q:\s*)?.*\?\s*\*\*\s*$/) ||
           nextLine.match(/^###\s+.+\?\s*$/) ||
+          nextLine.match(/^([^#*>|\[\-].{0,239}\?)$/) ||
+          nextLine.match(/^#{2,3}\s+(?:Sources|References|Related\b)/i) ||
           nextLine.match(/^##\s+/) ||
           nextLine === "---"
         ) {

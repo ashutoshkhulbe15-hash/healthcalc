@@ -14,9 +14,9 @@ export function A1cCalc(){
     const eag=28.7*v-46.7;
     const mmol=Math.round(eag/18*10)/10;
     let cat:string,status:"good"|"warning"|"danger";
-    if(v<5.7){cat="ADA classification: Normal range";status="good";}
-    else if(v<6.5){cat="ADA classification: Prediabetes range";status="warning";}
-    else{cat="ADA classification: Diabetes range";status="danger";}
+    if(v<5.7){cat="Laboratory reference: Below 5.7%";status="good";}
+    else if(v<6.5){cat="Laboratory reference: Prediabetes range";status="warning";}
+    else{cat="Laboratory reference: Diabetes threshold";status="danger";}
     setResult({a1c:v,eag_mgdl:Math.round(eag),eag_mmol:mmol,category:cat,status});
   };
 
@@ -24,7 +24,7 @@ export function A1cCalc(){
     <>
       <CalcShell>
         <div className="max-w-xs mb-5">
-          <CalcInput label="A1C value (%)" value={a1c} onChange={setA1c} placeholder="e.g. 6.2" step={0.1} />
+          <CalcInput label="A1C value (%)" value={a1c} onChange={setA1c} placeholder="e.g. 6.2" min={3} max={15} step={0.1} />
         </div>
         <CalcButton onClick={calculate} label="Convert A1C" />
       <CalcError message={error}/></CalcShell>
@@ -35,13 +35,13 @@ export function A1cCalc(){
             <ResultCard label="A1C" value={`${result.a1c}%`} highlight />
             <ResultCard label="Est. avg glucose" value={`${result.eag_mgdl} mg/dL`} />
             <ResultCard label="Est. avg glucose" value={`${result.eag_mmol} mmol/L`} />
-            <ResultCard label="ADA Classification" value={result.category} sub="ADA Standards" />
+            <ResultCard label="A1C reference range" value={result.category} sub="Nonpregnant individuals; not a diagnosis" />
           </div>
           <div className="mt-4 p-3 bg-slate-50 rounded-lg text-xs text-slate-500">
-            Formula: eAG (mg/dL) = 28.7 × A1C − 46.7 (Nathan DM et al. Diabetes Care. 2008)
+            Formula: eAG (mg/dL) = 28.7 × A1C − 46.7. <a href="https://ngsp.org/A1ceAG.asp" className="underline">NGSP equation</a>. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690183/" className="underline">ADA 2026 reference criteria</a>.
           </div>
         </ResultsShell>
-        <p className="text-xs text-slate-400 mt-3 italic">This classification reflects ADA diagnostic criteria and is not a diagnosis. Only a qualified healthcare provider can diagnose diabetes.</p>
+        <p className="text-xs text-slate-400 mt-3 italic">These are laboratory reference criteria for nonpregnant individuals, not a diagnosis or personal treatment goal. Diagnosis generally requires confirmation. Discuss interpretation with your healthcare provider.</p>
       </>)}
     </>
   );

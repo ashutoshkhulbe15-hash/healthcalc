@@ -1,79 +1,88 @@
-<!-- last-updated: June 2026 -->
-# GFR Calculator: Kidney Function Assessment (CKD-EPI 2021)
+<!-- last-updated: October 5, 2026 -->
+# GFR Calculator: Adult eGFR Assessment (CKD-EPI 2021)
 
-Your GFR (glomerular filtration rate) measures how well your kidneys filter waste from your blood. It's the single most important number in kidney health — the one your nephrologist uses to diagnose chronic kidney disease (CKD) stages and track progression.
+Glomerular filtration rate describes kidney filtration. This calculator **estimates** GFR from standardized serum creatinine, age and a sex coefficient using the race-free CKD-EPI 2021 creatinine equation. An estimate is not a direct measurement of filtration. [National Kidney Foundation equation](https://www.kidney.org/ckd-epi-creatinine-equation-2021)
 
-Enter your creatinine level, age, and sex. This calculator uses the CKD-EPI 2021 equation — the current standard recommended by KDIGO and NKF, which removed the race variable from earlier versions.
+Kidney assessment also considers urine albumin, cause and persistence of abnormalities. Do not regard eGFR as the only important number or diagnose chronic kidney disease (CKD) from a single result. KDIGO defines CKD as abnormalities of kidney structure or function present for at least three months with implications for health. [KDIGO 2024, definition and Tables 1–3](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 ## What Is GFR?
 
-> **Key Takeaway:** GFR measures how many milliliters of blood your kidneys filter per minute. Normal GFR is 90+ mL/min/1.73m². GFR below 60 sustained for 3+ months indicates chronic kidney disease. The CKD-EPI 2021 equation — used by this calculator — is the current clinical standard.
+> **Key Takeaway:** The output unit is **mL/min/1.73 m²**: an estimate standardized to a body surface area of 1.73 square meters. It is not a percentage of working kidneys or a personal prediction of dialysis. [NKF equation and units](https://www.kidney.org/ckd-epi-creatinine-equation-2021)
 
-GFR stands for glomerular filtration rate. "Glomerular" refers to the glomeruli — tiny filtering units in your kidneys (about 1 million per kidney). Each filters blood through a mesh of capillaries, removing waste products (creatinine, urea, toxins) while retaining proteins and blood cells.
+The “e” in eGFR means estimated. A creatinine result enters an equation rather than directly counting kidney filters. The tool rounds the result to a whole number for display. Its category uses the unrounded calculation, so a result very close to a boundary may display a rounded number on the other side of that boundary.
 
-Your GFR reflects total kidney filtration capacity. Higher = better filtration. Lower = declining kidney function. The number is estimated from your blood creatinine level, since creatinine is produced at a roughly constant rate and cleared almost entirely by the kidneys.
+Keep the original creatinine value, units and date with the estimate. The calculator expects **mg/dL**, not a result entered unchanged in µmol/L. Selecting a different website or entering the wrong units can change the output without representing a change in your kidneys.
+
+A result of 90 or higher belongs to category G1; it is not a certificate of healthy kidneys. Kidney damage markers can be present at a higher GFR, while G1 or G2 without evidence of damage does not establish CKD. [KDIGO Tables 1–2](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 ## CKD Stages: What Your GFR Number Means
 
-| **GFR (mL/min/1.73m²)** | **Stage** | **Kidney Function** | **What it means** |
-|---|---|---|---|
-| 90+ | G1 | Normal or high | Healthy kidneys (if no other markers of damage) |
-| 60–89 | G2 | Mildly decreased | May be normal for age; monitor if other risk factors |
-| 45–59 | G3a | Mild-to-moderate decrease | CKD confirmed; monitor progression |
-| 30–44 | G3b | Moderate-to-severe decrease | Specialist referral typically recommended |
-| 15–29 | G4 | Severely decreased | Preparation for possible dialysis or transplant |
-| Below 15 | G5 | Kidney failure | Dialysis or transplant generally required |
+These are **GFR categories**, used within a broader CKD assessment. All values use mL/min/1.73 m². [KDIGO Table 2](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
-Source: KDIGO 2024 Clinical Practice Guideline for CKD.
+| **GFR range** | **Category** | **KDIGO description** |
+|---|---|---|
+| 90 or higher | G1 | Normal or high |
+| 60 to less than 90 | G2 | Mildly decreased |
+| 45 to less than 60 | G3a | Mildly to moderately decreased |
+| 30 to less than 45 | G3b | Moderately to severely decreased |
+| 15 to less than 30 | G4 | Severely decreased |
+| Below 15 | G5 | Kidney failure |
 
-> **Warning:** GFR below 60 sustained for 3 or more months meets the diagnostic criteria for chronic kidney disease. However, a single GFR below 60 can reflect dehydration, medication effects, or lab variation — not necessarily CKD. Your provider will repeat the test before diagnosing.
+The category name does not by itself establish chronicity, cause or treatment. G1 and G2 do not meet CKD criteria without another marker of kidney damage. A G3–G5 result requires clinical evaluation; a calculator cannot distinguish an acute change from a chronic condition. [KDIGO Tables 1–2 and Practice Point 1.1.3.2](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
+
+> **Warning:** KDIGO advises against assuming chronicity from one abnormal eGFR or albumin result: acute kidney injury or disease may be responsible. Three months is a diagnostic persistence criterion, **not an instruction to delay seeking care**. Your clinician decides whether assessment or repeat testing is needed sooner. [KDIGO chronicity guidance](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
+
+Nor does category G5 automatically mean dialysis must start that day. KDIGO bases dialysis initiation on a composite assessment including symptoms, signs, quality of life, preferences, GFR and laboratory findings. [KDIGO Practice Point 5.4.1](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 ## The CKD-EPI 2021 Equation
 
-This calculator uses the CKD-EPI 2021 equation published by Inker et al. in the *New England Journal of Medicine* (2021). This version removed the race coefficient that was present in the original 2009 equation, following recommendations from a joint NKF-ASN task force.
+The NKF publishes the adult equation used here:
 
-The formula uses three variables: serum creatinine, age, and sex. It is more accurate than the older MDRD equation across all GFR ranges, particularly above 60 mL/min where MDRD consistently underestimates GFR.
+**eGFR = 142 × min(Scr/K, 1)^α × max(Scr/K, 1)^−1.200 × 0.9938^Age × 1.012 (if female).**
 
-> **Note:** The 2021 equation removed race as a variable because race is a social construct, not a biological one. Individual variation in creatinine production relates to muscle mass, diet, and health — not race. Using race in the equation led to systematic overestimation of GFR in Black patients, potentially delaying referral to nephrology.
+Scr is standardized serum creatinine in mg/dL. K is 0.7 for the female coefficient or 0.9 for male; α is −0.241 or −0.302 respectively. “min” selects the smaller of the ratio and 1; “max” selects the larger. Age is entered in years. No race coefficient is used. [NKF formula and parameters](https://www.kidney.org/ckd-epi-creatinine-equation-2021)
+
+The site accepts whole adult ages 18–120 as a software input limit. That upper limit does not prove equal accuracy across that range. The separate creatinine-plus-cystatin-C equation is **not** implemented by this calculator; adding a cystatin C result mentally does not convert this output into that method.
+
+Formula correctness and clinical accuracy are different questions. The calculation can reproduce an equation correctly without precisely measuring an individual's filtration. This page does not claim universal superiority over every other equation or a guaranteed individual error percentage.
 
 ## What Affects Your GFR
 
-**Creatinine level** is the direct input. Creatinine is a waste product of muscle metabolism, so anything that changes muscle mass or creatinine production affects the estimate:
+Creatinine-based estimates have limitations when non-filtration factors affect creatinine. KDIGO discusses muscle mass, dietary factors, medicines and conditions where another estimate or measured GFR may be useful. Cystatin C also has non-GFR determinants and is not universally unaffected by every clinical circumstance. [KDIGO Section 1.2, GFR evaluation](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
-Muscle mass — highly muscular individuals produce more creatinine, which can make GFR appear lower than actual kidney function. Dehydration temporarily concentrates creatinine, lowering estimated GFR. Medications (trimethoprim, cimetidine) can raise creatinine without affecting actual kidney function. High-protein meals can temporarily raise creatinine.
+**Age:** Age is a mathematical input to this equation. Changing it changes the estimate even if creatinine stays the same. This page does not assign a personal “normal” range from age alone or dismiss a low result as inevitable aging.
 
-**Age** — GFR naturally declines with age. A GFR of 75 in a 25-year-old is concerning; a GFR of 75 in a 75-year-old may be age-appropriate. The KDIGO guidelines acknowledge that mild GFR decline with aging is physiological, not pathological.
+**Comparing reports:** Check whether the same equation, units and assay context were used. Record the actual results over time rather than interpreting a rounded one-unit difference as confirmed disease progression.
 
-For age-specific normal ranges, see our [normal GFR by age guide](/guides/normal-gfr-by-age).
+> **Tip:** If a result seems inconsistent with your circumstances, ask the clinician whether creatinine plus cystatin C or measured GFR would help. KDIGO recommends selecting the method for the clinical question; another marker is not an automatic diagnosis. [KDIGO GFR evaluation](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
-> **Tip:** If your creatinine or GFR result seems inconsistent with your health (e.g., you're a muscular athlete with an unexpectedly low GFR), ask your provider about cystatin C — an alternative biomarker unaffected by muscle mass. Cystatin C-based GFR estimation is recommended by KDIGO as a confirmatory test.
+Our [normal GFR by age guide](/guides/normal-gfr-by-age) is a separate page; its population comparisons should not be substituted for an individualized laboratory assessment.
 
 ## When to See a Nephrologist
 
-KDIGO guidelines recommend referral to nephrology when GFR falls below 30 (Stage G4), or at higher GFR levels if there is rapid decline (sustained drop of more than 5 mL/min/year), persistent proteinuria, hematuria of renal origin, or CKD with difficult-to-control hypertension.
+KDIGO's specialist-referral guidance includes eGFR below 30, uncertain cause, important albuminuria or hematuria, sustained decline, resistant hypertension and CKD complications. Referral can be appropriate above 30; this calculator does not implement the complete referral decision or a validated kidney-failure risk equation. [KDIGO Figure 48](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
-> **Bottom Line:** GFR is the primary measure of kidney function. Normal is 90+. Below 60 for 3+ months = CKD. This calculator uses the current CKD-EPI 2021 equation (no race variable). A single value doesn't diagnose anything — your provider interprets GFR alongside urinalysis, imaging, and clinical context.
+The former fixed “more than 5 mL/min/year” referral rule is not presented as current universal guidance. Ask the clinician about the significance of your actual trend and urine findings, and follow their assessment plan.
 
 ## Frequently Asked Questions
 
 **What GFR level indicates kidney disease?**
 
-GFR below 60 mL/min/1.73m² sustained for 3 or more months meets KDIGO diagnostic criteria for chronic kidney disease. A single reading below 60 requires confirmation with repeat testing.
+KDIGO includes GFR below 60 persisting at least three months as a CKD criterion. Kidney damage markers can establish CKD at higher GFR. One result does not establish chronicity, and an acute abnormality may still need prompt attention. [KDIGO definition and Table 1](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 **What is a normal GFR for my age?**
 
-GFR naturally declines approximately 1 mL/min/year after age 40. At age 30, normal GFR is typically 90–120. At age 70, 60–90 may be age-appropriate. See our [normal GFR by age guide](/guides/normal-gfr-by-age) for detailed ranges.
+This tool cannot define your personal normal value from age alone. Age is an equation input; urine albumin, history and persistence also matter. No universal yearly decline or age-based reassurance band is assigned here. [KDIGO assessment framework](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 **Is the GFR calculator accurate?**
 
-The CKD-EPI 2021 equation estimates GFR within ±20–30% of measured GFR for most people. It's less accurate for extremes of body composition (very muscular or very underweight). For greater accuracy, your provider can order a cystatin C-based GFR or a measured GFR using iohexol clearance.
+It reproduces an established equation, but estimates are not direct measurements. There is no guaranteed ±20–30% error interval for an individual result on this site. The clinician may use another method if greater accuracy is needed. [NKF equation](https://www.kidney.org/ckd-epi-creatinine-equation-2021), [KDIGO method selection](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 **What affects GFR besides kidney function?**
 
-Dehydration, high-protein meals, muscle mass, certain medications (trimethoprim, cimetidine), and acute illness can all affect creatinine levels and therefore estimated GFR without reflecting true kidney function changes.
+Muscle mass, dietary factors, medicines and clinical circumstances can affect creatinine-based estimation. They do not prove an abnormal result is harmless. Discuss the original report and your circumstances with the clinician. [KDIGO GFR evaluation](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
 
 ## Sources
 
-1. Inker LA, et al. New creatinine- and cystatin C-based equations to estimate GFR without race. *N Engl J Med.* 2021;385(19):1737–1749.
-2. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. *Kidney International.* 2024.
-3. Delgado C, et al. A Unifying Approach for GFR Estimation (NKF-ASN Task Force). *Am J Kidney Dis.* 2022;79(2):268–288.
+1. [National Kidney Foundation: CKD-EPI Creatinine Equation (2021)](https://www.kidney.org/ckd-epi-creatinine-equation-2021), equation, parameters and units.
+2. [KDIGO 2024 CKD Guideline](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf), definition, Tables 1–3, Section 1.2, Figure 48 and dialysis assessment. Sources accessed October 5, 2026.

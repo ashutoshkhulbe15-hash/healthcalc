@@ -1,142 +1,128 @@
-<!-- last-updated: May 2026 -->
-# TDEE Calculator: Find Your Total Daily Energy Expenditure
+<!-- last-updated: October 5, 2026 -->
+# TDEE Calculator: Understand an Energy Expenditure Estimate
 
-Your TDEE — Total Daily Energy Expenditure — is the number of calories your body actually burns in a 24-hour period. It's the single most useful number in nutrition planning, whether you want to lose fat, gain muscle, or simply maintain your current weight.
+Total daily energy expenditure describes energy used over a day. This calculator produces an **illustrative estimate**, rather than measuring that expenditure. It first estimates resting energy expenditure (REE) with the Mifflin–St Jeor equation, then multiplies it by a factor selected by you. [Original resting-energy equation](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
-Every sustainable diet strategy starts here. Not with a trending protocol. Not with a calorie target someone else uses. With your number.
+The equation and the multiplier have different evidence status. The published equation was derived from a study of healthy adults; the five activity multipliers on this website are explicitly labeled **site-selected model assumptions**. They are not official exercise categories, verified measurements of your activity or prescriptions for what you should eat.
 
 ## What Is TDEE and How Is It Calculated?
 
-TDEE is the sum of four components that add up to your total daily burn:
+The calculator has two steps: estimate REE from weight, height, age and the sex term in the published equation; then calculate **REE × selected factor**. It does not separately measure resting metabolism, digestion, household movement or exercise. Its result card should therefore be read as a model output with stated assumptions.
 
-**Basal Metabolic Rate (BMR)** — roughly 60–70% of TDEE. This is the energy your body uses just to stay alive: breathing, circulating blood, maintaining temperature, producing cells. Your brain alone burns approximately 20% of your total energy. If you did nothing but lie in bed all day, BMR is what you'd still burn.
+The original study measured REE using indirect calorimetry in 498 healthy adults aged 19–78, including normal-weight adults and adults with obesity. It developed a prediction equation from those observations. It did not establish these website activity factors or a universal error margin for every person using an online calculator. [Study abstract](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
-**Thermic Effect of Food (TEF)** — roughly 10% of TDEE. Your body burns calories digesting, absorbing, and processing food. Protein has the highest thermic effect (20–30% of calories consumed); carbs and fats are lower (5–10%). So 100 calories of chicken costs your body more energy to process than 100 calories of butter.
+For example, if estimated REE is 1,600 kcal/day and the selected factor is 1.55, multiplication gives **2,480 kcal/day**. This is a worked arithmetic example, not a claim that a particular exercise schedule burns exactly 880 extra calories or that eating 2,480 kcal will maintain someone's weight.
 
-**Non-Exercise Activity Thermogenesis (NEAT)** — the calories burned from everything that isn't deliberate exercise: walking to your car, fidgeting, doing laundry, typing. NEAT varies enormously between individuals — by 300–500 calories per day or more. A nurse doing a 12-hour shift and an office worker sitting at a desk have dramatically different NEATs even if they do the same workout.
+| Quantity | What it represents here | How it is obtained |
+|---|---|---|
+| Weight, height and age | User-entered measurements | Typed into the form |
+| REE | Published equation estimate | Mifflin–St Jeor calculation |
+| Activity factor | User-selected site assumption | One of five listed multipliers |
+| Displayed TDEE | Illustrative daily-energy estimate | Unrounded REE multiplied by that factor |
 
-**Exercise Activity Thermogenesis (EAT)** — your intentional workouts. Despite what gym culture implies, this is usually the smallest component for most people: 5–15% of TDEE, because even intense sessions only last 1–2 hours.
-
-> **Key Takeaway:** TDEE = BMR + TEF + NEAT + EAT. The number that determines whether you lose, gain, or maintain weight. Eat consistently below it and you lose fat. Eat consistently above it and you gain weight. Eat at it and you stay the same. Everything else in nutrition is details.
-
-This calculator uses the Mifflin-St Jeor equation — currently the most validated formula for estimating BMR across diverse populations — multiplied by an activity factor to estimate your TDEE.
+The result is rounded to a whole kcal/day. That formatting does not make the underlying estimate accurate to one calorie. A source-based estimate and a direct measurement remain different even when their displays look equally precise.
 
 ## How to Use This Calculator Accurately
 
-Enter your age, sex, height, weight, and activity level. The result is a calorie estimate, not a law — but it's a well-founded starting point.
+Choose metric or imperial units before entering measurements. Metric inputs use kilograms and centimeters; imperial inputs use pounds and inches. Changing the unit setting clears weight and height so that a previous number is not silently interpreted in another unit. Enter height in inches as one number, not feet with a decimal: 5 feet 10 inches is 70 inches, not 5.10.
 
-**The activity level selector is where most people go wrong.** Be honest, and lean toward underestimating:
+Enter a whole-number age from 19 through 78, the age range of the original study. The two sex options select the published equation's coefficients; they do not assess an individual's hormonal treatment, body composition or health circumstances. A formula choice is not a medical assessment. [Equation population and terms](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
-| **Activity Level** | **What it actually means** | **Multiplier** |
-|---|---|---|
-| Sedentary | Desk job, little movement outside work, no structured exercise | 1.2 |
-| Lightly Active | Desk job + exercise 1–3 days/week, or a low-activity job | 1.375 |
-| Moderately Active | Exercise 3–5 days/week with real effort, or moderately active job | 1.55 |
-| Very Active | Hard exercise 6–7 days/week, or physically demanding job | 1.725 |
-| Extremely Active | Elite athlete training twice daily, or extremely physical labor + exercise | 1.9 |
+The activity selector offers these factors:
 
-> **Tip:** Most people who consider themselves "moderately active" are actually "lightly active." If you have a desk job and exercise 3 times a week, that's lightly active, not moderate. Overestimating by one level adds 200–300 calories to your TDEE — which explains why so many people "eat at their TDEE" but don't maintain weight.
+| Site-selected assumption | Arithmetic with an example REE of 1,600 kcal/day |
+|---|---|
+| 1.20 | 1,920 kcal/day |
+| 1.375 | 2,200 kcal/day |
+| 1.55 | 2,480 kcal/day |
+| 1.725 | 2,760 kcal/day |
+| 1.90 | 3,040 kcal/day |
 
-The calculator returns three numbers: your estimated BMR, your TDEE, and suggested intakes for fat loss, maintenance, and muscle gain.
+Every row is a calculation using the same hypothetical REE. These factors are not mapped to a validated number of exercise days, occupational duties or an athlete classification. Selecting a higher factor necessarily increases the output, but the form cannot confirm that your real expenditure increased by that amount.
+
+If comparing two scenarios, keep a note of the factor and inputs used. A result without its assumption can be misleading: the same measurements produce several different outputs solely because the selected factor changed. Check the entries first when a result looks unexpected, rather than interpreting an input error as a metabolic finding.
 
 ## The Mifflin-St Jeor Equation: Why This Formula
 
-The Mifflin-St Jeor equation was published in the *American Journal of Clinical Nutrition* in 1990 and has since been validated in multiple independent studies as the most accurate predictive formula for most populations.
+The simplified published equations are:
 
-**For men:** BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age) − 5
+**Male equation:** REE = 10 × weight in kg + 6.25 × height in cm − 5 × age in years **+ 5**.
 
-**For women:** BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age) − 161
+**Female equation:** REE = 10 × weight in kg + 6.25 × height in cm − 5 × age in years **− 161**.
 
-A practical example: A 32-year-old woman, 165 cm, 68 kg, moderately active.
-
-- BMR = (10 × 68) + (6.25 × 165) − (5 × 32) − 161 = 680 + 1031 − 160 − 161 = **1,390 cal**
-- TDEE = 1,390 × 1.55 = **2,155 cal**
+The male constant is positive five. The age term is subtracted in both equations. Keeping the signs and units correct matters more than presenting the answer with many decimal places. [Mifflin and colleagues, original abstract](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 **Why Mifflin over Harris-Benedict?**
 
-A 2005 systematic review in the *Journal of the American Dietetic Association* (Frankenfield et al.) compared predictive equations across diverse populations. Mifflin-St Jeor was roughly 5% more accurate than Harris-Benedict — which sounds small until you do the math. On a 2,400 calorie TDEE, a 5% error is 120 calories. Sustained over weeks, that compounds into meaningful differences.
+This page uses Mifflin–St Jeor so that its calculation can be traced to a specific published equation and study population. That choice does not establish that it is the best formula for every person or that its error disappears after multiplying by an activity factor. The website does not compare your result with measured expenditure.
 
-> **Note:** No formula is perfectly accurate for any individual. Individual TDEE can vary ±200–300 calories from predictions — even with perfect equation accuracy — because of factors formulas can't capture: genetics, gut microbiome composition, medication effects, hormonal status, and true muscle-to-fat ratio. Use the calculator result as a starting hypothesis, not a fixed fact.
+Worked example: for the male equation with 80 kg, 180 cm and age 30, the terms are 800 + 1,125 − 150 + 5 = **1,780 kcal/day**. At factor 1.55, the second step is 1,780 × 1.55 = **2,759 kcal/day**. With the same measurements, the female equation gives 1,614 kcal/day for resting energy; multiplying by 1.55 gives 2,501.7, displayed as 2,502 kcal/day. These figures illustrate the code's arithmetic; they are not a diet plan for an 80 kg adult.
+
+For imperial entries, the calculation converts pounds to kilograms and inches to centimeters before applying the same equation. Compare like units when checking your own calculation: inserting 180 inches into a formula expecting 180 centimeters produces a different number because the measurement itself is different.
 
 ## Using Your TDEE for Weight Loss, Gain, and Maintenance
 
-Once you have your TDEE, the application is straightforward.
+An expenditure estimate is useful for understanding the distinction between intake and expenditure, but it does not decide whether weight loss, gain or maintenance is appropriate for you. This tool assigns neither a calorie deficit nor a surplus and produces no goal date.
 
-**For fat loss:** Eat 300–500 calories below your TDEE. If your TDEE is 2,400, target 1,900–2,100 calories daily. This produces roughly 0.5–1 lb of fat loss per week — slow enough to preserve muscle, fast enough to see progress.
+If comparing an intake value with an estimate, label both quantities. For example, an **assumed** expenditure of 2,400 kcal/day minus an **entered** intake of 2,100 kcal/day equals a 300 kcal/day numerical difference. If the expenditure is wrong, the difference is wrong even though subtraction is correct. The example does not recommend 2,100 kcal/day or establish that the person will lose a particular amount of weight.
 
-Research on metabolic adaptation is clear: aggressive deficits of 750+ calories accelerate muscle loss, increase hunger hormones, suppress metabolism, and are almost impossible to sustain beyond a few weeks. A moderate 500-calorie deficit maintained for months outperforms an aggressive deficit maintained for weeks (Hall, 2008).
+Do not treat estimated REE or “BMR” as a universal minimum calorie intake or a dividing line between safe and unsafe eating. A resting-energy prediction does not test nutritional adequacy or select a personal dietary prescription. The current U.S. dietary guidelines state that calorie needs depend on age, sex, body size and activity; individual planning must also account for the person's circumstances. [Dietary Guidelines 2025–2030, appropriate amount for you](https://cdn.realfood.gov/DGA.pdf)
 
-**For muscle gain (lean bulk):** Eat 250–500 calories above your TDEE. If your TDEE is 2,400, target 2,650–2,900 calories. This provides the energy surplus muscle growth requires without excessive fat accumulation — particularly important when pairing with resistance training.
+The [Macro Calculator](/fitness/macro-calculator) converts a calorie total and percentages chosen by the user into grams. The [Calorie Deficit Calculator](/fitness/calorie-deficit-calculator) subtracts two user-entered values. Neither makes this TDEE estimate an independently confirmed intake target.
 
-**For maintenance:** Eat approximately at your TDEE. You won't hit your exact number every day — that's fine. Average within ±100–150 calories across the week.
-
-> **Warning:** Never eat below your BMR for extended periods. Your BMR is the minimum your body needs just to sustain basic organ function. Sustained calorie intake below BMR causes muscle loss, hormonal disruption, metabolic suppression, and immune compromise. If your BMR is 1,400 and TDEE is 2,000, your floor is 1,400 — never below it.
-
-For your macro breakdown within these calorie targets, the [Macro Calculator](/fitness/macro-calculator) splits calories into protein, carbs, and fats based on your specific goal. For a more granular deficit calculation tied to a specific target weight and timeline, the [Calorie Deficit Calculator](/fitness/calorie-deficit-calculator) provides that detail.
+NIDDK offers a separate Body Weight Planner based on a dynamic model, with a different purpose and specified exclusions. Its model is not implemented on this page. Do not transfer claims about that planner's research or features to this simpler multiplication tool. [NIDDK planner information](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner)
 
 ## Why Your TDEE Calculator Result Is Just a Starting Point
 
-Most people treat their calculator result as fact. It isn't — and understanding why matters for actually using it correctly.
+There are several distinct sources of uncertainty: the entered measurements, the resting-energy prediction, and the selected activity assumption. The calculator checks numerical input rules; it cannot check whether the measurements describe you correctly or whether the multiplier represents your daily activities.
 
-**The activity multiplier problem:** You're self-reporting your lifestyle, and research shows people routinely overestimate their activity by 10–20%. One study found this translates to a 100–200 calorie error in the final TDEE prediction. Nobody wants to admit they're sedentary.
+A useful sensitivity check is to change only one assumption. With a hypothetical REE of 1,780 kcal/day, factors 1.375 and 1.55 produce approximately 2,448 and 2,759 kcal/day. The 311 kcal difference is created by the model choice. It is not proof that your real daily needs fall between those figures or that the endpoints form a confidence interval.
 
-**Multipliers are population averages:** Two people with identical stats but different metabolic health, muscle mass, hormonal profiles, or gut microbiomes can have TDEEs that differ by 200–300 calories. The formula predicts what an "average" person with your characteristics would burn — you might not be average.
+Recording food intake and weight may provide information for a care discussion, but a two-week period with nearly unchanged weight does not certify this formula's accuracy. This page provides no validated rule that a difference within 0.2 kg confirms maintenance calories, nor a mandatory instruction to adjust intake by 100–200 kcal.
 
-**TDEE changes as you change:** Lose 20 pounds and your TDEE drops, because there's less body to maintain. Gain muscle and it rises slightly. Recalculate every 4–6 weeks during active body composition changes.
+NIDDK's dynamic-model research accounts for changes over time in energy expenditure and body composition. A fixed calorie difference therefore should not be turned into a guaranteed straight-line weight trajectory. [Research behind the NIDDK planner](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner)
 
-**The two-week calibration method — better than any formula:**
-
-Use your calculator result as a starting point. Eat as close to that number as you can for two weeks while tracking your weight every morning under consistent conditions (same time, after waking, after using the bathroom, before eating).
-
-Average your daily weigh-ins for week one and week two separately.
-
-If both weekly averages are nearly identical (within 0.2 kg), your estimated TDEE is accurate — you're maintaining. If week two's average is lower, you're actually in a deficit — your real TDEE is higher than estimated. If week two's average is higher, you're in a surplus — your real TDEE is lower.
-
-Adjust by 100–200 calories and repeat. Within 4–6 weeks, you'll have a far more personalized number than any formula can provide. This real-world adjustment beats perfect math because it's based on your body's actual response, not a population average.
-
-> **Bottom Line:** Calculate your TDEE. Use it to set your starting calorie target. Track weight for two weeks. Adjust based on what actually happens. That sequence — formula + real-world calibration — is more accurate than either approach alone. Most people skip the calibration step and wonder why the calculator "doesn't work."
+Keep scenario records separate from observations. “The tool estimated 2,759 kcal using factor 1.55” accurately describes a calculation. “My measured expenditure is 2,759 kcal” would require a measurement this page has not performed. This distinction matters when comparing results with a nutrition professional or another tool.
 
 ## When to Work with a Professional Instead
 
-TDEE calculators work well for most healthy adults. There are situations where professional guidance is more appropriate:
+Use an appropriate clinical or nutrition service when you need a personal intake plan, interpretation of unexpected weight change, or advice about a medical condition. The form has no fields for diagnosis, medication, pregnancy, lactation or eating-disorder history, and cannot incorporate those circumstances by inference.
 
-**Medical conditions** that affect metabolism: thyroid disorders (hypo and hyperthyroid meaningfully alter BMR), PCOS, diabetes, metabolic syndrome. These change your actual TDEE in ways no formula accounts for.
+NIDDK explicitly limits its Body Weight Planner to adults aged 18 and older and excludes pregnancy and breastfeeding. Those exclusions illustrate why a general adult energy tool should not be repurposed into pregnancy or lactation advice. This site's narrower 19–78 input range follows its own source equation; it does not establish suitability for every adult within those ages. [NIDDK scope](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner)
 
-**Medications** that influence metabolism or appetite: antidepressants, corticosteroids, antipsychotics, beta-blockers. If you're on medications and your weight doesn't respond to calculated deficits, a registered dietitian can investigate.
+If you already have a care plan, keep the prescribed targets and the online estimate clearly labeled rather than replacing one with the other. Ask what the estimate is intended to help with, which assumptions are relevant, and whether a direct measurement or different method is needed.
 
-**Extreme body composition:** Elite athletes and people with obesity both have TDEEs that deviate more from formula predictions. The equations were built on average body compositions.
-
-**History of disordered eating:** Calorie-focused nutrition planning can be harmful in these contexts. A registered dietitian with eating disorder specialization uses different approaches — not formula-based targets.
-
-A registered dietitian can also measure your actual metabolic rate directly using indirect calorimetry — a breath test that eliminates the estimation error entirely.
+The original study's use of indirect calorimetry does not mean this website performs that procedure. It also does not justify a promise that a clinical measurement removes all uncertainty. Discuss the purpose and limitations of any measurement with the service performing it.
 
 ## Frequently Asked Questions
 
 **What is a normal TDEE?**
 
-TDEE varies enormously by individual. A sedentary 5'4" woman in her 40s might have a TDEE of 1,800 calories. A 6'2" male athlete in his 20s might have a TDEE of 3,800 calories. There's no "normal" — there's your number. Use the calculator, then calibrate.
+This page does not assign a universal normal range. It produces an estimate from the measurements and multiplier selected. Age, sex, body size and activity matter to energy needs, but an online output does not determine a personal target. [U.S. dietary guidance](https://cdn.realfood.gov/DGA.pdf)
 
 **How accurate are TDEE calculators?**
 
-Typically within ±10–15% for most people. That's ±200–360 calories on a 2,400-calorie TDEE. Accurate enough to set a useful starting target — not accurate enough to use as gospel. The two-week calibration method above closes most of that gap.
+This tool has no universal ±10–15% accuracy guarantee. It combines a published resting-energy equation with an unvalidated site activity assumption. Correct arithmetic does not verify the result against your measured expenditure. [Original equation](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 **How often should I recalculate?**
 
-Every 4–6 weeks during active fat loss or muscle gain. Every significant life change: new job with different activity demands, pregnancy, major illness, medication changes.
+Recalculate when you want to compare a changed input or assumption. No evidence-based four- or six-week schedule is claimed for this website. A calculation is separate from the follow-up schedule in a personal care plan.
 
 **Does TDEE change with age?**
 
-Yes. The Mifflin-St Jeor equation factors in age because metabolic rate declines gradually — roughly 2–8% per decade after age 30, primarily driven by muscle mass loss. Maintaining muscle through resistance training is the most effective way to slow this decline.
+The published equation contains an age term: holding its other inputs fixed, increasing age by one year decreases estimated REE by 5 kcal/day. This is a property of the model, not a measured annual change in an individual. [Equation](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 **What's the difference between TDEE and BMR?**
 
-BMR is your resting metabolic rate — what you'd burn doing nothing. TDEE is BMR plus all activity. TDEE is always higher. If your BMR is 1,600 and you're moderately active (multiplier 1.55), your TDEE is 2,480. Eating at BMR puts you in a 880-calorie deficit — not sustainable.
+TDEE refers to total daily expenditure; resting energy is only the first step in this site's model. This calculator specifically estimates REE and multiplies it by a factor. It does not measure BMR under standardized basal conditions or determine an intake floor.
 
-For a deeper dive into the science behind TDEE, see our [complete TDEE guide](/blog/understanding-tdee-complete-guide).
+Our [TDEE guide](/blog/understanding-tdee-complete-guide) is a separate article. When reading a related article, keep its stated method and sources distinct from the particular calculation described here.
 
 ## Sources & Medical References
 
-1. Mifflin MD, et al. A new predictive equation for resting energy expenditure. *American Journal of Clinical Nutrition.* 1990;51(2):241–247.
-2. Frankenfield D, et al. Comparison of predictive equations for resting metabolic rate. *Journal of the American Dietetic Association.* 2005;105(5):775–789.
-3. Hall KD. What is the required energy deficit per unit weight loss? *International Journal of Obesity.* 2008;32(3):573–576.
-4. Pontzer H, et al. Daily energy expenditure through the human life course. *Science.* 2021;373(6556):808–812.
+1. [Mifflin MD and colleagues: original resting-energy equation, 1990](https://pubmed.ncbi.nlm.nih.gov/2305711/) — formula, units, population and measurement method.
+2. [NIDDK: About the Body Weight Planner](https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner) — the separate planner's purpose and population exclusions.
+3. [NIDDK: research behind its dynamic Body Weight Planner](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner) — why modeled weight change is not simple fixed-rate subtraction.
+4. [U.S. Dietary Guidelines for Americans 2025–2030](https://cdn.realfood.gov/DGA.pdf) — calorie requirements depend on age, sex, body size and activity.
+
+The five activity factors and the worked scenarios above are labeled website assumptions or derived arithmetic, not recommendations attributed to these authorities.

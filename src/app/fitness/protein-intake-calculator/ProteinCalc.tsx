@@ -33,7 +33,7 @@ export function ProteinCalc() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <ResultCard label="Calculated range" value={`${result.min}–${result.max}g/day`} highlight />
           </div>
-          <p className="text-xs text-slate-500 mt-4">This arithmetic applies U.S. adult guidance to the entered weight. It is not a personal prescription or a substitute for guidance that accounts for your health, life stage, or country.</p>
+          <p className="text-xs text-slate-500 mt-4"><a href="https://cdn.realfood.gov/DGA.pdf" className="underline">U.S. Dietary Guidelines 2025–2030, page 2</a> give a protein serving goal of 1.2–1.6 g/kg/day, adjusted for calorie requirements. This arithmetic applies the guideline range to the entered weight. It is not a personal prescription or a substitute for guidance that accounts for your health, life stage, or country.</p>
         </ResultsShell>
       )}
     </>

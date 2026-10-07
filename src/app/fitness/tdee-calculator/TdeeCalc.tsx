@@ -51,7 +51,7 @@ export function TdeeCalc() {
             <ResultCard label="Mifflin–St Jeor REE" value={`${result.ree.toLocaleString()} kcal/day`} sub="Resting energy estimate" />
             <ResultCard label="REE × selected factor" value={`${result.tdee.toLocaleString()} kcal/day`} sub="Illustrative TDEE estimate" highlight />
           </div>
-          <p className="text-xs text-slate-500 mt-4">The activity multiplier is a site-selected model assumption, not an official category or a personalized maintenance target. The source equation was developed in healthy adults aged 19–78.</p>
+          <p className="text-xs text-slate-500 mt-4">The activity multiplier is a site-selected model assumption, not an official category or a personalized maintenance target. The <a href="https://pubmed.ncbi.nlm.nih.gov/2305711/" className="underline">source equation</a> was developed in healthy adults aged 19–78.</p>
         </ResultsShell>
       )}
     </>

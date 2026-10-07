@@ -21,9 +21,9 @@ export default function Page() {
       description="Calculate the arithmetic equivalent of the protein serving goal in the current U.S. Dietary Guidelines."
       features={["Current U.S. guideline linked", "Weight-based arithmetic", "Limits stated"]}
       relatedTools={[
-        {title:"Macro Calculator",desc:"Full macro split.",href:"/fitness/macro-calculator",category:"fitness"},
-        {title:"TDEE Calculator",desc:"Daily calorie needs.",href:"/fitness/tdee-calculator",category:"fitness"},
-        {title:"Calorie Deficit",desc:"Weight loss target.",href:"/fitness/calorie-deficit-calculator",category:"fitness"},
+        {title:"Macro Calculator",desc:"Convert chosen energy shares to grams.",href:"/fitness/macro-calculator",category:"fitness"},
+        {title:"TDEE Calculator",desc:"Resting-energy equation with an activity assumption.",href:"/fitness/tdee-calculator",category:"fitness"},
+        {title:"Calorie Deficit",desc:"Subtract user-entered calorie values.",href:"/fitness/calorie-deficit-calculator",category:"fitness"},
       ]}>
       <ProteinCalc />
       <QuickAnswer answer="The 2025–2030 U.S. Dietary Guidelines give a protein serving goal of 1.2–1.6 g/kg/day, adjusted as needed for individual calorie requirements. This calculator applies that range to entered body weight; it does not provide an individualized prescription." />

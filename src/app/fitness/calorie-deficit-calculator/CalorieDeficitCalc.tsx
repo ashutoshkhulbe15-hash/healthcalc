@@ -28,7 +28,7 @@ export function CalorieDeficitCalc() {
         <p className="mb-4 text-sm text-slate-600">Arithmetic only. Use values you obtained elsewhere; this tool does not estimate your needs or recommend an intake or calorie difference.</p>
         <div className="mb-5 grid grid-cols-1 gap-5 sm:grid-cols-2">
           <CalcInput label="Your maintenance estimate (cal/day)" value={maintenance} onChange={setMaintenance} placeholder="e.g. 2,000" />
-          <CalcInput label="Comparison amount (cal/day)" value={comparison} onChange={setComparison} placeholder="e.g. 300" />
+          <CalcInput label="Amount to subtract (cal/day)" min={0} value={comparison} onChange={setComparison} placeholder="e.g. 300" />
         </div>
         <CalcButton onClick={calculate} label="Calculate difference" />
         <CalcError message={error} />

@@ -1,210 +1,218 @@
-<!-- last-updated: July 2026 -->
-# BMI Calculator for Teens: CDC Percentile Charts
+<!-- last-updated: October 5, 2026 -->
+# BMI Calculator for Teens: CDC Age-and-Sex Reference
 
-If you are a teenager looking up your BMI, here is the first thing to know: the number alone means nothing without your age and sex. A BMI of 22 is "overweight" for a 12 year old girl and perfectly healthy for an 18 year old girl.
+For children and teens, BMI is interpreted using age-and-sex-specific growth references. The same BMI can have a different reference position at different ages. CDC applies its child and teen categories from **age 2 through 19**, while its adult calculator is for age 20 and older. [CDC categories and age scope](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-Same number, completely opposite interpretation. This is why a standard adult BMI calculator gives teenagers misleading results.
-
-This teen BMI calculator uses CDC percentile charts instead. It maps your BMI against other teens of the same age and sex, then shows your result on a visual percentile scale so you can see exactly where you land.
+This tool calculates BMI from entered height and weight and compares it with the CDC 2000 BMI-for-age LMS dataset. It is a screening calculation, not a diagnosis, a measured body-fat percentage or a personal weight target. A pediatric clinician considers growth and wider health context when interpreting it. [CDC](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html); [NIDDK teen health guidance](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
 ## 📊 Why Teen BMI Is Different from Adult BMI
 
-Adult BMI uses fixed categories for everyone. A BMI between 18.5 and 24.9 is "normal weight" whether you are 21 or 71.
+The basic BMI formula is the same for adults and young people: **weight in kilograms ÷ height in meters squared**. The important difference is interpretation. CDC uses sex-specific BMI-for-age percentiles for growing children and teens, rather than applying adult category cutoffs to everyone. [CDC explanation](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-Teen BMI cannot work that way because of puberty. During adolescence, your body changes faster than at any other point in your life.
+A percentile expresses a position in a **reference population**, not a grade or a recommendation to move toward the middle. The 50th percentile is the reference median. It does not mean that every teenager should have that BMI, and a result at another percentile does not by itself describe someone's health.
 
-Height can increase by several inches in a single year. Body composition shifts dramatically at the same time.
+Consider a hypothetical 50 kg person at 1.60 m: 50 ÷ 1.60² = 19.53125 kg/m². That calculation contains no age or sex information. The same BMI then needs the appropriate age-and-sex reference before assigning a child or teen category. The weight and height in this example are arithmetic inputs, not recommended measurements.
 
-Girls gain body fat as part of normal hormonal development, while boys gain substantial muscle mass. Both processes are healthy and expected, but they affect weight relative to height in very different ways.
+The website does not infer puberty stage from age, compare a child with an adult weight target, or measure developmental progress. NIDDK explains that young people grow at different rates and that a professional considers growth rate and overall health alongside BMI. [NIDDK: Do I need to lose weight?](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-The Expert Committee on childhood obesity, published in *Pediatrics* in 2007, established BMI-for-age percentiles as the correct screening tool for teens. It did so precisely because percentiles account for these developmental differences (Barlow et al., 2007).
+This is why an isolated adult BMI label is not an adequate substitute for the age-specific reference used here.
 
 ## 📏 How to Use This Teen BMI Calculator
 
-Enter your age (2 to 19 years), select your sex, then input your weight and height. The calculator computes your BMI and maps it against CDC growth charts to find your percentile.
+Select metric or imperial units, enter completed years and additional completed months, choose the sex used by the CDC chart, then enter height and weight. The supported age range is **24 through 239 completed months**: 2 years 0 months through 19 years 11 months. Years and additional months must be whole numbers.
 
-Your percentile placement tells you how your BMI compares to other teens of the same age and sex. The 50th percentile means half of teens your age have a higher BMI and half have a lower one. It does not mean "average is ideal."
+For example, 14 years and 3 completed months corresponds to 171 completed months. This site selects the CDC row at 171.5 months, representing 171.0 up to but not including 172.0 months. CDC explains that half-month labels represent the entire completed-month interval. [CDC age-row documentation](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
-The visual scale below your result shows your position across the underweight, healthy, overweight, and obese bands. Focus on which band you land in, not the raw BMI number.
+Metric height is entered in centimeters and converted to meters for BMI. Imperial height is entered in inches, not feet written as a decimal. For example, 5 feet 4 inches is 64 inches. Changing units clears the measurements to avoid silently interpreting a kilogram value as pounds.
 
-The same BMI can fall into completely different categories depending on age and sex. That is the whole reason a dedicated teenage BMI calculator exists.
+The output includes BMI, a reference category and a numerical percentile where the implemented method supports displaying one. Percentile numbers are withheld below the third or above the 95th percentile; the category can still be shown. The website does not implement CDC's extended method for high BMI values. [CDC standard and extended methods](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
+
+Check the units and completed age before interpreting a result. A measurement entered incorrectly can produce a mathematically correct output for the wrong inputs. The form cannot confirm that a height or weight was measured accurately.
 
 ## 📋 CDC BMI Percentile Reference Values
 
-These are the actual BMI numbers at key percentile thresholds for each age, derived from CDC Growth Charts (2000). This is the BMI percentile for age data your pediatrician references.
+These values come from the **published percentile columns in the CDC 2000 dataset**, freshly checked against the official download. They are BMI values in kg/m², displayed to two decimals. Each row represents the stated completed-month interval, not an entire year of age. [Official CDC CSV](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv); [age-interval explanation](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
-**Boys (ages 13 to 19):**
+**Boys / male reference, ages 13 to 19:**
 
-| Age | 5th pct (underweight) | 50th pct (median) | 85th pct (overweight) | 95th pct (obese) |
-|---|---|---|---|---|
-| 13 | 15.4 | 18.5 | 21.8 | 25.1 |
-| 14 | 15.9 | 19.2 | 22.6 | 26.0 |
-| 15 | 16.5 | 19.9 | 23.4 | 26.8 |
-| 16 | 17.0 | 20.5 | 24.2 | 27.5 |
-| **17** | **17.3** | **21.1** | **24.9** | **28.2** |
-| 18 | 17.5 | 21.7 | 25.6 | 28.9 |
-| 19 | 17.8 | 22.2 | 26.3 | 29.7 |
+| Completed age | CDC row (months) | P5 | P50 (median) | P85 | P95 |
+|---|---|---|---|---|---|
+| 13 years, 0 months | 156.5 | 15.46 | 18.47 | 21.85 | 25.18 |
+| 14 years, 0 months | 168.5 | 15.99 | 19.16 | 22.66 | 26.05 |
+| 15 years, 0 months | 180.5 | 16.55 | 19.86 | 23.45 | 26.84 |
+| 16 years, 0 months | 192.5 | 17.13 | 20.56 | 24.21 | 27.56 |
+| 17 years, 0 months | 204.5 | 17.70 | 21.24 | 24.94 | 28.26 |
+| 18 years, 0 months | 216.5 | 18.24 | 21.90 | 25.66 | 28.96 |
+| 19 years, 0 months | 228.5 | 18.73 | 22.50 | 26.36 | 29.73 |
 
-**Girls (ages 13 to 19):**
+**Girls / female reference, ages 13 to 19:**
 
-| Age | 5th pct (underweight) | 50th pct (median) | 85th pct (overweight) | 95th pct (obese) |
-|---|---|---|---|---|
-| 13 | 15.2 | 18.9 | 23.0 | 27.1 |
-| 14 | 15.7 | 19.5 | 23.6 | 27.6 |
-| 15 | 16.0 | 20.0 | 24.0 | 28.1 |
-| 16 | 16.3 | 20.4 | 24.5 | 28.5 |
-| **17** | **16.6** | **20.7** | **24.7** | **28.9** |
-| 18 | 16.7 | 21.0 | 25.0 | 29.2 |
-| 19 | 16.8 | 21.3 | 25.2 | 29.5 |
+| Completed age | CDC row (months) | P5 | P50 (median) | P85 | P95 |
+|---|---|---|---|---|---|
+| 13 years, 0 months | 156.5 | 15.31 | 18.74 | 22.58 | 26.30 |
+| 14 years, 0 months | 168.5 | 15.81 | 19.35 | 23.35 | 27.26 |
+| 15 years, 0 months | 180.5 | 16.31 | 19.93 | 24.05 | 28.12 |
+| 16 years, 0 months | 192.5 | 16.79 | 20.45 | 24.66 | 28.91 |
+| 17 years, 0 months | 204.5 | 17.21 | 20.91 | 25.20 | 29.63 |
+| 18 years, 0 months | 216.5 | 17.55 | 21.28 | 25.68 | 30.33 |
+| 19 years, 0 months | 228.5 | 17.77 | 21.55 | 26.10 | 31.03 |
 
-Source: CDC Growth Charts, National Center for Health Statistics, 2000.
+
+For example, the male row at 168.5 months applies from 14 years 0 months up to but not including 14 years 1 month. It should not be used unchanged for someone who is 14 years 10 months. Enter the additional months in the calculator instead.
+
+P5, P50, P85 and P95 mean the fifth, 50th, 85th and 95th reference percentiles. The values are threshold references rather than diagnoses. The healthy-weight category includes P5 and excludes P85. A displayed rounded table number is not a substitute for a calculation using the unrounded data.
+
+This table does not provide a target weight. Turning a cutoff into a target by multiplying it by height squared would be another calculation, not a clinical recommendation. Discuss the person's growth and health rather than treating an endpoint as a number to reach.
 
 ## 🔍 Understanding BMI Percentile Categories
 
-The CDC defines four weight status categories for children and teens aged 2 to 19:
+CDC defines the following categories for ages 2 through 19. The inequalities matter; writing “5th to 84th” would leave fractional percentile values unclear. [CDC category table](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-| Weight Status | Percentile Range | What it means |
-|---|---|---|
-| Underweight | Below 5th percentile | May indicate nutritional or medical concern |
-| Healthy weight | 5th to 84th percentile | Normal range for age and sex |
-| Overweight | 85th to 94th percentile | Above average, warrants monitoring |
-| Obese | 95th percentile or above | Elevated health risk, evaluation recommended |
+| Weight-status category | BMI-for-age reference percentile |
+|---|---|
+| Underweight | Below 5th |
+| Healthy weight | At least 5th and below 85th |
+| Overweight | At least 85th and below 95th |
+| Obesity | At least 95th |
 
-The healthy range spans from the 5th to the 85th percentile. This is a wide band that reflects the natural variation in teen bodies.
+Thus a percentile of 84.9 belongs below the 85th threshold; 85.0 belongs in the next category. These are boundary examples, not claims about a specific person's growth or health. This tool assigns categories using the **unrounded** calculation, so a rounded percentile printed near a boundary may look close to a cutoff without determining the category itself.
 
-Someone at the 20th percentile and someone at the 75th percentile are both in the healthy range, even though they look very different from each other.
+CDC also describes severe obesity using 120% of the age-and-sex-specific 95th-percentile BMI or BMI of at least 35 kg/m². “120% of the 95th-percentile BMI” is a ratio to a BMI value; it is not a 120th percentile. This site does not separately classify severe obesity or implement the extended percentile calculation. [CDC categories](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-> **Note:** CDC percentile categories are screening tools, not diagnoses. A teen in the "overweight" category might simply have high muscle mass, because BMI cannot distinguish muscle from fat. A doctor who knows your individual growth history is the right person to interpret your result.
+The word “healthy” is the name of a screening category, not confirmation that all aspects of a teenager's health are normal. Conversely, a category outside that range is not enough to identify a medical cause or select treatment.
 
 ## 🔄 What the Same BMI Means at Different Ages
 
-This is the concept most people miss. The same BMI number shifts percentile dramatically as teens age.
+The following examples use **BMI 22 kg/m²**, the female reference and zero additional completed months at each stated age. They are derived calculations from the CDC LMS parameters, not observations about particular teenagers. [Dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv); [LMS method](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
-**Example: BMI of 22**
-- A 12 year old girl: 89th percentile (overweight category)
-- A 15 year old girl: 58th percentile (healthy weight)
-- An 18 year old girl: 41st percentile (healthy weight)
+| Entered age | Reference row | Derived percentile, rounded | Category from unrounded calculation |
+|---|---|---|---|
+| 12 years, 0 months | 144.5 months | 86.24th | Overweight |
+| 15 years, 0 months | 180.5 months | 72.39th | Healthy weight |
+| 18 years, 0 months | 216.5 months | 58.66th | Healthy weight |
 
-Three different health interpretations come from the same number. This is exactly why age-specific percentiles exist.
+The BMI is held constant in these examples while the reference row changes. The different percentiles follow from that reference choice. They do not prove a difference in body fat, fitness, nutritional intake or overall health.
 
-For boys, the pattern is similar but the numbers differ. Their body composition trajectory during puberty follows a different curve.
+A result described only as “BMI 22 for a girl” leaves the completed age undefined. A result described as “BMI 22 at age 15” still omits additional months. Use the actual age entry when reproducing a calculation rather than borrowing a percentile from a nearby example.
+
+The examples also show why a rounded table and an exact percentile serve different purposes. The table makes reference thresholds easier to compare; the calculator uses the LMS values for its selected interval. Neither should be interpreted as a personal body-size goal.
 
 ## 🧬 What Changes During Puberty
 
-Puberty is the reason teen BMI needs its own system. Here is what happens to body composition.
+This calculator does not measure puberty stage, hormone levels, body-fat change or the timing of a growth spurt. It uses completed age and chart sex because those variables define the CDC reference. Age alone does not establish how an individual teenager is developing.
 
-**Girls (typically ages 10 to 16):** Body fat percentage naturally increases from roughly 18% to 25% as part of hormonal development. Hips widen and breast tissue develops. This fat gain is biologically necessary for reproductive health and is not a sign of being overweight.
+NIDDK states that energy from food supports growth and that calorie requirements depend on body size, activity and how much a young person is still growing. Its teen guide recommends assessment of overall health and growth rate when considering weight concerns. [NIDDK: energy and weight assessment](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-**Boys (typically ages 12 to 17):** Muscle mass increases significantly, driven by testosterone. Shoulders broaden and body fat percentage often decreases even as total weight increases. A boy who gains 30 pounds during a growth spurt may actually become leaner in body composition.
+The BMI calculation cannot separate a change in height from a change in weight unless the actual measurements are retained. In a hypothetical example, 50 kg at 160 cm gives BMI 19.53; the same 50 kg at 165 cm gives about 18.37. This is denominator arithmetic, not a prediction of how quickly someone's height should change or a declaration that the lower result is better.
 
-> **Warning:** Calorie restriction during puberty can impair growth, delay development, reduce bone density with lifetime consequences, and increase eating disorder risk. If a teen's pediatrician has concerns about weight, they will provide guidance that supports healthy growth at the same time. Adolescence is not the time to diet without medical supervision.
+NIDDK advises against trying to lose weight by eating very little, cutting out whole food groups, skipping meals or fasting without appropriate professional supervision. Young people need energy and nutrients for growth. The site's percentile category should not be turned into an unsupervised calorie-restriction instruction. [NIDDK: avoid unhealthy approaches](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
+
+If puberty or growth concerns arise, describe the actual observations to a pediatric clinician. A calculator has no examination findings and cannot explain a developmental change from its percentile output.
 
 ## 📈 BMI Trends: When to Pay Attention
 
-A single BMI reading is a snapshot. The trend over time is what actually matters.
+A sequence of measurements provides information a single entry cannot. CDC describes percentiles as indicators used to assess growth patterns, while NIDDK includes growth rate among the factors a professional considers. [CDC percentile explanation](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html); [NIDDK assessment](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-Your pediatrician tracks your BMI on a growth curve at each visit. A teen who consistently follows the 30th percentile is growing normally.
+Keep the date, completed age, height, weight and measurement units with each calculation. If comparing entries, check whether a change came from new measurements, a different chart sex, corrected units or simply a later reference age. The calculator does not automatically store a longitudinal medical record.
 
-A teen whose percentile jumps from the 40th to the 85th over one year warrants evaluation, because the trajectory changed. Similarly, a sudden drop in percentile can indicate a medical issue or disordered eating.
+A change between two reference positions is not an automatic diagnosis. This page establishes no rule that a jump from the 40th to 85th percentile within a year identifies a particular condition, or that consistently following the 30th percentile guarantees normal health. Those conclusions require the wider history and assessment.
 
-Both upward and downward shifts deserve attention. The direction matters less than the fact that the pattern broke.
+Ask your clinician to explain the growth chart and the context of any change that concerns you. A useful discussion can distinguish measurements from assumptions and consider whether other observations or follow-up are needed. Do not use a changed percentile alone to decide to cut food intake.
 
-> **Tip:** Ask your pediatrician to show you your growth curve at your next visit. The visual trend is more informative than any single number. You want to see a consistent path along your own curve, not a dramatic change in either direction.
+A printed result is easier to assess when its source and date are visible. Keep the selected age and reference method with the percentile rather than recording only a category word.
 
 ## ⚖️ The Limitations of BMI for Teens
 
-BMI is a ratio of weight to height. It does not measure body fat directly, which creates specific blind spots for teenagers.
+BMI is a weight-to-height calculation, not a direct measurement of fat. CDC states that BMI cannot distinguish fat, muscle and bone mass and is one part of a broader assessment. A numerical result should not be treated as a body-composition test. [CDC: about BMI](https://www.cdc.gov/bmi/about/index.html)
 
-**Athletes and active teens.** A teen swimmer, wrestler, or football player with significant muscle mass will often register as "overweight" by BMI while being genuinely lean. Body fat percentage measurement is more appropriate for athletic teens.
+That limitation applies when considering athletic teenagers too. This page cannot conclude that a particular athlete's elevated BMI is explained by muscle, and it does not establish that a circumference body-fat calculator is a more accurate clinical assessment for that teenager. A clinician can interpret the measurement in the relevant context.
 
-**Ethnic variation.** BMI-health relationships vary by ethnicity. Some Asian populations experience health risks at lower BMI thresholds, while some Pacific Islander populations maintain health at higher ones. The CDC charts are based on US population data and may not perfectly represent every ethnic background.
+Race is not a factor used to calculate the CDC BMI-for-age percentile. The reference here does not supply ethnic-specific diagnosis thresholds or a guarantee that a category captures every individual's health circumstances. [CDC: child and teen BMI](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-**Growth spurts.** During rapid height growth, weight sometimes lags behind temporarily, creating artificially low BMIs. After height stabilizes, weight typically catches up. This is normal and not a sign of being underweight.
+The implemented LMS method also has a range limitation. Numeric percentiles are withheld below the third or above the 95th percentile rather than extrapolated as precise extreme values. CDC's extended method is available for high BMI assessment, but this website does not implement it. A withheld number does not mean the observation is unimportant or that no reference can be used clinically. [CDC extended charts](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
-> **Note:** BMI is a screening tool, not a diagnostic tool. It flags when further evaluation might be useful, but does not determine your health status on its own. Two teens can have identical percentiles and very different health profiles depending on muscle mass, activity level, bone density, and growth trajectory.
-
-For body composition beyond BMI, see the [body fat calculator](/fitness/body-fat-calculator) and [lean body mass calculator](/fitness/lean-body-mass-calculator).
+Finally, a percentile is not a count of present-day classmates with a higher or lower BMI. It is a position relative to the chart's reference population. Keep the historical reference and the actual individual's assessment distinct.
 
 ## 👦👧 Teen BMI by Age Group: Quick Guide
 
-Different ages get searched for different reasons. Here is what the healthy range looks like across the most common ages, so parents and teens can find their group fast.
+**Younger teens, ages 13–15:** enter both years and additional completed months. Use the age-specific row rather than an adult cutoff or the rounded threshold for another birthday. This site makes no claim that percentile changes at these ages automatically represent a harmless growth spurt.
 
-**Younger teens (13 to 15).** This is peak growth-spurt territory. Percentiles swing the most here because height and weight rarely change in lockstep. A percentile that moves within the healthy band from one visit to the next is usually just the growth spurt working through.
+**Older teens, ages 16–19:** CDC continues to use child and teen BMI-for-age categories through age 19. Being close to adulthood does not make adult cutoffs the correct reference for this calculator. CDC directs people aged 20 and older to its adult calculator. [CDC age scope](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
-**Older teens (16 to 19).** Body composition starts to settle toward adult patterns. This is the age range most often screened for college athletics, ROTC, and military entrance, which is why "BMI for 17 year old" is the single most searched teen age in our data.
+**Girls and boys:** the form selects the corresponding sex-specific reference. Two different reference rows can assign different percentile positions to the same BMI. This is a feature of the reference calculation, not an individual explanation of hormones, puberty stage or body composition.
 
-**Girls vs boys.** For any given age, the healthy BMI band sits slightly differently for girls and boys because of the fat and muscle changes described above. A teenage girl and a teenage boy of the same age and height can both be perfectly healthy at noticeably different BMIs.
+**Ages outside the teenage years:** despite its page name, the tool supports the CDC child-and-teen interval beginning at age 2. It does not support infants or a completed age of 20 years. Use the appropriate growth reference with a child's healthcare team.
 
-> **Key Takeaway:** Whether you are looking up a BMI calculator for teenage girls or for teenage boys, the method is identical. Enter age and sex, and the percentile does the age-and-sex adjustment for you.
+The published tables above are quick reference examples for zero additional months. For another age interval, use the form and keep its exact completed-month input. This educational result does not determine sports clearance, college eligibility or military entrance standards.
 
 ## ✅ What to Do With Your Result
 
-A percentile is a starting point for a conversation, not a verdict. Here is how to use yours sensibly.
+First check the inputs. Correct any mistaken units or age entry, then recalculate. If the output concerns you, keep the measurements and discuss them with a pediatric clinician. NIDDK recommends talking with a healthcare professional about weight concerns and asking a parent or guardian for help arranging care when needed. [NIDDK](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-**If you land in the healthy range (5th to 85th):** Nothing to act on. The band is wide on purpose, and normal healthy teens fill all of it.
+A healthy-weight category does not mean “nothing to act on” in every circumstance. Symptoms, growth concerns or existing medical advice still deserve attention. An outside-range category likewise does not tell you to start dieting or prove a diagnosis from one result.
 
-**If you land outside it:** Note the number and bring it to your pediatrician rather than acting alone. One reading outside the band is a reason to look closer, not a reason to change how you eat overnight.
+A clinician can consider growth rate, overall health and any weight-related problems. NIDDK explains that, depending on age and growth, some young people may need to gain weight more slowly rather than lose weight. That choice requires individual assessment; it cannot be made from this form alone. [NIDDK: How can I lose weight safely?](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-**Track the trend, not the snapshot.** Your own curve over several visits tells a far more honest story than a single calculation on a single day.
+If you want to prepare for a discussion, bring the date, age, height, weight, units, chart sex and any previous measurements. Ask how the result fits the growth history and whether follow-up is needed. Keep a hypothetical example from an article separate from your own measurements.
 
 ## 💚 A Note About Health, Not Numbers
 
-If you are a teenager reading this: your BMI percentile is one data point. It is not a grade, not a judgment, and it does not define your health or your worth.
+If you are a teenager reading this, a reference percentile is one calculation. It is not a grade, a judgment or a measure of your worth. The name of a screening category should not be used to shame you or someone else.
 
-Bodies come in different shapes and sizes. The healthy range (5th to 85th percentile) is deliberately wide because healthy teens genuinely look very different from one another.
+You do not have to reach the 50th percentile to satisfy the reference method. The median describes the chart, not an ideal individual body. Discuss concerns with a trusted adult and a healthcare professional who can consider your situation rather than trying to change a number in isolation. [NIDDK: discussing weight concerns](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-If your result concerns you, talk to your pediatrician, who can assess your actual health through physical examination, blood work, growth trajectory, and clinical context. No calculator replaces that assessment.
+If you have been trying to lose weight by making yourself vomit or using laxatives, NIDDK advises speaking with a healthcare professional or another trusted adult right away. Those behaviors can harm health and need support. A percentile in any category does not make them safe. [NIDDK: avoid unhealthy approaches](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
 ## ❓ Frequently Asked Questions
 
 **What is a normal BMI for a 14 year old boy?**
 
-A healthy BMI for a 14 year old boy falls between the 5th and 85th CDC percentile, which corresponds to approximately 15.9 to 22.6. The median (50th percentile) is 19.2. Values outside this range warrant discussion with a pediatrician but are not automatic diagnoses.
+For the male CDC row representing 14 years 0 completed months, P5 is 15.99 and P85 is 22.66 kg/m², rounded to two decimals. The healthy-weight category includes the unrounded P5 and excludes P85. These are reference values, not a personal diagnosis or target. [CDC dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv)
 
 **What is a normal BMI for a 15 year old girl?**
 
-A healthy BMI for a 15 year old girl falls between 16.0 and 24.0 (5th to 85th percentile). The median is 20.0. Body fat naturally increases during female puberty, so a higher BMI relative to childhood is expected and normal.
+For the female row at 15 years 0 months, rounded P5 and P85 are 16.31 and 24.05. The category includes P5 and excludes P85; other months use other rows. [Dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv)
 
 **What is a healthy BMI for a 17 year old boy?**
 
-For a 17 year old boy, healthy BMI ranges from 17.3 to 24.9 (5th to 85th percentile). The median is 21.1. This is the most searched age in our data, likely because many 17 year olds are preparing for college athletics or military service that require BMI screening.
+At 17 years 0 months in the male reference, rounded P5 is 17.70 and P85 is 24.94, with P50 at 21.24. The category's upper boundary is exclusive and the values are not military eligibility criteria. [Dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv)
 
 **What is a healthy BMI for a 16 year old girl?**
 
-For a 16 year old girl, the healthy range is 16.3 to 24.5 (5th to 85th percentile). The median is 20.4.
+At 16 years 0 months in the female reference, rounded P5 is 16.79 and P85 is 24.66. Additional months change the reference row. [Dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv)
 
 **Can the same BMI be healthy at one age and overweight at another?**
 
-Yes. A BMI of 22 is the 89th percentile (overweight) for a 12 year old girl but the 41st percentile (healthy) for an 18 year old girl. This is why adult BMI categories cannot be used for teens.
+Yes, its reference position can differ. BMI 22 in the female reference gives about the 86.24th percentile at 12 years 0 months and 58.66th at 18 years 0 months. These are derived examples, not complete health assessments. [LMS reference method](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
 **Is BMI accurate for teenage athletes?**
 
-BMI can overestimate body fat in muscular teen athletes. A teen with high muscle mass may score "overweight" by BMI while being genuinely lean. Body fat percentage measurement provides better assessment for athletic teens. See our [body fat calculator](/fitness/body-fat-calculator).
+BMI does not directly measure fat or distinguish fat from muscle and bone. The calculator cannot determine that muscle explains a particular result or substitute a circumference estimate for a clinical assessment. [CDC limitations](https://www.cdc.gov/bmi/about/index.html)
 
 **Should teenagers try to change their BMI?**
 
-Not without pediatrician guidance. The healthy range (5th to 85th percentile) is wide for a reason. Calorie restriction during adolescence can impair growth, delay puberty, and reduce bone density. Weight management during growth should only happen under medical supervision.
+Do not use a percentile to select an unsupervised diet. NIDDK recommends professional assessment; growth may affect whether weight loss or slower weight gain is appropriate. [NIDDK](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
 **Why does my BMI percentile change even if my weight stays the same?**
 
-Because the CDC charts account for expected weight changes with age. As you get older, the percentile thresholds shift. A weight that was 70th percentile at 13 might be 50th percentile at 16, because healthy weight naturally increases through adolescence.
+Height changes affect BMI, and completed age changes the selected reference row. Check both measurements and the age entry. A change does not by itself explain the person's health. [CDC age-row method](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm)
 
 **What BMI is the 5th percentile for a 17 year old?**
 
-For a 17 year old boy: BMI 17.3 is the 5th percentile. For a 17 year old girl: BMI 16.6 is the 5th percentile. Below these values indicates underweight by CDC classification.
+At 17 years 0 months, published P5 rounds to 17.70 for the male reference and 17.21 for the female reference. Values differ at other additional months; rounded table numbers should not decide an exact boundary. [Dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv)
 
 **Is BMI calculated differently for teens than adults?**
 
-The BMI formula (weight in kg divided by height in meters squared) is the same. The interpretation is different. Adult BMI uses fixed categories (18.5 to 24.9 = normal). Teen BMI uses age-and-sex-specific percentiles because healthy body composition changes during growth.
+The kg/m² calculation is the same. CDC interprets child and teen BMI with age-and-sex-specific percentiles through age 19, with adult interpretation beginning at 20. [CDC](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html)
 
 **Is there a difference between a teen BMI calculator and a teenage BMI calculator?**
 
-No. Both refer to the same thing: a BMI tool that uses CDC age-and-sex percentiles for ages 2 to 19 instead of fixed adult categories. This calculator works for every teen age in that range, for both boys and girls.
+Those names describe the same topic. What matters is the tool's actual age scope, dataset, month handling and method limits. This site uses CDC 2000 LMS data for 24–239 completed months.
 
 ## 📚 Sources and References
 
-1. Barlow SE, Expert Committee. Expert Committee Recommendations Regarding the Prevention, Assessment, and Treatment of Child and Adolescent Overweight and Obesity. *Pediatrics.* 2007;120(Supplement 4):S164-S192.
-2. CDC. About Child and Teen BMI. Centers for Disease Control and Prevention. 2024.
-3. Kuczmarski RJ, et al. CDC Growth Charts: United States. *Vital Health Statistics.* 2002;11(246).
-4. Ogden CL, et al. Prevalence of Overweight and Obesity in the United States. *JAMA.* 2014;311(8):806-814.
-5. AAP. Preventing Obesity and Eating Disorders in Adolescents. *Pediatrics.* 2016;138(1).
+1. [CDC: Child and Teen BMI Categories](https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html) — formula, age scope, category inequalities and reference-population meaning.
+2. [CDC: BMI-for-age percentile dataset](https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv) — published threshold columns and LMS parameters, re-downloaded and matched to this site's dataset on October 5, 2026.
+3. [CDC: Extended BMI-for-Age Data Files](https://www.cdc.gov/growthcharts/extended-bmi-data-files.htm) — completed-month intervals, standard LMS method and extended high-BMI method.
+4. [CDC: About BMI](https://www.cdc.gov/bmi/about/index.html) — screening and body-composition limitations.
+5. [NIDDK: Take Charge of Your Health, a Guide for Teenagers](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers) — growth, professional assessment and avoiding harmful weight-loss approaches. Its food-pattern section references older dietary guidelines; this page uses the growth and care passages, not those older intake recommendations.

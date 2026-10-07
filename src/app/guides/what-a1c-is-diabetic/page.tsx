@@ -18,13 +18,13 @@ export default function Page() {
   const lastUpdatedISO = getLastUpdatedISO("guide-what-a1c-is-diabetic.md");
   return (
     <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="What A1C Level Is in the Diabetes Range?" subtitle="Diagnostic ranges, confirmatory testing and test limitations for nonpregnant people."
-      readTime="3 min" category="conditions" categoryLabel="Health Guide"
+      readTime="14 min" category="conditions" categoryLabel="Health Guide"
       relatedTools={[
-        {title:"A1C Converter",desc:"Convert A1C to glucose.",href:"/conditions/a1c-blood-sugar-converter",category:"conditions"},
+        {title:"A1C Converter",desc:"Estimate average glucose from A1C; not a diagnosis.",href:"/conditions/a1c-blood-sugar-converter",category:"conditions"},
         {title:"Blood Sugar Tests",desc:"Diagnostic thresholds and protocol differences.",href:"/guides/blood-sugar-levels-by-age",category:"conditions"},
         {title:"BMI Calculator",desc:"Check your BMI.",href:"/body-metrics/bmi-calculator",category:"body-metrics"},
       ]} url="/guides/what-a1c-is-diabetic">
-      <QuickAnswer answer="For nonpregnant people, NIDDK lists A1C below 5.7% as normal, 5.7–6.4% as prediabetes and 6.5% or above as in the diabetes range. In the absence of clear symptoms, confirmatory testing is required. These criteria are not personal treatment targets." />
+      <QuickAnswer answer="For nonpregnant people, NIDDK lists A1C below 5.7% as normal, 5.7–6.4% as prediabetes and 6.5% or above as in the diabetes range. In the absence of a clear clinical diagnosis, confirmatory testing is required. These criteria are not personal treatment targets." source={{label:"NIDDK: A1C ranges and interpretation",href:"https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test"}} />
       <SplitArticle content={content} />
     </BlogPageShell>
   );

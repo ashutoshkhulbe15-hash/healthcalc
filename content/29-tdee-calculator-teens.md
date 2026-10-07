@@ -1,55 +1,58 @@
-<!-- last-updated: June 2026 -->
-# TDEE Calculator for Teens: Calories by Age & Activity
+<!-- last-updated: October 5, 2026 -->
+# Teen Energy Needs: Growth, Nutrition and Assessment
 
-Teenagers need more calories than most adults — not fewer. A 15-year-old boy in a growth spurt may need 2,800–3,200 calories daily. A 14-year-old girl who plays sports may need 2,400–2,800. These numbers sound high to adults who've been told "eat less," but growing bodies have different rules.
+Energy needs during adolescence depend on age, sex, body size, activity and ongoing growth. NIDDK's guide explains these factors rather than supplying one calorie requirement for every teen. [NIDDK: how the body uses energy](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-This calculator estimates TDEE for teens aged 13–19 using the Mifflin-St Jeor equation adjusted for adolescent activity levels.
+This page does not calculate an individual calorie target. Its previous adult equation with a fixed growth addition was not a verified pediatric model. The Mifflin–St Jeor study involved healthy adults aged 19–78; it does not validate applying that equation with an invented growth bonus to ages 13–18. [Original equation population](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 ## How Many Calories Do Teenagers Need?
 
-> **Key Takeaway:** Teen calorie needs are significantly higher than adult needs because of growth. The USDA estimates 1,800–3,200 calories daily for teens depending on age, sex, and activity level. These are not diet numbers — they're fuel requirements for bodies that are actively building bone, muscle, and neural tissue. Restricting below these levels during adolescence can impair growth, hormonal development, and bone density.
+A personal answer needs the growth and activity context; a birthday alone is insufficient. This guide does not turn an age-and-sex table into a minimum intake, a restriction target or a guarantee that every teenager needs more calories than every adult.
 
-| **Age** | **Sedentary Girls** | **Active Girls** | **Sedentary Boys** | **Active Boys** |
-|---|---|---|---|---|
-| 13 | 1,600 | 2,200 | 2,000 | 2,600 |
-| 14 | 1,800 | 2,400 | 2,200 | 2,800 |
-| 15 | 1,800 | 2,400 | 2,400 | 3,000 |
-| 16 | 1,800 | 2,400 | 2,400 | 3,200 |
-| 17 | 1,800 | 2,400 | 2,600 | 3,200 |
-| 18 | 1,800 | 2,400 | 2,400 | 3,200 |
+| Question to bring to an assessment | Why it is relevant to the record |
+|---|---|
+| Which age, height and weight are being discussed? | Avoids mixing old measurements with a current question |
+| Is growth continuing? | Keeps the growth context visible |
+| What does a usual school and activity week look like? | Describes the setting rather than guessing an activity label |
+| Is there an existing nutrition or medical plan? | Keeps this general guide separate from that plan |
+| What concern prompted the question? | Distinguishes a sports question from a weight or food-access concern |
 
-Source: USDA Dietary Guidelines for Americans, 2020–2025.
+These are preparation prompts, not a scoring system. No calorie number is produced by adding up your answers, and a longer activity description does not automatically trigger a prescribed food amount.
+
+For everyday food choices, Health Canada's teen guide recommends variety across vegetables and fruit, whole grains and protein foods, and involvement in meal planning and preparation. That is **Canadian food-guide context**, not a U.S. energy formula or an individual serving prescription. [Health Canada guidance](https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/teens.html)
+
+A practical planning example is checking whether food is available during a school day followed by practice, and what can be packed or bought. That example does not estimate calories burned during practice. Record the actual schedule instead of assuming that every sport consumes 500–1,000 extra calories.
 
 ## Why Teen TDEE Is Different from Adults
 
-**Growth demands energy.** During peak growth (typically 12–15 for girls, 14–17 for boys), the body allocates significant calories to bone elongation, muscle development, organ growth, and brain maturation. This energy comes from food — if caloric intake is insufficient, growth is compromised.
+Teenagers grow at different rates. NIDDK explains that, where weight management is needed, some teens may need to gain weight more slowly rather than lose weight. A healthcare professional considers growth and other circumstances when developing a plan. [NIDDK: weight assessment and planning](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-**Sports and activity.** Many teenagers participate in sports and physical activities that burn 500–1,000+ calories per day on top of baseline needs. A teenage swimmer, wrestler, or cross-country runner may need 3,000–4,000 calories daily during training seasons.
+Do not transfer an adult model's activity multiplier, deficit or calorie floor into a pediatric prescription. Multiplying a resting estimate by 1.55 and adding 300 would be arithmetic, but no verified pediatric recommendation for that combination is supplied here. Labeling the result “teen TDEE” would not establish its validity.
 
-> **Warning:** Calorie restriction during adolescence is dangerous unless medically supervised for specific clinical reasons. Adolescence is not the time to diet. Restricting food during growth can impair height attainment, delay puberty, reduce bone density (with lifetime consequences for osteoporosis risk), and trigger or worsen eating disorders. If a teen's pediatrician has concerns about weight, they will provide guidance that supports growth simultaneously.
+Health Canada's guide emphasizes overall health and eating habits rather than focusing only on body weight. It includes planning meals and snacks, learning shopping and cooking skills, and eating with others. Use its stated context; the advice does not prove that every teen must track calories or that no clinician may ever use dietary records. [Canadian teen eating habits](https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/teens.html)
 
-> **Tip:** Teens should focus on food quality — not calorie counting. Prioritize protein (for muscle and tissue growth), calcium and vitamin D (for bone density), iron (especially for menstruating teens), and whole foods over processed alternatives. If a teen is genuinely interested in understanding their nutrition, this calculator provides context — not a restriction target.
+NIDDK advises against trying to lose weight by eating very little, skipping meals, fasting or excluding whole food groups. It also advises prompt discussion with a healthcare professional or trusted adult about vomiting or laxative use for weight loss. [NIDDK: avoid unhealthy approaches](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
-For BMI assessment during adolescence, see our [BMI calculator for teens](/body-metrics/bmi-calculator-teens), which uses CDC age-specific percentiles rather than adult categories.
-
-> **Bottom Line:** Teens need 1,800–3,200 calories daily depending on age, sex, and activity. These are higher than adult needs because of growth. Calorie restriction during adolescence should only happen under pediatrician guidance. Use this calculator for awareness, not restriction.
+For a separate growth-reference calculation, see our [BMI-for-age guide](/body-metrics/bmi-calculator-teens). A percentile is not an energy requirement. Do not use its output to select a calorie deficit or assume that a weight change is needed.
 
 ## Frequently Asked Questions
 
 **How many calories should a teenager eat?**
 
-USDA guidelines: 1,600–2,400 for girls and 2,000–3,200 for boys aged 13–18, depending on activity level. Active teens and those in growth spurts need the higher end.
+This page does not provide an individual number. NIDDK identifies body size, age, sex, activity and growth as relevant factors. Discuss a personal need in that context rather than using the former generic table as a target. [NIDDK energy context](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
 **Should teenagers count calories?**
 
-Generally no. Calorie counting in adolescents can promote unhealthy food relationships and eating disorder risk. Awareness of nutrition quality (protein, calcium, fruits, vegetables) is more appropriate than numerical calorie tracking for most teens.
+This guide does not recommend routine calorie counting or assign a food budget. Health Canada's teen guidance focuses on food variety, planning and overall health. If a clinician asks for a dietary record, follow the purpose and instructions of that assessment rather than turning this page into a restriction plan. [Canadian guidance](https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/teens.html)
 
 **Is it safe for teenagers to diet?**
 
-Weight management during adolescence should only occur under pediatrician supervision. Growing bodies need adequate energy, and restriction can impair growth, bone density, and hormonal development.
+A website cannot establish that a particular diet is safe for you. NIDDK recommends developing weight-management plans with a healthcare professional and notes that slower gain, rather than weight loss, may be appropriate during growth. Its warnings against unsupervised restrictive methods remain relevant. [NIDDK weight-planning section](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers)
 
 ## Sources
 
-1. USDA. Dietary Guidelines for Americans, 2020–2025.
-2. Mifflin MD, et al. A new predictive equation for resting energy expenditure. *Am J Clin Nutr.* 1990.
-3. AAP. Preventing Obesity and Eating Disorders in Adolescents. *Pediatrics.* 2016;138(1).
+1. [NIDDK: Take Charge of Your Health—A Guide for Teenagers](https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers), energy factors, growth-aware assessment and warnings about unhealthy weight-loss approaches. The site's food details refer to the older 2020–2025 U.S. guideline; those numerical food targets are not republished here as current policy.
+2. [Health Canada: Healthy eating for teens](https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/teens.html), updated March 26, 2026, Canadian guidance on variety, planning and overall health. No Canadian supplement dose is applied universally on this page.
+3. [Mifflin MD and colleagues, 1990](https://pubmed.ncbi.nlm.nih.gov/2305711/), adult equation population; official indexed abstract checked where direct access was restricted.
+
+Sources checked October 5, 2026. The absence of a calculated pediatric target should not be replaced by an unsupported growth bonus.

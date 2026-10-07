@@ -1,82 +1,86 @@
-<!-- last-updated: June 2026 -->
-# Waist-to-Hip Ratio Calculator: WHO Cardiovascular Risk Assessment
+<!-- last-updated: October 5, 2026 -->
+# Waist-to-Hip Ratio Calculator: Measurement, Arithmetic and Limits
 
-Your waist-to-hip ratio (WHR) measures where your body stores fat — and that location matters more for cardiovascular risk than how much fat you carry overall. Abdominal fat (visceral fat surrounding your organs) is metabolically active and strongly associated with heart disease, type 2 diabetes, and stroke.
+Waist-to-hip ratio (WHR) divides waist circumference by hip circumference. This calculator shows that quotient, rounded to three decimal places. It does not measure visceral fat, calculate the probability of a heart attack or assign a personal treatment target.
 
-Measure your waist at the narrowest point and your hips at the widest point. Divide waist by hips. That ratio tells you more about cardiovascular risk than BMI alone.
+WHO's consultation considers measurement methods, disease-risk research and differences by sex, age and ethnicity. The meeting took place in 2008; its report was published in **2011**. Those dates identify the reference rather than implying that every number quoted online is a WHO recommendation. [WHO publication and scope](https://www.who.int/publications/i/item/9789241501491)
 
 ## How to Calculate Waist-to-Hip Ratio
 
-> **Key Takeaway:** WHR = waist circumference ÷ hip circumference. According to WHO guidelines, cardiovascular risk is elevated when WHR exceeds 0.90 for men or 0.85 for women. This measures fat distribution, not total fat — a critical distinction BMI cannot make.
+> **Key Takeaway:** Divide waist by hips using the same units. The measurement protocol matters: a measurement at the navel is not automatically interchangeable with one at the rib-to-hip midpoint.
 
-**Step 1 — Measure your waist.** Stand straight. Wrap a flexible measuring tape around your waist at the narrowest point — typically just above your belly button, at the level of your navel. Don't suck in. Breathe normally. Record in cm or inches.
+**Step 1 — Measure your waist.** WHO's protocol uses the midpoint between the lower edge of the last palpable rib and the top of the iliac crest, or hip bone. Measure at the end of a normal outward breath, with a relaxed abdomen. The tape should be level, snug and not compress the body. [WHO report, sections 2.1–2.2](https://iris.who.int/bitstream/handle/10665/44583/9789241501491_eng.pdf?sequence=1)
 
-**Step 2 — Measure your hips.** Wrap the tape around the widest part of your hips/buttocks. Keep the tape level all the way around.
+**Step 2 — Measure your hips.** The report specifies the widest part of the buttocks, with the tape parallel to the floor. [WHO report, section 2.1.1](https://iris.who.int/bitstream/handle/10665/44583/9789241501491_eng.pdf?sequence=1)
 
-**Step 3 — Divide.** Waist ÷ Hips = your WHR.
+**Step 3 — Divide.** Use waist ÷ hips. For assumed measurements of 32 inches and 40 inches, 32 ÷ 40 = **0.800**. These are arithmetic examples, not measurements of a particular reader or evidence of low disease risk.
 
-Example: Waist 32 inches, Hips 40 inches → 32 ÷ 40 = **0.80**
+**Check units before typing.** A waist in centimeters divided by hips in inches is not the intended ratio. Both entries must use centimeters, or both must use inches. There is no need to convert when both already use the same unit: multiplying numerator and denominator by the same conversion factor leaves their quotient unchanged.
 
-> **Tip:** Measure at the same time of day (morning is best), in minimal clothing, using the same tape measure. Small differences in placement can shift the ratio. Consistency across measurements matters more than any single reading.
+> **Tip:** Keep a record of the measurement locations and units as well as the number. For comparisons, repeat the same protocol. This page does not establish a mandatory morning measurement or fasting schedule.
 
 ## Understanding Your Results: WHO Risk Categories
 
-| **Risk Level** | **Men (WHR)** | **Women (WHR)** |
+The previous three-band table labelled values “low,” “moderate” and “high” risk. Its exact bands were not verified against a directly relevant WHO passage and are not used here. Retaining the section heading should not imply that the calculator applies an official WHO risk classification.
+
+| What appears on this page | Meaning | Interpretation not supplied |
 |---|---|---|
-| Low risk | Below 0.90 | Below 0.80 |
-| Moderate risk | 0.90–0.99 | 0.80–0.84 |
-| High risk | 1.0 or above | 0.85 or above |
+| Waist circumference | Number entered in the chosen common unit | Visceral-fat quantity or a diagnosis |
+| Hip circumference | Number entered in that same unit | A separate health rating |
+| WHR | Waist divided by hips | Individual cardiovascular-event probability |
+| Three-decimal display | Rounded quotient | A biological boundary between safe and unsafe |
 
-Source: WHO Expert Consultation on Waist Circumference and Waist-Hip Ratio (2008).
+**Worked example:** Assumed measurements of 90 cm and 100 cm give **0.900**. Assumed measurements of 99 cm and 110 cm also give **0.900**. The ratio is identical even though the circumferences differ. It therefore cannot replace the input measurements or the rest of a clinical assessment.
 
-> **Note:** These thresholds were established from large epidemiological studies linking WHR to cardiovascular events, type 2 diabetes, and all-cause mortality. A WHR above the threshold doesn't diagnose disease — it identifies elevated statistical risk.
+The WHO consultation examines population variation and cutoffs for public-health action. A study threshold, a screening convention and a personal treatment target are different uses of a number. This website does not merge them into a universal “perfect” ratio. [WHO consultation scope](https://www.who.int/publications/i/item/9789241501491)
 
 ## WHR vs BMI: Why Both Matter
 
-BMI tells you if your weight is proportionate to your height. WHR tells you where your fat is stored. Both provide different information — and both have blind spots.
+BMI and WHR answer different arithmetic questions. BMI divides body weight in kilograms by height in meters squared; WHR divides two circumferences. Neither equation contains blood pressure, laboratory results or a person's clinical history. A comparison of their formulas does not establish that one always gives a more complete health assessment.
 
-**Where WHR excels:** Two people with identical BMI of 27 can have very different cardiovascular risk profiles. One stores fat on their hips and thighs (gynoid pattern) — lower metabolic risk. The other stores fat around their abdomen (android pattern) — higher metabolic risk. BMI treats them identically; WHR distinguishes them.
+**Where the measurements differ:** Consider two assumed records with the same height and weight. Their calculated BMI will match. If one has waist/hips of 80/100 cm and the other 90/100 cm, their WHRs are **0.800** and **0.900**. That demonstrates information absent from BMI's inputs. It does not independently prove which person has disease or quantify the difference in their future risk.
 
-**Where BMI excels:** BMI is simpler, more widely studied, and doesn't require tape measurements. WHR can be affected by measurement technique.
+**Where the ratio also loses information:** Assume the same waist of 90 cm with hips of 100 cm versus 120 cm. The results are **0.900** and **0.750**. The lower quotient comes from a larger denominator in this example; the waist did not become smaller. Do not interpret every lower ratio as evidence of a particular change in abdominal fat.
 
-Research by Yusuf et al. in *The Lancet* (2005) — the INTERHEART study involving 27,000 participants across 52 countries — found that WHR was a stronger predictor of heart attack risk than BMI.
+The earlier INTERHEART comparison and blanket claim that WHR is superior for every reader are not presented as verified conclusions here. A specific study needs its actual population, methods and outcomes before its findings can be applied; a study title in a bibliography is insufficient.
 
-> **Warning:** Waist-to-hip ratio is a screening tool for fat distribution patterns. It does not diagnose cardiovascular disease, diabetes, or any specific condition. Your provider assesses cardiovascular risk using multiple factors: WHR, blood pressure, lipid panel, blood glucose, family history, smoking status, and age. No single metric is sufficient.
+> **Warning:** Waist-to-hip ratio is a screening tool for fat distribution patterns. It does not diagnose cardiovascular disease, diabetes, or any specific condition. Your provider assesses cardiovascular risk using multiple factors: WHR, blood pressure, lipid panel, blood glucose, family history, smoking status, and age. No single metric is sufficient. [WHO consultation](https://www.who.int/publications/i/item/9789241501491); [NIH NHLBI: multiple heart-disease risk factors and assessment](https://www.nhlbi.nih.gov/health/heart-healthy-living/risks).
 
-The "perfect" hip-to-waist ratio doesn't exist as a universal number — optimal varies by sex, age, and ethnicity. The WHO thresholds above represent population-level risk boundaries.
+For a healthcare discussion, bring the measurements and protocol, rather than only the rounded quotient. The calculator does not determine whether BMI, waist circumference or another assessment is appropriate for your situation.
 
 ## What Affects Your Waist-to-Hip Ratio
 
-**Visceral vs. subcutaneous fat.** The danger isn't fat under the skin (subcutaneous) — it's fat around your organs (visceral). Visceral fat produces inflammatory cytokines, disrupts insulin signaling, and contributes to metabolic syndrome. WHR is a proxy for visceral fat that doesn't require imaging.
+**Either input can change the number.** Increasing waist while holding hips fixed increases WHR; increasing hips while holding waist fixed decreases it. This follows from division and does not identify the physiological cause of a measurement change.
 
-**Genetics.** Fat distribution is partly inherited. Some people preferentially store fat abdominally regardless of overall weight. This doesn't make the ratio less useful — it makes monitoring it more important.
+**Measurement location affects comparability.** WHO discusses protocols using different waist locations. This page uses its rib-to-hip midpoint method, rather than silently combining it with a navel or narrowest-waist measurement. [WHO report, section 2.1.1](https://iris.who.int/bitstream/handle/10665/44583/9789241501491_eng.pdf?sequence=1)
 
-**Hormones.** Estrogen promotes hip/thigh fat storage (gynoid pattern). Testosterone promotes abdominal storage (android pattern). Menopause shifts women toward more abdominal storage, which partly explains increasing cardiovascular risk after menopause.
+**Rounding can hide a small difference.** For assumed inputs of 80/101 cm, the unrounded quotient is approximately 0.792079; the display shows **0.792**. A rounded number is a presentation choice, not proof that a small measurement difference is clinically important.
 
-**Age.** Both men and women tend toward more abdominal fat storage with age, even without weight gain. This is why cardiovascular risk increases with age independent of BMI changes.
+**Input checks have a limited purpose.** The form requires positive finite numbers and clears the old result when an input changes. It cannot verify that a tape was placed correctly or that an entered value belongs to the waist rather than the hips.
 
-> **Bottom Line:** Your waist-to-hip ratio is one of the simplest, most informative cardiovascular screening tools available. Measure waist at the narrowest point, hips at the widest, divide. Below 0.90 (men) or 0.85 (women) is the WHO threshold. Use it alongside BMI and your [cholesterol ratio](/conditions/cholesterol-ratio-calculator) for a more complete cardiovascular risk picture.
+The earlier specific hormone mechanisms, fixed age effects and claim that WHR directly measures visceral fat are not retained without exact supporting evidence. The ratio alone cannot explain a change as genetic, hormonal, age-related or a response to a particular diet.
+
+A practical record can include the date, the two circumferences, their common unit, the measurement protocol and the calculated result. These are recordkeeping suggestions, not a prescribed testing interval or a diagnostic monitoring program.
 
 ## Frequently Asked Questions
 
 **How do you calculate the waist-to-hip ratio?**
 
-Divide your waist circumference by your hip circumference. Measure waist at the narrowest point (navel level), hips at the widest point. Example: 30-inch waist ÷ 38-inch hips = 0.79.
+Divide waist circumference by hip circumference in the same units. Use the measurement protocol described above rather than assuming navel level is equivalent to the WHO midpoint. An assumed 30-inch waist and 38-inch hips give 30 ÷ 38 = 0.789473…, displayed as **0.789**. [WHO measurement locations](https://iris.who.int/bitstream/handle/10665/44583/9789241501491_eng.pdf?sequence=1)
 
 **What is a good waist-to-hip ratio?**
 
-According to WHO: below 0.90 for men and below 0.80 for women indicates low cardiovascular risk. These are population-level thresholds — individual context (age, fitness, family history) matters.
+This calculator does not define a universal favorable interval or personal goal. The former low/moderate/high table was not verified as an exact WHO classification. Discuss the actual measurements and their relevance with a healthcare professional; a low-looking quotient cannot rule out disease.
 
 **Is waist-to-hip ratio better than BMI?**
 
-For cardiovascular risk specifically, research (INTERHEART study) suggests WHR is a stronger predictor. But BMI has broader research support for overall mortality risk. Using both provides the most complete picture.
+The formulas use different information. WHR uses circumferences; BMI uses weight and height. That mathematical distinction does not prove universal superiority. WHO's consultation evaluates their relationship in disease-risk research, including population differences. [Report scope](https://www.who.int/publications/i/item/9789241501491)
 
 **What is the perfect hip-to-waist ratio?**
 
-There's no universally "perfect" ratio. Optimal varies by sex, age, and ethnicity. For general cardiovascular health, below 0.80 (women) and below 0.90 (men) are the WHO-recommended targets.
+No personal “perfect” ratio is established by this form. Also check the order: **hip-to-waist** is the reciprocal of **waist-to-hip**. For assumed waist 80 and hips 100, WHR is 0.800, while hips ÷ waist is 1.250. Those are different quotients and cannot be compared to the same numerical reference without accounting for the inversion.
 
 ## Sources
 
-1. WHO. Waist Circumference and Waist-Hip Ratio: Report of a WHO Expert Consultation. 2008.
-2. Yusuf S, et al. Obesity and the risk of myocardial infarction in 27,000 participants (INTERHEART). *The Lancet.* 2005;366(9497):1640–1649.
-3. Ashwell M, et al. Waist-to-height ratio is a better screening tool than waist circumference and BMI. *Obes Rev.* 2012;13(3):275–286.
+1. [WHO: Waist circumference and waist-hip ratio, report published May 16, 2011 after the December 2008 consultation](https://www.who.int/publications/i/item/9789241501491). Publication date, scope and population considerations.
+2. [WHO report, sections 2.1–2.2](https://iris.who.int/bitstream/handle/10665/44583/9789241501491_eng.pdf?sequence=1). Measurement locations, tape positioning and breathing. The direct PDF retrieval was unavailable during review; the exact relevant sections were checked through WHO's indexed report text. The former three-band risk table is not treated as verified by that access.

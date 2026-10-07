@@ -1,207 +1,177 @@
-<!-- last-updated: January 2026 -->
-# Pregnancy Safe Food Checker: What You Can (and Can't) Eat
+<!-- last-updated: October 5, 2026 -->
+# Pregnancy Safe Food Checker: Preparation, Sources and Regional Advice
 
-You're standing in front of the deli counter, craving a turkey sandwich, and suddenly you can't remember: is deli meat safe during pregnancy? If this sounds familiar, you're not alone. Pregnancy cravings hit hard, but food safety concerns hit harder.
+Pregnancy food guidance depends on the **specific food, its preparation and the regional authority**. A food name alone does not tell you whether it is raw, pasteurized, reheated, refrigerated or part of a recalled batch. This page explains source-specific precautions rather than giving a universal “safe” label.
 
-That's why we created this pregnancy safe food checker — to answer the question that echoes through every trimester: can I eat this while pregnant?
-
-With nine months of meals ahead of you, it's easy to feel overwhelmed by conflicting advice. Your mom says one thing, the internet says another, and your craving says something entirely different.
-
-The truth is simpler than you might think: most foods are generally considered safe per current guidelines during pregnancy. A few require caution or avoidance. And some misconceptions have persisted for decades despite updated research.
-
-This guide walks you through exactly which foods belong in each category, backed by guidance from the American College of Obstetricians and Gynecologists (ACOG), the FDA, and the NHS. We'll also help you understand *why* certain foods carry risk, so you can make confident choices for you and your baby.
+The search above is a directory of available food topics. It does not test a meal, assess an exposure, or classify every food someone might enter. Use the preparation details and authority links in the article, and ask your maternity team about individual circumstances. The main U.S. food-handling reference here is CDC; fish-choice guidance comes from FDA/EPA. UK NHS differences are labeled separately. [CDC pregnancy food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html); [FDA fish advice](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
 ## Why Food Safety Matters
 
->
- **Warning:** According to CDC data, pregnant women are 10x more likely to contract Listeria and have suppressed immune response to foodborne pathogens. Food safety during pregnancy is more critical than at other life stages — this is why guidelines exist for foods that are otherwise safe for the general population. During Pregnancy
+CDC states that pregnant people are **ten times more likely to get a Listeria infection**. This comparison is specific to Listeria; it should not be presented as the same multiplier for every foodborne germ. The agency identifies undercooked meat and eggs, unpasteurized milk products and unwashed produce among riskier choices. [CDC: why food safety matters](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-Pregnancy changes your immune system in profound ways — ways that actually make you more vulnerable to foodborne illness. Your body is deliberately suppressing certain immune responses to prevent rejection of your baby, but this comes at a cost.
+Listeria can have serious consequences during pregnancy even when the pregnant person has mild symptoms or none. CDC lists miscarriage, stillbirth, premature delivery and life-threatening infection in a newborn among possible outcomes. These are possible consequences of infection, not a prediction of what will happen after one food exposure. [CDC Listeria symptoms and pregnancy](https://www.cdc.gov/listeria/signs-symptoms/index.html)
 
-According to ACOG, pregnant women are about 10 times more likely to develop listeriosis (infection from Listeria bacteria) than non-pregnant adults. For some pathogens, the risk jumps to 20 times higher.
+Food guidance therefore aims to **reduce risk**, rather than guarantee that a named product cannot cause illness. Cooking, pasteurization, refrigeration and handling are different controls; one does not replace all the others. CDC advises following the four food-safety steps of clean, separate, cook and chill alongside choosing lower-risk foods. [CDC pregnancy guidance](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-This matters because foodborne infections during pregnancy aren't just uncomfortable. They can cross the placenta. Listeria, in particular, can cause miscarriage, stillbirth, or severe illness in newborns. Other pathogens like Toxoplasma, Salmonella, and E. coli pose real risks to fetal development.
+For a meal decision, identify what is actually being served. Is the cheese a named variety made from pasteurized milk? Was fish cooked or only smoked? Is meat sliced at a deli or cooked and reheated? Has the product been recalled? Those details are more useful than an unqualified online statement that “cheese,” “sushi” or “meat” is safe.
 
-The CDC reports that Listeria causes roughly 260 deaths per year in the United States, and pregnant women account for a disproportionate share of those cases. Toxoplasma infection during pregnancy can result in congenital toxoplasmosis, which may cause blindness, intellectual disabilities, or seizures in affected infants.
-
-Salmonella and E. coli, while less likely to cause severe complications, still trigger serious illness that pregnancy makes harder to treat.
-
-The good news? Understanding which foods carry these risks is straightforward. Once you know what to avoid and why, you'll navigate pregnancy meals with confidence rather than fear. And you don't have to give up all the foods you love — in many cases, small adjustments (like heating deli meat or choosing pasteurized cheese) make favorites safe again.
-
-Most pregnancy food restrictions aren't permanent sacrifices. They're temporary precautions during a vulnerable window. Your immune system will bounce back after delivery, and foods you avoid now will be safe again.
+The guidance is also not a promise that all restrictions disappear immediately after birth. Individual health circumstances and breastfeeding guidance may still matter. This article concerns pregnancy food precautions and does not assess a personal medical history.
 
 ## How to Use
 
->
- **Tip:** Type the food name and the checker will display its safety classification based on published guidelines from FDA, ACOG, and CDC. Each result links to a detailed guide with specific preparation requirements, nutritional data, and trimester considerations. This Tool
+Type a topic such as eggs, tuna or coffee into the search field. The directory filters its available topic names and provides a link to the corresponding guide. It does **not** display a validated safe/caution/avoid classification, scan ingredients or determine whether a particular serving was handled correctly.
 
-The ProHealthIt Pregnancy Safe Food Checker is designed to remove the guesswork from every meal decision. Here's how it works:
+The displayed count refers to topics available in the directory. A search with no match means that the directory has no matching topic; it does not mean the food is prohibited, harmless or unsuitable. For a food not listed, consult the relevant authority's guidance or ask the maternity team rather than assigning a category from silence.
 
-**Search any food by name.** Type in a specific food — "sushi," "soft cheese," "deli turkey" — and the tool returns three categories of results:
+When opening a guide, check four details before applying a statement:
 
-- **Safe**: This food presents minimal to no risk during pregnancy when prepared normally.
-- **Caution**: This food requires specific preparation or handling to be safe. Usually this means heating to a certain temperature, choosing pasteurized versions, or limiting quantity.
-- **Avoid**: This food carries unacceptable risk during pregnancy, even with precautions.
+1. **Country and authority:** U.S. CDC/FDA and UK NHS instructions are not identical for every food.
+2. **Exact food:** a named cheese or tuna species may have different guidance from another item in the same broad group.
+3. **Preparation:** raw, cooked, cold-smoked, canned and reheated foods are not interchangeable.
+4. **Quantity or conditions:** serving size, use-by instructions, refrigeration and individual advice can matter.
 
-Each result includes a brief explanation of the risk involved and concrete safe alternatives. We've organized the tool by food category — proteins, seafood, dairy, fruits and vegetables, beverages, and more — so you can browse by what you're eating for dinner, not just search individual items.
+Keep the source's condition with the claim. “Heated to 165°F or steaming hot” should not become “deli meat is safe” without its preparation requirement. “Best Choices fish” should not become “all fish can be eaten in the same quantity.” [CDC preparation table](https://www.cdc.gov/food-safety/foods/pregnant-women.html); [FDA fish categories](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
-**When in doubt, check with your provider.** This tool reflects current guidance from major health organizations, but your prenatal care team knows your individual medical history, allergies, and risk factors. If you have questions about a specific food or condition, your OB-GYN or midwife is always the best resource. This tool is education, not medical advice.
-
-You can also use the ProHealthIt [Pregnancy Weight Gain Calculator](/pregnancy/weight-gain-calculator) alongside this guide to track healthy nutrition throughout your pregnancy.
+The [Pregnancy Weight Gain Calculator](/pregnancy/weight-gain-calculator) is a separate reference tool. Its output does not certify meal safety or measure infection risk. A disclaimer and a related calculator cannot replace the relevant food-handling instruction.
 
 ## Foods to Avoid
 
->
- **Warning:** According to FDA and CDC guidelines, the highest-risk pregnancy foods include: raw/undercooked meat and fish, unpasteurized dairy and juice, deli meats eaten cold, raw sprouts, and high-mercury fish. These carry Listeria, Salmonella, Toxoplasma, or mercury risks that are elevated during pregnancy. During Pregnancy
+The following table summarizes **U.S. CDC pregnancy guidance**. “Safer choice” retains the agency's risk-reduction meaning; it is not a guarantee of zero risk. Where a temperature is specified, CDC recommends a food thermometer. [CDC source table](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-Some foods carry risks significant enough that guidance organizations unanimously recommend avoidance. Here are the main culprits, organized for easy reference:
+| Food or preparation | Riskier choice | CDC safer-choice condition |
+|---|---|---|
+| Poultry, including ground poultry | Raw or undercooked | Cook to 165°F, about 74°C |
+| Whole beef, pork, lamb or veal cuts | Raw or undercooked | Cook to 145°F, about 63°C, then rest three minutes |
+| Ground beef or pork | Raw or undercooked | Cook to 160°F, about 71°C |
+| Deli meats, hot dogs, fermented or dry sausages | Unheated | Heat to 165°F or until steaming hot |
+| Meat spreads or pâté | Refrigerated products | Sealed products that do not need refrigeration before opening |
+| Deli salads | Premade deli coleslaw, potato, tuna, chicken or egg salad | Homemade deli salads |
+| Sprouts | Raw or undercooked | Cook until steaming hot |
+| Fresh produce | Unwashed | Wash; washed then cooked is the safest option listed |
+| Milk | Raw/unpasteurized | Pasteurized milk |
+| Juice or cider | Unpasteurized | Pasteurized, or bring unpasteurized juice to a rolling boil for at least one minute |
+| Eggs | Raw or runny | Cook until both white and yolk are firm; use pasteurized eggs in uncooked recipes |
+| Fish | Raw or undercooked | Cook to 145°F or until opaque and separating easily with a fork |
+| Refrigerated smoked fish | Eaten without cooking | Use in a cooked dish; shelf-stable sealed smoked fish is a separate option |
 
-| **Food** | **Status** | **Why It's Risky** | **Safe Alternative** |
-|---|---|---|---|
-| Raw or undercooked fish (sushi with raw fish, ceviche) | Avoid | Parasites, Listeria, Vibrio bacteria | Cooked sushi (shrimp tempura roll, California roll with cooked crab), fully cooked fish |
-| Deli meats, hot dogs, pâté (unless heated) | Caution | Listeria contamination — risk even if package says "pre-cooked" | Heat until steaming hot (165°F/74°C), use only if freshly cooked same day |
-| Unpasteurized soft cheeses (brie, feta, queso fresco, blue cheese) | Avoid | Listeria bacteria | Pasteurized versions of soft cheese (check label), hard cheeses, cottage cheese |
-| Raw or undercooked eggs (runny yolks, soft-boiled) | Avoid | Salmonella infection | Fully cooked eggs (until white and yolk are solid) |
-| High-mercury fish (shark, swordfish, king mackerel, tilefish, bigeye tuna) | Avoid | Mercury accumulation damages fetal nervous system | Salmon, shrimp, tilapia, cod, light canned tuna, sardines |
-| Alcohol (any amount) | Avoid | No known safe level (ACOG guideline); fetal alcohol spectrum disorder risk | Non-alcoholic beer, mocktails, sparkling water with fruit |
-| Raw sprouts (alfalfa, mung bean, radish) | Avoid | E. coli and Salmonella contamination in sprouting process | Cooked sprouts, lettuce, spinach (well-washed) |
-| Unpasteurized juice or raw milk | Avoid | Listeria, E. coli, Salmonella | Pasteurized milk, pasteurized juice, or juice heated to 160°F/71°C |
+Egg dishes have their own listed temperatures: 165°F if they contain meat or poultry, and 160°F otherwise. Pasteurizing eggs does not address raw flour in dough or batter; CDC separately lists raw flour-containing dough as a riskier choice. Follow the product's cooking directions or use dough specifically labeled for raw consumption. [CDC eggs and flour sections](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-The FDA and ACOG maintain these guidelines because the consequences of foodborne illness during pregnancy are severe. A single exposure doesn't guarantee infection, but why take the risk when safe alternatives exist for nearly everything?
+**Cheese needs a more specific rule than “pasteurized is safe.”** CDC lists any queso fresco-type cheese as riskier whether the milk was pasteurized or raw. It lists pasteurized hard cheese, cottage cheese, cream cheese, string cheese, feta and mozzarella as safer choices, and advises heating pasteurized soft cheeses or deli-sliced cheese to 165°F or steaming hot. [CDC cheese section](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+
+**Alcohol:** CDC states there is no known safe amount, time or type of alcohol during pregnancy. Avoid alcohol; do not assume a drink described casually as “non-alcoholic” has been checked by this directory. [CDC alcohol guidance](https://www.cdc.gov/alcohol-pregnancy/about/index.html)
+
+**UK differences:** NHS allows pasteurized or unpasteurized hard cheese, but requires mould-ripened soft or soft blue cheese to be thoroughly cooked. It permits certain cold pre-cooked meats with chilling and use-by precautions, while cold cured meats should be cooked until steaming hot. These UK instructions should not be combined with U.S. rules into a universal statement. [NHS regional guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
 ## Foods That Are Safe
 
->
- **Note:** According to published medical guidelines, many commonly feared pregnancy foods are actually safe when prepared correctly: pasteurized cheese, cooked sushi, heated deli meats, honey, pineapple, and most artificial sweeteners. Fear-based food avoidance can lead to unnecessary dietary restriction. (Despite Common Myths)
+A more useful question than “Is this food safe?” is “What preparation and product conditions does the source specify?” Many food categories have lower-risk choices, but the details remain important. The examples below follow the U.S. CDC table unless another country is stated. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-Pregnancy nutrition can feel like a minefield of contradictions. Expectations shift; old advice lingers. Here's what the current evidence actually supports:
+**Cheese and dairy:** identify the cheese variety and whether the milk is pasteurized. Pasteurized cottage cheese and cream cheese are among CDC's safer options. That does not mean every pasteurized soft cheese or queso fresco-type product has the same advice. If a cheese was sliced at a deli, CDC gives a heating instruction even though other cheese types can be listed separately.
 
-**Cooked sushi and sushi rolls are generally considered safe by medical authorities.** The myth that "no sushi during pregnancy" persists, but it's outdated. Raw fish carries risk, but the rice, nori, and cooked ingredients are fine.
+**Sushi and seafood:** raw fish, sashimi and ceviche are riskier choices in CDC's table. A roll described as “cooked” still needs its actual ingredients identified: it may also contain raw fish or refrigerated smoked seafood. Use fully cooked seafood and follow handling requirements rather than declaring every named roll safe. [CDC seafood section](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-Sushi with cooked seafood (shrimp tempura, crab, cooked tuna), avocado, cucumber, and cream cheese are excellent choices. Many pregnant people enjoy sushi throughout pregnancy — just skip the raw fish.
+**Meat:** distinguish poultry, ground meat and whole cuts. The U.S. temperatures differ, and whole cuts have a rest-time requirement. Heating a deli product is a separate instruction from checking the original meat's cooking temperature. The word “pre-cooked” does not cancel CDC's reheating advice for deli meats and hot dogs.
 
-**Pasteurized soft cheese is safe.** The restriction applies only to unpasteurized versions. Mozzarella, cream cheese, and soft cheeses made with pasteurized milk pose no risk. Read the label. If it says "made with pasteurized milk," it's safe.
+**Produce and salads:** washing produce and cooking sprouts are different steps. Raw sprouts should not be treated as equivalent to washed lettuce. CDC also distinguishes premade deli salads from homemade alternatives. It advises refrigerating cut melon, with specific time and storage conditions in its table. Read those conditions when dealing with a cut-melon serving rather than applying a broad “fruit is safe” label. [CDC produce and salad sections](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
-**Caffeine up to 200mg per day is safe according to ACOG.** One 12-ounce cup of coffee contains about 95-200mg of caffeine, depending on strength. Tea has 25-50mg per cup. Chocolate has minimal amounts. Some newer research suggests even this amount might have subtle effects on pregnancy, but the current consensus guideline from ACOG remains 200mg/day as a safe threshold.
+**Eggs:** in the United States, CDC recommends firm whites and yolks or pasteurized eggs in uncooked recipes. UK NHS has an exception for hen eggs produced under the British Lion or Laid in Britain schemes within their use-by date; other eggs should be thoroughly cooked. The UK assurance-scheme exception is not a general permission to eat any raw egg anywhere. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html); [NHS egg guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
-**Honey is safe for pregnant people.** The restriction on honey applies to infants under one year old, not to pregnant women. Your digestive system handles botulism spores that babies' immature systems cannot. Eat honey freely during pregnancy.
+**Nuts and personal allergies:** NHS does not advise avoiding peanuts during pregnancy unless you are allergic or a health professional has told you to avoid them. This does not establish that prenatal peanut consumption prevents a child's allergy. [NHS nuts guidance](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
-**Peanuts are safe unless you have a peanut allergy.** The old advice to avoid peanuts during pregnancy to prevent childhood allergies has been thoroughly debunked. Current research suggests early exposure (including during pregnancy and breastfeeding) may actually *reduce* allergy risk. Unless you're allergic, peanuts and peanut butter are nutritious pregnancy foods.
-
-**Most culinary herbs are safe in normal amounts.** Basil, oregano, thyme, rosemary — the herbs you cook with are fine. High-dose herbal supplements (like herbal teas marketed for pregnancy) require more caution and discussion with your provider, but seasoning your food is not a concern.
-
-These myths persist because pregnancy advice has changed as research has evolved. What previous generations were told to avoid is now understood to be safe. Trust current medical guidance, not outdated folklore.
+This page provides no blanket assurance for every herb, supplement, sweetener or unfamiliar ingredient. Use an exact relevant source for the specific product and question; uncertainty should not be replaced with a generic reassurance.
 
 ## The Mercury Question
 
->
- **Tip:** According to FDA guidelines, the best pregnancy fish choices (lowest mercury) include: salmon, shrimp, catfish, tilapia, and cod. Fish to avoid (highest mercury) include: shark, swordfish, king mackerel, and bigeye tuna. Aim for 2-3 servings of low-mercury fish per week per FDA recommendations. — Which Fish Are Safe?
+The **FDA/EPA U.S. fish chart** distinguishes Best Choices, Good Choices and Choices to Avoid. For pregnancy and breastfeeding, one serving is **four ounces**, measured before cooking. The recommendation is **two to three Best Choices servings per week OR one Good Choice serving**—not those quantities added together. [FDA serving and category instructions](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
-Fish is an excellent pregnancy food — it's a lean protein rich in omega-3 fatty acids (DHA), which support fetal brain development. The FDA and EPA actively encourage pregnant people to eat fish. The confusion comes from *which* fish, and *how much*.
-
-Fish naturally accumulate mercury as it works its way up the food chain. Larger predatory fish have higher mercury levels. The risk isn't from one fish dinner; it's from ongoing mercury accumulation over weeks and months.
-
-Use this chart to navigate fish choices safely:
-
-| **Fish Type** | **Mercury Level** | **Safe Servings Per Week** |
+| FDA category | Examples from its published list | U.S. pregnancy/breastfeeding weekly guidance |
 |---|---|---|
-| **Best Choices:** Salmon, shrimp, tilapia, cod, sardines, anchovies, pollock | Low | 2-3 servings (one serving = 3-4 oz) |
-| **Good Choices:** Light canned tuna, halibut, snapper, catfish, haddock | Moderate | 1 serving (one serving = 3-4 oz) |
-| **Avoid:** Shark, swordfish, king mackerel, tilefish, bigeye tuna | High | None |
+| Best Choices | Salmon, shrimp, cod, sardines, pollock, catfish, haddock, canned light tuna | Two to three four-ounce servings, choosing variety |
+| Good Choices | Albacore/white tuna, yellowfin tuna, halibut, snapper, tilefish from the Atlantic Ocean | One four-ounce serving |
+| Choices to Avoid | Bigeye tuna, shark, swordfish, king mackerel, marlin, orange roughy, tilefish from the Gulf of Mexico | Avoid these choices |
 
-The FDA and EPA joint guidance recommends eating 2-3 servings of low-mercury fish per week during pregnancy. This level provides DHA benefits for fetal brain and vision development without accumulated mercury risk. Think of it this way: mercury risk comes from a pattern of behavior, not from individual meals.
+The names matter. Canned light tuna is a Best Choice; albacore and yellowfin are Good Choices; bigeye is a Choice to Avoid. “Tuna” alone does not identify the category. Likewise, Atlantic tilefish and Gulf of Mexico tilefish have different entries. [FDA text lists](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
-One swordfish dinner won't harm your baby. But regularly eating high-mercury fish throughout pregnancy could.
+A hypothetical week with two four-ounce Best Choices servings totals eight ounces. Three totals twelve ounces. That is serving arithmetic explaining the U.S. guidance, not permission to add a Good Choice serving to the same allowance or a personalized meal prescription.
 
-Canned light tuna is generally safe at one serving per week (it's younger, smaller fish than albacore/"white" tuna). Sushi-grade salmon is excellent and widely available. Most affordable fish options — tilapia, cod, frozen shrimp — are low-mercury choices perfect for regular pregnancy meals.
+Mercury selection and microbial food safety are separate questions. A fish listed as a Best Choice can still be raw or handled incorrectly. Use the FDA category **and** the applicable cooking guidance; low mercury does not make raw salmon an automatically acceptable pregnancy food. [FDA](https://www.fda.gov/food/consumers/advice-about-eating-fish); [CDC seafood preparation](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+
+For fish caught by family or friends, FDA says to check local advisories. If there is no advisory, eat only one serving and no other fish that week. Do not substitute the general commercial-fish list for a local-water advisory. [FDA local-catch advice](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+
+The chart is guidance for selecting fish, not a way to assess an exposure after the fact. This page does not guarantee that one high-mercury meal is harmless, estimate a fetus's exposure or diagnose mercury toxicity. If you are concerned about a particular meal, identify the species, portion and timing when seeking advice.
 
 ## Caffeine During Pregnancy
 
-The ACOG guideline is clear: up to 200mg of caffeine per day is considered safe during pregnancy. This isn't a hard limit where 201mg suddenly becomes dangerous; it's a threshold backed by evidence showing no increased miscarriage risk at this level.
+MedlinePlus recommends that most people limit caffeine to **less than 200 mg/day during pregnancy**, while checking with their provider whether they should have caffeine at all. This is guidance for total caffeine, not a certified safety threshold or a guarantee about an individual's pregnancy outcome. [MedlinePlus pregnancy nutrition](https://medlineplus.gov/pregnancyandnutrition.html)
 
-To visualize 200mg:
-- One 12-ounce cup of brewed coffee = 95-200mg (varies by brewing method and bean)
-- One espresso shot = 63mg
-- One 8-ounce cup of black tea = 25-50mg
-- One 8-ounce cup of green tea = 12-25mg
-- One 12-ounce can of cola = 30-40mg
-- One ounce of dark chocolate = 5-10mg
+Count caffeine from the actual products consumed, rather than treating every “cup” as the same serving. Coffee, tea, cola, energy products, chocolate and some supplements can contribute. Product size and preparation matter; a large café drink should not be assumed equivalent to a small cup from another source.
 
-If you're a coffee drinker, one cup of moderate strength leaves room for a cup of tea or cola without exceeding 200mg. If you typically drink two large coffees per day, you're over the limit — consider switching one to decaf.
+The following is **hypothetical arithmetic**, using invented label amounts to show how a daily sum is calculated:
 
-Newer research suggests even moderate caffeine exposure might slightly increase miscarriage risk in some studies, though the evidence remains mixed and debated. Some pregnant people choose to reduce caffeine further as a precaution. The ACOG guideline accounts for this uncertainty by setting 200mg as the safe threshold rather than a higher amount.
+| Hypothetical item | Stated caffeine for the portion |
+|---|---|
+| One drink | 90 mg |
+| A second drink | 60 mg |
+| Another food or drink | 20 mg |
+| Derived daily sum | 170 mg |
 
-The key insight: you don't have to eliminate caffeine, but moderation makes sense. If coffee is your lifeline, one cup per day is safe. If you're sensitive to caffeine or prefer to minimize exposure, switching to decaf is also fine — the caffeine restriction during pregnancy is not absolute.
+These are not verified caffeine values for named foods or brands. Replace them with the amounts stated for your actual servings. A total below a reference limit still does not override advice to avoid caffeine in your individual circumstances.
+
+If a label gives milligrams per 100 mL, account for the volume. A fictional drink listed at 20 mg per 100 mL gives 50 mg in 250 mL: 20 × 2.5. If the label is per serving, check whether your portion equals one serving or more.
+
+This directory does not infer a drink's caffeine content from its name, assign a safe number of coffees or certify supplements for pregnancy. Use the relevant label and maternity advice instead of a universal “one cup is safe” statement.
 
 ## When to Contact Your Provider
 
-Pregnancy paranoia is real. You might eat something from the "avoid" list and immediately panic. First: take a breath. The risk per exposure is genuinely low. One sushi dinner with raw fish won't automatically harm your baby. One accidentally-eaten deli meat sandwich, if it was cold (higher risk) or hot (lower risk), doesn't constitute an emergency.
+If you are worried about a food exposure, contact your maternity or healthcare team for advice specific to the food, preparation, recall status, timing and symptoms. The directory cannot determine whether infection occurred and should not reassure you that a single serving cannot cause harm.
 
-**That said, contact your provider if:**
+CDC says that fever and flu-like symptoms such as muscle aches and fatigue can occur with Listeria during pregnancy, while symptoms may be mild or absent. CDC advises contacting a healthcare provider if you ate food recalled or linked to an outbreak and have fever with other Listeria symptoms, such as fatigue or muscle aches. Mention what you ate; the separate urgent maternal warning signs below apply regardless of a food exposure. [CDC Listeria symptoms and when to call](https://www.cdc.gov/listeria/signs-symptoms/index.html)
 
-- You ate something from the avoid list and want guidance or reassurance
-- You develop symptoms of foodborne illness: fever, vomiting, diarrhea, muscle aches, or abdominal pain, especially if these persist beyond a day or two
-- You notice unusual vaginal bleeding, fluid leakage, or contractions after a potentially risky food exposure
-- You have questions about a specific food or your individual situation
+CDC also explains that most experts do not recommend tests or treatment merely because someone may have eaten contaminated food and feels well. That general statement is not an instruction to ignore concerns or an individual assessment; ask your provider if you have questions about a known exposure. [CDC](https://www.cdc.gov/listeria/signs-symptoms/index.html)
 
-**Seek immediate medical attention if:**
+**Urgent maternal warning signs require immediate medical care.** CDC's warning list includes a temperature of **100.4°F/38°C or higher**, severe abdominal pain that does not go away, trouble breathing, chest pain, vomiting that prevents keeping fluids down, vaginal bleeding more than spotting or leaking fluid, and a baby's movement stopping or slowing. Do not wait for a fever of 101.5°F or a particular food-poisoning duration before seeking care for an urgent sign. [CDC HEAR HER warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
 
-- You develop high fever (above 101.5°F/38.6°C) with any GI symptoms
-- You experience severe abdominal pain or cramping
-- You have significant vaginal bleeding
-- You suspect you've been exposed to listeria and are showing symptoms (fever, muscle aches, fatigue)
+These warning signs apply in pregnancy and can also matter after delivery; they are not restricted to food exposure. A calculator or food guide cannot rule out other causes. If you cannot reach your usual team, use appropriate urgent or emergency care locally.
 
-Most pregnant people who accidentally eat risky foods experience no complications. Your provider won't judge; they've heard these concerns many times. The goal of food safety during pregnancy isn't perfect restriction — it's sensible risk reduction.
+When reporting an exposure, retain the packaging or relevant food information if available, including the product name, recall notice and date eaten. Explain whether symptoms are present. Do not change or delay a care plan based on a search result from this directory.
 
 ## Frequently Asked Questions
 
->
- **Bottom Line:** Safety classifications in this tool reflect FDA, ACOG, and CDC guidelines — not independent medical determinations. When in doubt about any food, cook thoroughly, choose pasteurized products, and discuss specific concerns with your healthcare provider.
-
 **Can I eat sushi while pregnant?**
 
-Yes, with one caveat: avoid sushi with raw fish. Raw fish carries risk of parasites and Listeria. Cooked sushi rolls — California rolls with cooked crab, shrimp tempura rolls, cooked tuna rolls, and vegetable rolls — are all safe.
-
-Many pregnant people enjoy sushi throughout pregnancy by simply sticking to cooked varieties. The nori, rice, avocado, and cooked proteins are all pregnancy-friendly.
+CDC lists raw or undercooked fish, including sushi and sashimi, as riskier choices. Choose fully cooked seafood and check all ingredients; a “cooked roll” name does not certify its handling or exclude raw additions. [CDC seafood guidance](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
 **Is deli meat safe during pregnancy?**
 
-Deli meat, hot dogs, and pâté carry Listeria risk even when they're labeled "pre-cooked." Listeria can contaminate these foods during processing or after the package is opened. If you want to eat deli meat, heat it until steaming hot (165°F/74°C) before eating.
-
-Freshly cooked meat from a restaurant kitchen (like sliced turkey from the deli counter hot case, if it's steaming) is safe. The risk specifically applies to cold deli meats.
+U.S. CDC advises heating deli meats, hot dogs and fermented or dry sausages to 165°F or until steaming hot. Refrigerated pâté has separate avoidance guidance, with shelf-stable sealed spreads listed as an alternative. Keep these specific instructions rather than treating all meat products alike. [CDC meat table](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
 **How much coffee can I drink while pregnant?**
 
-ACOG guidelines recommend staying under 200mg of caffeine daily. One 12-ounce cup of brewed coffee typically contains this amount, so one cup per day is within safe limits. If you drink a larger or stronger cup, that's likely your entire 200mg budget for the day.
-
-Decaf, tea, and other lower-caffeine beverages can fill the gaps. Every pregnancy is different; discuss caffeine specifically with your provider if you have concerns.
+MedlinePlus recommends less than 200 mg/day of caffeine for most people and checking individual advice with your provider. A fixed coffee count cannot be inferred without the actual serving's caffeine content and other daily sources. [MedlinePlus](https://medlineplus.gov/pregnancyandnutrition.html)
 
 **Can I eat soft cheese during pregnancy?**
 
-Soft cheese is safe if it's made with pasteurized milk — check the label. Brie, feta, queso fresco, and other soft cheeses made from pasteurized milk are fine.
-
-The risk applies only to cheeses made from unpasteurized milk, which is rare in the United States but common in some imported cheeses. When in doubt, read the label or ask the vendor.
-
-Hard cheeses, cream cheese, and cottage cheese (even from unpasteurized milk) are safe because their lower moisture content prevents Listeria growth.
+Identify the type and preparation. U.S. CDC lists queso fresco-type cheese as riskier even when pasteurized; it lists specified pasteurized cheeses as safer options and gives heating advice for pasteurized soft or deli-sliced cheeses. A pasteurized label alone is not a universal guarantee. [CDC cheese table](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
 **Is it safe to eat eggs during pregnancy?**
 
-Yes, as long as they're fully cooked. Avoid runny yolks, soft-boiled eggs, and undercooked preparations because raw or undercooked eggs carry Salmonella risk. Fully cooked eggs — fried until the yolk is solid, scrambled throughout, hard-boiled — are excellent pregnancy protein. Pasteurized eggs are also safe if you're concerned, though the risk from cooked eggs is minimal.
+U.S. CDC recommends firm whites and yolks or pasteurized eggs in uncooked recipes, with separate temperatures for egg dishes. Do not extend a regional egg-assurance exception to every egg or every country. [CDC eggs section](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
 
 **What fish is safe to eat during pregnancy?**
 
-Low-mercury fish are safe at 2-3 servings per week: salmon, shrimp, tilapia, cod, sardines, and anchovies. These are excellent sources of DHA, the omega-3 fat crucial for fetal brain development. Moderate-mercury fish (light canned tuna, halibut, snapper) are safe at one serving per week.
-
-High-mercury fish (shark, swordfish, king mackerel, tilefish) are best avoided entirely during pregnancy. Most readily available and affordable fish options are low-mercury choices.
+Follow both preparation guidance and the FDA/EPA categories: two to three four-ounce Best Choices servings per week OR one Good Choice serving. Canned light tuna is Best; albacore and yellowfin are Good; bigeye is Avoid. [FDA chart](https://www.fda.gov/food/consumers/advice-about-eating-fish)
 
 ## Sources & References
 
-1. American College of Obstetricians and Gynecologists (ACOG). **Nutrition During Pregnancy FAQ**. 2024. https://www.acog.org
-2. U.S. Food and Drug Administration. **Advice About Eating Fish**. 2024. https://www.fda.gov/food/metals-and-other-contaminants-food/advice-about-eating-fish
-3. National Health Service (NHS). **Foods to avoid in pregnancy**. 2024. https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/
-4. Centers for Disease Control and Prevention (CDC). **Listeria and Pregnancy**. 2024. https://www.cdc.gov/listeria/prevention/
-5. ACOG Committee Opinion No. 462. **Moderate Caffeine Consumption During Pregnancy**. 2010 (reaffirmed 2020).
-6. FDA/EPA. **Joint Fish Advisory: Mercury Levels in Commercial Fish and Shellfish**. 2024.
+1. [CDC: Safer Food Choices for Pregnant Women](https://www.cdc.gov/food-safety/foods/pregnant-women.html) — preparation, temperatures, cheese exceptions, produce, eggs and seafood.
+2. [FDA/EPA: Advice about Eating Fish](https://www.fda.gov/food/consumers/advice-about-eating-fish) — exact fish categories, adult serving size, weekly alternatives and local advisories.
+3. [NHS: Foods to Avoid in Pregnancy](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) — explicitly labeled UK cheese, meat, egg and peanut guidance; read separately from U.S. advice.
+4. [MedlinePlus: Pregnancy and Nutrition](https://medlineplus.gov/pregnancyandnutrition.html) — caffeine guidance and personal-provider qualification. Fish recommendations on this page follow the more specific FDA chart, not other summaries.
+5. [CDC: Symptoms of Listeria Infection](https://www.cdc.gov/listeria/signs-symptoms/index.html) — symptoms, exposure and contacting a provider.
+6. [CDC: Urgent Maternal Warning Signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) — urgent care signs and 100.4°F/38°C fever threshold.
+7. [CDC: Alcohol Use During Pregnancy](https://www.cdc.gov/alcohol-pregnancy/about/index.html) — no known safe amount, time or type.
+
+These links support the specific statements beside them. They do not independently verify an unknown product, restaurant serving or individual exposure.
 
 ---
 
@@ -217,9 +187,11 @@ If you experience symptoms of foodborne illness or have concerns about food expo
 
 ## Related ProHealthIt Tools
 
-Track other aspects of your pregnancy with these helpful calculators:
+Use each tool for its stated purpose and limitations:
 
-- [**Pregnancy Weight Gain Calculator**](/pregnancy/weight-gain-calculator) — Monitor healthy weight gain by trimester
-- [**Due Date Calculator**](/pregnancy/due-date-calculator) — Confirm your baby's expected arrival date
-- [**Fetal Weight Percentile**](/pregnancy/fetal-weight-percentile) — Track fetal growth at each ultrasound
-- [**Ovulation Calculator**](/pregnancy/ovulation-calculator) — Plan conception or understand your cycle
+- [**Pregnancy Weight Gain Calculator**](/pregnancy/weight-gain-calculator) — weight-gain reference ranges and their population scope.
+- [**Due Date Calculator**](/pregnancy/due-date-calculator) — estimated pregnancy dates from entered information.
+- [**Fetal Weight Percentile**](/pregnancy/fetal-weight-percentile) — explanation of fetal-growth assessment and why a percentile is not supplied by this page.
+- [**Ovulation Calculator**](/pregnancy/ovulation-calculator) — a calendar estimate with its assumptions stated.
+
+These tools do not test a food, diagnose infection or replace advice about an exposure. Their results should not be used to certify a meal as safe.

@@ -17,13 +17,13 @@ export default function Page() {
   const lastUpdated = getLastUpdated("guide-keto-macros.md");
   const lastUpdatedISO = getLastUpdatedISO("guide-keto-macros.md");
   return (
-    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="Keto Macro Calculator: Understanding the Arithmetic" subtitle="Calculator arithmetic does not establish a personal diet target or clinical suitability." readTime="2 min read" category="fitness" categoryLabel="Fitness" url="/guides/keto-macros-how-to-calculate"
+    <BlogPageShell lastUpdated={lastUpdated} lastUpdatedISO={lastUpdatedISO} title="Keto Macro Calculator: Understanding the Arithmetic" subtitle="Calculator arithmetic does not establish a personal diet target or clinical suitability." readTime="8 min read" category="fitness" categoryLabel="Fitness" url="/guides/keto-macros-how-to-calculate"
       relatedTools={[
-        {title:"Macro Calculator",desc:"Calculate macros for any diet.",href:"/fitness/macro-calculator",category:"fitness"},
+        {title:"Macro Calculator",desc:"Convert assumed calorie shares into grams.",href:"/fitness/macro-calculator",category:"fitness"},
         {title:"TDEE Calculator",desc:"Model-based estimate; not a personal dietary target.",href:"/fitness/tdee-calculator",category:"fitness"},
         {title:"Lean Body Mass Calculator",desc:"Boer equation estimate and study limits.",href:"/fitness/lean-body-mass-calculator",category:"fitness"},
       ]}>
-      <QuickAnswer answer="This calculator can convert user-entered percentages and calorie estimates to grams. Its output is arithmetic; it does not measure ketosis or recommend a ketogenic diet or personal macro target." />
+      <QuickAnswer source={{href:"https://diabetesteachingcenter.ucsf.edu/living-diabetes/diet-nutrition",label:"UCSF: calorie factors and individual targets"}} answer="This calculator can convert user-entered percentages and calorie estimates to grams. Its output is arithmetic; it does not measure ketosis or recommend a ketogenic diet or personal macro target." />
       <SplitArticle content={content} />
     </BlogPageShell>
   );

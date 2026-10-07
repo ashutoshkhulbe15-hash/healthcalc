@@ -1,67 +1,73 @@
-<!-- last-updated: June 2026 -->
-# Sleep Quality Calculator: Pittsburgh Sleep Quality Index (PSQI)
+<!-- last-updated: October 5, 2026 -->
+# Sleep Duration and Efficiency Calculator: Diary Estimate
 
-The Pittsburgh Sleep Quality Index (PSQI) is a validated clinical instrument that measures sleep quality over the past month. Unlike a simple "how many hours did you sleep" question, the PSQI assesses seven components: subjective quality, latency, duration, efficiency, disturbances, medication use, and daytime dysfunction.
+This page estimates time in bed, time asleep and sleep efficiency from four diary entries. It is **not the Pittsburgh Sleep Quality Index (PSQI)** and does not return a clinical sleep-quality score. One recorded sleep period cannot establish whether you have a sleep disorder.
 
-Developed by Buysse et al. at the University of Pittsburgh (1989), it has been used in over 10,000 published studies and remains the gold standard for sleep quality assessment.
+The PSQI is a separate University of Pittsburgh questionnaire covering the past month. Its full scoring method uses seven components; a four-field diary calculation cannot inherit its validation. [University of Pittsburgh: PSQI](https://www.sleep.pitt.edu/psqi)
 
 ## What the PSQI Measures
 
-> **Key Takeaway:** The PSQI scores 7 sleep components on a 0–3 scale each. Total score ranges 0–21. A score above 5 indicates "poor sleep quality" with 89.6% sensitivity and 86.5% specificity (Buysse et al., 1989). This isn't about hours — it's about whether your sleep is actually restorative.
+The genuine PSQI covers subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleep medication and daytime dysfunction. Its components each contribute 0–3 points to a total of 0–21. This site's tool does not administer or score those components. [Official PSQI description](https://www.sleep.pitt.edu/psqi)
 
-| **Component** | **What it measures** | **Score range** |
+| Topic | Included in this diary tool? | What is recorded here |
 |---|---|---|
-| Subjective quality | How you rate your sleep overall | 0–3 |
-| Sleep latency | How long it takes to fall asleep | 0–3 |
-| Sleep duration | Total hours of actual sleep | 0–3 |
-| Sleep efficiency | % of time in bed actually sleeping | 0–3 |
-| Sleep disturbances | Nighttime disruptions (pain, breathing, temperature) | 0–3 |
-| Sleep medication | Use of prescribed or OTC sleep aids | 0–3 |
-| Daytime dysfunction | How sleepiness affects daily functioning | 0–3 |
+| Bed and wake times | Yes | Clock times for one period |
+| Time to fall asleep | Yes | Your estimate in minutes |
+| Awake time after sleep begins | Yes | Your estimate in minutes |
+| Subjective quality | No | No quality rating is calculated |
+| Medication use | No | No treatment recommendation is calculated |
+| Daytime dysfunction | No | Discuss symptoms independently of the number |
+
+Enter the time you went to bed and the time you got up, then estimate how many minutes you took to fall asleep and how many you were awake afterward. Use total awake minutes, not the number of awakenings. Missing details cannot be reconstructed by the arithmetic.
 
 ## Understanding Your PSQI Score
 
-| **Score** | **Quality** | **Interpretation** |
-|---|---|---|
-| 0–5 | Good sleep quality | Sleep is restorative; current habits working |
-| 6–10 | Poor sleep quality | Meaningful impairment; improvement strategies recommended |
-| 11–15 | Significantly poor | Substantial sleep dysfunction; professional evaluation warranted |
-| 16–21 | Severely impaired | Severe disruption; medical evaluation recommended |
+No PSQI score appears in this calculator's results. The diary does not assign severity bands to its four entries. Recording time asleep or time in bed is different from scoring the official questionnaire, and these entries should not be translated into a PSQI severity category.
 
-> **Note:** The PSQI cutoff of 5 was established through validation against polysomnography (overnight sleep lab studies). It correctly identifies 89.6% of people with clinically poor sleep. However, some individuals with scores of 4–5 may still benefit from sleep improvement strategies.
+The result cards describe **time in bed**, **estimated sleep duration** and **estimated efficiency**. They do not label sleep as excellent, restorative or impaired. A higher efficiency can follow from shorter time in bed without showing that you slept enough or felt well.
+
+The original PSQI's published performance statistics apply to its studied instrument and population. They do not describe the accuracy of this site's diary, so sensitivity and specificity from that study cannot describe this diary or establish that its output identifies a sleep disorder. Use the official instrument's documentation if discussing an actual PSQI report. [PSQI owner and scoring information](https://www.sleep.pitt.edu/psqi)
 
 ## Sleep Efficiency: The Overlooked Metric
 
-Sleep efficiency = (hours asleep / hours in bed) × 100. If you're in bed for 8 hours but sleeping 6, your efficiency is 75% — below the 85% threshold considered normal.
+For this tool, time in bed is the elapsed interval between the two clock times, allowing a crossing of midnight. The supported period must be shorter than 24 hours. Identical bed and wake times are rejected rather than interpreted as a full day.
 
-Low sleep efficiency is often the hidden problem. People report "I sleep 8 hours" when they actually lie awake for 2 of those hours. The PSQI captures this distinction.
+Estimated sleep = time in bed − minutes to fall asleep − minutes awake after falling asleep.
 
-> **Tip:** If your efficiency is below 85%, paradoxically, spending less time in bed can improve it. This is the basis of CBT-I (cognitive behavioral therapy for insomnia) — restrict bed time to match actual sleep time, rebuilding the association between bed and sleep. CBT-I is the first-line treatment for chronic insomnia per AASM guidelines.
+Estimated efficiency = estimated sleep ÷ time in bed × 100.
+
+**Worked arithmetic example:** Bedtime 23:00 and wake time 07:00 give eight hours in bed. Fifteen minutes to fall asleep and 45 minutes awake afterward leave seven estimated hours asleep. Seven divided by eight is 87.5%. The calculation describes the entered record, not a clinical finding that the night was “normal.”
+
+Awake minutes cannot be negative or exceed the time in bed. Check the entries if they do: the tool cannot determine which value is wrong. Daytime sleep and naps should be recorded as separate periods, not silently added to an overnight entry.
 
 ## When Poor Sleep Needs Professional Help
 
-If your PSQI score is above 10, or if you experience any of the following, medical evaluation is appropriate: loud snoring with gasping or pauses (suggests sleep apnea), inability to fall asleep despite fatigue (insomnia), daytime sleepiness affecting driving or work safety, restless legs or periodic limb movements, sleepwalking or acting out dreams.
+If inadequate sleep is affecting daily activities, talk to your doctor. NHLBI describes clinical assessment using sleep history, symptoms and sometimes tests. Keeping a diary for one to two weeks before the appointment may help; it can include naps, daytime sleepiness, caffeine, alcohol and exercise as well as bed and wake times. [NHLBI insomnia diagnosis](https://www.nhlbi.nih.gov/health/insomnia/diagnosis)
 
-For related assessments, see our [stress level test](/mental-health/stress-level-test) (stress is the #1 cause of poor sleep) and [anxiety self-assessment](/mental-health/anxiety-self-assessment) (anxiety and insomnia frequently co-occur).
+Do not wait for a website score above 10 to seek help. Snoring with gasping, persistent difficulty sleeping or sleepiness that affects safety deserves discussion regardless of estimated efficiency. The diary cannot diagnose insomnia or sleep apnea and cannot rule them out. NHLBI lists loud snoring, gasping and daytime sleepiness among sleep-apnea symptoms and advises discussing symptoms with a healthcare provider. [NHLBI sleep-apnea symptoms](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms)
 
-> **Bottom Line:** The PSQI measures sleep quality across 7 dimensions — not just hours. Score above 5 = poor sleep quality. The assessment takes 5 minutes and gives you a clinically validated baseline. Track your score every 1–3 months to measure whether sleep interventions are working.
+NHLBI describes cognitive behavioral therapy for insomnia (CBT-I) as usually the first treatment for long-term insomnia. Treatment may include sleep restriction under an appropriate plan; this calculator does not tell you to shorten your time in bed whenever efficiency is below 85%. [NHLBI treatment](https://www.nhlbi.nih.gov/health/insomnia/treatment)
+
+You may also read the [stress guide](/mental-health/stress-level-test) or [anxiety information](/mental-health/anxiety-self-assessment). These are separate topics; this page does not rank stress as the universal leading cause of poor sleep.
 
 ## Frequently Asked Questions
 
 **What is a good PSQI score?**
 
-A score of 0–5 indicates good sleep quality. Below 3 is excellent. Above 5 indicates poor sleep quality that may benefit from intervention.
+This diary estimator does not produce a PSQI score. The University of Pittsburgh says higher PSQI scores indicate poorer sleep quality and a score above 5 suggests significant sleep difficulties. That statement refers to the actual monthly questionnaire, not the three result cards here. [PSQI information](https://www.sleep.pitt.edu/psqi)
 
 **How accurate is the PSQI?**
 
-The PSQI has 89.6% sensitivity and 86.5% specificity for identifying poor sleepers, validated against polysomnography. It's the most widely used and validated sleep quality instrument in clinical research.
+The PSQI has its own research and official documentation. This site's diary has not been independently validated as that instrument. Its arithmetic can be checked against the entered times, but the estimates depend on your recall and cannot measure sleep stages or establish a disorder.
 
 **How often should I retake the PSQI?**
 
-Every 1–3 months for trend tracking, or before/after sleep interventions to measure effectiveness.
+The genuine PSQI assesses the previous month; changing its timeframe does not preserve its validation. Follow the instrument's instructions and any clinical advice. For this separate diary, NHLBI suggests a one-to-two-week record may help before an appointment; there is no prescribed “retest score” interval here. [PSQI timeframe](https://www.sleep.pitt.edu/psqi); [NHLBI diary guidance](https://www.nhlbi.nih.gov/health/insomnia/diagnosis)
 
 ## Sources
 
-1. Buysse DJ, et al. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. *Psychiatry Research.* 1989;28(2):193–213.
-2. AASM. Clinical Practice Guideline for the Treatment of Chronic Insomnia in Adults. 2021.
-3. Mollayeva T, et al. The PSQI as a screening tool for insomnia: a systematic review. *Sleep Med Rev.* 2016;25:52–73.
+1. [University of Pittsburgh: PSQI](https://www.sleep.pitt.edu/psqi), instrument description, scoring and monthly timeframe. The instrument is not reproduced or administered by this calculator.
+2. [NHLBI: Insomnia diagnosis](https://www.nhlbi.nih.gov/health/insomnia/diagnosis), clinical evaluation and diary guidance.
+3. [NHLBI: Insomnia treatment](https://www.nhlbi.nih.gov/health/insomnia/treatment), CBT-I and treatment context.
+
+Sources checked October 5, 2026. Keep symptoms and clinical advice separate from the arithmetic of a single recorded night.

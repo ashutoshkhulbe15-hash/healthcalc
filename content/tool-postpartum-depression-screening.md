@@ -1,173 +1,177 @@
-<!-- last-updated: July 2026 -->
-# Postpartum Depression Screening (EPDS): Validated Self-Assessment
+<!-- last-updated: October 5, 2026 -->
+# Postpartum Depression Screening (EPDS): Scoring, Follow-Up and Care
 
-The Edinburgh Postnatal Depression Scale (EPDS) is a validated 10-question screening tool developed by Cox, Holden, and Sagovsky in 1987 and used worldwide. It screens for postpartum depression and related mood disorders during the first year after delivery.
+This guide explains the official Edinburgh Postnatal Depression Scale, the difference between screening and diagnosis, and how to seek support. It corrects the previous scoring directions and avoids treating a disclaimer or a source list as proof that every claim is supported.
 
-This is a screening instrument, not a diagnostic tool. A high score indicates that further evaluation by a healthcare provider is recommended, and the EPDS exists in the public domain and is freely available.
-
-Most people arrive here with a specific question: what does my EPDS score actually mean? This guide walks through how the test is scored, what each score band indicates, and what to do next.
+The site's EPDS form remains unavailable. The article does not provide an automated score or reproduce the questionnaire. Use the official source or your care team's form, and keep the whole result with any concerns you want to discuss. [Official screening information](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool)
 
 ## 🧮 How to Score the EPDS
 
-The EPDS has 10 questions, and each answer is worth 0 to 3 points. Your total score is the sum of all ten, so the possible range runs from 0 to 30.
+The official EPDS has ten items referring to the preceding seven days, each worth 0–3 points, giving a possible total of **0–30**. In the printed option order, items **1, 2 and 4** run 0, 1, 2, 3; items **3 and 5–10** run 3, 2, 1, 0. The former article reversed this instruction. [COPE scoring table](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool)
 
-For most questions, the first option scores 0 and the last scores 3. The response you select maps directly to its point value based on how often you felt that way in the past 7 days.
+Use the key for the exact official form rather than deciding the point value from whether a question sounds positive or negative. Item 4 is about anxiety; treating all anxiety items as having the same printed direction would produce another error. A locally rearranged list of options also cannot be scored merely by its display position.
 
-Some items are reverse-scored, which is where people most often make mistakes by hand. On these, the first option is worth 3 points and the last is worth 0.
+This page explains the scoring method but **does not currently administer or automatically score the EPDS**. The existing online form remains unavailable while its reproduction and administration conditions are confirmed. No diagnosis or newly enabled questionnaire follows from this article review. Read the official source or use the version supplied by your care team.
 
-The reverse-scored items are the ones phrased positively, such as being able to laugh, looking forward to things, and feeling happy. Because a low score on a positive item signals low mood, the points run in the opposite direction.
+**Arithmetic demonstration, not a completed questionnaire:** If ten already correctly keyed item values were 0, 1, 2, 0, 1, 2, 1, 1, 0 and 0, their sum would be **8**. These assumed numbers are not responses to the official questions and do not establish anyone's symptoms. They illustrate addition after, rather than instead of, applying the official item key.
 
-The calculator on this page handles all of this automatically, including the reverse-scored items. You simply answer based on the past week, and it returns your total and interpretation without any manual math.
+A useful scoring check separates three jobs: identifying the exact form and language, matching answers to that form's key, and adding the resulting item values. Clinical interpretation is a further task. Even perfect addition cannot establish that a screening result captures the whole situation.
 
-It helps to understand why the test is built this way. Depression does not only show up as feeling bad; it also shows up as the absence of feeling good, such as no longer looking forward to things you used to enjoy.
-
-By mixing positively and negatively worded items, the EPDS captures both sides. Someone might deny feeling sad outright, yet still score meaningfully because they can no longer laugh or anticipate pleasure the way they once did.
-
-This is also why a rushed or purely instinctive read of your own answers can mislead. The scoring is deliberate, and letting the calculator apply the reverse items removes a common way people accidentally understate their result.
-
-> 🔑 **Key Takeaway:** The EPDS is scored 0 to 3 per question across 10 questions, for a total of 0 to 30. Higher scores suggest a higher likelihood of postpartum depression. Items 1, 2, and 4 are reverse-scored, which is the most common source of hand-scoring errors, so an automatic calculator is more reliable.
+> 🔑 **Key Takeaway:** Check the exact item key and retain the individual answers with the total. Do not use the previous reversed instructions or assume this website currently provides an automatic EPDS assessment.
 
 ## 📊 EPDS Score Sheet: What Each Score Means
 
-Once you have a total, the score sheet below maps it to a recommended action. These bands come from validation research, not arbitrary cutoffs.
+Australia's COPE guidance uses **13 or more** as a follow-up flag, with postnatal referral or ongoing care according to clinical judgement. During pregnancy it describes repeat screening in **2–4 weeks**, followed by referral if the score remains at least 13. That repeat schedule does not apply to an immediate safety concern. **Any score above zero on item 10 requires immediate safety assessment.** Language and cultural context can affect interpretation. [COPE follow-up guidance](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool)
 
-A screening score is a signal, not a diagnosis. It tells you whether a conversation with a provider is warranted, and it cannot confirm or rule out postpartum depression on its own.
+The earlier 9/10/15 “possible” and “probable” bands and 87–100% sensitivity claim are not used as universal rules. This guide does not assign a probability of depression from one total, diagnose someone with a score of 15 or tell someone with a score of 7 that they are free of depression.
 
-Research suggests EPDS scores of 10 or higher demonstrate roughly 87 to 100% sensitivity for identifying major depression in postpartum women. These thresholds were established through multiple validation studies across diverse populations.
+| Information to retain | What it contributes to the discussion |
+|---|---|
+| Exact questionnaire and language | Identifies what was completed |
+| Date and reference week | Distinguishes one screen from another |
+| Correctly keyed item answers | Retains information lost in the sum |
+| Total | Allows the professional to use their applicable protocol |
+| Any safety concern | Needs attention independently of arithmetic |
+| Symptoms and effect on daily activities | Supplies context outside the total |
 
-Because people search for specific numbers, here is how the common ones read. A score of 7 falls in the lower band but sits near the threshold, so it is worth monitoring. A score of 9 or 11 lands in the possible-PPD range and warrants a provider appointment. A score of 15 is in the probable-PPD range and calls for timely professional assessment.
+**Why item answers matter mathematically:** An assumed total of 8 can be produced by one set of ten item values ending in 0 or another ending in 1. Equal totals do not imply equal responses to the final item. The total cannot replace reviewing a self-harm answer.
 
-One point is easy to miss: a single score is a snapshot, and the direction of change matters. A score that has climbed from 6 to 11 over a few weeks tells a different story than a stable 11, even though the number is the same.
+Changing the response period, leaving an item blank or using an unofficial translation creates a different problem from an addition error. A missing answer should not silently become zero. If you are unsure about a form, take the actual copy to your care team rather than using a search result's score band.
 
-That is why some providers screen more than once. Repeating the EPDS at intervals turns a single data point into a trend, which is far more informative for spotting PPD that is developing rather than resolving.
-
-It is also worth knowing that the same total can come from very different answers. Two people with a score of 12 might have reached it through anxiety and poor sleep versus sadness and guilt, which is part of why the follow-up conversation matters more than the number alone.
-
-> ⚠️ **Warning:** Question 10 asks about thoughts of self-harm. Any response above zero on that question warrants immediate contact with a healthcare provider, regardless of your total score. You do not need to reach a specific number to deserve help.
+> ⚠️ **Warning:** Do not wait for a threshold, a repeat questionnaire or an online result when safety is at risk. Immediate danger requires emergency care. The country-specific contacts below are separate from the screening score.
 
 ## 🤱 PPD vs Baby Blues: Understanding the Difference
 
-The confusion between baby blues and PPD keeps many mothers from seeking help, because they assume what they are feeling is normal and will simply pass. The comparison below lays out the practical differences.
+NIMH describes baby blues as mild, short-lived mood changes, worry, unhappiness and exhaustion in the first two weeks after birth. Severe symptoms or those lasting longer than two weeks can signal postpartum depression. The former precise onset and peak-day claims are not retained. [NIMH: baby blues and postpartum depression](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Baby blues appear 2 to 5 days postpartum, peak around day 10, and resolve within 2 weeks. Symptoms include mood swings, tearfulness, irritability, and mild anxiety, all driven by the dramatic hormonal shifts after delivery.
+**Two weeks is not an instruction to wait.** Severity and safety matter now. NIMH advises people experiencing its listed symptoms to see a healthcare provider, who can determine whether perinatal depression or something else explains them. A website cannot identify the cause from how many days have elapsed. [Signs, symptoms and assessment](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Postpartum depression can develop any time in the first year, though most commonly in the first 1 to 3 months. It persists beyond 2 weeks, tends to worsen rather than improve, and causes real difficulty with daily functioning and infant care.
+Perinatal depression can occur during pregnancy or after childbirth. Symptoms can interfere with caring for yourself or others. This guide does not require a particular delivery date, presumed hormonal pattern or a specific EPDS total before a concern deserves attention. [NIMH definition](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-The clearest dividing lines are time and function. Baby blues fade on their own within two weeks and do not stop a mother from caring for herself or her baby, while PPD lingers and increasingly gets in the way.
+For a practical appointment note, describe when the change began, whether it is getting worse, and what has become difficult. For example, “I cannot enjoy activities I used to enjoy” is different information from simply writing “my score is 11.” These suggested descriptions help preserve the concern in your own words; they are not a diagnostic checklist.
 
-There is also a related but distinct condition worth naming. Postpartum anxiety, and more rarely postpartum psychosis, can occur alongside or instead of depression, and postpartum psychosis in particular is a medical emergency requiring immediate care.
+**Postpartum psychosis is distinct and urgent.** NIMH describes possible delusions, hallucinations, mania, paranoia and confusion, and identifies it as a psychiatric emergency requiring immediate help. In the United States, its advice is to call 911 or go to the nearest emergency room. Outside the United States, use local emergency services. [NIMH: postpartum psychosis](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-> 📌 **Note:** PPD is a medical condition, not a personal failing. According to ACOG, about 1 in 7 new mothers experience it. Risk factors identified in research include a history of depression or anxiety, lack of social support, sleep deprivation, and a traumatic birth. It is fully treatable with therapy, medication, or both.
+> 📌 **Note:** Perinatal depression is a medical condition, not a personal failing. NIMH describes treatment and professional help; that does not create a guarantee of recovery on a fixed schedule.
 
 ## 😠 Postpartum Rage and Less-Talked-About Symptoms
 
-Most descriptions of PPD center on sadness, but that is not how it shows up for everyone. A significant number of mothers experience postpartum rage: sudden, intense anger or irritability that feels out of proportion and out of character.
+Irritability, frustration and restlessness appear among NIMH's recognized symptoms of perinatal depression. Sadness is therefore not the only concern to describe. The word “rage” may be how someone describes their experience, but this website does not turn it into a separate diagnosis or estimate how many parents experience it. [NIMH symptom list](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Postpartum rage is not a separate diagnosis. It is recognized as one way postpartum depression and anxiety can present, and the EPDS captures it indirectly through its irritability and coping items.
+The earlier claim that the EPDS contains irritability items was inaccurate. The official form does not provide a dedicated anger question. A score cannot stand in for describing anger, fear, loss of control or another concern that is not directly captured by its questions.
 
-Other under-recognized presentations include intrusive thoughts, intense anxiety or panic, and a sense of numb detachment from the baby rather than obvious sadness. Any of these persisting beyond a couple of weeks deserves a conversation with a provider.
+Other symptoms identified by NIMH include loss of interest, guilt or worthlessness, fatigue, difficulty concentrating, changes in sleep or appetite, trouble bonding and persistent doubts about caring for the baby. A healthcare provider should assess the cause rather than assuming that every symptom is depression. [NIMH signs and symptoms](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Naming these matters, because a mother who is angry or anxious rather than tearful may not realize she is experiencing something the EPDS is designed to catch. The screening does not require you to feel classically sad to register a meaningful score.
+**Describe the experience, not just a label.** You could tell a professional when irritability happens, what you are worried about, and whether you feel able to keep yourself and the baby safe. These are examples of information to communicate, not a severity scale or a test that identifies one condition.
 
-Postpartum rage can also carry heavy guilt, which keeps it hidden. A mother who snaps at her partner or feels flashes of anger toward a crying baby often feels ashamed and stays silent, when in fact these experiences are recognized and treatable.
+Intrusive or frightening thoughts also need careful assessment rather than a website's assumption about what they mean. If you fear you may act on thoughts of harming yourself or the baby, or there is immediate danger, seek emergency help. If a thought is distressing but you are unsure what it means, tell your healthcare professional rather than keeping it out of the discussion because it does not match the article's examples.
 
-If anger is your main symptom, it can help to frame it that way when you seek help. Telling a provider that you feel irritable and on edge, rather than sad, points them toward the same evaluation and support that classic PPD would.
+A supportive person can help you make contact or reach an appointment. NIMH describes emotional support and practical help from family and friends, including help with care of the baby or home. Such help accompanies assessment and treatment; it does not replace them. [NIMH family support](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
 ## 🩺 What Happens After a Positive Screen
 
-A positive screen can feel frightening, but it is best understood as a starting point rather than a verdict. Knowing what usually comes next takes some of the fear out of the number.
+A screen is a starting point for assessment rather than a diagnosis or automatic prescription. NIMH advises making an appointment with a healthcare provider who can examine you and discuss treatment and next steps, including pregnancy and nursing considerations. [NIMH: finding help](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-The first step is almost always a conversation, not a prescription. A provider will ask about how long symptoms have lasted, how much they affect daily life, and whether there are any thoughts of self-harm, building a fuller picture than a single score can.
+**Prepare the actual record.** If you completed an official form elsewhere, bring it, its date and the score. If you have no form or score, describe the symptoms directly. Lack of a questionnaire should not prevent you from asking for help.
 
-From there, the provider may confirm a diagnosis and discuss options, or they may recommend watchful waiting with a repeat screen if the picture is milder. Either way, you remain part of the decision.
+A short written note might cover when the symptoms began, changes in sleep or appetite, loss of interest, difficulties with daily tasks and any safety concern. Include existing medicines and treatments so the professional has the information needed for that conversation. These are practical preparation suggestions, not additional EPDS items or a substitute diagnostic interview.
 
-It is worth bringing your actual EPDS result to that appointment. Telling your provider your score and which questions drove it gives them a concrete starting point and can make a short visit far more productive.
+**Questions to ask about the next step:** What further assessment is needed? Who will arrange it? Whom should I contact if things worsen before the appointment? If treatment is discussed, what are the options and follow-up arrangements? These questions do not predetermine which treatment is appropriate.
 
-Nothing about a positive screen obligates you to a particular treatment. It simply opens the door to support that is known to work, on a timeline you and your provider set together.
+ACOG's screening guidance emphasizes access to assessment, diagnosis, treatment, monitoring and follow-up, rather than screening without a care pathway. A questionnaire by itself is not that pathway. [ACOG patient-screening recommendations](https://www.acog.org/programs/perinatal-mental-health/patient-screening)
+
+The website does not decide that a mild-looking score calls for watchful waiting, that a high total requires a particular drug or that a repeated lower result means treatment can be stopped. Those decisions require assessment. For urgent concerns, the emergency advice below takes priority over waiting for a routine appointment or redoing a screen.
 
 ## 👥 Who Should Take This Screening
 
-The EPDS applies to anyone within the first 12 months postpartum. ACOG recommends universal screening at least once during the perinatal period, using a validated tool like this one.
+ACOG recommends screening for perinatal depression and anxiety at the **initial prenatal visit, later in pregnancy and postpartum visits**, using a standardized validated instrument. This replaces the article's outdated “at least once” description of the U.S. recommendation. Screening should be connected to follow-up care. [ACOG patient-screening summary of Clinical Practice Guideline 4](https://www.acog.org/programs/perinatal-mental-health/patient-screening)
 
-Certain factors raise risk and make screening especially worthwhile. These include a previous history of depression or anxiety, depression or anxiety during pregnancy, and a traumatic delivery experience.
+The EPDS has a role during pregnancy as well as after birth; its name should not be read as an instruction to ignore antenatal concerns. Use the official version and the professional's applicable screening protocol. This site does not establish one universal testing schedule for all countries or all individuals.
 
-Others include a lack of adequate social support, recent major life stressors such as financial or relationship difficulty, a history of premenstrual dysphoric disorder, and an unplanned or ambivalent pregnancy.
+NIMH notes increased risk with a personal or family history of depression or bipolar disorder and depression during a previous pregnancy. It also discusses life stress, the demands of childbirth and caring for a baby, and hormonal changes as contributing factors rather than one proven cause. [NIMH risk factors](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Screening is also reasonable at any point you simply feel concerned about your mood. You do not need to fit a risk profile to take it.
+Having none of those listed factors does not make a symptom report invalid. NIMH states that perinatal depression can affect pregnant and postpartum women across ages, backgrounds and circumstances. An article's risk-factor list cannot clear someone as unaffected. [NIMH medical-condition explanation](https://www.nimh.nih.gov/health/publications/perinatal-depression)
+
+Tell your care team if you have a previous mental-health plan, an earlier episode or a concern that has changed since your last visit. Retain the distinction between a routine screening appointment and help sought because symptoms or safety concerns have appeared. Do not wait for the next scheduled screen if you are worried now.
+
+This guide also discusses partners and pregnancy loss in the FAQs. Those topics do not establish that a questionnaire validated in one population can automatically be applied unchanged to every other population.
 
 ## 💊 Treatment Options for Postpartum Depression
 
-PPD is treatable, and most women improve significantly with appropriate intervention. Treatment is usually tailored to severity and personal preference.
+NIMH describes psychotherapy, medication or both as treatment options. Cognitive behavioral therapy and interpersonal therapy are evidence-based approaches for perinatal depression. A healthcare provider helps select treatment based on the symptoms and circumstances. This guide supplies no prescription, drug dose or guaranteed timeline. [NIMH treatment and psychotherapy sections](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Therapy has strong evidence behind it, particularly cognitive behavioral therapy (CBT) and interpersonal therapy (IPT). These address negative thought patterns, build coping strategies, and improve day-to-day functioning.
+**CBT and IPT are approaches, not website exercises.** NIMH explains CBT in terms of working on unhelpful thoughts and behaviors, and IPT in terms of relationships, communication, support and expectations. Reading a short description is not equivalent to receiving either therapy from an appropriately qualified professional. [NIMH psychotherapy explanation](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Medication is also effective, and SSRIs such as sertraline are commonly prescribed. If you are breastfeeding, your provider can discuss options, since several SSRIs are considered compatible with breastfeeding according to published safety data.
+**Medication needs individual discussion.** NIMH advises discussing pregnancy or nursing with the provider, weighing benefits and risks, and consulting before starting or stopping medicine. All medicines can have adverse effects. The earlier blanket breastfeeding compatibility and named-drug advice are not retained as a personal recommendation. [NIMH medication precautions](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Beyond formal treatment, support matters enormously. Peer support groups reduce isolation, and practical help with childcare, household tasks, and sleep directly eases the functional burden that worsens PPD.
+**Support can make practical care easier.** Family or friends can encourage professional contact, assist with getting to appointments, offer emotional support and help with daily tasks. Support groups can also be a source of help and information. These are forms of support described by NIMH, not proof that informal help cures depression. [NIMH family support and finding help](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-Sleep deserves particular emphasis, because it sits at the center of a difficult loop. PPD disrupts sleep, and lost sleep in turn deepens PPD, so protecting even a few consolidated hours can meaningfully improve symptoms.
+If sleep has become difficult, include that concern in the appointment rather than trying to infer a diagnosis from one night or a sleep calculator. This article does not promise that a certain number of consolidated sleep hours treats postpartum depression or that early contact guarantees a shorter recovery.
 
-Recovery also tends to be gradual rather than sudden. Many women notice small improvements first, such as a slightly easier morning or a moment of genuine connection with their baby, before the larger shift arrives.
+A useful care record distinguishes what has been recommended, what you have actually started, any difficulties and the agreed follow-up. If the plan feels impractical, tell the professional so that it can be discussed. The EPDS total does not choose a treatment or indicate when it is safe to change one.
 
-The most important message is that effective help exists and that seeking it early tends to shorten the course. PPD left unaddressed can persist for months, while treated PPD usually improves, often substantially.
-
-> 💡 **Tip:** You do not need to reach a specific score to seek help. If motherhood feels joyless, if you cannot bond with your baby, or if you are having intrusive thoughts, reach out to your OB, midwife, or a mental health professional. Early intervention improves outcomes.
+> 💡 **Tip:** A screening score is not a prerequisite for seeking help. Describe your concerns and ask for assessment; use emergency services when there is immediate danger.
 
 ## 📞 Crisis Resources
 
-If you are having thoughts of harming yourself or your baby, please reach out right away. These are confidential resources with trained counselors available 24 hours a day.
+**United States:** For immediate danger or a life-threatening situation, call **911** or go to the nearest emergency department. For suicidal thoughts or a mental-health crisis, call or text **988**, or use the Lifeline's online chat. These contacts are U.S. services, not worldwide numbers. [NIMH crisis guidance](https://www.nimh.nih.gov/health/publications/perinatal-depression)
 
-The Postpartum Support International Helpline is 1-800-944-4773, available by call or text. The Crisis Text Line can be reached by texting HOME to 741741. The 988 Suicide and Crisis Lifeline can be reached by call or text at 988.
+The U.S. **National Maternal Mental Health Hotline** offers free, confidential support **24 hours a day, seven days a week**. The current HRSA page lists **1-833-TLC-MAMA (1-833-852-6262)** for call or text, with chat also available. English and Spanish support is offered. Partners and family members can also contact the service. [HRSA official hotline page](https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline)
 
-Reaching out is a sign of strength, and using these lines does not require you to be in immediate danger. They exist for exactly the kind of overwhelm that PPD can create.
+The maternal hotline offers support and connections to care; this page does not present it as a replacement for emergency response. A support conversation, a crisis assessment and emergency treatment are different services. If there is immediate danger, use the emergency route rather than waiting for a website form or routine screening appointment.
 
-> 🎯 **Bottom Line:** The EPDS is a validated screening tool that helps identify whether what you are experiencing may be postpartum depression rather than typical baby blues. A score of 9 or higher warrants professional evaluation, and any positive answer on the self-harm question warrants immediate contact regardless of total. PPD is common, treatable, and not your fault.
+**Outside the United States:** Use your local emergency number or nearest emergency service for immediate danger, and your healthcare provider or local mental-health service for other concerns. The U.S. contacts above should not be assumed available in your country. This guide does not list unverified international numbers.
+
+The previous paragraph incorrectly grouped several services together as though all had the same hours and call/text arrangements. The unverified service details are not retained. A helpline's correct contact method matters independently of how much useful information appears elsewhere in an article.
+
+> 🎯 **Bottom Line:** Seek assessment for symptoms or concerns, and urgent help for safety risks. Do not use a screening cutoff to decide whether you deserve care. This website explains the EPDS but does not currently operate an automatic EPDS questionnaire.
 
 ## ❓ Frequently Asked Questions
 
 **What is a positive EPDS score?**
 
-A positive EPDS screen is generally a total of 10 or higher, the point at which sensitivity for major depression is strongest. Some settings use a cutoff of 13 for higher specificity. A positive screen means further assessment is recommended, not that PPD is confirmed.
+See the Australian COPE follow-up protocol above, which uses 13 as its flag. It is not a universal diagnostic boundary. A positive screen prompts assessment; the total cannot determine a diagnosis, treatment or individual probability. Any self-harm response needs separate attention. [Official protocol](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool)
 
 **What does an EPDS score of 11 mean?**
 
-A score of 11 falls in the possible-PPD range. It suggests you should schedule an appointment with your provider for a fuller assessment. It is not a diagnosis, but it is above the common screening threshold of 10.
+It is a screening total, not a “possible-PPD” diagnosis assigned by this website. Do not assume that a value below the protocol's flag makes symptoms or safety concerns unimportant. Bring the correctly scored form to a healthcare professional and explain what concerns you. The service's own applicable protocol matters.
 
 **What does an EPDS score of 7 mean?**
 
-A score of 7 sits in the lower band, where PPD is less likely, but it is close enough to the threshold to be worth monitoring. If symptoms persist or worsen, retaking the screen or speaking with your provider is reasonable.
+This guide does not classify 7 as safe or calculate a likelihood of depression from it. Check that the exact form was correctly scored and discuss ongoing symptoms. A total also cannot show whether the final item was positive; individual answers must be retained.
 
 **What does an EPDS score of 15 mean?**
 
-A score of 15 is in the probable-PPD range and warrants timely professional assessment. A score this high, especially if it has risen over time, is a clear signal to reach out to a provider.
+It exceeds the follow-up flag described above but does not establish “probable depression” as a diagnosis. A clinician needs the individual answers and broader assessment. Immediate safety concerns take priority over the total or a planned repeat screen.
 
 **How do you calculate the EPDS score?**
 
-Each of the 10 questions is scored 0 to 3, and the total is the sum, ranging from 0 to 30. Items 1, 2, and 4 are reverse-scored, meaning the first option is worth 3 rather than 0. The calculator on this page does this automatically.
+Apply the official key to each of ten answers, then add their values. The precise printed-order directions are given in the scoring section above; the former statement that items 1, 2 and 4 start at 3 was wrong. This site's form remains unavailable. [Official scoring table](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool)
 
 **What does EPDS stand for?**
 
-EPDS stands for Edinburgh Postnatal Depression Scale. "Edinburgh" refers to where it was developed, and "postnatal" and "postpartum" are interchangeable terms.
+It stands for **Edinburgh Postnatal Depression Scale**. “Postnatal” appears in the instrument's name, while “postpartum” appears in much U.S. discussion. The guide's use of both words does not restrict its screening context to after birth or turn the instrument into a diagnostic test.
 
 **Is there an ICD-10 code for postpartum depression?**
 
-Yes. Postpartum depression is commonly coded under ICD-10 as F53.0, describing mild mental and behavioral disorders associated with the puerperium. Your provider assigns the correct code as part of a clinical diagnosis, which screening alone cannot provide.
+Diagnosis coding is separate from an EPDS total. The U.S. uses **ICD-10-CM**, a clinical modification of ICD-10, with date-specific updates. This page does not assign a code from a screening result or combine WHO mortality terminology with U.S. clinical coding. The diagnosing professional should use the appropriate system and instructions. [CDC coding explanation and official browser](https://www.cdc.gov/nchs/icd/icd-10-cm/)
 
 **Can you have postpartum depression after a miscarriage?**
 
-Yes. Depression can follow any pregnancy loss, including miscarriage and stillbirth, and the emotional impact can be significant. While the EPDS was designed for the postpartum period, persistent low mood after a loss deserves the same attention and support.
+Depression or distress after pregnancy loss deserves care; the appropriate diagnosis and screening approach need professional assessment. NHS guidance describes emotional difficulties after miscarriage and access to counselling. This article does not apply a postpartum questionnaire cutoff automatically after every type of pregnancy loss. Tell your care team about the loss and how you are feeling. [NHS miscarriage support](https://www.nhs.uk/conditions/miscarriage/)
 
 **Can fathers get postpartum depression?**
 
-Yes. Research identifies paternal postpartum depression in roughly 8 to 10% of new fathers. If you are a new father experiencing persistent low mood, anxiety, or difficulty bonding, speak with your provider.
+Yes. NHS guidance states that fathers and partners can experience depression after having a baby. This page does not supply a universal prevalence estimate or assume the same screening interpretation for every parent. Seek professional help for persistent low mood, anxiety or difficulty coping. [NHS postnatal depression](https://www.nhs.uk/mental-health/conditions/postnatal-depression/)
 
 ## Sources
 
-1. Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: Development of the Edinburgh Postnatal Depression Scale. *Br J Psychiatry.* 1987;150:782-786.
-2. ACOG. Screening for Perinatal Depression. Committee Opinion No. 757. 2018, reaffirmed 2023.
-3. O'Hara MW, McCabe JE. Postpartum depression: Current status and future directions. *Annu Rev Clin Psychol.* 2013;9:379-407.
-4. Gaynes BN, et al. Perinatal Depression: Prevalence, Screening Accuracy, and Screening Outcomes. *AHRQ Evidence Report.* 2005.
-5. World Health Organization. ICD-10 Classification of Mental and Behavioural Disorders. F53 Mental and behavioural disorders associated with the puerperium.
+1. [COPE: EPDS scoring and follow-up](https://www.cope.org.au/health-professionals/screening-and-assessment-tools/using-the-epds-as-a-screening-tool). Exact item key, seven-day period and Australian follow-up guidance; not permission for this site to operate an online questionnaire.
+2. [NIMH: Perinatal depression](https://www.nimh.nih.gov/health/publications/perinatal-depression). Symptoms, baby blues, assessment, general treatment, family support and U.S. emergency advice. Drug-specific availability claims are not made here.
+3. [ACOG: Patient screening](https://www.acog.org/programs/perinatal-mental-health/patient-screening). Initial prenatal, later-pregnancy and postpartum screening linked to follow-up care. The exact recommendation was verified in ACOG's indexed text when direct retrieval was unavailable.
+4. [HRSA: National Maternal Mental Health Hotline](https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline). Current contact methods, hours and scope of the U.S. support service.
+5. [NHS: Miscarriage and support](https://www.nhs.uk/conditions/miscarriage/); [NHS: Postnatal depression](https://www.nhs.uk/mental-health/conditions/postnatal-depression/). Pregnancy-loss support and depression in fathers and partners.
+6. [CDC: ICD-10-CM](https://www.cdc.gov/nchs/icd/icd-10-cm/). U.S. clinical coding, updates and official browser; no diagnosis code assigned by this article.
 
 ---
 
@@ -175,5 +179,5 @@ Yes. Research identifies paternal postpartum depression in roughly 8 to 10% of n
 
 **Related tools:**
 - [Anxiety Self-Assessment (GAD-7)](/mental-health/anxiety-self-assessment)
-- [Burnout Quiz](/mental-health/burnout-quiz)
+- [Burnout Information Guide](/mental-health/burnout-quiz)
 - [Sleep Quality Calculator](/mental-health/sleep-quality-calculator)

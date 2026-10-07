@@ -202,27 +202,28 @@ export function TDEEComponentsSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">What Makes Up Your Daily Calorie Burn (TDEE)</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Components of total expenditure — schematic, sizes not measured</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 110" className="w-full" xmlns="http://www.w3.org/2000/svg">
           <rect x="10" y="30" width="380" height="44" rx="8" fill="#0F766E" opacity="0.15" stroke="#0F766E" strokeWidth="1"/>
-          <text x="200" y="56" fontSize="13" fill="#0F766E" textAnchor="middle" fontWeight="700" fontFamily="system-ui">BMR 60-70%</text>
+          <text x="200" y="56" fontSize="12" fill="#0F766E" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Resting expenditure</text>
 
           <rect x="390" y="30" width="60" height="44" fill="#8B5CF6" opacity="0.15" stroke="#8B5CF6" strokeWidth="1"/>
-          <text x="420" y="56" fontSize="10" fill="#7C3AED" textAnchor="middle" fontWeight="600" fontFamily="system-ui">TEF 10%</text>
+          <text x="420" y="56" fontSize="9" fill="#7C3AED" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Food</text>
 
           <rect x="450" y="30" width="110" height="44" fill="#F59E0B" opacity="0.15" stroke="#F59E0B" strokeWidth="1"/>
-          <text x="505" y="56" fontSize="10" fill="#B45309" textAnchor="middle" fontWeight="600" fontFamily="system-ui">NEAT 15-20%</text>
+          <text x="505" y="56" fontSize="9" fill="#B45309" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Daily movement</text>
 
           <rect x="560" y="30" width="70" height="44" rx="8" fill="#EC4899" opacity="0.15" stroke="#EC4899" strokeWidth="1"/>
-          <text x="595" y="56" fontSize="10" fill="#BE185D" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Exercise</text>
+          <text x="595" y="56" fontSize="9" fill="#BE185D" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Exercise</text>
 
           <text x="200" y="95" fontSize="9" fill="#64748B" textAnchor="middle" fontFamily="system-ui">Breathing, organs, brain</text>
           <text x="420" y="95" fontSize="9" fill="#64748B" textAnchor="middle" fontFamily="system-ui">Digesting</text>
           <text x="505" y="95" fontSize="9" fill="#64748B" textAnchor="middle" fontFamily="system-ui">Walking, fidgeting</text>
           <text x="595" y="95" fontSize="9" fill="#64748B" textAnchor="middle" fontFamily="system-ui">Gym, sports</text>
         </svg>
+        <p className="mt-3 text-sm text-slate-600">Schematic components, without fixed personal percentages. <a className="underline" href="https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr">Cleveland Clinic: energy expenditure</a></p>
       </div>
     </div>
   );
@@ -1433,10 +1434,11 @@ export function A1CRangesSVG() {
           {[{x:310,v:"5.7%"},{x:460,v:"6.5%"}].map((m,i)=>(
             <g key={i}><line x1={m.x} y1={48} x2={m.x} y2={62} stroke="#334155" strokeWidth="2"/><text x={m.x} y={76} fontSize="11" fill="#334155" textAnchor="middle" fontWeight="700" fontFamily="system-ui">{m.v}</text></g>
           ))}
-          <text x="160" y="40" fontSize="11" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">eAG: under 117</text>
-          <text x="390" y="40" fontSize="11" fill="#B45309" textAnchor="middle" fontWeight="700" fontFamily="system-ui">eAG: 117-137</text>
-          <text x="550" y="40" fontSize="11" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">eAG: 140+</text>
+          <text x="160" y="40" fontSize="11" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">A1C laboratory range</text>
+          <text x="390" y="40" fontSize="11" fill="#B45309" textAnchor="middle" fontWeight="700" fontFamily="system-ui">A1C laboratory range</text>
+          <text x="550" y="40" fontSize="11" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Confirmation needed</text>
         </svg>
+        <p className="text-xs text-slate-500 mt-3">Diagram is schematic, not a numerical glucose scale. <a className="underline" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690183/">ADA 2026 criteria</a>. Derived eAG is not a diagnostic glucose cutoff.</p>
       </div>
     </div>
   );
@@ -4048,6 +4050,7 @@ export function IdealWeightFormulasSVG() {
           <text x="300" y="108" fontSize="9" fill="#EC4899" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Female</text>
         </svg>
       </div>
+      <p className="px-5 pb-4 text-xs text-slate-500">Derived at exactly 68 inches and rounded to whole pounds. <a className="underline" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/">Formula reference, Table 3</a></p>
     </div>
   );
 }
@@ -4509,20 +4512,20 @@ export function BMRvsTDEEVisualSVG() {
   return (
     <div className="my-8 rounded-xl border border-slate-200 overflow-hidden">
       <div className="bg-slate-50 px-5 py-3 border-b border-slate-200">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">BMR vs TDEE — What Each Number Means for Diet Planning</p>
+        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-0">Resting and total estimates — illustrative arithmetic</p>
       </div>
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 90" className="w-full" xmlns="http://www.w3.org/2000/svg">
           <rect x="10" y="5" width="300" height="80" rx="12" fill="#EF4444" opacity="0.05" stroke="#EF4444" strokeWidth="1.5"/>
-          <text x="160" y="22" fontSize="11" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">BMR — Never Eat Below This</text>
-          <text x="160" y="42" fontSize="16" fill="#334155" textAnchor="middle" fontWeight="800" fontFamily="system-ui">~1,600 cal</text>
-          <text x="160" y="58" fontSize="9" fill="#94A3B8" textAnchor="middle" fontFamily="system-ui">Minimum for organ function</text>
-          <text x="160" y="72" fontSize="8" fill="#DC2626" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Floor — not a diet target</text>
+          <text x="160" y="22" fontSize="11" fill="#DC2626" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Assumed resting estimate</text>
+          <text x="160" y="42" fontSize="16" fill="#334155" textAnchor="middle" fontWeight="800" fontFamily="system-ui">1,500 kcal/day</text>
+          <text x="160" y="58" fontSize="9" fill="#94A3B8" textAnchor="middle" fontFamily="system-ui">Hypothetical input, not a measurement</text>
+          <text x="160" y="72" fontSize="8" fill="#DC2626" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Not a minimum food-intake rule</text>
           <rect x="330" y="5" width="300" height="80" rx="12" fill="#10B981" opacity="0.05" stroke="#10B981" strokeWidth="1.5"/>
-          <text x="480" y="22" fontSize="11" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">TDEE — Plan Your Diet From This</text>
-          <text x="480" y="42" fontSize="16" fill="#334155" textAnchor="middle" fontWeight="800" fontFamily="system-ui">~2,400 cal</text>
-          <text x="480" y="58" fontSize="9" fill="#94A3B8" textAnchor="middle" fontFamily="system-ui">Total daily burn including activity</text>
-          <text x="480" y="72" fontSize="8" fill="#059669" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Subtract 300-500 for fat loss</text>
+          <text x="480" y="22" fontSize="11" fill="#059669" textAnchor="middle" fontWeight="700" fontFamily="system-ui">Illustrative total estimate</text>
+          <text x="480" y="42" fontSize="16" fill="#334155" textAnchor="middle" fontWeight="800" fontFamily="system-ui">2,325 kcal/day</text>
+          <text x="480" y="58" fontSize="9" fill="#94A3B8" textAnchor="middle" fontFamily="system-ui">1,500 × assumed factor 1.55</text>
+          <text x="480" y="72" fontSize="8" fill="#059669" textAnchor="middle" fontWeight="600" fontFamily="system-ui">Not an individual calorie prescription</text>
         </svg>
       </div>
     </div>
@@ -5573,9 +5576,9 @@ export function A1CConversionScaleSVG() {
       <div className="p-5 bg-white">
         <svg viewBox="0 0 640 90" className="w-full" xmlns="http://www.w3.org/2000/svg">
           {[
-            { range: "Below 5.7%", label: "Below prediabetes range", eag: "< 117 mg/dL", color: "#10B981", x: 10, width: 190 },
-            { range: "5.7–6.4%", label: "Prediabetes", eag: "117–137 mg/dL", color: "#F59E0B", x: 210, width: 195 },
-            { range: "6.5%+", label: "Diabetes threshold", eag: "140+ mg/dL", color: "#EF4444", x: 415, width: 215 },
+            { range: "Below 5.7%", label: "Below prediabetes range", eag: "A1C reference range", color: "#10B981", x: 10, width: 190 },
+            { range: "5.7–6.4%", label: "Prediabetes", eag: "A1C reference range", color: "#F59E0B", x: 210, width: 195 },
+            { range: "6.5%+", label: "Diabetes threshold", eag: "Confirmation needed", color: "#EF4444", x: 415, width: 215 },
           ].map((item, i) => (
             <g key={i}>
               <rect x={item.x} y="10" width={item.width} height="65" rx="8" fill={item.color} opacity="0.1" stroke={item.color} strokeWidth="1.5"/>
@@ -5585,6 +5588,7 @@ export function A1CConversionScaleSVG() {
             </g>
           ))}
         </svg>
+        <p className="text-xs text-slate-500 mt-3">These are A1C criteria, not cutoffs for a calculated glucose value. <a className="underline" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690183/">ADA 2026 diagnostic tables</a>.</p>
       </div>
     </div>
   );

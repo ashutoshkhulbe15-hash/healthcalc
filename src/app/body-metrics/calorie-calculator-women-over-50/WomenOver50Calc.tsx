@@ -39,8 +39,8 @@ export function WomenOver50Calc() {
       </CalcShell>
       {result !== null && (
         <ResultsShell>
-          <ResultCard label="Estimated resting energy expenditure" value={`${result.toLocaleString()} cal/day`} highlight />
-          <p className="mt-4 text-sm text-slate-600">Equation estimate only. It does not include activity or represent a recommended daily intake.</p>
+          <ResultCard label="Estimated resting energy expenditure" value={`${result.toLocaleString()} kcal/day`} highlight />
+          <p className="mt-4 text-sm text-slate-600">Equation estimate only. It does not include activity or represent a recommended daily intake. <a className="underline" href="https://pubmed.ncbi.nlm.nih.gov/2305711/" target="_blank" rel="noopener noreferrer">Original equation and study population</a>.</p>
         </ResultsShell>
       )}
     </>

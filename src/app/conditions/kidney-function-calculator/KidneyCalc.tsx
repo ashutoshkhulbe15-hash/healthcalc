@@ -24,9 +24,9 @@ export function KidneyCalc() {
   return (
     <>
       <CalcShell>
-        <p className="mb-4 text-sm text-slate-600">Adult CKD-EPI 2021 creatinine equation. The source equation expects standardized serum creatinine reported in mg/dL. This tool does not classify CKD or recommend treatment.</p>
+        <p className="mb-4 text-sm text-slate-600">Adult CKD-EPI 2021 creatinine equation. The source equation expects standardized serum creatinine reported in mg/dL. This tool does not classify CKD or recommend treatment. <a className="underline" href="https://www.kidney.org/ckd-epi-creatinine-equation-2021">NKF source equation and units</a>.</p>
         <div className="mb-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-          <CalcInput label="Standardized serum creatinine (mg/dL)" value={creatinine} onChange={setCreatinine} placeholder="e.g. 1.2" step={0.01} />
+          <CalcInput label="Standardized serum creatinine (mg/dL)" value={creatinine} onChange={setCreatinine} placeholder="e.g. 1.2" min={0} step={0.01} />
           <CalcInput label="Age (18 years or older)" min={18} max={120} step={1} value={age} onChange={setAge} placeholder="e.g. 60" />
           <CalcSelect label="Sex coefficient used by equation" value={sex} onChange={v => setSex(v as "male" | "female")} options={[{ value: "male", label: "Male coefficient" }, { value: "female", label: "Female coefficient" }]} />
         </div>

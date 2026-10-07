@@ -1,4 +1,4 @@
-export function QuickAnswer({ answer }: { answer: string }) {
+export function QuickAnswer({ answer, source }: { answer: string; source?: { href: string; label: string } }) {
   return (
     <div className="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-8">
       <div className="flex gap-3 items-start">
@@ -6,6 +6,7 @@ export function QuickAnswer({ answer }: { answer: string }) {
         <div>
           <div className="text-xs font-bold text-brand-600 uppercase tracking-wider mb-1.5">Quick Answer</div>
           <p className="text-[15px] leading-[1.7] text-brand-900 mb-0 font-medium">{answer}</p>
+          {source && <a href={source.href} className="mt-2 inline-block text-sm font-semibold text-brand-700 underline">{source.label}</a>}
         </div>
       </div>
     </div>

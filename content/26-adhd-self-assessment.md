@@ -1,169 +1,176 @@
-<!-- last-updated: July 2026 -->
-# ADHD Self-Assessment: Understanding the ASRS Screening Tool
+<!-- last-updated: October 5, 2026 -->
+# ADHD Self-Assessment: Official ASRS Scoring and Adult Evaluation
 
-This assessment is based on the WHO Adult ADHD Self-Report Scale (ASRS v1.1), a validated screening tool developed by Kessler and colleagues at Harvard Medical School and published in Psychological Medicine in 2005. It screens for ADHD symptoms in adults, and it does not diagnose ADHD.
+The Adult ADHD Self-Report Scale, or ASRS, is a screening resource, not a diagnosis. Harvard's official resource page distinguishes the v1.1 six-question screener, the longer symptom checklist and ASRS-5, with separate instructions and use conditions. [Official ASRS resources](https://www.hcp.med.harvard.edu/ncs/asrs.php)
 
-Only a qualified professional, typically a psychiatrist, psychologist, or ADHD specialist, can diagnose ADHD through a comprehensive evaluation. That includes an interview, medical history, cognitive testing, and assessment of symptom onset.
+**This page does not administer or score an ASRS assessment.** The former custom questionnaire was not the named instrument and remains withdrawn. The guide below explains the scoring distinctions, what an adult evaluation considers and how to prepare useful information without diagnosing yourself.
 
-Most people who look up the ASRS want the same two things: how it is scored, and what their score actually means. This guide covers both, then explains what ADHD looks like in adults and the conditions that mimic it.
+NIMH describes assessment using history, interviews and, where appropriate, other information or tests. Cognitive testing is not described here as compulsory for every person. [NIMH adult ADHD assessment](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
 ## 📊 Understanding Your ASRS Score
 
-Your Part A score maps to one of three probability ranges, established through the original validation study. The score sheet below shows each band and its recommended next step.
+Before interpreting any number, identify the exact instrument and scoring rule. A six-question shaded-response count and a six-question point total have different ranges. Neither should be relabeled as a universal low, moderate or high probability of diagnosis.
 
-A screening result is a signal, not a verdict. It points to whether a full clinical evaluation may be worthwhile, and it cannot confirm or rule out ADHD on its own.
+Harvard's February 28, 2024 scoring update describes the original **0–6 count with a positive-screen cutoff of four**, and an alternative **0–24 sum with a cutoff of 14**. It describes the latter as more robust for research on prevalence and correlates. The update also gives four strata for that sum. [Official scoring update](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf)
 
-Because people search for specific interpretations, here is the shape of it. A total in the low band suggests symptoms are not strongly indicative of ADHD, the moderate band suggests an evaluation is worth considering, and the high band suggests scheduling one with a specialist.
+| Method | Range | Interpretation supplied by that method |
+|---|---|---|
+| Original shaded-response count | 0–6 | Four or more crosses its screening cutoff |
+| Alternative six-item point sum | 0–24 | Fourteen or more crosses its screening cutoff |
 
-It also helps to know what the screen cannot tell you. It does not measure severity, it does not identify which presentation you have, and it does not account for how long symptoms have been present, all of which a full evaluation examines.
+These are screening cutoffs, not severity grades or individual diagnostic probabilities. NICE says diagnosis must not be based solely on rating scales or observations. A low result cannot replace an assessment of persistent difficulties, and a positive result does not decide their cause. [NICE NG87, recommendation 1.3.2](https://www.nice.org.uk/guidance/ng87/chapter/recommendations)
 
-A useful way to hold your result is as one piece of evidence among several. Your own sense of how much these patterns affect your work, relationships, and daily functioning matters just as much as the number the screen produces.
+If you already have a result, keep the form title, language, date, scoring method and complete responses. An entry such as “4” without the range is ambiguous: it could mean a count out of six or a sum out of 24. Recording the method prevents that simple but consequential confusion.
 
-> 📌 **Note:** Screening positive does not equal a diagnosis, and screening negative does not rule ADHD out. False negatives happen, particularly in women, people with high IQ, and those with primarily inattentive presentations who have built compensatory strategies over the years.
+For a discussion, write down what prompted you to complete the form. “I keep missing appointments despite using a calendar” explains the concern better than “my score proves ADHD.” You can take the completed official form to a professional without converting it into a different scale or deciding your own presentation.
 
 ## 🧮 ASRS Scoring: How the Assessment Works
 
-The ASRS v1.1 Part A has six questions, and each is scored on a five-point frequency scale from never to very often. The scoring is a little different from a simple points-per-answer system, which is where confusion usually starts.
+The two scoring methods should be applied to the exact official items, not to a replacement set of attention questions. The original method counts responses crossing the item-specific threshold; the alternative assigns a frequency value to each of the six answers and adds those values. [Harvard scoring update](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf)
 
-For each question, certain frequency responses fall into a shaded zone on the official form. Scoring the ASRS is really about counting how many of your six answers land in that shaded zone, rather than summing raw points.
+For the alternative sum, the published values are: never **0**, rarely **1**, sometimes **2**, often **3**, very often **4**. Its four strata are **0–9 low negative**, **10–13 high negative**, **14–17 low positive**, and **18–24 high positive**. These labels do not mean mild, moderate or severe ADHD. [Exact scoring instructions](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf)
 
-Four or more shaded responses across the six questions is the positive screen threshold. That cutoff was chosen because it best predicted a clinical ADHD diagnosis in the validation research.
+**Illustrative addition, not a completed screen:** Six hypothetical values of 1, 2, 3, 2, 3 and 3 add to **14**. Replacing the final value with 2 gives **13**. The arithmetic demonstrates the stated boundary; it supplies neither responses to official questions nor a clinical conclusion about anyone.
 
-Our calculator simplifies this by presenting the frequency options and computing the result for you. You answer based on the past six months, and it tells you where you fall and what that suggests.
+Likewise, a hypothetical original-method tally with four threshold-crossing answers produces a count of **4/6**. It is not equivalent to 14/24 simply because both cross their respective cutoff. There is no conversion formula on this page.
 
-The reason the ASRS uses this shaded-zone method rather than a plain total is precision. The developers found that specific frequency levels on specific items were far more predictive than an overall score, so the tool weights them accordingly.
+Use the official form's recall instructions rather than answering only for an unusually difficult day. Do not substitute questions, omit options or change a threshold to match an interpretation you prefer. Harvard specifically asks that recreated v1.1 screeners retain the instrument, response options, scoring and shading, and prefers linking to the official resources so updates remain available. [Instrument use conditions](https://www.hcp.med.harvard.edu/ncs/asrs.php)
 
-> 🔑 **Key Takeaway:** The ASRS v1.1 Part A is a six-question screen. A positive result is generally four or more responses in the shaded frequency zones, not a raw point total. This method gave the screener strong accuracy in validation: about 68.7% sensitivity and 99.5% specificity, meaning very few false positives.
+This website follows that linking approach and does not recreate the screen. Other ASRS versions have their own conditions. If another site presents an “ASRS” result, the name alone does not establish that its questions and scoring match an official version.
 
 ## 🧠 What ADHD Actually Looks Like in Adults
 
-Adult ADHD rarely resembles the childhood stereotype. Adults typically show more inattentive symptoms and less obvious hyperactivity, according to clinical descriptions published in The Lancet.
+NIMH describes ADHD through persistent patterns of inattention, hyperactivity and impulsivity that interfere with functioning. Some people experience mostly one pattern, while others experience both. Many people occasionally have similar behaviors; adult assessment considers frequency, persistence, impact and more than one setting. [NIMH adult ADHD overview](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-The predominantly inattentive presentation is the one most often missed in adults. It feels like constant distraction, difficulty sustaining focus on unstimulating tasks, chronic disorganization, and time blindness, an impaired sense of how much time has passed.
+Examples described by NIMH include difficulty organizing or finishing tasks, losing things, forgetfulness, distraction, poor time management, interrupting and restlessness. Symptoms may change with age; inattentive symptoms can persist while visible hyperactivity or impulsivity declines. These descriptions do not establish which presentation an individual has. [Adult symptoms](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-You might start a project, fall down a research tangent, and realize four hours passed with no progress on the actual task. You misplace items, forget appointments despite writing them down, and struggle with multi-step instructions.
+For your own notes, a concrete example can preserve details that a label loses. The following are **illustrative observations, not additional screening items**:
 
-The inattentive presentation is easy to miss precisely because it is quiet. There is no disruptive behavior for others to notice, so the struggle stays internal and often gets mislabeled as a character flaw.
+| Concern | A possible observation | Context worth recording |
+|---|---|---|
+| Completing work | “I completed the main task but repeatedly missed the final submission.” | Which tasks, when it happened and the consequences |
+| Remembering commitments | “I forgot two appointments I had intended to attend.” | Reminders used and whether the problem occurs elsewhere |
+| Organization | “I could not find the materials I had set aside.” | Setting, what changed and how it affected the task |
+| Restlessness | “I kept leaving my seat during a long meeting.” | What you noticed, rather than an assumed neurological cause |
 
-This is a large part of why inattentive ADHD is underdiagnosed in adults, and especially in women. A person who is daydreamy and disorganized rather than visibly hyperactive rarely gets flagged in childhood, so the difficulties are carried silently into adult life.
+These examples are not evidence that ordinary mistakes equal ADHD. Their purpose is to distinguish an event from an interpretation and to make a history easier to discuss.
 
-Executive function is the thread running through all of it. ADHD is less about a deficit of attention and more about difficulty regulating attention, effort, and action, which is why someone can hyperfocus on an engaging task yet be unable to start a boring one.
+NIMH notes that symptoms in girls and women may have been missed during childhood, and that supportive environments or milder symptoms can delay recognition. This does not justify a blanket assertion that every woman or person with a high IQ receives a false-negative screen. [Reasons for later diagnosis](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-> 💡 **Tip:** Many adults with undiagnosed ADHD have been told their whole lives that they are lazy, unmotivated, or not trying hard enough. Those labels reflect a misunderstanding of how ADHD affects executive function. If you score moderate or high, a clinical evaluation can clarify whether these patterns have a neurological basis.
-
-The predominantly hyperactive-impulsive presentation shows up differently in adults than in children. Instead of visible restlessness, adults often feel an internal restlessness, difficulty sitting through meetings, a tendency to interrupt, and impulsive decisions.
-
-The combined presentation includes features of both inattention and hyperactivity-impulsivity. It is the most common overall.
-
-Understanding which presentation fits helps make sense of a screening result. Someone with the inattentive type may score lower on the hyperactivity items yet still have significant impairment, which is one reason the screen is a starting point rather than the whole picture.
-
-It is also worth knowing what the six Part A items actually probe. They cover difficulty wrapping up final details, getting organized, remembering appointments, avoiding or delaying tasks that require sustained thought, fidgeting when seated for long periods, and feeling driven to keep moving.
-
-These six were not chosen at random. From a larger pool of ADHD symptoms, the developers identified this specific set as the most statistically predictive of a clinical diagnosis, which is why such a short screen can perform so well.
+You do not need to fit a childhood stereotype before discussing difficulties. At the same time, interest in a topic, occasional intense concentration or boredom is not sufficient to explain your brain chemistry. Describe what happens across tasks and settings without deciding that one behavior proves a particular mechanism.
 
 ## 😴 Why Do I Get Hyper When I'm Tired? The ADHD Paradox
 
-One of the most searched ADHD questions is why tiredness sometimes brings on more hyperactivity, not less. It feels backward, but it has a plausible explanation.
+Feeling restless when tired is an experience you can report, but this guide has not verified a universal ADHD-specific explanation for it. The earlier account that a tired brain automatically raises activity to compensate for low dopamine went beyond the evidence checked for this page. It should not be used to interpret your symptoms or medication response.
 
-ADHD involves differences in dopamine and the brain's arousal regulation. When an under-aroused ADHD brain gets tired, it can ramp up movement, talking, and stimulation-seeking as a way to stay awake and alert.
+NIMH includes restlessness among adult ADHD symptoms and notes that sleep problems are common in adults with ADHD. That is a reason to discuss both experiences, not proof that tiredness causes a particular form of hyperactivity. [NIMH adult symptoms and sleep context](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-In other words, the hyperactivity can act as self-generated stimulation. The restless energy is the brain trying to push its own arousal back up to a functional level.
+If the pattern concerns you, separate the observations: how tired you felt, what “hyper” meant in practice, when it happened and how it affected your evening or next day. An illustrative note might say, “After a short night's sleep I talked more during the afternoon meeting, but still struggled to complete the report.” It does not need to conclude that dopamine was low or that the behavior was adaptive.
 
-This is also why some people with ADHD feel calmer on stimulant medication rather than more wired. The medication raises baseline arousal, so the brain no longer has to manufacture its own through restlessness.
+Record changes in your schedule or medicines if relevant to your own history, and ask your healthcare professional how they should be assessed. Do not start, stop or change a medicine to test an online explanation. A perceived calming effect is not used here as a diagnostic test.
 
-The same mechanism explains a few other familiar patterns. Late-night productivity bursts, difficulty winding down for sleep, and a craving for intense stimulation when bored all tie back to a brain seeking the arousal it does not generate steadily on its own.
-
-None of this is diagnostic by itself, since tired restlessness happens to plenty of people without ADHD. But when it is a lifelong, consistent pattern rather than an occasional experience, it is the kind of detail worth mentioning in an evaluation.
+For comparison over time, use the same ordinary description of the event rather than changing its meaning to fit a theory. If “hyper” means talking more on one day and feeling anxious on another, keeping those experiences separate gives a clearer account. The purpose is a useful conversation, not a self-generated biological diagnosis.
 
 ## 🔍 Conditions That Mimic ADHD Symptoms
 
-Several conditions produce symptoms that overlap heavily with ADHD, which is a major reason self-diagnosis is unreliable. A qualified evaluator considers and rules these out. The comparison below highlights the most common overlaps.
+An adult evaluation examines current and past medical conditions, mood and possible alternative diagnoses; ADHD can also occur with other mental health conditions. NICE's adult pathway considers whether symptoms began in childhood, persisted and are better explained by other psychiatric diagnoses, while recognizing coexisting conditions. [NIMH assessment](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know); [NICE NG87, recommendation 1.2.10](https://www.nice.org.uk/guidance/ng87/chapter/recommendations)
 
-Anxiety disorders cause difficulty concentrating, restlessness, and racing thoughts that resemble ADHD. The distinction is the source: anxiety-driven concentration problems stem from worry, while ADHD-driven ones stem from differences in dopaminergic signaling.
+For example, NIMH describes concentration difficulty and restlessness in generalized anxiety disorder, and concentration difficulty, fatigue and sleep changes in depression. These symptoms can raise overlapping concerns, but this page cannot assign their cause or exclude ADHD from a description alone. [NIMH anxiety](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad); [NIMH depression](https://www.nimh.nih.gov/health/publications/depression)
 
-Depression causes difficulty concentrating, low motivation, forgetfulness, and fatigue, all of which overlap with inattentive ADHD. Sleep disorders such as sleep apnea and chronic insomnia produce executive dysfunction nearly identical to ADHD symptoms.
+A clear timeline can keep the discussion grounded. You might separate school-age memories, earlier adult experiences and a recent change. Mark what you know directly, what someone else remembers and what is uncertain. “I remember forgetting homework, but do not know how often” is more useful than inventing a frequency to satisfy a criterion.
 
-Burnout produces exhaustion, cynicism, and concentration difficulties that can closely resemble ADHD, and our [burnout quiz](/mental-health/burnout-quiz) screens for it specifically. Thyroid disorders, particularly hypothyroidism, cause cognitive sluggishness and forgetfulness that can look the same.
+The following **history prompts are not a differential-diagnosis test**:
 
-The timing of symptoms is often the clue that separates ADHD from these mimics. ADHD is lifelong, with signs traceable to childhood, whereas anxiety, depression, sleep problems, and burnout tend to have a more identifiable onset in adult life.
+- When did you first notice the difficulty, and what evidence is available from that time?
+- Does it occur at home, work, education or elsewhere, and what effect does it have in each setting?
+- Has there been a recent change in sleep, mood, health, treatment or responsibilities that you want the evaluator to consider?
+- What approaches have you tried, and what actually happened?
 
-This is exactly why a proper evaluation digs into your history rather than just your current symptoms. A clinician asks whether the patterns existed at school age, because ADHD by definition begins early even if it was never labeled.
+It is inaccurate to say that anxiety, depression or sleep difficulties always begin in adulthood while ADHD is identified in childhood. The timing and explanation need assessment, not a shortcut based on the label.
 
-It is also common for these conditions to coexist with ADHD rather than simply imitate it. Someone can have both ADHD and anxiety, and treating only one often leaves the other in place, which is another reason self-diagnosis tends to fall short.
+Our [burnout guide](/mental-health/burnout-quiz) explains the occupational definition and its limits; it does not screen for burnout. Our [GAD-7 page](/mental-health/anxiety-self-assessment) provides a separate anxiety questionnaire with its own limits. Neither route determines whether your attention concerns are ADHD.
 
 ## 🔀 ADHD vs OCD: A Common Point of Confusion
 
-ADHD and OCD are frequently confused, and they can even co-occur, but they are driven by very different mechanisms. Telling them apart matters because the treatments differ.
+OCD involves recurring unwanted thoughts, repetitive behaviors or both, with distress or interference in daily life. NIMH distinguishes ordinary double-checking from obsessions and compulsions. ADHD's symptom patterns and OCD's descriptions are different, but an online comparison cannot diagnose either condition. [NIMH OCD overview and recognition](https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over); [NIMH ADHD](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-ADHD inattention comes from difficulty regulating attention toward tasks the brain finds unstimulating. The mind drifts because it is under-engaged.
+The earlier explanation that ADHD distraction always comes from under-stimulation while OCD distraction always comes from anxiety was too simple. It does not establish a reliable rule for identifying the condition behind your attention difficulty.
 
-OCD, by contrast, pulls attention away through intrusive thoughts and the compulsions used to relieve the anxiety they cause. The focus problem comes from being captured by anxiety, not from under-stimulation.
+If checking is a concern, explain what you do and what you experience before and after it. An illustrative description might be, “I return to the door repeatedly even after remembering that I locked it.” Another might be, “I check my calendar because I have previously missed appointments.” Neither observation is assigned a diagnosis here, and the fact that the actions look different is not itself a clinical test.
 
-There is also an overlap worth knowing about. Some people with ADHD develop rigid routines and checking habits to compensate for forgetfulness, which can look like OCD but serves a different purpose. A clinician untangles this through detailed history-taking.
+A conversation can include whether thoughts feel intrusive or unwanted, whether a behavior feels difficult to control and what impact it has. NIMH describes these features when explaining OCD, while emphasizing that not every habit or repeated thought is an obsession or compulsion. [NIMH symptoms](https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over)
 
-> ⚠️ **Warning:** Self-assessment tools can be skewed by your current state. Acute stress, sleep deprivation, burnout, or depression can all mimic ADHD on a screener. A clinical evaluation distinguishes ADHD from these overlapping conditions through detailed history and, in some cases, neuropsychological testing.
+Keep uncertainty in your notes rather than using a theory about the purpose of a routine to rule a condition in or out. You can say, “I am not sure why I do this, but it is affecting my day.” A healthcare professional can assess the concern and determine what further information is needed.
 
-> 🎯 **Bottom Line:** If you score moderate or high, schedule an evaluation with a qualified professional rather than self-diagnosing. If you score low but still feel something is off, talk to your provider anyway. The ASRS is a screening tool with known limitations, and your lived experience is valid data.
+Do not select treatment from this comparison or from an ASRS result. NIMH describes medication and psychotherapy among adult ADHD treatments, with individual variation in what works. Those choices follow evaluation; they are not outputs of this page. [NIMH treatment overview](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
 ## 🩺 What to Do With Your Result
 
-A screening result is most useful when it leads to a clear next step rather than a spiral of self-diagnosis. What that step is depends on where you landed.
+If concerns persist or affect your daily life, discuss them with a healthcare professional whether a screen was positive, negative or never completed. In adult assessment, NIMH describes looking for symptoms before age 12, using past reports and information about behavior across situations. A completed form is only part of that process. [NIMH diagnosis and history](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
-If you scored in the moderate or high range, the productive move is to seek a formal evaluation. That usually starts with your primary care provider, who can refer you to a psychiatrist, psychologist, or ADHD specialist for a full assessment.
+**Preparing an appointment:** Bring the exact official form if you used one, including the date and scoring method. Add a few specific examples, when you noticed them and their consequences. If available, you can mention school reports or someone who knew you earlier; the evaluator can explain whether additional information would be helpful. Do not manufacture a childhood account or assume that missing records settles the question.
 
-Bringing specifics helps enormously. Noting concrete examples of how attention, organization, or restlessness affect your work and relationships gives the evaluator far more to work with than a single score.
+A concise example is easier to discuss than a list of internet labels. “I missed a deadline despite completing the work and this has happened in two settings” records a concern. “I have executive dysfunction because my dopamine is low” supplies an explanation this guide has not established.
 
-If you scored low but still feel that something is off, that is worth pursuing too. A low screen does not close the door, particularly for inattentive presentations, and your provider can explore whether another condition or an atypical ADHD picture fits better.
+**Questions you might ask:** What information is needed for the assessment? Which other explanations or coexisting concerns should be considered? If a diagnosis is made, what are the options, expected benefits, limitations and follow-up? If no diagnosis is made, what support is appropriate for the difficulty you reported?
 
-Either way, a diagnosis, if one is made, tends to be a beginning rather than a label. It opens access to strategies, accommodations, and treatments that can meaningfully improve daily functioning.
+You can also explain what you want to improve: keeping appointments, finishing a task, managing interruptions or another practical concern. A useful goal need not depend on choosing a diagnosis in advance.
+
+NIMH describes treatment that can reduce symptoms and improve functioning, including medicines and psychotherapy, with a combination sometimes used. This guide does not specify a medicine, dose or schedule, and a screening category is not a treatment prescription. [NIMH treatments](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
+
+An assessment is not a test of character. Report difficulties and uncertainties honestly, and ask for explanations when instructions or conclusions are unclear. This page's purpose is to help you understand the sources and prepare that discussion, not to replace it.
 
 ## ❓ Frequently Asked Questions
 
 **What is the ASRS questionnaire?**
 
-The ASRS (Adult ADHD Self-Report Scale) is a screening tool developed by the World Health Organization and validated by researchers at Harvard Medical School. Version 1.1 Part A consists of six questions covering the symptoms most predictive of adult ADHD.
+ASRS means Adult ADHD Self-Report Scale. Harvard provides official resources for several versions, including the v1.1 six-question screener. This guide links to those resources and does not administer an assessment. Check the exact version rather than assuming every form bearing the name is interchangeable. [Harvard resources](https://www.hcp.med.harvard.edu/ncs/asrs.php)
 
 **How do you score the ASRS v1.1?**
 
-Rather than summing points, the ASRS counts how many of your six Part A answers fall into shaded frequency zones on the official form. Four or more shaded responses is a positive screen, a threshold established by Kessler et al. in 2005. The calculator on this page applies this automatically.
+The original six-question method counts threshold-crossing responses, with four or more screening positive. Harvard's alternative sums six frequency values from 0 to 4, with 14 or more screening positive. Follow the instructions for the method actually used; this website calculates neither. [February 2024 scoring update](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf)
 
 **What does the ASRS score interpretation mean?**
 
-A positive screen (four or more shaded responses) suggests symptoms consistent with adult ADHD and that a full evaluation is warranted. A negative screen suggests symptoms are less consistent with ADHD, though it does not rule it out. Neither result is a diagnosis.
+It is a screening interpretation, not an individual probability, diagnosis or ADHD severity grade. The update's four strata apply to its 0–24 method; they should not be replaced by this site's former three bands. Clinical diagnosis is not based solely on a rating scale. [Scoring update](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf); [NICE diagnosis guidance](https://www.nice.org.uk/guidance/ng87/chapter/recommendations)
 
 **What does ASRS v1.1 Part A measure?**
 
-Part A covers the six symptoms most predictive of clinical ADHD: difficulty organizing tasks, trouble sustaining attention, not listening, fidgeting, restlessness, and difficulty waiting. Part B adds twelve items for extra context but is not required for initial screening.
+Part A is the six-item screener section of the v1.1 symptom checklist. Use the actual official form to see its items and response instructions. The earlier FAQ's list was not a faithful description of those items. This guide does not substitute a paraphrased set of questions. [Official six-question form](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/6Q_ASRS_English.pdf); [Harvard resources](https://www.hcp.med.harvard.edu/ncs/asrs.php)
 
 **Is there an ICD-10 code for ADHD?**
 
-Yes. ADHD is coded in ICD-10 under F90, with F90.0 for the predominantly inattentive type, F90.1 for hyperactive-impulsive, F90.2 for combined, and F90.9 for unspecified. Your clinician assigns the correct code as part of a formal diagnosis, which screening alone cannot provide.
+There are diagnostic coding categories, but the country and coding version matter. CDC's U.S. data brief identifies ADHD using **ICD-10-CM F90**; ICD-10-CM is the U.S. clinical modification, not an interchangeable label for WHO's international system. Ask the treating service which current code applies; this screen cannot assign one. [CDC data brief, definitions](https://www.cdc.gov/nchs/products/databriefs/db543.htm); [CDC classification and current-code browser](https://www.cdc.gov/nchs/icd/icd-10-cm/)
 
 **Is ADHD a disability?**
 
-ADHD can qualify as a disability when it substantially limits major life activities. In the United States it is recognized under the Americans with Disabilities Act and can qualify a person for workplace or academic accommodations. Whether it meets the threshold in a given case depends on individual circumstances and is determined through proper documentation, not a screening tool.
+It can qualify in some circumstances. In the **United States**, NIMH notes possible workplace accommodations, and EEOC explains the ADA's functional-limitation standard and supporting documentation. Qualification and a particular adjustment are individual questions; a positive screen does not establish entitlement. The cited EEOC employment explanation concerns employers with 15 or more employees. Other countries and educational settings have their own rules. [NIMH](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know); [EEOC employment guidance](https://www.eeoc.gov/laws/guidance/mental-health-providers-role-clients-request-reasonable-accommodation-work)
 
 **Can this assessment diagnose ADHD?**
 
-No. The ASRS is a screening instrument. A diagnosis requires a comprehensive evaluation including interview, medical history, evidence of symptom onset before age 12, ruling out other conditions, and impairment across multiple life domains.
+No. This page does not administer a screen, and an official ASRS screen alone cannot establish diagnosis. NIMH describes history, clinical interviews and other assessment information; NICE requires an appropriately qualified assessment rather than rating scales alone. Testing may be used when relevant, not as a universal compulsory step. [NIMH evaluation](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know); [NICE NG87 section 1.3](https://www.nice.org.uk/guidance/ng87/chapter/recommendations)
 
 **I scored high but have never been diagnosed. Is that common?**
 
-Yes. Adult ADHD is significantly underdiagnosed, especially in women, people with primarily inattentive presentations, and those with high IQ who developed coping strategies. Research suggests 2.5 to 5% of adults have ADHD, but many are never formally evaluated.
+Later recognition is possible. NIMH describes childhood symptoms being missed, supportive environments and demands that become harder to manage in adulthood, including missed symptoms in girls and women. That does not establish the reason for your result or justify a diagnosis. Bring your concerns and exact form to an evaluator; no unsourced prevalence or universal false-positive claim is provided here. [NIMH later diagnosis](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know)
 
 ## Sources
 
-1. Kessler RC, et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS). *Psychol Med.* 2005;35(2):245-256.
-2. Fayyad J, et al. The descriptive epidemiology of DSM-IV Adult ADHD. *Atten Defic Hyperact Disord.* 2017;9(1):47-65.
-3. American Psychiatric Association. *DSM-5.* 2013. ADHD diagnostic criteria.
-4. Simon V, et al. Prevalence and correlates of adult ADHD. *Br J Psychiatry.* 2009;194(3):204-211.
-5. World Health Organization. ICD-10 Classification of Mental and Behavioural Disorders. F90 Hyperkinetic disorders.
+1. [Harvard National Comorbidity Survey: official ASRS versions, forms and use conditions](https://www.hcp.med.harvard.edu/ncs/asrs.php).
+2. [Harvard: ASRS v1.1 six-question scoring update, February 28, 2024](https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener%286Q%29_scoring_update.pdf). Original 0–6 count distinguished from alternative 0–24 research sum.
+3. [NIMH: ADHD in adults](https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know). Symptoms, childhood history, evaluation and treatment context.
+4. [NICE NG87: recommendations, especially sections 1.2 and 1.3](https://www.nice.org.uk/guidance/ng87/chapter/recommendations). Adult referral and diagnostic assessment; UK guidance.
+5. [NIMH: OCD](https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over), [generalized anxiety disorder](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad) and [depression](https://www.nimh.nih.gov/health/publications/depression). Separate symptom descriptions, not an online differential diagnosis.
+6. [CDC: ICD-10-CM](https://www.cdc.gov/nchs/icd/icd-10-cm/) and [ADHD visit data brief, definitions](https://www.cdc.gov/nchs/products/databriefs/db543.htm). U.S. coding context; no subcode assignment.
+7. [EEOC: mental health provider's role in workplace accommodation](https://www.eeoc.gov/laws/guidance/mental-health-providers-role-clients-request-reasonable-accommodation-work). U.S. employment scope and individual functional limitations.
 
 ---
 
 *This screening tool does not diagnose ADHD or any other condition. If you have concerns about attention, focus, or executive function, consult a qualified healthcare professional.*
 
+The original disclaimer is retained; the former custom screening tool remains withdrawn.
+
 **Related tools:**
 - [Anxiety Self-Assessment (GAD-7)](/mental-health/anxiety-self-assessment)
-- [Burnout Quiz](/mental-health/burnout-quiz)
-- [Stress Level Test](/mental-health/stress-level-test)
+- [Burnout guidance](/mental-health/burnout-quiz)
+- [Stress assessment information and limitations](/mental-health/stress-level-test)

@@ -1,64 +1,66 @@
-<!-- last-updated: June 2026 -->
-# Body Frame Size Calculator: Small, Medium, or Large Frame
+<!-- last-updated: October 5, 2026 -->
+# Body Frame Size: Wrist Reference and Method Limits
 
-Your body frame size — determined by bone structure, not body fat — affects what weight range is healthy for you. A large-framed person at 180 lbs may be perfectly healthy while a small-framed person at the same weight may be carrying excess fat. Frame size is the missing variable in most weight assessments.
+MedlinePlus describes body-frame categories using wrist circumference in relation to height. Its reference chart is shown below. A category from that chart does not establish a healthy body weight, a fat percentage or a personal diet target. [MedlinePlus wrist-and-height reference](https://medlineplus.gov/ency/imagepages/17182.htm)
 
-This calculator uses two validated methods: wrist circumference and elbow breadth. Both measure skeletal size rather than body composition.
+This page provides the reference and explains its boundaries. It does not run the former height-to-wrist ratio calculator: that ratio was a different method from the published height bands. Keeping the two distinct avoids presenting one method's output as if it came from the other.
 
 ## How to Determine Your Body Frame Size
 
-> **Key Takeaway:** Frame size is determined by bone structure — it doesn't change with weight loss or gain. Two methods: (1) Wrap your thumb and middle finger around your opposite wrist — if they overlap you're small-framed, touch = medium, gap = large. (2) Measure wrist circumference and compare to the NIH frame size chart below. Frame size adjusts your ideal weight range by ±10%.
+Use wrist circumference measured with a tape and compare it with the appropriate height row. The source expresses lengths in **inches**. The table below retains the published numerical intervals rather than inventing a new ratio score. [MedlinePlus chart](https://medlineplus.gov/ency/imagepages/17182.htm)
 
-**Wrist measurement method (NIH):**
-
-| **Height** | **Small Frame** | **Medium Frame** | **Large Frame** |
+| Reference group and height | Small category: wrist inches | Medium category: wrist inches | Large category: wrist inches |
 |---|---|---|---|
-| Women under 5'2" | Wrist < 5.5" | 5.5"–5.75" | > 5.75" |
-| Women 5'2"–5'5" | Wrist < 6.0" | 6.0"–6.25" | > 6.25" |
-| Women over 5'5" | Wrist < 6.25" | 6.25"–6.5" | > 6.5" |
-| Men over 5'5" | Wrist 5.5"–6.5" | 6.5"–7.5" | > 7.5" |
+| Women, below 62 inches | Below 5.5 | 5.5–5.75 | Above 5.75 |
+| Women, 62–65 inches | Below 6 | 6–6.25 | Above 6.25 |
+| Women, above 65 inches | Below 6.25 | 6.25–6.5 | Above 6.5 |
+| Men, above 65 inches | 5.5–6.5 | 6.5–7.5 | Above 7.5 |
 
-> **Tip:** Measure your wrist just below the wrist bone (ulnar styloid) with a flexible tape measure. Keep the tape snug but not compressing skin. This is a bone measurement — your wrist circumference doesn't change significantly with weight fluctuations.
+There are limits in the source itself: the male intervals overlap at **6.5 inches**, and that chart supplies no male row at or below 65 inches. It also does not specify a male category below the listed small interval. This website does not fill those gaps by choosing a category on your behalf.
+
+A length conversion is arithmetic: 1 inch = 2.54 cm. For example, 6 inches is 15.24 cm. Keep the unrounded converted value when checking an interval. Rounding 6.49 to 6.5 before comparison would change the entry being compared, without resolving the source's overlapping boundary.
+
+The finger-and-thumb wrapping shortcut is not supplied by this reference. It is not presented here as an interchangeable validated test. Wrist circumference is an entered measurement; it is not a direct weighing of skeletal tissue.
 
 ## Why Frame Size Matters
 
-The Hamwi ideal weight formula allows ±10% adjustment for frame size: add 10% for large frame, subtract 10% for small frame. Without this adjustment, large-framed individuals appear "overweight" by formula standards when they may be perfectly healthy.
+Frame labels and weight estimates should not be merged into a diagnosis. The linked chart supplies wrist categories, not evidence that a person is healthy at a particular weight. A statement such as “a large-framed person at 180 lb is healthy” requires information the chart does not provide.
 
-**Example:** A 5'8" woman with a Hamwi ideal weight of 140 lbs:
-- Small frame: 140 − 14 = **126 lbs** target range
-- Medium frame: **140 lbs** target
-- Large frame: 140 + 14 = **154 lbs** target range
+The former automatic ±10% weight adjustment is not recommended here. For illustration only, 140 minus 10% is 126, and 140 plus 10% is 154. Those calculations do not establish a target range or show that the endpoints are medically appropriate. A numerical adjustment needs its own justified method and population.
 
-That's a 28-lb spread based on frame alone — meaningful when interpreting weight-based health metrics.
+| Information being compared | What should stay attached to it |
+|---|---|
+| Wrist chart category | Source, height row, circumference and units |
+| Historical weight formula | Formula name and the actual entered height |
+| BMI arithmetic | Height, weight and the relevant age context |
+| Body-composition estimate | Measurement method and its own limitations |
 
-> **Note:** Frame size is genetic and fixed. You can't change from large to small frame through diet or exercise. Knowing your frame helps set realistic weight expectations. A large-framed person targeting a small-frame ideal weight is pursuing an unhealthy goal.
-
-For ideal weight calculation adjusted by your frame size, see our [ideal weight calculator](/body-metrics/ideal-weight-calculator). For body composition beyond frame, see the [body fat calculator](/fitness/body-fat-calculator) and [lean body mass calculator](/fitness/lean-body-mass-calculator).
+For related explanations, see the [historical weight-formula comparison](/body-metrics/ideal-weight-calculator), [circumference body-fat estimate](/fitness/body-fat-calculator) and [lean-mass equation estimate](/fitness/lean-body-mass-calculator). They do not acquire clinical accuracy simply by being used together.
 
 ## Elbow Breadth Method
 
-An alternative measurement uses elbow breadth — the distance between the two bony prominences on either side of your elbow when your arm is bent at 90°.
+Elbow breadth and wrist circumference are different measurements. A wrist table cannot validate an elbow-width threshold or establish that one method is more reliable at high or low body-fat levels. This page supplies no verified elbow-breadth protocol, category chart or corresponding automatic result.
 
-This method is used in some clinical settings and referenced in the Metropolitan Life Insurance height-weight tables (1983). Elbow breadth varies less with body fat than wrist circumference, making it slightly more reliable in individuals with very high or very low body fat.
+If you have a report using elbow breadth, retain the actual protocol and reference supplied with that report. Do not enter an elbow measurement into a wrist interval. A shared small, medium or large label does not show that two methods use equivalent boundaries.
 
-> **Bottom Line:** Body frame size is a skeletal measurement that adjusts your healthy weight range by ±10%. Measure your wrist with a tape measure and compare to the NIH chart above. Use the result alongside your [BMI](/body-metrics/bmi-calculator) and [ideal weight](/body-metrics/ideal-weight-calculator) for a more complete picture.
+For a transparent record, write down the measurement's name, units, height, reference and any uncertainty near a boundary. A measurement that falls outside the reference's stated coverage should remain outside its coverage. It should not silently become a “medium frame” result because the available table lacks an answer.
 
 ## Frequently Asked Questions
 
 **How do I know my body frame size?**
 
-Measure your wrist circumference just below the wrist bone and compare to the NIH frame size chart for your height and sex. Alternatively, wrap your thumb and middle finger around your wrist — overlapping = small, touching = medium, gap = large.
+The linked MedlinePlus reference compares tape-measured wrist circumference with height bands. Review the appropriate row and its limitations. There is no active classifier on this page, and an uncovered or overlapping value is not assigned a made-up result. [Reference](https://medlineplus.gov/ency/imagepages/17182.htm)
 
 **Does body frame size change?**
 
-No. Frame size is determined by bone structure, which is genetic and fixed after skeletal maturity (age 18–25). Weight changes don't affect frame size.
+This chart does not establish that wrist categories are genetically fixed after a particular birthday or unaffected by every weight change. It describes a circumference relative to height. This page does not infer lifetime skeletal stability from one entry.
 
 **Why does frame size matter for weight?**
 
-A large-framed person has heavier bones and wider skeletal structure, meaning more weight is non-fat structural mass. Ideal weight formulas adjust by ±10% based on frame to account for this difference.
+The source explains a frame categorization, not a medically established adjustment to ideal weight. This page therefore does not convert small or large labels into automatic ±10% goals, nor does it conclude that a category proves excess fat or good health.
 
 ## Sources
 
-1. NIH. Clinical Guidelines on Identification and Treatment of Overweight and Obesity in Adults. 1998.
-2. Metropolitan Life Insurance Company. Height and Weight Tables. 1983.
-3. Hamwi GJ. Therapy: changing dietary concepts. In: *Diabetes Mellitus.* 1964.
+1. [MedlinePlus Medical Encyclopedia: Calculating body frame size](https://medlineplus.gov/ency/imagepages/17182.htm), reviewed July 23, 2024. The wrist chart's height bands and explicit intervals were checked, including the male overlap and missing coverage.
+
+Source checked October 5, 2026. The source's wrist reference does not verify an elbow protocol, finger-wrap shortcut, fixed maturity age or frame-adjusted healthy-weight prescription.

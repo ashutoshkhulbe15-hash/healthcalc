@@ -1,55 +1,68 @@
-<!-- last-updated: June 2026 -->
-# Calorie Calculator for Women Over 50
+<!-- last-updated: October 5, 2026 -->
+# Calorie Calculator for Women Over 50: Resting Energy Estimate
 
-Calorie needs decline with age — but not as dramatically as many women over 50 are told. The typical drop is 100–200 calories per day compared to your 30s, driven primarily by reduced muscle mass and lower activity levels. Both of those factors are modifiable.
+This calculator applies the female Mifflin–St Jeor equation to estimate **resting energy expenditure**, using weight, height and age. It does not ask about activity and does not produce a total daily calorie requirement. The original equation was developed in healthy adults aged 19–78; this page accepts ages 50–78 within that range. [Original study](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
-This calculator uses the Mifflin-St Jeor equation adjusted for your current age, weight, height, and activity level. It gives you a realistic calorie target — not the generic "1,200 calories for older women" advice that ignores individual variation.
+Age 50 is an input boundary for this page, not a diagnosis of menopause or a reason to assign every reader the same calorie target. The displayed number describes the calculation from your entries, not a diet plan.
 
 ## How Many Calories Do Women Over 50 Need?
 
-> **Key Takeaway:** The USDA Dietary Guidelines estimate 1,600–2,200 calories daily for women over 50, depending on activity level. Sedentary: ~1,600. Moderately active: ~1,800. Active: ~2,000–2,200. But these are population averages — your actual TDEE depends on your specific weight, height, muscle mass, and activity. Use the calculator for a personalized number.
+The form cannot answer this question with a personal daily intake. Its calculation is:
 
-| **Activity Level** | **Estimated Calories (Women 50–65)** | **Estimated Calories (Women 65+)** |
+**Female REE = 10 × weight in kg + 6.25 × height in cm − 5 × age in years − 161.** [Published formula](https://pubmed.ncbi.nlm.nih.gov/2305711/)
+
+**Worked arithmetic example:** At age 55, weight 70 kg and height 165 cm, the terms are 700 + 1,031.25 − 275 − 161 = **1,295.25 kcal/day**, displayed as **1,295 kcal/day**. The rounding is a website display choice. No activity calories, food-processing component or dietary deficit is added.
+
+| Information | Included here? | Interpretation |
 |---|---|---|
-| Sedentary | 1,600 | 1,600 |
-| Moderately active | 1,800 | 1,800 |
-| Active | 2,000–2,200 | 2,000 |
+| Entered age, weight and height | Yes | Inputs to the resting-energy equation |
+| Female equation constant | Yes | The published −161 constant |
+| Exercise and daily movement | No | Not inferred from an age label |
+| Menopause status | No | Not established by this form |
+| Individual calorie intake | No | Requires a separate assessment |
 
-Source: USDA Dietary Guidelines for Americans, 2020–2025.
+If using pounds or inches, select those units before entering measurements. Changing units clears the weight and height fields so an old value cannot silently be interpreted in the wrong system. A change from 70 kg to 70 lb is a different entry, not a change in your metabolism.
+
+A separate [TDEE model](/fitness/tdee-calculator) combines a resting equation with a selected multiplier. Its multiplier is an assumption, not a measured total or precise recommendation. Do not treat either model as proof that all women over 50 need the same intake.
 
 ## Why Calorie Needs Change After 50
 
-**Muscle mass decline (sarcopenia)** is the primary driver. After 30, muscle mass decreases approximately 3–8% per decade. After 50, the decline accelerates. Since muscle is metabolically active (burns calories at rest), less muscle = lower BMR = lower TDEE.
+Mayo Clinic describes aging, activity, diet, genetics and menopausal hormonal changes as contributors to weight changes. Hormonal changes can favor abdominal weight gain, while loss of muscle with age can reduce calorie use. That explanation does not establish a fixed 100–200-calorie decline for every woman or prove which factor explains an individual's change. [Mayo Clinic: menopause and weight](https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058)
 
-The solution isn't eating less — it's maintaining muscle through resistance training and adequate protein. Research consistently shows that women who maintain resistance training after 50 preserve metabolic rate significantly better than sedentary peers.
+Mayo Clinic includes aerobic activity and strength training in its discussion of managing menopausal weight gain. This page does not promise that a specific exercise routine will preserve a fixed metabolic rate or cancel every age-related change. The calculator has no training input and cannot verify an exercise response. [Activity context](https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058)
 
-> **Warning:** Never drop below 1,200 calories daily without medical supervision. Intakes below 1,200 make it extremely difficult to meet nutritional needs — particularly calcium (1,200mg/day for women over 50), vitamin D (800–1,000 IU), protein (1.0–1.2 g/kg per ESPEN guidelines), and B12. Undereating accelerates muscle loss, bone loss, and metabolic decline.
+Nutrient reference values also do not all change at age 50. The following are **U.S. reference intakes for generally healthy people**, not supplement doses or treatment instructions:
 
-**Menopause and metabolism.** Menopause itself doesn't dramatically reduce metabolic rate. The fat redistribution that occurs (shift toward abdominal storage) is hormonal, but the calorie-burning decline is primarily from reduced activity and muscle loss — not menopause directly.
+| Nutrient | Reference for the relevant ages | Exact source |
+|---|---|---|
+| Calcium, women | 1,000 mg/day at age 50; 1,200 mg/day at 51 and older | [NIH ODS Table 1](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/) |
+| Vitamin D | 15 mcg (600 IU)/day through age 70; 20 mcg (800 IU)/day above 70 | [NIH ODS Table 2](https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/) |
+| Vitamin B12, nonpregnant/nonlactating adults | 2.4 mcg/day; no higher age-50 RDA | [NIH ODS Table 1](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/) |
 
-> **Tip:** The best strategy for women over 50: maintain or increase protein intake (1.0–1.2 g/kg body weight), do resistance training 2–3x/week, and calculate calories from your current TDEE — not from a generic chart. Use our [TDEE calculator](/fitness/tdee-calculator) for a precise starting point, then adjust based on 2–4 weeks of real results.
+The vitamin D allowance assumes minimal sun exposure. These values refer to total intake, not an instruction to buy a tablet of the same size. Other countries can use different guidance. NIH also identifies absorption problems as a reason some older adults have B12 inadequacy; that is distinct from raising the standard RDA. [Vitamin D scope](https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/); [B12 older-adult context](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/)
 
-For protein-specific guidance, see our [protein calculator for seniors](/body-metrics/protein-needs-seniors).
-
-> **Bottom Line:** Women over 50 need approximately 1,600–2,200 calories daily depending on activity level. The decline from younger years is real but modest (100–200 cal/day). Don't default to extreme restriction — focus on maintaining muscle through protein and resistance training. Calculate your personal TDEE rather than using generic recommendations.
+The [protein guide for older adults](/body-metrics/protein-needs-seniors) is a separate topic. This resting-energy form does not assign an ESPEN protein dose to everyone aged 50 or above. Different age ranges and clinical populations should retain their own guideline context.
 
 ## Frequently Asked Questions
 
 **How many calories should a 50-year-old woman eat to lose weight?**
 
-Calculate your TDEE and subtract 300–500 calories for a sustainable deficit. For most women over 50, this means 1,400–1,800 calories daily for weight loss, depending on size and activity. Never go below 1,200 without medical supervision.
+This form cannot determine that intake. It estimates resting energy only and applies no weight-loss reduction. A fixed 1,200-calorie floor or a 300–500-calorie subtraction is not established for you by these entries. Bring the result and its assumptions to an appropriate nutrition assessment rather than interpreting the number as a prescription.
 
 **Why do women over 50 gain weight?**
 
-The primary factors are reduced muscle mass (lower metabolism), decreased activity levels, and hormonal changes during menopause that promote abdominal fat storage. The solution targets all three: resistance training, adequate protein, and appropriate calorie balance.
+Mayo Clinic describes several contributors, including age-related muscle changes, activity, diet, genetics and menopausal hormones. This calculator cannot identify the cause of a person's weight change from age, height and weight. Age alone also does not determine menopausal status. [Mayo Clinic explanation](https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058)
 
 **Should women over 50 eat differently?**
 
-Calorie needs decrease modestly, but nutrient needs for calcium, vitamin D, protein, and B12 increase. The focus should shift toward nutrient density — getting maximum nutrition per calorie rather than simply eating less.
+Check the relevant age-specific reference and your circumstances. Calcium changes at 51 in the cited U.S. table; vitamin D changes above 70, while the nonpregnant adult B12 allowance remains 2.4 mcg. The result above does not evaluate your diet, absorption or need for supplements. [NIH calcium](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/); [vitamin D](https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/); [B12](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/)
 
 ## Sources
 
-1. USDA. Dietary Guidelines for Americans, 2020–2025. Chapter 5: Women.
-2. Mifflin MD, et al. A new predictive equation for resting energy expenditure. *Am J Clin Nutr.* 1990.
-3. ESPEN. Protein recommendations for older adults. *Clin Nutr.* 2014.
-4. NIH. Calcium and Vitamin D requirements for women over 50. Office of Dietary Supplements.
+1. [Mifflin MD and colleagues, 1990](https://pubmed.ncbi.nlm.nih.gov/2305711/), original resting-energy equation and healthy adult study ages. Direct access was restricted; the official indexed abstract was read for the exact formula and population.
+2. [Mayo Clinic: The reality of menopause weight gain](https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058), contributors and activity context.
+3. [NIH ODS: Calcium](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/), Table 1 female reference allowances.
+4. [NIH ODS: Vitamin D](https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/), Table 2 and minimal-sun assumption.
+5. [NIH ODS: Vitamin B12](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/), Table 1 and older-adult absorption discussion.
+
+Sources checked October 5, 2026. Population reference intakes and equation results remain separate from a personal treatment or nutrition plan.

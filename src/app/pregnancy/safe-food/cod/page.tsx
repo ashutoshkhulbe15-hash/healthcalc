@@ -3,7 +3,7 @@ import { ToolPageShell } from "@/components/ToolPageShell";
 import { SplitArticle } from "@/components/SplitArticle";
 import { getArticleContent, getLastUpdated } from "@/lib/content";
 const title='Cod During Pregnancy';
-const description='FDA/EPA fish category and cooking guidance for cod.';
+const description='FDA/EPA fish portions and CDC cooking guidance for cod.';
 export const metadata: Metadata = {title,description,alternates:{canonical:"/pregnancy/safe-food/cod"},openGraph:{type:"website",siteName:"ProHealthIt",title,description,url:"/pregnancy/safe-food/cod"},twitter:{card:"summary",title,description}};
 export default function Page() {
  const content=getArticleContent("food-cod.md");

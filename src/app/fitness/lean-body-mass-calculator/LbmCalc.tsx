@@ -12,10 +12,10 @@ export function LbmCalc(){
     try {
       setError("");
       const {boer}=leanBodyMass(Number(weight),Number(height),sex,unit==="imperial");
-      setResult(Math.round(boer*10)/10);
+      setResult(boer);
     } catch(e) {setResult(null);setError((e as Error).message);}
   };
-  const pounds=result===null?null:Math.round(result*2.2046226218*10)/10;
+  const pounds=result===null?null:Math.round(result/0.45359237*10)/10;
   return <><CalcShell><UnitToggle value={unit} onChange={v=>{setUnit(v);setWeight("");setHeight("");}} />
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
       <CalcSelect label="Sex category used by this equation" value={sex} onChange={setSex} options={[{value:"male",label:"Male equation"},{value:"female",label:"Female equation"}]} />
@@ -23,5 +23,5 @@ export function LbmCalc(){
       <CalcInput label={`Height (${unit==="metric"?"cm":"inches"})`} value={height} onChange={setHeight} />
     </div>
     <CalcButton onClick={calculate} label="Calculate equation estimate"/><CalcError message={error}/>
-  </CalcShell>{result!==null&&<ResultsShell><ResultCard label="Boer equation estimate" value={`${result} kg`} sub={`${pounds} lb`} highlight /></ResultsShell>}</>;
+  </CalcShell>{result!==null&&<ResultsShell><ResultCard label="Boer equation estimate" value={`${result.toFixed(1)} kg`} sub={`${pounds} lb`} highlight /><p className="text-xs text-slate-500 mt-4">Equation estimate, not a body-composition measurement. <a className="underline" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5079277/">Published coefficients and clinical study limits</a></p></ResultsShell>}</>;
 }

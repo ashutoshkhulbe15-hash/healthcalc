@@ -1,60 +1,68 @@
-<!-- last-updated: June 2026 -->
-# Sleep Calculator: Find Your Optimal Bedtime & Wake Time
+<!-- last-updated: October 5, 2026 -->
+# Sleep Calculator: Plan Your Bedtime From Your Wake Time
 
-Sleep quality depends on completing full 90-minute sleep cycles — not just total hours in bed. This calculator works backward from your wake time (or forward from your bedtime) to find the optimal times that align with your natural sleep cycles, so you wake between cycles rather than mid-cycle.
+This sleep calculator helps you plan a bedtime using three inputs: your wake time, your desired hours asleep and your estimated time to fall asleep. It subtracts the sleep duration and settling time from the wake time. It does not measure your sleep or predict when a sleep cycle will end.
 
-Waking mid-cycle produces grogginess. Waking between cycles produces alertness — even with fewer total hours.
+Use the result as a clock calculation for planning. A planned bedtime is not proof that you will get the selected amount of sleep, and the calculator cannot promise that you will wake refreshed. You choose the duration; the tool does not assess your personal sleep need.
 
 ## How Sleep Cycles Work
 
-> **Key Takeaway:** Each sleep cycle lasts approximately 90 minutes and includes light sleep, deep sleep, and REM phases. Most adults need 5–6 complete cycles per night (7.5–9 hours). The calculator finds bedtimes/wake times that align with cycle endings, plus 15 minutes for falling asleep. Waking at the end of a cycle — not in the middle — is the key to feeling rested.
+> **Key Takeaway:** NHLBI describes cycles repeating about every 80–100 minutes, usually four to six times per night. Sleep includes REM and non-REM phases. These are descriptions of sleep physiology, not a clock schedule that this calculator can measure. [NHLBI: sleep phases and stages](https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep)
 
-| **Cycles** | **Total Sleep** | **Best for** |
+The original idea of dividing a night into fixed 90-minute blocks is an illustration, not an individualized measurement. This planner does not use that assumption. It works with the number of hours you enter, so it does not label one duration “optimal” because it is divisible by 90 minutes.
+
+| **Input or result** | **What it means here** | **What it does not establish** |
 |---|---|---|
-| 4 cycles | 6 hours | Minimum — occasional, not routine |
-| 5 cycles | 7.5 hours | Good for most adults |
-| 6 cycles | 9 hours | Optimal recovery, teens, athletes |
+| Desired hours asleep | Your chosen planning input | Your medically assessed sleep requirement |
+| Minutes to fall asleep | Your estimate, entered separately | A guaranteed sleep-onset time |
+| Planned bedtime | Wake time minus both durations | Your sleep stage at wake-up |
+
+NHLBI explains that sleep studies use measurements of eye movements and brain activity to classify stages. A clock-time calculation contains neither measurement. Do not interpret the displayed time as a sleep-study result. [NHLBI explanation](https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep)
 
 ## How to Use This Calculator
 
-**Option 1 — "I need to wake at...":** Enter your wake time. The calculator shows 4 optimal bedtimes (each one cycle earlier). Example: Wake at 6:30 AM → Bedtimes: 11:00 PM (5 cycles), 9:30 PM (6 cycles).
+**Step 1 — Enter your wake time.** Use the “I need to wake up at” field. The current tool works backward from that time; it does not offer a separate bedtime-to-wake-time mode.
 
-**Option 2 — "I'm going to bed at...":** Enter your bedtime. The calculator shows optimal wake times. Example: Bed at 11:00 PM → Wake times: 6:30 AM (5 cycles), 8:00 AM (6 cycles).
+**Step 2 — Enter your desired hours of sleep.** Select an amount appropriate to your age and circumstances. The age guidance below is a reference; the calculator does not automatically choose a duration for you.
 
-> **Tip:** Add 15 minutes to your bedtime for falling asleep. If the calculator says "go to bed at 11:00 PM," get into bed at 10:45 PM. The 15-minute average sleep onset time is built into most calculations, but individual variation exists — adjust based on how long it typically takes you to fall asleep.
+**Step 3 — Enter your estimate of minutes to fall asleep.** The field initially shows 15 minutes. That is an editable default, not a verified average for you. Do not subtract or add the same allowance a second time after reading the result.
+
+**Arithmetic example:** A 06:30 wake time, 8 hours asleep and 15 minutes to fall asleep produce a planned bedtime of **22:15 on the previous day**. Subtracting 8 hours gives 22:30; subtracting the additional 15 minutes gives 22:15. This example illustrates the calculation, not a clinical recommendation to use those inputs.
+
+> **Tip:** Check the day as well as the clock time. The result displays a 24-hour time. When the planned bedtime is later on the clock than the wake time, it belongs to the previous day. The calculation assumes no periods awake during the night and does not model daylight-saving clock changes.
 
 ## How Much Sleep Do You Actually Need?
 
-| **Age Group** | **Recommended (CDC/AASM)** | **Notes** |
-|---|---|---|
-| Teens (13–18) | 8–10 hours | Biological clock shifts later; early school start times conflict |
-| Adults (18–64) | 7–9 hours | 7 is the minimum; below 6 consistently = health risks |
-| Older adults (65+) | 7–8 hours | May sleep less at night but nap; total should reach 7+ |
+| **Age group** | **CDC daily sleep reference** |
+|---|---|
+| Teens, 13–17 years | 8–10 hours |
+| Adults, 18–60 years | 7 or more hours |
+| Adults, 61–64 years | 7–9 hours |
+| Adults, 65+ years | 7–8 hours |
 
-Research from Walker et al. and the AASM consistently shows that adults sleeping fewer than 6 hours per night have increased risk of cardiovascular disease, obesity, diabetes, depression, and impaired immune function. The relationship is dose-dependent — less sleep = more risk.
+Source: [CDC: About Sleep, age table](https://www.cdc.gov/sleep/about/index.html). These are the CDC's specific age bands; this table does not combine them with another organization's differently grouped recommendations.
 
-> **Note:** "I function fine on 5 hours" is almost always self-reported by people who have adapted to chronic sleep deprivation — their baseline has shifted, so they don't recognize impairment. Less than 1% of the population has the genetic variant (DEC2 gene) that genuinely allows full function on fewer than 6 hours. The rest are sleep-deprived and acclimated.
+Sleep quality matters as well as duration. The CDC identifies difficulty falling asleep, repeated nighttime waking and tiredness despite enough sleep as signs of poor sleep quality. It recommends discussing regular sleep problems with a healthcare provider. The planner cannot distinguish those problems or diagnose their cause. [CDC sleep quality and management](https://www.cdc.gov/sleep/about/index.html)
 
-For a more detailed assessment of your sleep quality, see our [sleep quality calculator (PSQI)](/mental-health/sleep-quality-calculator).
+You can also read our [sleep quality information page](/mental-health/sleep-quality-calculator). A linked questionnaire or educational page is not a substitute for assessing persistent symptoms.
 
-> **Bottom Line:** Sleep cycles are ~90 minutes. The calculator finds bedtimes/wake times that avoid mid-cycle waking. Aim for 5–6 cycles (7.5–9 hours). Consistency matters more than one perfect night — go to bed and wake at the same times daily, including weekends.
+> **Practical use:** Keep a consistent bedtime and wake time where possible, as the CDC recommends. When reviewing your schedule, record what actually happened rather than treating the calculator output as measured sleep. A sleep diary can include bedtime, awakenings, naps and caffeine or alcohol use. [CDC habits and sleep diary](https://www.cdc.gov/sleep/about/index.html)
 
 ## Frequently Asked Questions
 
 **What time should I go to bed if I wake at 6 AM?**
 
-For 5 complete cycles (7.5 hours): 10:15 PM (accounting for 15 min to fall asleep). For 6 cycles (9 hours): 8:45 PM. For 4 cycles (6 hours — minimum): 11:45 PM.
+It depends on the duration and settling time you enter. With 8 hours asleep and 15 minutes to fall asleep, the arithmetic gives 21:45 the previous evening. With 9 hours and the same allowance, it gives 20:45. These examples do not select the right duration for you.
 
 **How many hours of sleep do I need?**
 
-CDC and AASM recommend 7–9 hours for adults, 8–10 for teens. 7.5 hours (5 full cycles) is the sweet spot for most adults.
+Use the age-specific reference table above as a starting point. The tool does not infer your need from your wake time, and it does not establish a 7.5-hour “sweet spot” or recommend six hours as a routine minimum.
 
 **Why do I feel tired after 8 hours of sleep?**
 
-Likely because you woke mid-cycle. 7.5 hours (end of cycle 5) or 9 hours (end of cycle 6) produce better waking alertness than 8 hours (mid-cycle 6). Try adjusting by ±30 minutes.
+This planner cannot determine why. It does not know whether you slept for the whole period or what stages occurred. Do not assume that moving your alarm to a multiple of 90 minutes will solve the problem. Discuss recurring tiredness or sleep problems with a healthcare provider. [CDC management advice](https://www.cdc.gov/sleep/about/index.html)
 
 ## Sources
 
-1. Watson NF, et al. Recommended amount of sleep for a healthy adult (AASM/SRS). *Sleep.* 2015;38(6):843–844.
-2. Walker M. *Why We Sleep.* 2017.
-3. CDC. How Much Sleep Do I Need? 2022.
+1. [NHLBI: How Sleep Works — Sleep Phases and Stages](https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep), cycle variation and measurement of sleep stages.
+2. [CDC: About Sleep](https://www.cdc.gov/sleep/about/index.html), age-specific duration guidance, sleep quality, habits and sleep diaries. Sources accessed October 5, 2026.

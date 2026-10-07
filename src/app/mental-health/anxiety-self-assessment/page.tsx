@@ -22,7 +22,7 @@ export default function Page() {
       features={["Exact questionnaire", "Score bands", "Study population and limits"]}
       relatedTools={[
         {title:"Perceived Stress Scale information",desc:"PSS limitations and permission information.",href:"/mental-health/stress-level-test",category:"mental-health"},
-        {title:"Burnout guidance",desc:"WHO definition and assessment options.",href:"/mental-health/burnout-quiz",category:"mental-health"},
+        {title:"Burnout guidance",desc:"WHO definition and work-related support guidance.",href:"/mental-health/burnout-quiz",category:"mental-health"},
         {title:"Sleep diary estimate",desc:"Arithmetic estimate from sleep diary inputs.",href:"/mental-health/sleep-quality-calculator",category:"mental-health"},
       ]}>
       <AnxietyCalc />

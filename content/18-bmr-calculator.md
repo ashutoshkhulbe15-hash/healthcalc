@@ -1,52 +1,62 @@
-<!-- last-updated: June 2026 -->
-# BMR Calculator: Basal Metabolic Rate (Mifflin-St Jeor)
+<!-- last-updated: October 5, 2026 -->
+# BMR Calculator: Mifflin–St Jeor Resting Energy Estimate
 
-Your Basal Metabolic Rate (BMR) is the number of calories your body burns at complete rest — just to keep you alive. Breathing, circulation, cell production, body temperature regulation. If you lay in bed all day doing nothing, BMR is what you'd still burn.
+Basal metabolic rate describes energy used for essential functions at rest, including breathing, circulation and maintaining body temperature. It is one component of daily energy expenditure. [Cleveland Clinic: BMR](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
-This calculator uses the Mifflin-St Jeor equation, which a 2005 systematic review in the *Journal of the American Dietetic Association* found to be the most accurate predictive equation for most populations.
+This tool uses the **Mifflin–St Jeor resting energy expenditure (REE) equation**, rather than measuring basal metabolism. The original research included 498 healthy adults aged 19–78. That study range is applied to the form; it is not proof that every reader within those ages will obtain an accurate individual estimate. [Original study abstract](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 ## What Is BMR?
 
-> **Key Takeaway:** BMR is your minimum calorie burn — the energy cost of staying alive. It accounts for 60–70% of your total daily energy expenditure (TDEE). The Mifflin-St Jeor formula: Men = (10 × weight kg) + (6.25 × height cm) − (5 × age) − 5. Women = (10 × weight kg) + (6.25 × height cm) − (5 × age) − 161. BMR is NOT your calorie target — TDEE is.
+The equation takes weight in kilograms, height in centimeters and age in years. Its output is expressed in kilocalories per day. The two published simplified forms are:
 
-| **Factor** | **Effect on BMR** |
+**Men:** REE = 10 × weight + 6.25 × height − 5 × age **+ 5**.
+
+**Women:** REE = 10 × weight + 6.25 × height − 5 × age **− 161**.
+
+[Equation, units and study population](https://pubmed.ncbi.nlm.nih.gov/2305711/)
+
+The male constant is positive five, not negative five. This distinction affects the arithmetic even though it does not eliminate uncertainty in the model. The form converts pounds and inches to kilograms and centimeters before evaluation, then rounds only the displayed energy estimate.
+
+| Entered factor | What the calculator does with it |
 |---|---|
-| More muscle mass | Higher BMR (muscle is metabolically active) |
-| Larger body | Higher BMR (more tissue to maintain) |
-| Younger age | Higher BMR (declines ~2–8% per decade after 30) |
-| Male sex | Higher BMR (more muscle mass on average) |
-| Thyroid function | Hypo = lower BMR, hyper = higher BMR |
+| Weight | Multiplies kilograms by 10 |
+| Height | Multiplies centimeters by 6.25 |
+| Age | Subtracts five times the whole age in years |
+| Sex used in the equation | Adds 5 for the male form or subtracts 161 for the female form |
+
+Other influences on basal metabolism include body composition and thyroid function; the form does not measure either. Cleveland Clinic describes higher or lower thyroid hormone levels as influences on BMR. An equation result cannot establish a thyroid disorder or determine its treatment. [Factors affecting BMR](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
 ## BMR vs TDEE: The Critical Distinction
 
-BMR is your floor. TDEE is your actual burn. Never set your calorie target at BMR — that creates a deficit equal to all your daily activity, which is too aggressive.
+Resting energy and total daily energy expenditure answer different questions. Daily energy use also includes food processing and movement. The calculator above supplies only the resting estimate. [Cleveland Clinic explanation](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
-**Example:** BMR = 1,500 cal. Activity multiplier = 1.55 (moderate). TDEE = 2,325 cal. Eating at 1,500 = an 825 cal deficit — unsustainable, muscle-wasting, and metabolically suppressive.
+**Worked model example:** For a 30-year-old man entered at 80 kg and 180 cm, the equation gives 800 + 1,125 − 150 + 5 = **1,780 kcal/day**. For the female equation with the same other entries, it gives **1,614 kcal/day**. These are mathematical examples, not recommended food intakes.
 
-The correct approach: eat relative to TDEE. For fat loss: TDEE minus 300–500. For maintenance: at TDEE. For muscle gain: TDEE plus 250–500.
+A separate multiplier example can illustrate the distinction: 1,500 × 1.55 = 2,325. Here, **1.55 is an assumed multiplier**, not a measured activity expenditure. Subtracting 1,500 from that modeled total gives 825; the subtraction alone cannot establish whether that intake is appropriate, sustainable or harmful for a particular person.
 
-For your full daily energy expenditure, use our [TDEE calculator](/fitness/tdee-calculator). For a detailed comparison, see [BMR vs TDEE explained](/guides/bmr-vs-tdee-difference).
+Use our [TDEE calculator](/fitness/tdee-calculator) to inspect a separate model and its chosen assumptions. The [BMR versus TDEE guide](/guides/bmr-vs-tdee-difference) covers the comparison. Neither an assumed multiplier nor a resting estimate supplies a medically established intake floor.
 
-> **Warning:** Never eat below your BMR for extended periods without medical supervision. Sustained intake below BMR disrupts thyroid function, suppresses reproductive hormones, impairs immune response, and accelerates muscle loss. Your BMR is your body's operating minimum — not a diet target.
+For a food-intake plan, Cleveland Clinic recommends discussing personal circumstances with a healthcare provider or registered dietitian. This page therefore does not prescribe a fixed deficit, surplus or rule that everyone must eat above their estimated BMR. [Intake planning context](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
-> **Bottom Line:** BMR tells you what your body needs just to function. It's the foundation of TDEE, which is your actual calorie target. Calculate BMR here, then use the TDEE calculator to find your real daily burn. Eat relative to TDEE, never below BMR.
+When recording an estimate, include the entered age, measurements, units and equation. A later change could arise from different entries or rounding; it should not be described as a measured change in metabolism. The result does not account separately for pregnancy, lactation, illness or medication effects.
 
 ## Frequently Asked Questions
 
 **What is a normal BMR?**
 
-BMR varies widely. Average adult woman: 1,200–1,500 cal. Average adult man: 1,500–1,800 cal. Athletes and larger individuals can have BMRs above 2,000. There's no single "normal."
+There is no single normal BMR for everyone. Cleveland Clinic explains that individual factors affect it. This tool does not classify your estimate as low, normal or high against a universal female or male range. [Individual variation](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
 **How do I calculate my BMR?**
 
-Mifflin-St Jeor: Men = (10 × weight kg) + (6.25 × height cm) − (5 × age) − 5. Women = same formula but − 161 instead of − 5. Or use this calculator.
+This form estimates REE using the two formulas shown above. Select the units, enter whole age and positive measurements, then choose the sex-specific equation. Check whether your height is in centimeters or inches before calculating. An equation-based estimate differs from a laboratory measurement; the page does not claim an individual error margin. [Published equation](https://pubmed.ncbi.nlm.nih.gov/2305711/)
 
 **Should I eat at my BMR to lose weight?**
 
-No. Eating at BMR puts you in too aggressive a deficit. Calculate your TDEE and eat 300–500 below it for sustainable fat loss.
+The output is not a weight-loss prescription. It neither tells you to eat exactly that amount nor establishes a universal safe lower limit. Intake planning needs more context than these four inputs. Discuss an appropriate plan with a healthcare provider or registered dietitian. [Cleveland Clinic intake context](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr)
 
 ## Sources
 
-1. Mifflin MD, et al. A new predictive equation for resting energy expenditure. *Am J Clin Nutr.* 1990;51(2):241–247.
-2. Frankenfield D, et al. Comparison of predictive equations for resting metabolic rate. *J Am Diet Assoc.* 2005;105(5):775–789.
-3. Pontzer H, et al. Daily energy expenditure through the human life course. *Science.* 2021.
+1. [Mifflin MD and colleagues, 1990: A new predictive equation for resting energy expenditure in healthy individuals](https://pubmed.ncbi.nlm.nih.gov/2305711/), original abstract with formula, units and age range. Direct PubMed access presented a browser check; the official indexed abstract was read to verify these exact details.
+2. [Cleveland Clinic: Basal Metabolic Rate](https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr), definition, relevant influences and distinction between resting energy and intake planning.
+
+Sources checked October 5, 2026. Formula arithmetic is not evidence that the website measures metabolism or establishes a personal nutrition target.

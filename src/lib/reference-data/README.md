@@ -8,7 +8,7 @@ Original dataset: https://www.cdc.gov/growthcharts/data/zscore/bmiagerev.csv
 
 Documentation: https://www.cdc.gov/growthcharts/cdc-data-files.htm
 
-`cdc-bmi.csv` preserves the downloaded dataset including percentile columns and the repeated sex header. `cdc-bmi.json` stores age, L, M, S by sex (1 male, 2 female), 219 rows each. The calculator supports 24–239 completed months. For each completed month it selects the CDC half-month row representing that interval, calculates BMI in kg/m², applies LMS and the standard normal CDF, and uses unrounded percentiles for categories. Exact displayed percentiles outside z = −3 to +3 are suppressed rather than presented as reliable extreme-tail estimates. The CDC extended BMI charts are not implemented.
+`cdc-bmi.csv` preserves the downloaded dataset including percentile columns and the repeated sex header. `cdc-bmi.json` stores age, L, M, S by sex (1 male, 2 female), 219 rows each. The calculator supports 24–239 completed months. For each completed month it selects the CDC half-month row representing that interval, calculates BMI in kg/m², applies LMS and the standard normal CDF, and uses unrounded percentiles for categories. Exact displayed percentiles below the 3rd or above the 95th percentile are suppressed (z outside approximately −1.8808 to +1.6449), matching the implemented standard-chart display limits. The CDC extended BMI charts are not implemented.
 
 ## WHO weight-for-age
 
@@ -40,6 +40,10 @@ who-weight-girls.json eb8d0ddce6b1a27be14c08e3adb1e9a6c163c597f7710385f61b8258e3
 ```
 
 JSON whitespace or integer formatting may differ after conversion; compare parsed values when verifying numerical equivalence.
+
+## October 5, 2026 CDC dataset recheck
+
+The official CDC CSV was downloaded again and matched the bundled CSV byte for byte, including the published percentile columns. Its SHA-256 remains the value above. The calculator uses standard LMS percentiles and does not implement the extended BMI method.
 
 ## October 3, 2026 independent recheck
 
